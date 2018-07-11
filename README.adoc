@@ -1,0 +1,3 @@
+= Document Basecamp
+
+This repository houses the AsciiDoc templates and styles utilized to create documents (e.g. Standards, Handbook, Specifications).
