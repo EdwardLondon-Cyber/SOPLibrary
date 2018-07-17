@@ -1,3 +1,72 @@
 = Document Basecamp
 
 This repository houses the AsciiDoc templates and styles utilized to create documents (e.g. Standards, Handbook, Specifications).
+
+== Git Submodule 
+
+These are the command line for git, from a GUI you may have to specify a shell.
+
+Adding the Document Basecamp to a document tree uses the git submodule command. The document_basecamp directory will be added as a submodule in the repository. 
+
+[source]
+----
+git submodule add https://developer.nasa.gov/ETADS/document_basecamp.git
+git add .
+git commit -m "adding document_basecamp to document"
+git push # or git push branch origin
+----
+
+Cloning or fetching the document_basecamp from a previous commit, this is done in the root of the document. Before you run these commands you should see a .gitmodule file (hidden) and a document_basecamp directory that is empty. 
+
+[source]
+----
+git submodule init
+git submodule update
+----
+
+Updating a submodule
+
+[source]
+----
+cd document_basecamp
+git fetch
+git merge -s recursive -Xours origin origin/master
+----
+
+== Linux Setup
+
+In order to get asciidoctor and asciidoctor-pdf working on RHEL 7 Workstations the following configurations should be made. 
+
+Using rbenv (https://github.com/rbenv/rbenv)[https://github.com/rbenv/rbenv] allows us to have multiple version of Ruby since the stock version in RHEL 7 does not support asciidoctor-pdf. 
+
+[source]
+----
+mkdir ~/opensource
+cd ~/opensource
+git clone https://github.com/rbenv/rbenv.git
+ln -s opensource/rbenv .rbenv
+export PATH=$PATH:/home/jtgilber/.rbenv/bin
+mkdir -p "$(rbenv root)"/plugins
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+sudo yum install openssl-devel readline-devel zlib-devel
+eval "$(rbenv init -)"
+rbenv install 2.3.6
+rbenv version
+gem install asciidoctor
+gem install asciidoctor-pdf --pre
+gem install rouge
+gem install pygments.rb
+gem install coderay
+gem contents asciidoctor-pdf --show-install-dir
+cd /home/jtgilber/opensource/rbenv/versions/2.3.6/lib/ruby/gems/2.3.0/gems/asciidoctor-pdf-1.5.0.alpha.16/data/fonts/
+ln -s /usr/share/fonts/liberation/LiberationSans-Regular.ttf arial_normal.ttf
+ln -s /usr/share/fonts/liberation/LiberationSans-Bold.ttf arialbd_bold.ttf
+ln -s /usr/share/fonts/liberation/LiberationSans-Italic.ttf ariali_italic.ttf
+ln -s /usr/share/fonts/liberation/LiberationSans-BoldItalic.ttf arialbi_bold_italic.ttf
+----
+
+[source]
+----
+asciidoctor Document.adoc -o doc/Document.html
+asciidoctor -r asciidoctor-pdf -a pdf-style=document_basecamp/asciidoctor-pdf.yml -b pdf Document.adoc -o doc/Document.pdf
+----
