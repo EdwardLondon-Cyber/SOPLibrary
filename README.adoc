@@ -2,19 +2,76 @@
 
 This repository houses the AsciiDoc templates and styles utilized to create documents (e.g. Standards, Handbook, Specifications).
 
-== Git Submodule 
+== Git workflow
 
-These are the command line for git, from a GUI you may have to specify a shell.
+=== New Repository 
+
+TODO: link or document the developer.nasa.gov side of making a new repository
+
+=== First Clone
+
+Cloning a local copy of your working repository can be done via GUI or via shell commands. 
+
+TODO: link to GUI 
+
+.Command Line Cloning
+[source]
+----
+git clone <name of repo>
+----
+
+=== First Branch
+
+Since the repository clone will place you in the master branch the first action will be to make a new branch to work in.
+
+.Command Line Branch
+[source]
+----
+cd <name of repo>
+git branch <new branch name>
+git checkout <new branch name>
+----
+
+=== Git Submodule 
+
+After cloning and in a new branch you can link the common templates and tools with the repository.
 
 Adding the Document Basecamp to a document tree uses the git submodule command. The document_basecamp directory will be added as a submodule in the repository. 
 
+.Command Line Submodule
 [source]
 ----
 git submodule add https://developer.nasa.gov/ETADS/document_basecamp.git
 git add .
 git commit -m "adding document_basecamp to document"
-git push # or git push branch origin
+git push origin <branch name>
 ----
+
+=== Helper Script
+
+Once the Document Basecamp is in place you will have access to a helper script to generate the structure of the basic workflow repository.
+
+.Command Line Helper Script
+[source]
+----
+document_basecamp/scripts/clean_document_setup "<First Main Document Name>"
+----
+
+You should now have a new adoc file in your directory and a link in the README.adoc file to it. Your work should be done in this document, while the README.adoc file should be a landing page for the repository to describe the document and its component parts (such as code blocks or table data).
+
+=== First Push
+
+Now that you have a new repository, a branch to work in, the basecamp set up, and some simple file stubs, you should push the branch up to the server regularly while you are working on it. 
+
+.Command Line Branch Push
+[source]
+----
+git add .
+git commit -m "<make a comment about what the changes are>"
+git push origin <branch name>
+----
+
+=== Continued Maintenance
 
 Cloning or fetching the document_basecamp from a previous commit, this is done in the root of the document. Before you run these commands you should see a .gitmodule file (hidden) and a document_basecamp directory that is empty. 
 
@@ -33,7 +90,17 @@ git fetch
 git merge -s recursive -Xours origin origin/master
 ----
 
-== Linux Setup
+== Asciidoctor 
+
+=== Linux Use
+
+[source]
+----
+asciidoctor Document.adoc -o build/Document.html
+asciidoctor -r asciidoctor-pdf -a pdf-style=document_basecamp/asciidoctor-pdf.yml -b pdf Document.adoc -o build/Document.pdf
+----
+
+=== Linux Setup
 
 In order to get asciidoctor and asciidoctor-pdf working on RHEL 7 Workstations the following configurations should be made. 
 
@@ -65,8 +132,3 @@ ln -s /usr/share/fonts/liberation/LiberationSans-Italic.ttf ariali_italic.ttf
 ln -s /usr/share/fonts/liberation/LiberationSans-BoldItalic.ttf arialbi_bold_italic.ttf
 ----
 
-[source]
-----
-asciidoctor Document.adoc -o doc/Document.html
-asciidoctor -r asciidoctor-pdf -a pdf-style=document_basecamp/asciidoctor-pdf.yml -b pdf Document.adoc -o doc/Document.pdf
-----
