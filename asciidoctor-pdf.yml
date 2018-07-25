@@ -6,18 +6,12 @@ font:
       bold: notoserif-bold-subset.ttf
       italic: notoserif-italic-subset.ttf
       bold_italic: notoserif-bold_italic-subset.ttf
-    # Segoe UI supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
-    Segoe UI:
-      normal: segoeui_normal.ttf
-      bold: segoeui_bold.ttf
-      italic: segoeuii_italic.ttf
-      bold_italic: segoeui_bold_italic.ttf
     # Arial supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
     Arial:
-      normal: arial_normal.ttf
-      bold: arialbd_bold.ttf
-      italic: ariali_italic.ttf
-      bold_italic: arialbi_bold_italic.ttf
+      normal: Arial.TTF
+      bold: Arialbd.TTF
+      italic: Ariali.TTF
+      bold_italic: Arialbi.TTF
       # M+ 1mn supports ASCII and the circled numbers used for conums
     M+ 1mn:
       normal: mplus1mn-regular-ascii-conums.ttf
@@ -99,8 +93,10 @@ heading:
   font_style: bold
   # h1 is used for part titles (book doctype only)
   h1_font_size: floor($base_font_size * 2.6)
+  h1_text_transform: uppercase
   # h2 is used for chapter titles (book doctype only)
   h2_font_size: floor($base_font_size * 2.15)
+  h2_text_transform: uppercase
   h3_font_size: round($base_font_size * 1.7)
   h4_font_size: $base_font_size_large
   h5_font_size: $base_font_size
@@ -134,6 +130,7 @@ block:
   margin_bottom: $vertical_rhythm
 caption:
   align: left
+  #align: right
   font_size: $base_font_size * 0.95
   font_style: italic
   # FIXME perhaps set line_height instead of / in addition to margins?
@@ -236,9 +233,13 @@ outline_list:
   item_spacing: $vertical_rhythm / 2
 table:
   background_color: $page_background_color
+  font_family: Arial
+  #font_size: 9.5
   #head_background_color: <hex value>
   #head_font_color: $base_font_color
-  head_font_style: bold
+  head:
+    font_style: bold
+    #font_size: 9.5
   #body_background_color: <hex value>
   body_stripe_background_color: f9f9f9
   foot_background_color: f0f0f0
@@ -278,14 +279,14 @@ header:
       #content: '{section-or-chapter-title} | {page-number}'
       #content: '{document-title} | {page-number}'
     center:
-      content: '{document-title} : {revremark}'
+      content: '{version} -- {document-title} -- {revision-date}'
   verso:
     #columns: $footer_recto_columns
     #left:
       #content: $footer_recto_right_content
       #content: '{page-number} | {chapter-title}'
     center:
-      content: '{document-title} : {revremark}'
+      content: '{version} -- {document-title} -- {revision-date}'
 footer:
   font_size: $base_font_size_small
   # NOTE if background_color is set, background and border will span width of page
