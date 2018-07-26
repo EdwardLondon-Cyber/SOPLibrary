@@ -47,9 +47,39 @@ git commit -m "adding document_basecamp to document"
 git push origin <branch name>
 ----
 
+=== Document Header
+
+All asciidoc documents will need to have a header added in order to publish with the proper presentation settings provided by the document_basecamp. A helper script is provided in the document_basecamp that will generate this base and add an entry into the README file associated to the document repository. 
+
+Manually adding the header to a document is valid as well, a new document should be created and the following header added to it. 
+
+.Document header example
+[source]
+----
+= <the title of your document>
+:doctype: article
+:pdf-fontsdir: document_basecamp/fonts/
+:pdf-stylesdir: document_basecamp/
+:stylesdir: document_basecamp/
+:pdf-style: asciidoctor-pdf.yml
+:stylesheet: asciidoctor.css
+:toc: macro
+:toc-title: TABLE OF CONTENTS
+:toclevels: 3
+:toc-placement!:
+----
+
+It is good practice to add a link into the README file of the repository since the README file is the landing page for the document repository. 
+
+.README file link example
+[source]
+----
+link:<the name of your asciidocfile>.adoc[]
+----
+
 === Helper Script
 
-Once the Document Basecamp is in place you will have access to a helper script to generate the structure of the basic workflow repository.
+Once the Document Basecamp is in place you will have access to a helper script to generate the structure of the basic workflow repository. The script will build a "strawman" or "scaffold" document starting point and add a link to it into the README file.
 
 .Command Line Helper Script
 [source]
@@ -92,13 +122,23 @@ git merge -s recursive -Xours origin origin/master
 
 == Asciidoctor 
 
-=== Linux Use
+In most cases generation of the published version of the files are done via commands on the command line, if you are using a GUI tool the should be an option to open in Shell (Windows) or Terminal (Mac). 
+
+=== Generating HTML
 
 [source]
 ----
-asciidoctor Document.adoc -o build/Document.html
-asciidoctor -r asciidoctor-pdf -a pdf-style=document_basecamp/asciidoctor-pdf.yml -b pdf Document.adoc -o build/Document.pdf
+asciidoctor <name of doc>.adoc -o build/<name of doc>.html
 ----
+
+=== Generating PDF
+
+[source]
+----
+asciidoctor-pdf <name of doc>.adoc -o build/<name of doc>.pdf
+----
+
+== Platform Specific Notes
 
 === Linux Setup
 
@@ -117,18 +157,13 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 sudo yum install openssl-devel readline-devel zlib-devel
 eval "$(rbenv init -)"
-rbenv install 2.3.6
-rbenv version
+rbenv install 2.5.1
+rbenv global 2.5.1
+rbenv local 2.5.1
 gem install asciidoctor
 gem install asciidoctor-pdf --pre
 gem install rouge
 gem install pygments.rb
 gem install coderay
-gem contents asciidoctor-pdf --show-install-dir
-cd /home/jtgilber/opensource/rbenv/versions/2.3.6/lib/ruby/gems/2.3.0/gems/asciidoctor-pdf-1.5.0.alpha.16/data/fonts/
-ln -s /usr/share/fonts/liberation/LiberationSans-Regular.ttf arial_normal.ttf
-ln -s /usr/share/fonts/liberation/LiberationSans-Bold.ttf arialbd_bold.ttf
-ln -s /usr/share/fonts/liberation/LiberationSans-Italic.ttf ariali_italic.ttf
-ln -s /usr/share/fonts/liberation/LiberationSans-BoldItalic.ttf arialbi_bold_italic.ttf
 ----
 
