@@ -61,7 +61,11 @@ fi
 cat > $( echo $1 | sed -e "s/\s/-/g" ).adoc << FIRSTDOC 
 = $1
 :doctype: article
-:stylesheet: document_basecamp/asciidoctor.css
+:pdf-fontsdir: document_basecamp/fonts/
+:pdf-stylesdir: document_basecamp/
+:stylesdir: document_basecamp/
+:pdf-style: asciidoctor-pdf.yml
+:stylesheet: asciidoctor.css
 :toc: macro
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
@@ -69,6 +73,42 @@ cat > $( echo $1 | sed -e "s/\s/-/g" ).adoc << FIRSTDOC
 
 '''
 <<<
+
+// PLACEHOLDER FOR OFFICIAL NOTICE
+
+'''
+<<<
+
+DOCUMENT HISTORY LOG
+
+[width="100%",cols="1,1,1,2,4"]
+|====
+|Status|Document Revision|Change Number|Approval Date|Description
+
+|Draft||||Initial Release
+
+|====
+
+'''
+<<<
+
+FORWARD
+
+'''
+<<<
+
+toc::[]
+
+'''
+<<<
+
+:numbered:
+
+{doctitle}
+
+'''
+<<<
+
 FIRSTDOC
 
 # set first document as link in README
