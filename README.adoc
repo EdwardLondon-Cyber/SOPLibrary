@@ -74,7 +74,7 @@ It is good practice to add a link into the README file of the repository since t
 .README file link example
 [source]
 ----
-link:<the name of your asciidocfile>.adoc
+link:<the name of your asciidocfile>.adoc[]
 ----
 
 === Helper Script
@@ -134,7 +134,7 @@ asciidoctor <name of doc>.adoc -o build/<name of doc>.html
 === Generating PDF
 
 [source]
----
+----
 asciidoctor-pdf <name of doc>.adoc -o build/<name of doc>.pdf
 ----
 
