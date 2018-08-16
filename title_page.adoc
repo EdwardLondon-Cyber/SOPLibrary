@@ -1,0 +1,17 @@
+
+
+
+[cols="55s,^.^45s"]
+|======
+//|image:../images/NASA_L.png[National Aeronautics and Space Administration Logo,height=120,width=100] [big]#{document-type}#+++<br><br>+++National Aeronautics and Space Administration
+|image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100] [big]#{document-type}#+++<br><br>+++National Aeronautics and Space Administration
+|[big]#{document-identifier}#+++<br>+++Approved: {approved-date}
+|======
+
+
+[cols="^.^1s",width="100%"]
+|===
+|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{document-title}#+++<br>+++[big]#{document-subtitle}#+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{version} - {revision-date}#+++<br><br>+++[big]#{cover-page-mark-1}#+++<br>+++[big]#{cover-page-mark-2}#+++<br><br><br><br><br><br><br><br>+++
+|===
+'''
+<<<
