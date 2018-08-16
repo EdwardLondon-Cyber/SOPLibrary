@@ -240,6 +240,7 @@ table:
   head:
     font_style: bold
     #font_size: 9.5
+    background_color: f9f9f9
   #body_background_color: <hex value>
   body_stripe_background_color: f9f9f9
   foot_background_color: f0f0f0
