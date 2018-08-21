@@ -1,17 +1,12 @@
-
-
-
-[cols="55s,^.^45s"]
-|======
-//|image:../images/NASA_L.png[National Aeronautics and Space Administration Logo,height=120,width=100] [big]#{document-type}#+++<br><br>+++National Aeronautics and Space Administration
-|image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100] [big]#{document-type}#+++<br><br>+++National Aeronautics and Space Administration
-|[big]#{document-identifier}#+++<br>+++Approved: {approved-date}
-|======
-
-
-[cols="^.^1s",width="100%"]
+[align=right,cols="^s", width=35%]
 |===
-|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{document-title}#+++<br>+++[big]#{document-subtitle}#+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{version} - {revision-date}#+++<br><br>+++[big]#{cover-page-mark-1}#+++<br>+++[big]#{cover-page-mark-2}#+++<br><br><br><br><br><br><br><br>+++
+|+++<br>+++{measurement-system}+++<br><br>+++
 |===
-'''
-<<<
+
+[cols="65s,^.^35s"]
+|===
+.2+|image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100,align=center] [big]#{document-type}#+++<br><br>+++National Aeronautics and Space Administration
+|NASA-SPEC-26XX
+^|[big]#{document-identifier}#+++<br>+++Approved: {approved-date}
+2+^|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{document-title}#+++<br>+++[big]#{document-subtitle}#+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{version} - {revision-date}#+++<br><br>+++[big]#{cover-page-mark-1}#+++<br>+++[big]#{cover-page-mark-2}#+++<br><br><br><br><br><br><br><br>+++
+|===
