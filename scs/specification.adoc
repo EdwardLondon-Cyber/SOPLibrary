@@ -84,7 +84,7 @@ Requests for information, corrections, or additions to this Specification should
 
 
 Michael Witt +
-Senoir Agency Information Security Officer
+Senior Agency Information Security Officer
 
 
 :numbered:
