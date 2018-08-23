@@ -140,3 +140,9 @@ The applicable documents are accessible at https://standards.nasa.gov or may be 
 |Example
 
 |===
+
+== Acronyms and Definitions
+
+=== Acronyms
+
+=== Definitions
