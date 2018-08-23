@@ -7,7 +7,6 @@
 :pdf-style: asciidoctor-pdf.yml
 :stylesheet: asciidoctor.css
 :notitle:
-:noheader:
 :numbered!:
 :data-uri:
 :allow-uri-read:
