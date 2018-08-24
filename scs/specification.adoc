@@ -49,7 +49,7 @@ include::document_basecamp/title_page.adoc[]
 toc::[]
 
 [dedication]
-== DOCUMENT HISTORY LOG
+== Document History Log
 
 [%header,width="100%",cols="1,1,1,2,4"]
 |====
