@@ -44,7 +44,7 @@ ifdef::backend-pdf[]
 endif::[]
 
 // Title Page
-include::document_basecamp/scs/title_page.adoc[]
+include::document_basecamp/title_page.adoc[]
 
 toc::[]
 
