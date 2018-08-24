@@ -69,8 +69,6 @@ toc::[]
 
 <<<
 
-== FOREWORD
-
 == Foreword
 
 This Technical Standard is approved for use by NASA Headquarters and all NASA Centers. It is intended to provide common guidance for (provide one or two sentences that will be similar to unique Purpose content).
