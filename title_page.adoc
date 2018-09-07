@@ -1,8 +1,3 @@
-[align=right,float=right,cols="^s", width=45%]
-|===
-|+++<br>+++{measurement-system}+++<br><br>+++
-|===
-
 [cols="55s,^.^45s"]
 |======
 |image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100] [big]#{document-type}#+++<br><br>+++National Aeronautics and Space Administration
@@ -15,5 +10,5 @@ endif::superseding-document[]
 
 [cols="^.^1s",width="100%"]
 |===
-|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{document-title}#+++<br>+++[big]#{document-subtitle}#+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{version} - {revision-date}#+++<br><br>+++[big]#{cover-page-mark-1}#+++<br>+++[big]#{cover-page-mark-2}#+++<br><br><br><br><br><br><br><br><br><br><br>+++
+|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{document-title}#+++<br>+++[big]#{document-subtitle}#+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{version} - {revision-date}#+++<br><br>+++[big]#{cover-page-mark-1}#+++<br>+++[big]#{cover-page-mark-2}#+++<br><br><br><br><br><br><br><br><br><br><br><br>+++
 |===
