@@ -65,8 +65,6 @@ include::document_basecamp/title_page.adoc[]
 
 |====
 
-<<<
-
 == Foreword
 
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.  
@@ -85,7 +83,6 @@ toc::[]
 === Purpose
 
 The purpose of this NASA Technical Handbook is (add one-to-two sentence description).
-
 
 === Applicability
 
