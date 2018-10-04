@@ -1,0 +1,143 @@
+= Handbook Name
+:doctype: book
+// Document Setup
+:pdf-fontsdir: document_basecamp/fonts/
+:pdf-stylesdir: document_basecamp/
+:stylesdir: document_basecamp/
+:pdf-style: asciidoctor-pdf.yml
+:stylesheet: asciidoctor.css
+:notitle:
+:numbered!:
+:data-uri:
+:allow-uri-read:
+:icons: font
+:chapter-label:
+// Table of Contents
+:toc: macro
+:toc-title: TABLE OF CONTENTS
+:toclevels: 3
+:toc-placement!:
+// Title Page Variables
+:measurement-system: ENTERPRISE IT INFRASTRUCTURE GUIDANCE
+:document-type: NASA TECHNICAL HANDBOOK
+:document-identifier: NASA-HBK-XXXX
+:document-title: DOCUMENT TITLE
+:document-subtitle: TECHNICAL HANDBOOK
+:approved-date: 20XX-XX-XX
+:version: v1.X
+:revision-date: 20XX-XX-XX
+:cover-page-mark-1: This official draft has not been approved and is subject to modification
+:cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
+:superseding-document: NASA-HBK-XXXX
+:superseding-document-revision: XXXX
+
+
+// Do not show the footer for HTML
+ifdef::backend-html5[]
+:nofooter:
+endif::[]
+
+// An additional title is needed for PDF output
+ifdef::backend-pdf[]
+[colophon]
+= {nbsp}
+endif::[]
+
+// Title Page
+include::document_basecamp/title_page.adoc[]
+
+[dedication]
+== Document History Log
+
+[%header,width="100%",cols="1,1,1,2,4"]
+|====
+|Status
+|Document Revision
+|Change Number
+|Approval Date
+|Description
+
+|Baseline
+|1.0
+|
+|{approved-date}
+|
+
+|====
+
+== Foreword
+
+This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.  
+ 
+This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers.
+
+This NASA Technical Handbook establishes common guidance for (provide one or two sentences that will be similar to unique Purpose content).
+
+Requests for information, corrections, or additions to this NASA Technical Handbook should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135, or to desktop-standards@lists.nasa.gov.
+
+toc::[]
+
+:numbered:
+== Scope
+
+=== Purpose
+
+The purpose of this NASA Technical Handbook is (add one-to-two sentence description).
+
+=== Applicability
+
+This NASA Technical Handbook is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
+
+NPR 2810.1x, Security of Information Technology, clearly defines the role and responsibilities of information system owners (ISO) in relation to Agency information systems. These responsibilities include:
+
+- Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
+- Ensuring system-level implementation of all Agency and Center requirements.
+- Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+
+Standard guidance will be added, replaced, or removed as appropriate to align these responsibilities with Agency information security- and privacy-related program and project requirements.
+
+== Applicable Documents
+
+=== General
+
+The documents listed in this section contain provisions that constitute requirements of this NASA Technical Handbook as cited in the text.
+
+The latest issuances of cited documents shall apply unless specific versions are designated.
+
+Non-use of specifically designated versions shall be approved by the responsible Technical Authority.
+
+The applicable documents are accessible at https://standards.nasa.gov or may be obtained directly from the Standards Developing Body or other document distributors.
+
+=== Government Documents
+
+[%header, cols=2*a]
+.National Aeronautics and Space Administration (NASA)
+|===
+
+|Document Number
+|Document Title
+
+|NPR 2810.1
+|Security of Information Technology
+
+|===
+
+=== Non-Government Documents
+
+[%header, cols=2*a]
+.Center for Internet Security (CIS)
+|===
+
+|Document Number
+|Document Title
+
+|Benchmark
+|Example
+
+|===
+
+== Acronyms and Definitions
+
+=== Acronyms
+
+=== Definitions

@@ -2,6 +2,16 @@
 
 This repository houses the AsciiDoc templates and styles utilized to create documents (e.g. Standards, Handbook, Specifications).
 
+== Templates
+
+=== Security Configuration Specifications
+
+The template files are located in the following location.
+
+* link::scs[scs/]
+
+The files contained in this directory serve as the format to be used for Security Configuration Specifications based on NASA-NTSP-3 guidelines.
+
 == Git workflow
 
 === New Repository 
