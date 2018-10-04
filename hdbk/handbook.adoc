@@ -20,7 +20,7 @@
 // Title Page Variables
 :measurement-system: ENTERPRISE IT INFRASTRUCTURE GUIDANCE
 :document-type: NASA TECHNICAL HANDBOOK
-:document-identifier: NASA-HBK-XXXX
+:document-identifier: NASA-HDBK-XXXX
 :document-title: DOCUMENT TITLE
 :document-subtitle: TECHNICAL HANDBOOK
 :approved-date: 20XX-XX-XX
@@ -28,7 +28,7 @@
 :revision-date: 20XX-XX-XX
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
-:superseding-document: NASA-HBK-XXXX
+:superseding-document: NASA-HDBK-XXXX
 :superseding-document-revision: XXXX
 
 
@@ -141,3 +141,17 @@ The applicable documents are accessible at https://standards.nasa.gov or may be 
 === Acronyms
 
 === Definitions
+
+////
+APPENDIX SECTION
+Appendix number differently then the document, so number is turned off. 
+Content of the appendix will format, but not number, subsection. It is appropriate to continue 
+using heading tags (===) as normal.
+Appendix will be lettered based on the [appendix] tag, so the following title will appear as
+APPENDIX A: TITLE OF APPENDIX
+////
+
+:!numbered:
+
+[appendix]
+== TITLE OF APPENDIX
