@@ -83,8 +83,15 @@ Requests for information, corrections, or additions to this Specification should
 Michael Witt +
 Senior Agency Information Security Officer
 
+////
+COMMON CONTENT
+  This is the point at which document numbering starts.
+  Modification of this section should be fairly common, but not extensive.
+  Look for the DOCUMENT CONTENT comment section for the expected place for the body of the work
+////
 
 :numbered:
+
 == Scope
 
 === Purpose
@@ -160,3 +167,32 @@ The applicable documents are accessible at https://standards.nasa.gov or may be 
 === Acronyms
 
 === Definitions
+
+////
+DOCUMENT CONTENT
+  At this point the body of the document starts.
+  Numbering should be at section 4. 
+  Each section beyond this (notated by ==) will increment.
+////
+
+== DOCUMENT BODY WHICH STARTS AT SECTION 4
+
+Content 
+
+
+
+////
+APPENDIX SECTION
+  Appendix number differently then the document, so number is turned off. 
+  Content of the appendix will format for sections and subsection, but not number them. 
+  It is appropriate to continue using heading tags (===) as normal.
+
+  Appendix will be lettered based on the [appendix] tag, so the example title will appear as
+
+  APPENDIX A: TITLE OF APPENDIX
+////
+
+:!numbered:
+
+[appendix]
+== TITLE OF APPENDIX
