@@ -24,7 +24,8 @@
 :document-title: DOCUMENT TITLE
 :document-subtitle: TECHNICAL HANDBOOK
 :approved-date: 20XX-XX-XX
-:version: v1.X
+// document process versions: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
+:version: Initial Draft
 :revision-date: 20XX-XX-XX
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
