@@ -194,15 +194,17 @@ Content
 
 ////
 APPENDIX SECTION
-  Appendix number differently then the document, so number is turned off. 
-  Content of the appendix will format for sections and subsection, but not number them. 
-  It is appropriate to continue using heading tags (===) as normal.
+  Appendix number differently then the document, so make sure to use 3 or more morkers on subsection
+  titles (=== SUBSECTION). If you drop to 2 markers (==) it will start normal numbering again.
   Appendix will be lettered based on the [appendix] tag, so the example title will appear as
 
   APPENDIX A: TITLE OF APPENDIX
-////
 
-:!numbered:
+  Additional appendix can be used by the [appendix] tag immediately followed on the next line with a
+  2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
+////
 
 [appendix]
 == TITLE OF APPENDIX
+
+
