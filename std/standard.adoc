@@ -1,4 +1,4 @@
-= Security Configuration Specification Name
+= Standard Name
 :doctype: book
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
@@ -18,18 +18,18 @@
 :toclevels: 3
 :toc-placement!:
 // Title Page Variables
-:measurement-system: NOT MEASUREMENT SENSITIVE
-:document-type: NASA TECHNICAL SPECIFICATION
-:document-identifier: NASA-SPEC-2XXXX
+:measurement-system: ENTERPRISE IT INFRASTRUCTURE GUIDANCE
+:document-type: NASA TECHNICAL STANDARD
+:document-identifier: NASA-STD-XXXX
 :document-title: DOCUMENT TITLE
-:document-subtitle: SECURITY CONFIGURATION SPECIFICATION
+:document-subtitle: TECHNICAL STANDARD
 :approved-date: 20XX-XX-XX
 // document process versions: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
 :version: Initial Draft
 :revision-date: 20XX-XX-XX
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
-:superseding-document: NASA-SPEC-2XXX
+:superseding-document: NASA-STD-XXXX
 :superseding-document-revision: XXXX
 
 
@@ -46,8 +46,6 @@ endif::[]
 
 // Title Page
 include::document_basecamp/title_page.adoc[]
-
-toc::[]
 
 [dedication]
 == Document History Log
@@ -68,21 +66,17 @@ toc::[]
 
 |====
 
-<<<
-
 == Foreword
 
-This Technical Standard is approved for use by NASA Headquarters and all NASA Centers. It is intended to provide common guidance for (provide one or two sentences that will be similar to unique Purpose content).
+This NASA Technical Standard is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
 
-Adherence to this Standard ensures compliance with (fill in sentence and reference NASA or other Federal policy, standard, or specification subject matter — this may be specific to formal documents, or simply general subject matter).
+This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers.
 
-Requests for information, corrections, or additions to this Specification should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+This NASA Technical Standard establishes common guidance for (provide one or two sentences that will be similar to unique Purpose content).
 
-+++<br><br><br><br><br><br><br>+++
+Requests for information, corrections, or additions to this NASA Technical Standards should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135, or to desktop-standards@lists.nasa.gov.
 
-
-Michael Witt +
-Senior Agency Information Security Officer
+toc::[]
 
 ////
 COMMON CONTENT
@@ -101,7 +95,7 @@ The purpose of this NASA Technical Standard is (add one-to-two sentence descript
 
 === Applicability
 
-This Standard is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
+This NASA Technical Standard is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
 
 NPR 2810.1x, Security of Information Technology, clearly defines the role and responsibilities of information system owners (ISO) in relation to Agency information systems. These responsibilities include:
 
@@ -111,23 +105,11 @@ NPR 2810.1x, Security of Information Technology, clearly defines the role and re
 
 Standard guidance will be added, replaced, or removed as appropriate to align these responsibilities with Agency information security- and privacy-related program and project requirements.
 
-=== Authority
-
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized Enterprise Technology Assessments and Digital Standards (ETADS) within the ETADS Charter, §2, to create binding Technical Standards related to Agency security topics.
-
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes ETADS as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
-
-https://standards.nasa.gov/
-
-=== Tailoring
-
-Tailoring of this NASA Technical Standard for application to a specific program, project, or system shall be formally documented as part of program or project requirements and approved by the responsible Information System Owner and Authorizing Official.
-
 == Applicable Documents
 
 === General
 
-The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification as cited in the text.
+The documents listed in this section contain provisions that constitute requirements of this NASA Technical Standard as cited in the text.
 
 The latest issuances of cited documents shall apply unless specific versions are designated.
 
@@ -210,21 +192,26 @@ DOCUMENT CONTENT
 Content 
 
 
-
 ////
 APPENDIX SECTION
+
   Appendix number differently then the document, so make sure to use 3 or more morkers on subsection
+
     titles (=== SUBSECTION). If you drop to 2 markers (==) it will start normal numbering again.
   Content of the appendix will format for sections and subsection, but not number them. 
   It is appropriate to continue using heading tags (===) as normal.
+
   Appendix will be lettered based on the [appendix] tag, so the example title will appear as
 
   APPENDIX A: TITLE OF APPENDIX
 
+
   Additional appendix can be used by the [appendix] tag immediately followed on the next line with a 
     2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
+
 ////
 
 [appendix]
 == TITLE OF APPENDIX
+
 
