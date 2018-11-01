@@ -24,7 +24,8 @@
 :document-title: DOCUMENT TITLE
 :document-subtitle: TECHNICAL STANDARD
 :approved-date: 20XX-XX-XX
-:version: v1.X
+// document process versions: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
+:version: Initial Draft
 :revision-date: 20XX-XX-XX
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
@@ -118,61 +119,99 @@ The applicable documents are accessible at https://standards.nasa.gov or may be 
 
 === Government Documents
 
+////
+ASSOCIATED DOCUMENTS
+  Add Government and Non-Government documents related to this handbook in this section.
+  Add to the tables between the |==== tags, below the header line 
+  Example: 
+    [%header, cols=2*a]                            <-- table format block
+    |====                                          <-- table opening tag
+    |Document Number|Document Title                <-- header line
+                                                   <-- empty line for readability (optional)
+    |NPR 2810.1|Security of Information Technology <-- 
+    |NASA-SPEC-0000|Super Special NASA Doc         <-- 
+                                                   <-- empty line for readability (optional)
+    |====                                          <-- table closing tag
+////
+
 [%header, cols=2*a]
-.National Aeronautics and Space Administration (NASA)
 |===
-
-|Document Number
-|Document Title
-
-|NPR 2810.1
-|Security of Information Technology
+|Document Number|Document Title
 
 |===
 
 === Non-Government Documents
 
+// Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
+
 [%header, cols=2*a]
-.Center for Internet Security (CIS)
+|===
+|Document Number|Document Title
+
 |===
 
-|Document Number
-|Document Title
-
-|Benchmark
-|Example
-
-|===
+////
+ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
+  The following tables should be in alphabetical order
+  Note they do not have a header line, so content can be added in order.
+  Add to the tables between the |==== tags
+  Example: 
+    .Definitions                                   <-- table title (will display in presentation)
+    [%header, cols=2*a]                            <-- table format block
+    |====                                          <-- table opening tag
+    |Space|Is really, really big                   <-- term and definition/acronym and expansion
+                                                   <-- empty line for readability (optional)
+    |====                                          <-- table closing tag
+////
 
 == Acronyms and Definitions
 
-=== Acronyms
+.Acronyms and Abbreviations
+[width="100%",cols="1,3"]
+|====
+|NASA|National Aeronautics and Space Administration
 
-=== Definitions
+|====
+
+.Definitions
+[width="100%",cols="1,3"]
+|====
+||
+
+|====
 
 ////
 DOCUMENT CONTENT
   At this point the body of the document starts.
-  Numbering should be at section 4.
+  Numbering should be at section 4. 
   Each section beyond this (notated by ==) will increment.
 ////
 
 == DOCUMENT BODY WHICH STARTS AT SECTION 4
 
-Content
+Content 
 
 
 ////
 APPENDIX SECTION
-  Appendix number differently then the document, so number is turned off.
-  Content of the appendix will format for sections and subsection, but not number them.
+
+  Appendix number differently then the document, so make sure to use 3 or more morkers on subsection
+
+    titles (=== SUBSECTION). If you drop to 2 markers (==) it will start normal numbering again.
+  Content of the appendix will format for sections and subsection, but not number them. 
   It is appropriate to continue using heading tags (===) as normal.
+
   Appendix will be lettered based on the [appendix] tag, so the example title will appear as
 
   APPENDIX A: TITLE OF APPENDIX
-////
 
-:!numbered:
+
+  Additional appendix can be used by the [appendix] tag immediately followed on the next line with a 
+    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
+
+////
 
 [appendix]
 == TITLE OF APPENDIX
+
+
