@@ -43,13 +43,13 @@ comments: Additional comments
 removaldate: Required removal date from the enviornment
 ////
 // Table content
-:function:  Incident Monitoring and Response
-:application:  FireEye HX
-:relevantstandard:  Example standard
-:requiredsettings:  Auto-updates enabled
-:minversion: 26.x
-:comments: Example comment
-:removaldate:  2019-01-01
+:function:  
+:application:  
+:relevantstandard:  
+:requiredsettings:  
+:minversion: 
+:comments: 
+:removaldate:  
 
 = {application} Security Configuration Specification
 
