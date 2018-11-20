@@ -18,7 +18,7 @@
 :toclevels: 3
 :toc-placement!:
 // Title Page Variables
-:measurement-system: NOT MEASUREMENT SENSITIVE
+:measurement-system: ENTERPRISE IT INFRASTRUCTURE GUIDANCE
 :document-type: NASA TECHNICAL SPECIFICATION
 :document-identifier: NASA-SPEC-2XXXX
 :document-title: DOCUMENT TITLE
