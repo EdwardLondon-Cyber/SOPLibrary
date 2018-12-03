@@ -36,7 +36,7 @@ Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete th
 Description of fields:
 function: Applicaiton function 
 application: Application name
-releveantstandard: Relevant standard
+relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
 requiredsettings: Additional required settings, if needed
 version: Minimum application version required
 comments: Additional comments
@@ -45,7 +45,7 @@ removaldate: Required removal date from the enviornment
 // Table content
 :function:  
 :application:  
-:relevantstandard:  
+:relevanttechnicalstandard:  
 :requiredsettings:  
 :minversion: 
 :comments: 
@@ -94,7 +94,7 @@ toc::[]
 
 This Technical Standard is approved for use by NASA Headquarters and all NASA Centers. It is intended to provide common guidance for minimum security requirements for {application}.
 
-Adherence to this Standard ensures compliance with (fill in sentence and reference NASA or other Federal policy, standard, or specification subject matter — this may be specific to formal documents, or simply general subject matter).
+Adherence to this Standard ensures compliance with NASA-STD-2601, which defines operating system and application security requirements that must be implemented on NASA information systems.
 
 Requests for information, corrections, or additions to this Specification should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
 
@@ -117,13 +117,13 @@ COMMON CONTENT
 
 === Purpose
 
-The purpose of this NASA Technical Standard is to provide {application} Security Configuration Specification guidance.
+The purpose of this NASA Technical Standard is to provide mandatory version and configuration guidance for {application} deployment and operation.
 
 === Applicability
 
 This Standard is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
 
-NPR 2810.1x, Security of Information Technology, clearly defines the role and responsibilities of information system owners (ISO) in relation to Agency information systems. These responsibilities include:
+NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
 - Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
 - Ensuring system-level implementation of all Agency and Center requirements.
@@ -133,7 +133,7 @@ Standard guidance will be added, replaced, or removed as appropriate to align th
 
 === Authority
 
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized Enterprise Technology Assessments and Digital Standards (ETADS) within the ETADS Charter, §2, to create binding Technical Standards related to Agency security topics.
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized Enterprise Technology Assessments and Digital Standards (ETADS) within the link:https://etads.nasa.gov/charter[ETADS Charter], §2, to create binding Technical Standards related to Agency security topics.
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes ETADS as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
 
@@ -141,19 +141,15 @@ https://standards.nasa.gov/
 
 === Tailoring
 
-Tailoring of this NASA Technical Standard for application to a specific program, project, or system shall be formally documented as part of program or project requirements and approved by the responsible Information System Owner and Authorizing Official.
+Tailoring of this NASA Technical Standard for application to a specific program, project, or system shall be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
 
 == Applicable Documents
 
 === General
 
-The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification as cited in the text.
+The documents listed in this section support requirements of this NASA Technical Standard, as cited in the text. Use of other guidance in system implementations shall be documented by the ISO and approved by an AO.
 
-The latest issuances of cited documents shall apply unless specific versions are designated.
-
-Non-use of specifically designated versions shall be approved by the responsible Technical Authority.
-
-The applicable documents are accessible at https://standards.nasa.gov or may be obtained directly from the Standards Developing Body or other document distributors.
+The applicable documents are accessible at https://nodis3.gsfc.nasa.gov/ or https://standards.nasa.gov, or may be obtained directly from the standards developing body or other document distributors.
 
 === Government Documents
 
@@ -176,7 +172,10 @@ ASSOCIATED DOCUMENTS
 .National Aeronautics and Space Administration (NASA)
 |===
 |Document Number|Document Title
-|link:https://developer.nasa.gov/ETADS/NASA-STD-2601securityconfigurations[NASA-STD-2601]|_Security Requirements for Computing Devices_
+
+|NASA-STD-2601|_Security Requirements for Computing Devices_
+
+|NPR 2810.1x|_Security of Information Technology_
 
 |===
 
@@ -209,7 +208,35 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 .Acronyms and Abbreviations
 [width="100%",cols="1,3"]
 |====
-|NASA|National Aeronautics and Space Administration
+|AO|Authorizing Official
+|ACL|Approved and Cleared List for technology procurement
+|ASCS|Agency Security Configuration Standards
+|CDM|Continuous Diagnostics and Monitoring
+|CIO|Chief Information Officer
+|CIS|Center for Internet Security
+|DAR|Data At Rest
+|DISA|Defense Information Systems Agency
+|ETADS|Enterprise Technology Assessments and Digital Standards
+|FFRDC|Federally Funded Research and Development Center
+|FISMA|Federal Information Security Modernization Act
+|FPKI|Federal Public Key Infrastructure
+|ICAM|Identity, Credential, and Access Management
+|IDI|ICAM Device Integration
+|ISO|Information System Owner
+|JPL|Jet Propulsion Laboratory
+|NCTR|NASA Client Trust Reference
+|NIST|National Institute of Standards and Technology
+|NPR|NASA Procedural Requirement
+|NSA|National Security Agency
+|NTAM|NASA Trust Anchor Management
+|NTSP|NASA Technical Standards Panel
+|OCIO|Office of the Chief Information Officer
+|PIV|Personal Identity Verification
+|PKI|Public Key Infrastructure
+|RISCS|Risk Information and Security Compliance System
+|SAISO|Senior Agency Information Security Officer
+|SOC|Security Operations Center
+|STIG|Security Technical Implementation Guide
 
 |====
 
@@ -235,8 +262,8 @@ DOCUMENT CONTENT
 |{function}
 |Application
 |{application}
-|Relevant Standards
-|{relevantstandard}
+|Relevant Technical Standard
+|{relevanttechnicalstandard}
 |Required Settings
 |{requiredsettings}
 |Minimum Version
