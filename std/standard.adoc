@@ -168,7 +168,35 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 .Acronyms and Abbreviations
 [width="100%",cols="1,3"]
 |====
-|NASA|National Aeronautics and Space Administration
+|AO|Authorizing Official
+|ACL|Assessed and Cleared List for technology procurement
+|ASCS|Agency Security Configuration Standards
+|CDM|Continuous Diagnostics and Monitoring
+|CIO|Chief Information Officer
+|CIS|Center for Internet Security
+|DAR|Data At Rest
+|DISA|Defense Information Systems Agency
+|ETADS|Enterprise Technology Assessments and Digital Standards
+|FFRDC|Federally Funded Research and Development Center
+|FISMA|Federal Information Security Modernization Act
+|FPKI|Federal Public Key Infrastructure
+|ICAM|Identity, Credential, and Access Management
+|IDI|ICAM Device Integration
+|ISO|Information System Owner
+|JPL|Jet Propulsion Laboratory
+|NCTR|NASA Client Trust Reference
+|NIST|National Institute of Standards and Technology
+|NPR|NASA Procedural Requirement
+|NSA|National Security Agency
+|NTAM|NASA Trust Anchor Management
+|NTSP|NASA Technical Standards Panel
+|OCIO|Office of the Chief Information Officer
+|PIV|Personal Identity Verification
+|PKI|Public Key Infrastructure
+|RISCS|Risk Information and Security Compliance System
+|SAISO|Senior Agency Information Security Officer
+|SOC|Security Operations Center
+|STIG|Security Technical Implementation Guide
 
 |====
 
