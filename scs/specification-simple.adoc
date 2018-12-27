@@ -208,7 +208,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 [width="100%",cols="1,3"]
 |====
 |AO|Authorizing Official
-|ACL|Approved and Cleared List for technology procurement
+|ACL|Assessed and Cleared List for technology procurement
 |ASCS|Agency Security Configuration Standards
 |CDM|Continuous Diagnostics and Monitoring
 |CIO|Chief Information Officer
