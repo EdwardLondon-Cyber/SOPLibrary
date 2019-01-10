@@ -180,10 +180,12 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 |FFRDC|Federally Funded Research and Development Center
 |FISMA|Federal Information Security Modernization Act
 |FPKI|Federal Public Key Infrastructure
+|GRC|Glenn Research Center
 |ICAM|Identity, Credential, and Access Management
 |IDI|ICAM Device Integration
 |ISO|Information System Owner
 |JPL|Jet Propulsion Laboratory
+|NASA|National Aeronautics and Space Administration
 |NCTR|NASA Client Trust Reference
 |NIST|National Institute of Standards and Technology
 |NPR|NASA Procedural Requirement
