@@ -96,7 +96,7 @@ The purpose of this NASA Technical Handbook is (add one-to-two sentence descript
 
 This NASA Technical Handbook is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
 
-NPR 2810.1x, Security of Information Technology, clearly defines the role and responsibilities of information system owners (ISO) in relation to Agency information systems. These responsibilities include:
+NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
 - Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
 - Ensuring system-level implementation of all Agency and Center requirements.
