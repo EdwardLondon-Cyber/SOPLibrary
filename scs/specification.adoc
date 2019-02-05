@@ -29,6 +29,8 @@
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
 :superseding-document: NASA-SPEC-2XXX
 :superseding-document-revision: XXXX
+// xrefstyle full shows the section number and title
+:xrefstyle: full
 ////
 TABLE CONTENT
 Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete the table.
@@ -41,7 +43,7 @@ version: Minimum application version required
 comments: Additional comments
 removaldate: Required removal date from the enviornment
 ////
-// Table content
+// Document variables
 :function:  
 :application:  
 :relevanttechnicalstandard:  
@@ -124,9 +126,9 @@ This Standard is applicable to technology programs and projects managed by feder
 
 NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
-- Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
-- Ensuring system-level implementation of all Agency and Center requirements.
-- Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+* Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
+* Ensuring system-level implementation of all Agency and Center requirements.
+* Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
 
 Standard guidance will be added, replaced, or removed as appropriate to align these responsibilities with Agency information security- and privacy-related program and project requirements.
 
@@ -168,12 +170,10 @@ ASSOCIATED DOCUMENTS
 ////
 
 [%header, cols=2*a]
-.National Aeronautics and Space Administration (NASA)
 |===
 |Document Number|Document Title
 
 |NASA-STD-2601|_Security Requirements for Computing Devices_
-
 |NPR 2810.1x|_Security of Information Technology_
 
 |===

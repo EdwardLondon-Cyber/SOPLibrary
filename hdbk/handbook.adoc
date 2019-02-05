@@ -1,4 +1,3 @@
-= Handbook Name
 :doctype: book
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
@@ -28,9 +27,26 @@
 :revision-date: 20XX-XX-XX
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
-:superseding-document: NASA-HDBK-XXXX
+:superseding-document: NASA-HDBK-2XXX
 :superseding-document-revision: XXXX
+// xrefstyle full shows the section number and title
+:xrefstyle: full
+////
+TABLE CONTENT
+Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete the table.
+Description of fields:
+function: Applicaiton function 
+application: Application name
+relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
+requiredsettings: Additional required settings, if needed
+version: Minimum application version required
+comments: Additional comments
+removaldate: Required removal date from the enviornment
+////
+// Document variables
+:application:  
 
+= {application} Handbook
 
 // Do not show the footer for HTML
 ifdef::backend-html5[]
@@ -45,6 +61,8 @@ endif::[]
 
 // Title Page
 include::document_basecamp/title_page.adoc[]
+
+toc::[]
 
 [dedication]
 == Document History Log
@@ -65,17 +83,19 @@ include::document_basecamp/title_page.adoc[]
 
 |====
 
+<<<
+
 == Foreword
 
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.  
  
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers.
 
-This NASA Technical Handbook establishes common guidance for (provide one or two sentences that will be similar to unique Purpose content).
-
 Requests for information, corrections, or additions to this NASA Technical Handbook should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135, or to desktop-standards@lists.nasa.gov.
 
-toc::[]
++++<br><br><br><br><br><br><br>+++
+
+
 
 ////
 COMMON CONTENT
@@ -90,7 +110,7 @@ COMMON CONTENT
 
 === Purpose
 
-The purpose of this NASA Technical Handbook is (add one-to-two sentence description).
+The purpose of this NASA Technical Handbook is to provide guidance for {application} deployment and operation.
 
 === Applicability
 
@@ -98,11 +118,19 @@ This NASA Technical Handbook is applicable to technology programs and projects m
 
 NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
-- Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
-- Ensuring system-level implementation of all Agency and Center requirements.
-- Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+* Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
+* Ensuring system-level implementation of all Agency and Center requirements.
+* Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
 
 Standard guidance will be added, replaced, or removed as appropriate to align these responsibilities with Agency information security- and privacy-related program and project requirements.
+
+=== Authority
+
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized Enterprise Technology Assessments and Digital Standards (ETADS) within the link:https://etads.nasa.gov/charter[ETADS Charter], §2, to create binding Technical Standards related to Agency security topics.
+
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes ETADS as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
+
+https://standards.nasa.gov/
 
 == Applicable Documents
 
@@ -136,6 +164,9 @@ ASSOCIATED DOCUMENTS
 [%header, cols=2*a]
 |===
 |Document Number|Document Title
+
+|NASA-STD-2601|_Security Requirements for Computing Devices_
+|NPR 2810.1x|_Security of Information Technology_
 
 |===
 
@@ -214,6 +245,19 @@ DOCUMENT CONTENT
   At this point the body of the document starts.
   Numbering should be at section 4. 
   Each section beyond this (notated by ==) will increment.
+
+NOTE ON INTERNAL CROSS REFERENCE:
+  when using internal cross references use the internal function
+  instead of keeping track of the sections. The cross reference uses
+  <<_ (corner bracket, corner bracket, underscore)
+  then lowercase title with any non-alpha as a single underscore)
+  then close 2 corner brackets.
+  Example:
+    ==== Example of a sub-section Title
+  Cross Reference:
+    <<_example_of_a_sub_section_title>>
+  Will Appear as link in published document with subsection number:
+    i.e. "6.4.2. Example of a sub-section Title"
 ////
 
 == DOCUMENT BODY WHICH STARTS AT SECTION 4
