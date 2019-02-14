@@ -210,7 +210,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 |AO|Authorizing Official
 |ACL|Assessed and Cleared List for technology procurement
 |ASCS|Agency Security Configuration Standards
-|CDM|Continuous Diagnostics and Monitoring
+|CDM|Continuous Diagnostics and Mitigation
 |CIO|Chief Information Officer
 |CIS|Center for Internet Security
 |DAR|Data At Rest
