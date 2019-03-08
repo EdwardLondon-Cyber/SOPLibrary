@@ -96,7 +96,7 @@ The purpose of this NASA Technical Handbook is (add one-to-two sentence descript
 
 This NASA Technical Handbook is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
 
-NPR 2810.1x, Security of Information Technology, clearly defines the role and responsibilities of information system owners (ISO) in relation to Agency information systems. These responsibilities include:
+NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
 - Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
 - Ensuring system-level implementation of all Agency and Center requirements.
@@ -168,7 +168,37 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 .Acronyms and Abbreviations
 [width="100%",cols="1,3"]
 |====
+|AO|Authorizing Official
+|ACL|Assessed and Cleared List for technology procurement
+|ASCS|Agency Security Configuration Standards
+|CDM|Continuous Diagnostics and Mitigation
+|CIO|Chief Information Officer
+|CIS|Center for Internet Security
+|DAR|Data At Rest
+|DISA|Defense Information Systems Agency
+|ETADS|Enterprise Technology Assessments and Digital Standards
+|FFRDC|Federally Funded Research and Development Center
+|FISMA|Federal Information Security Modernization Act
+|FPKI|Federal Public Key Infrastructure
+|GRC|Glenn Research Center
+|ICAM|Identity, Credential, and Access Management
+|IDI|ICAM Device Integration
+|ISO|Information System Owner
+|JPL|Jet Propulsion Laboratory
 |NASA|National Aeronautics and Space Administration
+|NCTR|NASA Client Trust Reference
+|NIST|National Institute of Standards and Technology
+|NPR|NASA Procedural Requirement
+|NSA|National Security Agency
+|NTAM|NASA Trust Anchor Management
+|NTSP|NASA Technical Standards Panel
+|OCIO|Office of the Chief Information Officer
+|PIV|Personal Identity Verification
+|PKI|Public Key Infrastructure
+|RISCS|Risk Information and Security Compliance System
+|SAISO|Senior Agency Information Security Officer
+|SOC|Security Operations Center
+|STIG|Security Technical Implementation Guide
 
 |====
 
