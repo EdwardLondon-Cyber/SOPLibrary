@@ -87,18 +87,6 @@ It is good practice to add a link into the README file of the repository since t
 link:<the name of your asciidocfile>.adoc[]
 ----
 
-=== Helper Script
-
-Once the Document Basecamp is in place you will have access to a helper script to generate the structure of the basic workflow repository. The script will build a "strawman" or "scaffold" document starting point and add a link to it into the README file.
-
-.Command Line Helper Script
-[source]
-----
-document_basecamp/scripts/clean_document_setup "<First Main Document Name>"
-----
-
-You should now have a new adoc file in your directory and a link in the README.adoc file to it. Your work should be done in this document, while the README.adoc file should be a landing page for the repository to describe the document and its component parts (such as code blocks or table data).
-
 === First Push
 
 Now that you have a new repository, a branch to work in, the basecamp set up, and some simple file stubs, you should push the branch up to the server regularly while you are working on it. 
@@ -138,14 +126,14 @@ In most cases generation of the published version of the files are done via comm
 
 [source]
 ----
-asciidoctor <name of doc>.adoc -o build/<name of doc>.html
+asciidoctor <name of doc>.adoc -r asciidoctor-rouge -a allow-data-uri -a source-highlighter=rouge -o <name of doc>.html
 ----
 
 === Generating PDF
 
 [source]
 ----
-asciidoctor-pdf <name of doc>.adoc -o build/<name of doc>.pdf
+asciidoctor-pdf <name of doc>.adoc -r ./document_basecamp/scripts/asciidoctor-pdf-extensions.rb -o <name of doc>.pdf
 ----
 
 == Platform Specific Notes
