@@ -3,7 +3,7 @@ require 'asciidoctor-pdf' unless defined? ::Asciidoctor::Pdf
 module AsciidoctorPdfExtensions
   # Override the built-in layout_toc to move colophon before front of table of contents
   # NOTE we assume that the colophon fits on a single page
-  def layout_toc doc, num_levels = 2, toc_page_number = 2, num_front_matter_pages = 0
+  def layout_toc doc, num_levels = 2, toc_page_number = 2, num_front_matter_pages = 0, toc_start
     go_to_page toc_page_number unless (page_number == toc_page_number) || scratch?
     if scratch?
       colophon = doc.find_by(context: :section) {|sect| sect.sectname == 'colophon' }
