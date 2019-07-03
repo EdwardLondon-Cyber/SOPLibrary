@@ -37,7 +37,7 @@
 TABLE CONTENT
 Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete the table.
 Description of fields:
-function: Applicaiton function 
+function: Applicaiton function
 application: Application name
 relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
 requiredsettings: Additional required settings, if needed
@@ -46,7 +46,7 @@ comments: Additional comments
 removaldate: Required removal date from the enviornment
 ////
 // Document variables
-:application:  
+:application:
 
 = {application} Handbook
 
@@ -89,9 +89,11 @@ toc::[]
 
 == Foreword
 
-This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.  
- 
+This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
+
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers.
+
+This NASA Technical Handbook establishes current best practices or common guidance for (provide one or two sentences that will be similar to unique Purpose content).
 
 Requests for information, corrections, or additions to this NASA Technical Handbook should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135, or to desktop-standards@lists.nasa.gov.
 
@@ -128,9 +130,9 @@ Standard guidance will be added, replaced, or removed as appropriate to align th
 
 === Authority
 
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized Enterprise Technology Assessments and Digital Standards (ETADS) within the link:https://etads.nasa.gov/charter[ETADS Charter], §2, to create binding Technical Standards related to Agency security topics.
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes ETADS as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
 
 https://standards.nasa.gov/
 
@@ -151,14 +153,14 @@ The applicable documents are accessible at https://standards.nasa.gov or may be 
 ////
 ASSOCIATED DOCUMENTS
   Add Government and Non-Government documents related to this handbook in this section.
-  Add to the tables between the |==== tags, below the header line 
-  Example: 
+  Add to the tables between the |==== tags, below the header line
+  Example:
     [%header, cols=2*a]                            <-- table format block
     |====                                          <-- table opening tag
     |Document Number|Document Title                <-- header line
                                                    <-- empty line for readability (optional)
-    |NPR 2810.1|Security of Information Technology <-- 
-    |NASA-SPEC-0000|Super Special NASA Doc         <-- 
+    |NPR 2810.1|Security of Information Technology <--
+    |NASA-SPEC-0000|Super Special NASA Doc         <--
                                                    <-- empty line for readability (optional)
     |====                                          <-- table closing tag
 ////
@@ -187,7 +189,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
   The following tables should be in alphabetical order
   Note they do not have a header line, so content can be added in order.
   Add to the tables between the |==== tags
-  Example: 
+  Example:
     .Definitions                                   <-- table title (will display in presentation)
     [%header, cols=2*a]                            <-- table format block
     |====                                          <-- table opening tag
@@ -245,7 +247,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 ////
 DOCUMENT CONTENT
   At this point the body of the document starts.
-  Numbering should be at section 4. 
+  Numbering should be at section 4.
   Each section beyond this (notated by ==) will increment.
 
 NOTE ON INTERNAL CROSS REFERENCE:
@@ -264,7 +266,7 @@ NOTE ON INTERNAL CROSS REFERENCE:
 
 == DOCUMENT BODY WHICH STARTS AT SECTION 4
 
-Content 
+Content
 
 
 ////
@@ -273,7 +275,7 @@ APPENDIX SECTION
   Appendix number differently then the document, so make sure to use 3 or more morkers on subsection
 
     titles (=== SUBSECTION). If you drop to 2 markers (==) it will start normal numbering again.
-  Content of the appendix will format for sections and subsection, but not number them. 
+  Content of the appendix will format for sections and subsection, but not number them.
   It is appropriate to continue using heading tags (===) as normal.
 
   Appendix will be lettered based on the [appendix] tag, so the example title will appear as
@@ -281,12 +283,10 @@ APPENDIX SECTION
   APPENDIX A: TITLE OF APPENDIX
 
 
-  Additional appendix can be used by the [appendix] tag immediately followed on the next line with a 
+  Additional appendix can be used by the [appendix] tag immediately followed on the next line with a
     2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
 
 ////
 
 [appendix]
 == TITLE OF APPENDIX
-
-
