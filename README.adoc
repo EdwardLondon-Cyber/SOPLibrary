@@ -126,14 +126,14 @@ In most cases generation of the published version of the files are done via comm
 
 [source]
 ----
-asciidoctor <name of doc>.adoc -a allow-data-uri -a source-highlighter=rouge -o <name of doc>.html
+asciidoctor -a allow-data-uri <name of doc>.adoc
 ----
 
 === Generating PDF
 
 [source]
 ----
-asciidoctor-pdf <name of doc>.adoc -r ./document_basecamp/scripts/asciidoctor-pdf-extensions.rb -o <name of doc>.pdf
+asciidoctor-pdf -r ./document_basecamp/scripts/asciidoctor-pdf-extensions.rb <name of doc>.adoc
 ----
 
 == Platform Specific Notes
