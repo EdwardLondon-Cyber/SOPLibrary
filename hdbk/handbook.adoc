@@ -95,7 +95,7 @@ This NASA Technical Handbook is approved for use by NASA Headquarters and NASA C
 
 This NASA Technical Handbook establishes current best practices or common guidance for (provide one or two sentences that will be similar to unique Purpose content).
 
-Requests for information, corrections, or additions to this Specification should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET) , MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+Requests for information, corrections, or additions to this Handbook should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET) , MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
 
 +++<br><br><br><br><br><br><br>+++
 
