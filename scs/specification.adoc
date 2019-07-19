@@ -213,9 +213,9 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 |CDM|Continuous Diagnostics and Mitigation
 |CIO|Chief Information Officer
 |CIS|Center for Internet Security
+|CSET|Cybersecurity Standards and Engineering Team
 |DAR|Data At Rest
 |DISA|Defense Information Systems Agency
-|ETADS|Enterprise Technology Assessments and Digital Standards
 |FFRDC|Federally Funded Research and Development Center
 |FISMA|Federal Information Security Modernization Act
 |FPKI|Federal Public Key Infrastructure
