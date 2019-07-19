@@ -51,7 +51,7 @@ Adding the Document Basecamp to a document tree uses the git submodule command. 
 .Command Line Submodule
 [source]
 ----
-git submodule add https://developer.nasa.gov/ETADS/document_basecamp.git
+git submodule add https://developer.nasa.gov/CSET/document_basecamp.git
 git add .
 git commit -m "adding document_basecamp to document"
 git push origin <branch name>

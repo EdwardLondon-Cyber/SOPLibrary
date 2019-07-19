@@ -91,11 +91,11 @@ toc::[]
 
 == Foreword
 
-This Technical Standard is approved for use by NASA Headquarters and all NASA Centers. It is intended to provide common guidance for minimum security requirements for {application}.
+This Technical Specification  is approved for use by NASA Headquarters and all NASA Centers. It is intended to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects. It provides the enforceable, measurable details of a technical standard.
 
-Adherence to this Standard ensures compliance with NASA-STD-2601, which defines operating system and application security requirements that must be implemented on NASA information systems.
+Adherence to this Specification ensures compliance with (fill in sentence and reference NASA or other Federal policy, standard, or specification subject matter — this may be specific to formal documents, or simply general subject matter).
 
-Requests for information, corrections, or additions to this Specification should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+Requests for information, corrections, or additions to this Specification should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET) , MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
 
 +++<br><br><br><br><br><br><br>+++
 
@@ -124,17 +124,17 @@ This Standard is applicable to technology programs and projects managed by feder
 
 NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
-- Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
-- Ensuring system-level implementation of all Agency and Center requirements.
-- Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+* Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
+* Ensuring system-level implementation of all Agency and Center requirements.
+* Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
 
 Standard guidance will be added, replaced, or removed as appropriate to align these responsibilities with Agency information security- and privacy-related program and project requirements.
 
 === Authority
 
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized Enterprise Technology Assessments and Digital Standards (ETADS) within the link:https://etads.nasa.gov/charter[ETADS Charter], §2, to create binding Technical Standards related to Agency security topics.
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes ETADS as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
 
 https://standards.nasa.gov/
 
@@ -146,7 +146,7 @@ Tailoring of this NASA Technical Standard for application to a specific program,
 
 === General
 
-The documents listed in this section support requirements of this NASA Technical Standard, as cited in the text. Use of other guidance in system implementations shall be documented by the ISO and approved by an AO.
+The documents listed in this section support requirements of this NASA Technical Specification, as cited in the text. Use of other guidance in system implementations shall be documented by the ISO and approved by an AO.
 
 The applicable documents are accessible at https://nodis3.gsfc.nasa.gov/ or https://standards.nasa.gov, or may be obtained directly from the standards developing body or other document distributors.
 
@@ -155,25 +155,23 @@ The applicable documents are accessible at https://nodis3.gsfc.nasa.gov/ or http
 ////
 ASSOCIATED DOCUMENTS
   Add Government and Non-Government documents related to this handbook in this section.
-  Add to the tables between the |==== tags, below the header line 
-  Example: 
+  Add to the tables between the |==== tags, below the header line
+  Example:
     [%header, cols=2*a]                            <-- table format block
     |====                                          <-- table opening tag
     |Document Number|Document Title                <-- header line
                                                    <-- empty line for readability (optional)
-    |NPR 2810.1|Security of Information Technology <-- 
-    |NASA-SPEC-0000|Super Special NASA Doc         <-- 
+    |NPR 2810.1|Security of Information Technology <--
+    |NASA-SPEC-0000|Super Special NASA Doc         <--
                                                    <-- empty line for readability (optional)
     |====                                          <-- table closing tag
 ////
 
 [%header, cols=2*a]
-.National Aeronautics and Space Administration (NASA)
 |===
 |Document Number|Document Title
 
 |NASA-STD-2601|_Security Requirements for Computing Devices_
-
 |NPR 2810.1x|_Security of Information Technology_
 
 |===
@@ -193,7 +191,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
   The following tables should be in alphabetical order
   Note they do not have a header line, so content can be added in order.
   Add to the tables between the |==== tags
-  Example: 
+  Example:
     .Definitions                                   <-- table title (will display in presentation)
     [%header, cols=2*a]                            <-- table format block
     |====                                          <-- table opening tag
@@ -213,9 +211,9 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 |CDM|Continuous Diagnostics and Mitigation
 |CIO|Chief Information Officer
 |CIS|Center for Internet Security
+|CSET|Cybersecurity Standards and Engineering Team
 |DAR|Data At Rest
 |DISA|Defense Information Systems Agency
-|ETADS|Enterprise Technology Assessments and Digital Standards
 |FFRDC|Federally Funded Research and Development Center
 |FISMA|Federal Information Security Modernization Act
 |FPKI|Federal Public Key Infrastructure
@@ -251,7 +249,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 ////
 DOCUMENT CONTENT
   At this point the body of the document starts.
-  Numbering should be at section 4. 
+  Numbering should be at section 4.
   Each section beyond this (notated by ==) will increment.
 ////
 
@@ -275,7 +273,3 @@ DOCUMENT CONTENT
 |{removaldate}
 
 |====
-
-
-
-

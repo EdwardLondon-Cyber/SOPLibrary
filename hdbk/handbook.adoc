@@ -95,7 +95,7 @@ This NASA Technical Handbook is approved for use by NASA Headquarters and NASA C
 
 This NASA Technical Handbook establishes current best practices or common guidance for (provide one or two sentences that will be similar to unique Purpose content).
 
-Requests for information, corrections, or additions to this NASA Technical Handbook should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Enterprise Technology Assessments and Digital Standards (ETADS) Office, MS 142-5, Cleveland, OH, 44135, or to desktop-standards@lists.nasa.gov.
+Requests for information, corrections, or additions to this Specification should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET) , MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
 
 +++<br><br><br><br><br><br><br>+++
 
@@ -209,9 +209,9 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 |CDM|Continuous Diagnostics and Mitigation
 |CIO|Chief Information Officer
 |CIS|Center for Internet Security
+|CSET|Cybersecurity Standards and Engineering Team
 |DAR|Data At Rest
 |DISA|Defense Information Systems Agency
-|ETADS|Enterprise Technology Assessments and Digital Standards
 |FFRDC|Federally Funded Research and Development Center
 |FISMA|Federal Information Security Modernization Act
 |FPKI|Federal Public Key Infrastructure
