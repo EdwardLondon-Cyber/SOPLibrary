@@ -1,8 +1,8 @@
 [cols="55s,^.^45s"]
 |======
-|image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100] [big]#{document-type}#+++<br><br>+++National Aeronautics and Space Administration
-|[big]#{document-identifier}#+++<br>
-+++[big]#Approved: {approved-date}#+++<br><br>+++
+|image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100] {document-type}+++<br><br>+++National Aeronautics and Space Administration
+|{document-identifier}+++<br>
++++Approved: {approved-date}+++<br><br>+++
 ifdef::superseding-document[]
 Superseding: {superseding-document} {superseding-document-revision}
 endif::superseding-document[]
@@ -10,5 +10,5 @@ endif::superseding-document[]
 
 [cols="^.^1s",width="100%"]
 |===
-|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{document-title}#+++<br>+++[big]#{document-subtitle}#+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++[big]#{version} - {revision-date}#+++<br><br>+++[big]#{cover-page-mark-1}#+++<br>+++[big]#{cover-page-mark-2}#+++<br><br><br><br><br><br><br><br><br>+++
+|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{document-title}+++<br>+++{document-subtitle}+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{version} - {revision-date}+++<br><br>+++{cover-page-mark-1}+++<br>+++{cover-page-mark-2}+++<br><br><br><br><br><br><br><br><br>+++
 |===
