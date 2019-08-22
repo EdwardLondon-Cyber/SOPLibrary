@@ -4,7 +4,9 @@
 |{document-identifier}+++<br>
 +++Approved: {approved-date}+++<br><br>+++
 ifdef::superseding-document[]
+ifeval::["{superseding-document}" != ""]
 Superseding: {superseding-document} {superseding-document-revision}
+endif::[]
 endif::superseding-document[]
 |======
 
