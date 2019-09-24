@@ -75,7 +75,7 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 
 This NASA Technical Standard establishes (provide one or two sentences that will be similar to unique Purpose content).
 
-Requests for information, corrections, or additions to this NASA Technical Standards should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135, or to standards-comments@lists.nasa.gov.
+Requests for information, corrections, or additions to this NASA Technical Standards should be directed to the NASA John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135, or to standards-comments@lists.nasa.gov.
 
 +++<br><br><br><br><br><br><br>+++
 
