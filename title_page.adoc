@@ -12,5 +12,11 @@ endif::superseding-document[]
 
 [cols="^.^1s",width="100%"]
 |===
-|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{document-title}+++<br>+++{document-subtitle}+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{version} - {revision-date}+++<br><br>+++{cover-page-mark-1}+++<br>+++{cover-page-mark-2}+++<br><br><br><br><br><br><br><br><br>+++
+|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{document-title}+++<br>+++{document-subtitle}+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ifdef::version[]
+ifeval::["{version}" != "Baseline"]
++++{version} - {revision-date}+++
+endif::[]
+endif::version[]
+<br><br>+++{cover-page-mark-1}+++<br>+++{cover-page-mark-2}+++<br><br><br><br><br><br><br><br><br>+++
 |===

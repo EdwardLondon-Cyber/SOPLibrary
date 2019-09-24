@@ -97,7 +97,7 @@ This Technical Specification is approved for use by NASA Headquarters and all NA
 
 Adherence to this Specification ensures compliance with NASA-STD-2601, which defines operating system and application security requirements that must be implemented on NASA information systems.
 
-Requests for information, corrections, or additions to this Specification should be directed to the John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+Requests for information, corrections, or additions to this Specification should be directed to the NASA John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
 
 +++<br><br><br><br><br><br><br>+++
 
