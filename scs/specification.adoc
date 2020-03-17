@@ -16,6 +16,10 @@
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
 :toc-placement!:
+////
+TITLE PAGE VARIABLES:
+ approved-date: input the approved date only when signed (NOTE: this variable will automatically be plugged into the document history log)
+////
 // Title Page Variables
 :document-type: NASA TECHNICAL SPECIFICATION
 :document-identifier: NASA-SPEC-2XXXX
@@ -40,10 +44,7 @@ Fill out the fields found below this comment block to complete the table.
 Here is a description of the fields:
   function: Applicaiton function (e.g., web browser, media player, etc.)
   application: The name of the OS or Application 
-  relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
-  requiredsettings: Additional required settings, if needed
   minversion: Minimum application version required
-  comments: Additional comments
   removaldate: Required removal date from the enviornment
 
 ////
@@ -51,10 +52,7 @@ Here is a description of the fields:
 // Document variables
 :function:
 :application:
-:relevanttechnicalstandard:
-:requiredsettings:
 :minversion:
-:comments:
 :removaldate:
 
 = {application} Security Configuration Specification
@@ -83,11 +81,12 @@ DOCUMENT HISTORY LOG:
 
 Add a row to the top of this table (directly below the header) each time a new version of the Spec is published (i.e., newer versions appear at the top of the table; first published version appears in the bottom row)
 
-Make sure to input the date (in the document variables section above) only when the Spec is ratified.
+NOTE: 
+ Approval Date:  this will automatically be pulled from the PAGE VARIABLES at the top. If you are writing an updated version of a spec, the approval date must be hard coded for the earlier version(s), and the variable for approval date must be used only for the most recent version. 
 
 New versions will always have a value ending in .0 (e.g., 1.0 / 2.0 / 3.0 etc.)
 
-Do not track drafts; only update this table to include newly ratified versions. 
+Do not track drafts; only update this table to include newly approved versions. 
 
 The description box must not be left blank, but it should be brief. 
    New specs:  Why was there a need for this spec?
@@ -134,7 +133,7 @@ Senior Agency Information Security Officer
 
 ////
 NUMBERED SECTIONS:
-  This is the point at which document numbering starts.
+  This is the point at which document numbering begins.
   
   Many sections should not be edited.
   Please be sure to read comment blocks for instructions. 
@@ -145,11 +144,11 @@ NUMBERED SECTIONS:
 
 ////
 SCOPE:
-Spec authors do not need to make any changes to any part of the Scope. 
+ Spec authors do not need to make any changes to any part of the Scope. 
 
-The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
+ The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
 
-The rest of the text in the Scope sections has been tailored to be universal enough to fit every Spec. 
+ The rest of the text in the Scope sections has been tailored to be universal enough to fit every Spec. 
 ////
 
 == Scope
@@ -195,6 +194,8 @@ The documents listed in this section were used as references during the creation
 ////
 APPLICABLE DOCUMENTS:
 
+ The following tables should be in alpha-numerical order according to Document Number or Descriptor
+
   Add Government and Non-Government documents related to this Spec in this section.
 
   Add to the tables between the |==== tags, below the header line
@@ -202,7 +203,7 @@ APPLICABLE DOCUMENTS:
   Example:
     [%header, cols=2*a]                            <-- table format block
     |====                                          <-- table opening tag
-    |Document Number|Document Title                <-- header line
+    |Document Number or Descriptor|Document Title                <-- header line
                                                    <-- empty line for readability (optional)
     |NPR 2810.1|Security of Information Technology <--
     |NASA-SPEC-0000|Super Special NASA Doc         <--
@@ -213,13 +214,13 @@ APPLICABLE DOCUMENTS:
 NOTE: Be sure to make all document titles links to those documents. 
 
 NOTE: Comment out the Non-Government Documents table if you do not have any documents to include. 
-(i.e., Do not leave a blank table in the document)
+ (i.e., Do not leave a blank table in the document)
 
 ////
 
 [%header, cols=2*a]
 |===
-|Document Number|Document Title
+|Document Number or Descriptor|Document Title
 
 |NASA-STD-2601|_Security Requirements for Computing Devices_
 |NPR 2810.1x|_Security of Information Technology_
@@ -232,7 +233,7 @@ NOTE: Comment out the Non-Government Documents table if you do not have any docu
 
 [%header, cols=2*a]
 |===
-|Document Number|Document Title
+|Document Number or Descriptor|Document Title
 
 |===
 
@@ -267,6 +268,7 @@ ACRONYMS AND DEFINITIONS:
 |CIO|Chief Information Officer
 |CIS|Center for Internet Security
 |CSET|Cybersecurity Standards and Engineering Team
+|CSPP|CyberSecurity and Privacy Program
 |DAR|Data At Rest
 |DISA|Defense Information Systems Agency
 |FFRDC|Federally Funded Research and Development Center
@@ -317,14 +319,13 @@ Comment out this table if you have no definitions to add.
 ////
 VERSION AND LIFECYCLE:
 
-In the description below the heading, there are 2 instances where "Operating System / application" appears. 
+ In the description below the heading, there are 2 instances where "operating system / application" appears. Spec authors must edit this manually to suit what you are writing the Spec for. 
 
-Spec authors must edit this manually to suit what you are writing the Spec for. 
 ////
 
 == Version and Lifecycle
 
-This Specification applies to the Operating System / application defined in the chart below, as well as to any more recent versions of this Operating System / application.
+This Specification applies to the operating system / application defined in the chart below, as well as to any more recent version(s) of this operating system/ application.
 
 
 ////
@@ -345,16 +346,76 @@ All fields in this table should be autopopulated from the Document Variables
 |====
 
 == Security Configurations
+ 
+////
+CRITICAL SETTINGS REFERENCE:
+ NOTE: This section has been commented out, as it will be applicable to a minority of Specifications. 
+
+       If the Specification you are writing DOES include Critical Settings, be sure to move the bottom of this comment block up to allow the section to be visible.
+
+
+CRITICAL SETTINGS TABLE: 
+ Critical settings should be listed in this table in the same order that they appear in the document.
+
+ In the left column, fill in the ASCS number for each setting.
+
+ In the right column, write the ASCS control title (as it appears in the ToC)
+
+ Link each ASCS number in the left hand column to the full setting explanation in document.
+
 
 === Critical Settings Reference
 
+The table below provides a quick view of the security configuration settings that are classified as *critical*. All configurations that appear in the list below _SHALL NOT_ be eligible for any modifications through the application of a risk based decision (RBD). All of the *critical* settings in the table below are linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
+
+[cols="1h,1"]
+|===
+| ASCS Number | ASCS Control Title
+| ascs #| critical setting 1
+| ascs # | critical setting 2
+|===
+
+////
+
+
+
 === Required Settings
+
+This section contains all settings *required* for Agency compliance, as well as a detailed description for each setting.
+
+Note that each setting contains a severity classification. Settings that are classified as *critical* _SHALL_ be implemented; there are no circumstances under which critical settings may be altered through the application of an RBD. 
+
+Settings that are classified as *required* MAY, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see section 1.4, Tailoring, of this Specification. 
+
+Required controls are monitored, scored, and reported by the Agency.
+
+////
+RECOMMENDED SETTINGS REFERENCE:
+ NOTE: This section has been commented out, as it will be applicable to a minority of Specifications. 
+ 
+      If the Specification you are writing DOES include Recommended Settings, be sure move the bottom of this comment block up to allow the section to be visible.
+
 
 === Recommended Settings
 
-Content
+This section contains all *recommended* settings. 
+
+Settings that are classified as *recommended* are not required, but they are deemed highly beneficial by ASCS. These settings are expected to be implemented, unless there is a justifiable cause not to. However, recommended settings are not scored as deviation from compliance.
+////
+
+
+////
+GENERAL OPERATIONAL GUIDANCE:
+ NOTE: This section has been commented out, as it will be applicable to a minority of Specifications. 
+ 
+       If the Specification you are writing DOES include General Operational Guidance, be sure move the bottom of this comment block up to allow the section to be visible.
 
 == General Operational Guidance
+
+(Input Content as needed).
+
+////
+
 
 ////
 APPENDIX SECTION
