@@ -31,18 +31,23 @@
 :superseding-document-revision: XXXX
 // xrefstyle full shows the section number and title
 :xrefstyle: full
+
 ////
-TABLE CONTENT
-Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete the table.
-Description of fields:
-function: Applicaiton function
-application: Application name
-relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
-requiredsettings: Additional required settings, if needed
-version: Minimum application version required
-comments: Additional comments
-removaldate: Required removal date from the enviornment
+DOCUMENT VARIABLES:
+
+Fill out the fields found below this comment block to complete the table.
+
+Here is a description of the fields:
+  function: Applicaiton function (e.g., web browser, media player, etc.)
+  application: The name of the OS or Application 
+  relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
+  requiredsettings: Additional required settings, if needed
+  minversion: Minimum application version required
+  comments: Additional comments
+  removaldate: Required removal date from the enviornment
+
 ////
+
 // Document variables
 :function:
 :application:
@@ -73,64 +78,98 @@ toc::[]
 [dedication]
 == Document History Log
 
-[%header,width="100%",cols="1,1,1,2,4"]
+////
+DOCUMENT HISTORY LOG:
+
+Add a row to the top of this table (directly below the header) each time a new version of the Spec is published (i.e., newer versions appear at the top of the table; first published version appears in the bottom row)
+
+Make sure to input the date (in the document variables section above) only when the Spec is ratified.
+
+New versions will always have a value ending in .0 (e.g., 1.0 / 2.0 / 3.0 etc.)
+
+Do not track drafts; only update this table to include newly ratified versions. 
+
+The description box must not be left blank, but it should be brief. 
+   New specs:  Why was there a need for this spec?
+   New versions of existing specs:  Why was there a need for an updated version?
+
+////
+
+
+[%header,width="100%",cols="1,1,2"]
 |====
-|Status
-|Document Revision
-|Change Number
+|Document Version
 |Approval Date
 |Description
 
-|Baseline
 |1.0
-|
 |{approved-date}
+|
 |
 
 |====
 
 <<<
+////
+Forward:
+
+There is no need for Spec authors to edit the Forward. 
+It has been tailored to be universal enough to fit every Spec. 
+////
 
 == Foreword
 
-This Technical Specification is approved for use by NASA Headquarters and all NASA Centers. It is intended to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects. It provides the enforceable, measurable details of a technical standard.
+This Security Configuration Specification is approved for use by NASA Headquarters and all NASA Centers. It is intended to describe configuration setting requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects. It provides the enforceable, measurable details of a Technical Standard.
 
-Adherence to this Specification ensures compliance with NASA-STD-2601, which defines operating system and application security requirements that must be implemented on NASA information systems.
+Adherence to this Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems.
 
 Requests for information, corrections, or additions to this Specification should be directed to the NASA John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+
 
 +++<br><br><br><br><br><br><br>+++
 
 
-Michael Witt +
+Michael Witt 
 Senior Agency Information Security Officer
 
 ////
-COMMON CONTENT
+NUMBERED SECTIONS:
   This is the point at which document numbering starts.
-  Modification of this section should be fairly common, but not extensive.
-  Look for the DOCUMENT CONTENT comment section for the expected place for the body of the work
+  
+  Many sections should not be edited.
+  Please be sure to read comment blocks for instructions. 
+
 ////
 
 :numbered:
+
+////
+SCOPE:
+Spec authors do not need to make any changes to any part of the Scope. 
+
+The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
+
+The rest of the text in the Scope sections has been tailored to be universal enough to fit every Spec. 
+////
 
 == Scope
 
 === Purpose
 
-The purpose of this NASA Technical Standard is to provide mandatory version and configuration guidance for {application} deployment and operation.
+The purpose of this Security Configuration Specification is to provide mandatory version and configuration guidance for {application} deployment and operation.
 
 === Applicability
 
-This Standard is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
+This Specification is applicable to computing devices managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical/Service Support Centers. This Specification applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts. 
 
 NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
 * Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
-* Ensuring system-level implementation of all Agency and Center requirements.
-* Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+*	Ensuring system-level implementation of all Agency and Center requirements.
+*	Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
 
-Standard guidance will be added, replaced, or removed as appropriate to align these responsibilities with Agency information security- and privacy-related program and project requirements.
+ISO responsibilities will be added, replaced, or removed from NPR 2810.1x when such changes are deemed appropriate by the CyberSecurity and Privacy Program (CSPP) in order to align these responsibilities with Agency information security- and privacy-related program and project requirements.
+
 
 === Authority
 
@@ -142,22 +181,24 @@ https://standards.nasa.gov/
 
 === Tailoring
 
-Tailoring of this NASA Technical Standard for application to a specific program, project, or system shall be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
+Tailoring of this Security Configuration Specification to meet the needs of a specific program, project, or system _SHALL_ be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
 
 == Applicable Documents
 
 === General
 
-The documents listed in this section support requirements of this NASA Technical Specification, as cited in the text. Use of other guidance in system implementations shall be documented by the ISO and approved by an AO.
+The documents listed in this section were used as references during the creation of this Specification. These documents can serve as additional support for users in meeting the requirements of this Security Configuration Specification. 
 
-The applicable documents are accessible at https://nodis3.gsfc.nasa.gov/ or https://standards.nasa.gov, or may be obtained directly from the standards developing body or other document distributors.
 
 === Government Documents
 
 ////
-ASSOCIATED DOCUMENTS
-  Add Government and Non-Government documents related to this handbook in this section.
+APPLICABLE DOCUMENTS:
+
+  Add Government and Non-Government documents related to this Spec in this section.
+
   Add to the tables between the |==== tags, below the header line
+
   Example:
     [%header, cols=2*a]                            <-- table format block
     |====                                          <-- table opening tag
@@ -167,6 +208,13 @@ ASSOCIATED DOCUMENTS
     |NASA-SPEC-0000|Super Special NASA Doc         <--
                                                    <-- empty line for readability (optional)
     |====                                          <-- table closing tag
+
+
+NOTE: Be sure to make all document titles links to those documents. 
+
+NOTE: Comment out the Non-Government Documents table if you do not have any documents to include. 
+(i.e., Do not leave a blank table in the document)
+
 ////
 
 [%header, cols=2*a]
@@ -189,10 +237,14 @@ ASSOCIATED DOCUMENTS
 |===
 
 ////
-ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
+ACRONYMS AND DEFINITIONS:
+
   The following tables should be in alphabetical order
+
   Note they do not have a header line, so content can be added in order.
+
   Add to the tables between the |==== tags
+
   Example:
     .Definitions                                   <-- table title (will display in presentation)
     [%header, cols=2*a]                            <-- table format block
@@ -200,6 +252,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
     |Space|Is really, really big                   <-- term and definition/acronym and expansion
                                                    <-- empty line for readability (optional)
     |====                                          <-- table closing tag
+
 ////
 
 == Acronyms and Definitions
@@ -234,12 +287,23 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 |OCIO|Office of the Chief Information Officer
 |PIV|Personal Identity Verification
 |PKI|Public Key Infrastructure
+|RBD|Risk-Based Decision
 |RISCS|Risk Information and Security Compliance System
 |SAISO|Senior Agency Information Security Officer
 |SOC|Security Operations Center
 |STIG|Security Technical Implementation Guide
 
 |====
+
+
+
+////
+DEFINITIONS TABLE:
+
+Comment out this table if you have no definitions to add. 
+(i.e., Do not leave a blank table in the document)
+
+////
 
 .Definitions
 [width="100%",cols="1,3"]
@@ -248,14 +312,24 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 |====
 
+
+
 ////
-DOCUMENT CONTENT
-  At this point the body of the document starts.
-  Numbering should be at section 4.
-  Each section beyond this (notated by ==) will increment.
+VERSION AND LIFECYCLE:
+
+In the description below the heading, there are 2 instances where "Operating System / application" appears. 
+
+Spec authors must edit this manually to suit what you are writing the Spec for. 
 ////
 
-== Minimum Security Requirements
+== Version and Lifecycle
+
+This Specification applies to the Operating System / application defined in the chart below, as well as to any more recent versions of this Operating System / application.
+
+
+////
+All fields in this table should be autopopulated from the Document Variables  
+////
 
 [cols="25%h,75%"]
 |====
@@ -263,24 +337,24 @@ DOCUMENT CONTENT
 |{function}
 |Application
 |{application}
-|Relevant Technical Standard
-|{relevanttechnicalstandard}
-|Required Settings
-|{requiredsettings}
 |Minimum Version
 |{minversion}
-|Comments
-|{comments}
 |Required Removal Date
 |{removaldate}
 
 |====
 
-== DOCUMENT BODY WHICH STARTS AT SECTION 5
+== Security Configurations
+
+=== Critical Settings Reference
+
+=== Required Settings
+
+=== Recommended Settings
 
 Content
 
-
+== General Operational Guidance
 
 ////
 APPENDIX SECTION
