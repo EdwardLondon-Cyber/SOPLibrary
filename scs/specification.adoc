@@ -167,7 +167,7 @@ NPR 2810.1x, _Security of Information Technology_, clearly defines the role and 
 *	Ensuring system-level implementation of all Agency and Center requirements.
 *	Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
 
-ISO responsibilities will be added, replaced, or removed from NPR 2810.1x when such changes are deemed appropriate by the CyberSecurity and Privacy Program (CSPP) in order to align these responsibilities with Agency information security- and privacy-related program and project requirements.
+ISO responsibilities will be added, replaced, or removed from NPR 2810.1x when such changes are deemed appropriate by the Cybersecurity and Privacy Program (CSPP) in order to align these responsibilities with Agency information security- and privacy-related program and project requirements.
 
 
 === Authority
