@@ -104,8 +104,6 @@ The description box must not be left blank, but it should be brief.
 |1.0
 |{approved-date}
 |
-|
-
 |====
 
 <<<
@@ -261,6 +259,8 @@ ACRONYMS AND DEFINITIONS:
 .Acronyms and Abbreviations
 [width="100%",cols="1,3"]
 |====
+|Term|Expanded
+
 |AO|Authorizing Official
 |ACL|Assessed and Cleared List for technology procurement
 |ASCS|Agency Security Configuration Standards
@@ -310,6 +310,8 @@ Comment out this table if you have no definitions to add.
 .Definitions
 [width="100%",cols="1,3"]
 |====
+|Term |Definition
+
 ||
 
 |====
@@ -334,13 +336,21 @@ All fields in this table should be autopopulated from the Document Variables
 
 [cols="25%h,75%"]
 |====
+ifeval::[ "{function}" != "" ]
 |Function
 |{function}
+endif::[]
+ifeval::[ "{application}" != "" ]
 |Application
 |{application}
+endif::[]
+ifeval::[ "{minversion}" != "" ]
 |Minimum Version
 |{minversion}
+endif::[]
+ifeval::[ "{removaldate}" != "" ]
 |Required Removal Date
 |{removaldate}
+endif::[]
 
 |====
