@@ -257,7 +257,7 @@ ACRONYMS AND DEFINITIONS:
 == Acronyms and Definitions
 
 .Acronyms and Abbreviations
-[width="100%",cols="1,3"]
+[%header,width="100%",cols="1,3"]
 |====
 |Term|Expanded
 
@@ -308,7 +308,7 @@ Comment out this table if you have no definitions to add.
 ////
 
 .Definitions
-[%header, cols=2*a]
+[%header,width="100%",cols=2*a]
 |====
 |Term |Definition
 
