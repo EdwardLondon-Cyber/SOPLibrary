@@ -104,8 +104,6 @@ The description box must not be left blank, but it should be brief.
 |1.0
 |{approved-date}
 |
-|
-
 |====
 
 <<<
@@ -308,10 +306,11 @@ Comment out this table if you have no definitions to add.
 ////
 
 .Definitions
-[width="100%",cols="1,3"]
+[%header, cols=2*a]
 |====
-||
+|Term |Definition
 
+| |
 |====
 
 
