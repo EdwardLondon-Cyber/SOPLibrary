@@ -47,6 +47,7 @@ Here is a description of the fields:
   minversion: Minimum application version required
   removaldate: Required removal date from the enviornment
 
+ hi
 ////
 
 // Document variables
