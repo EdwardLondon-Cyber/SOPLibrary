@@ -54,16 +54,20 @@ include::document_basecamp/title_page.adoc[]
 ////
 DOCUMENT HISTORY LOG:
 
-Add a row to the top of the table (directly below the header) each time a new version of the Standard is published (i.e., newer versions appear at the top of the table; first published version appears in the bottom row)
+Newest version at the top of the table!
 
-NOTE: 
- Approval Date:  this will automatically be pulled from the VARIABLES at the top. If you are writing an updated version of a std, the approval date must be hard coded for the earlier version(s), and the variable for approval date must be used only for the most recent version. 
+Oldest/first version in the bottom row!
 
-Do not track drafts; only update this table to include newly approved versions. 
+You must add a row to the top of the table each time a new version of the Standard is published.
+ 
+DO NOT TRACK DRAFTS (informal draft, formal draft, etc.) in the Document History table!
+  Only update this table to include signed and published versions. 
 
 The description box must not be left blank, but it should be brief. 
-   New stds:  Why was there a need for this std?
-   New versions of existing stds:  Why was there a need for an updated version?
+
+NOTE: 
+ Approval Date:  this will automatically be pulled from the VARIABLES at the top. 
+ If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the variable for approval date must be used only for the most recent version.
 
 ////
 
@@ -118,9 +122,9 @@ This NASA Technical Standard is applicable to technology programs and projects m
 
 NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
-* Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
-*	Ensuring system-level implementation of all Agency and Center requirements.
-*	Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+* acquiring, developing, integrating, operating, modifying, and maintaining information systems;
+* ensuring system-level implementation of all Agency and Center requirements; and
+*	taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
 
 ISO responsibilities will be added, replaced, or removed from NPR 2810.1x when such changes are deemed appropriate by the Cybersecurity and Privacy Program (CSPP) in order to align these responsibilities with Agency information security- and privacy-related program and project requirements.
 
@@ -168,7 +172,7 @@ NOTE: Comment out the Non-Government Documents table if you do not have any docu
 
 === General
 
-The documents listed in this section were used as references during the creation of this Specification. These documents can serve as additional support for users in meeting the requirements of this Security Configuration Specification. 
+The documents listed in this section were used as references during the creation of this Standard. These documents can serve as additional support for users in meeting the requirements of this Technical Standard . 
 
 
 === Government Documents
