@@ -16,19 +16,19 @@
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
 :toc-placement!:
-////
-TITLE PAGE VARIABLES:
- approved-date: input the approved date only when signed (NOTE: this variable will automatically be plugged into the document history log)
-////
+
 // Title Page Variables
 :document-type: NASA TECHNICAL SPECIFICATION
 :document-identifier: NASA-SPEC-2XXXX
+// document-title: No acronyms in title - spell them out
 :document-title: DOCUMENT TITLE
 :document-subtitle: SECURITY CONFIGURATION SPECIFICATION
+// approved-date: input the approved date only when signed (NOTE: this variable will automatically be plugged into the document history log)
 :approved-date: 20XX-XX-XX
-// document process versions: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
+// version: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
 :version: Initial Draft
 :revision-date: 20XX-XX-XX
+// comment block out the cover-page-marks before publishing
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
 :superseding-document: NASA-SPEC-2XXX
@@ -38,18 +38,15 @@ TITLE PAGE VARIABLES:
 
 ////
 DOCUMENT VARIABLES:
-
-Fill out the fields found below this comment block to complete the table.
-
-Here is a description of the fields:
-  function: applicaiton function (e.g., web browser, media player, etc.)
-  application: The name of the OS or Application 
-  minversion: Minimum application version required
-  removaldate: Required removal date from the environment
+ Description of fields:
+  function:     Application function (e.g., web browser, media player, etc.)
+  application:  The name of the OS or Application 
+  minversion:   Minimum application version required
+  removaldate:  Required removal date from the environment
 
 ////
 
-// Document variables
+// Document variables:
 :function:
 :application:
 :minversion:
@@ -73,29 +70,27 @@ include::document_basecamp/title_page.adoc[]
 
 toc::[]
 
-[dedication]
-== Document History Log
 
 ////
 DOCUMENT HISTORY LOG:
+  Newest version at the top of the table!
+  Oldest/first version in the bottom row!
 
-Newest version at the top of the table!
-
-Oldest/first version in the bottom row!
-
-You must add a row to the top of the table each time a new version of the Standard is published.
+  You must add a row to the top of the table each time a new version of the Standard is published.
  
-DO NOT TRACK DRAFTS (informal draft, formal draft, etc.) in the Document History table!
+  DO NOT TRACK DRAFTS (informal draft, formal draft, etc.) in the Document History table!
+  
   Only update this table to include signed and published versions. 
 
-The description box must not be left blank, but it should be brief. 
+  The description box must not be left blank, but it should be brief. 
 
 NOTE: 
  Approval Date:  this will automatically be pulled from the VARIABLES at the top. 
- If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the variable for approval date must be used only for the most recent version.
-
+ If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
 ////
 
+[dedication]
+== Document History Log
 
 [%header,width="100%",cols="1,1,2"]
 |====
@@ -133,7 +128,6 @@ NUMBERED SECTIONS:
   This is the point at which document numbering begins.
   
   Please be sure to read comment blocks for instructions. 
-
 ////
 
 :numbered:
@@ -153,13 +147,15 @@ The purpose of this Security Configuration Specification is to provide mandatory
 
 === Applicability
 
-This Specification is applicable to computing devices managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical/Service Support Centers. This Specification applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts. 
+This Specification is applicable to computing devices managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical/Service Support Centers. 
+
+This Specification applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts. 
 
 NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
-* Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
-*	Ensuring system-level implementation of all Agency and Center requirements.
-*	Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+* acquiring, developing, integrating, operating, modifying, and maintaining information systems;
+* ensuring system-level implementation of all Agency and Center requirements; and
+*	taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
 
 ISO responsibilities will be added, replaced, or removed from NPR 2810.1x when such changes are deemed appropriate by the Cybersecurity and Privacy Program (CSPP) in order to align these responsibilities with Agency information security- and privacy-related program and project requirements.
 
@@ -176,19 +172,10 @@ https://standards.nasa.gov/
 
 Tailoring of this Security Configuration Specification to meet the needs of a specific program, project, or system _SHALL_ be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
 
-== Applicable Documents
-
-=== General
-
-The documents listed in this section were used as references during the creation of this Specification. These documents can serve as additional support for users in meeting the requirements of this Security Configuration Specification. 
-
-
-=== Government Documents
-
 ////
 APPLICABLE DOCUMENTS:
 
- The following tables should be in alpha-numerical order according to Document Number or Descriptor
+  The tables in this section should be in alpha-numerical order according to Document Number or Descriptor
 
   Add Government and Non-Government documents related to this Spec in this section.
 
@@ -205,11 +192,18 @@ APPLICABLE DOCUMENTS:
     |====                                          <-- table closing tag
 
 
-NOTE: Be sure to make all document titles links to those documents. 
+ NOTE: Be sure to make all document titles links to those documents. 
 
-NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
-
+ NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
 ////
+
+== Applicable Documents
+
+=== General
+
+The documents listed in this section were used as references during the creation of this Specification. These documents can serve as additional support for ISOs in meeting the requirements of this Security Configuration Specification. 
+
+=== Government Documents
 
 [%header, cols=2*a]
 |===
@@ -217,7 +211,6 @@ NOTE: Comment out the Non-Government Documents table if you do not have any docu
 
 |NASA-STD-2601|_Security Requirements for Computing Devices_
 |NPR 2810.1x|_Security of Information Technology_
-
 |===
 
 === Non-Government Documents
@@ -296,10 +289,8 @@ ACRONYMS AND DEFINITIONS:
 
 ////
 DEFINITIONS TABLE:
-
-Comment out this table if you have no definitions to add. 
-(i.e., Do not leave a blank table in the document)
-
+ Comment out this table if you have no definitions to add. 
+  Do not leave a blank table in the document.
 ////
 
 .Definitions
@@ -315,13 +306,15 @@ Comment out this table if you have no definitions to add.
 ////
 VERSION AND LIFECYCLE:
 
- In the description below the heading, there are 2 instances where "operating system / application" appears. Spec authors must edit this manually to suit what you are writing the Spec for. 
+ In the description below the "Version and Lifecycle" heading, there are 2 instances where 
+ "(operating system / application)" appears. 
+  NOTE: Spec authors must edit this manually to suit what you are writing the Spec for. 
 
 ////
 
 == Version and Lifecycle
 
-This Specification applies to the operating system / application defined in the chart below, as well as to any more recent version(s) of this operating system/ application.
+This Specification applies to the (operating system / application) defined in the chart below, as well as to any more recent version(s) of this (operating system/ application).
 
 
 ////
@@ -348,6 +341,7 @@ ifeval::[ "{removaldate}" != "" ]
 endif::[]
 
 |====
+
 
 == Security Configurations
  
@@ -382,7 +376,6 @@ The table below provides a quick view of the security configuration settings tha
 ////
 
 
-
 === Required Settings
 
 This section contains all settings *required* for Agency compliance, as well as a detailed description for each setting. Required controls are monitored, scored, and reported by the Agency. 
@@ -410,23 +403,23 @@ GENERAL OPERATIONAL GUIDANCE:
        If the Specification you are writing DOES include General Operational Guidance, be sure move the bottom of this comment block up to allow the section to be visible.
 
 == General Operational Guidance
-
-(Input Content as needed).
+  (Input Content as needed).
 
 ////
 
 
 ////
 APPENDIX SECTION
-  Appendix number differently then the document, so make sure to use 3 or more markers on subsection
+  Appendices are numbered differently then the rest of the document, so make sure to use 3 or more markers on subsection
     titles (=== SUBSECTION). If you drop to 2 markers (==) it will start normal numbering again.
-  Content of the appendix will format for sections and subsection, but not number them.
+  Content of the appendix will format for sections and subsections, but not number them.
+  
   It is appropriate to continue using heading tags (===) as normal.
-  Appendix will be lettered based on the [appendix] tag, so the example title will appear as
+  
+  Appendices will be lettered based on the [appendix] tag, so the example title will appear as
+   APPENDIX A: TITLE OF APPENDIX
 
-  APPENDIX A: TITLE OF APPENDIX
-
-  Additional appendix can be used by the [appendix] tag immediately followed on the next line with a
+  Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
     2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
 ////
 
