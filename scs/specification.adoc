@@ -76,7 +76,7 @@ DOCUMENT HISTORY LOG:
   Newest version at the top of the table!
   Oldest/first version in the bottom row!
 
-  You must add a row to the top of the table each time a new version of the Standard is published.
+  You must add a row to the top of the table each time a new version of the Spec is published.
  
   DO NOT TRACK DRAFTS (informal draft, formal draft, etc.) in the Document History table!
     Only update this table to include signed and published versions. 
