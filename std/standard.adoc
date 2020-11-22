@@ -105,7 +105,7 @@ toc::[]
 NUMBERED SECTIONS:
   This is the point at which document numbering begins.
 
-   Make sure to check where information needs to be added (e.g., the parenthetical section of the PURPOSE)
+     Please be sure to read comment blocks for instructions. 
 ////
 
 :numbered:

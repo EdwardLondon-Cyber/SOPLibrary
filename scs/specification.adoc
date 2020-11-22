@@ -42,10 +42,10 @@ DOCUMENT VARIABLES:
 Fill out the fields found below this comment block to complete the table.
 
 Here is a description of the fields:
-  function: Applicaiton function (e.g., web browser, media player, etc.)
+  function: applicaiton function (e.g., web browser, media player, etc.)
   application: The name of the OS or Application 
   minversion: Minimum application version required
-  removaldate: Required removal date from the enviornment
+  removaldate: Required removal date from the environment
 
 ////
 
@@ -79,17 +79,20 @@ toc::[]
 ////
 DOCUMENT HISTORY LOG:
 
-Add a row to the top of this table (directly below the header) each time a new version of the Spec is published (i.e., newer versions appear at the top of the table; first published version appears in the bottom row)
+Newest version at the top of the table!
 
-NOTE: 
- Approval Date:  this will automatically be pulled from the PAGE VARIABLES at the top. If you are writing an updated version of a spec, the approval date must be hard coded for the earlier version(s), and the variable for approval date must be used only for the most recent version. 
+Oldest/first version in the bottom row!
 
-
-Do not track drafts; only update this table to include newly approved versions. 
+You must add a row to the top of the table each time a new version of the Standard is published.
+ 
+DO NOT TRACK DRAFTS (informal draft, formal draft, etc.) in the Document History table!
+  Only update this table to include signed and published versions. 
 
 The description box must not be left blank, but it should be brief. 
-   New specs:  Why was there a need for this spec?
-   New versions of existing specs:  Why was there a need for an updated version?
+
+NOTE: 
+ Approval Date:  this will automatically be pulled from the VARIABLES at the top. 
+ If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the variable for approval date must be used only for the most recent version.
 
 ////
 
@@ -106,12 +109,7 @@ The description box must not be left blank, but it should be brief.
 |====
 
 <<<
-////
-Forward:
 
-There is no need for Spec authors to edit the Forward. 
-It has been tailored to be universal enough to fit every Spec. 
-////
 
 == Foreword
 
@@ -388,10 +386,6 @@ The table below provides a quick view of the security configuration settings tha
 === Required Settings
 
 This section contains all settings *required* for Agency compliance, as well as a detailed description for each setting. Required controls are monitored, scored, and reported by the Agency. 
-
-////
-Note that each setting contains a severity classification. Settings that are classified as *critical* _SHALL_ be implemented; there are no circumstances under which critical settings may be altered through the application of an RBD. 
-////
 
 Settings that are classified as *required* _MAY_, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see section 1.4, Tailoring, of this Specification.
 
