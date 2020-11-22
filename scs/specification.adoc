@@ -79,10 +79,11 @@ DOCUMENT HISTORY LOG:
   You must add a row to the top of the table each time a new version of the Standard is published.
  
   DO NOT TRACK DRAFTS (informal draft, formal draft, etc.) in the Document History table!
-  
-  Only update this table to include signed and published versions. 
+    Only update this table to include signed and published versions. 
 
   The description box must not be left blank, but it should be brief. 
+  Example descriptions: 
+    "Baseline", "Updates based on DEFEND AWARE", "Small DNS over HTTP update"
 
 NOTE: 
  Approval Date:  this will automatically be pulled from the VARIABLES at the top. 
@@ -309,7 +310,6 @@ VERSION AND LIFECYCLE:
  In the description below the "Version and Lifecycle" heading, there are 2 instances where 
  "(operating system / application)" appears. 
   NOTE: Spec authors must edit this manually to suit what you are writing the Spec for. 
-
 ////
 
 == Version and Lifecycle
@@ -364,7 +364,7 @@ CRITICAL SETTINGS TABLE:
 
 === Critical Settings Reference
 
-The table below provides a quick view of the security configuration settings that are classified as *critical*. All configurations that appear in the list below _SHALL NOT_ be eligible for any modifications through the application of a risk based decision (RBD). All of the *critical* settings in the table below are linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
+The table below provides a quick view of the security configuration settings that are classified as *critical*. All configurations that are classified as *critical* _SHALL NOT_ be eligible for any modifications through the application of a risk based decision (RBD). The *critical* settings in the table are linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
 
 [cols="1h,1"]
 |===
