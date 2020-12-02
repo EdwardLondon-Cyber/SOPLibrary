@@ -20,19 +20,22 @@
 // Title Page Variables
 :document-type: NASA TECHNICAL SPECIFICATION
 :document-identifier: NASA-SPEC-2XXXX
-// document-title: No acronyms in title - spell them out
+// document version: e.g., 1.0, 1.1, 2.0 etc.
+:document version: vx.x
+// document-title: No acronyms in title - spell them out. USE ALL CAPS
 :document-title: DOCUMENT TITLE
 :document-subtitle: SECURITY CONFIGURATION SPECIFICATION
-// approved-date: input the approved date only when signed (NOTE: this variable will automatically be plugged into the document history log)
+// approved-date: Input the approved date only when signed. Delete the 20XX-XX-XX and leave blank until it is signed. 
 :approved-date: 20XX-XX-XX
-// version: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
-:version: Initial Draft
-:revision-date: 20XX-XX-XX
+// document stage: Input either "Draft" or "Baseline"
+:version: Draft
 // comment block out the cover-page-marks before publishing
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
+// superseding-document: delete and leave blank if N/A
 :superseding-document: NASA-SPEC-2XXX
-:superseding-document-revision: XXXX
+// superseding-document-revision: delete and leave blank if N/A
+:superseding-document-revision: v.XXXX
 // xrefstyle full shows the section number and title
 :xrefstyle: full
 
@@ -78,8 +81,8 @@ DOCUMENT HISTORY LOG:
 
   You must add a row to the top of the table each time a new version of the Spec is published.
  
-  DO NOT TRACK DRAFTS (informal draft, formal draft, etc.) in the Document History table!
-    Only update this table to include signed and published versions. 
+  Track drafts and include descriptions for each draft while the document is out for review. 
+  But be sure to DELETE  draft tracking and update the approved date when it is signed and ready to be published. 
 
   The description box must not be left blank, but it should be brief. 
   Example descriptions: 
@@ -87,7 +90,7 @@ DOCUMENT HISTORY LOG:
 
 NOTE: 
  Approval Date:  this will automatically be pulled from the VARIABLES at the top. 
- If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+ If you are writing an updated version of a Spec, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
 ////
 
 [dedication]
@@ -116,7 +119,7 @@ Adherence to this Specification ensures compliance with NASA-STD-2601, _Minimum 
 Requests for information, corrections, or additions to this Specification should be directed to the NASA John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
 
 
-+++<br><br><br><br><br><br><br>+++
++++<br><br><br><br>+++
 
 
 Michael Witt 
