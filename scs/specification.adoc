@@ -124,8 +124,7 @@ Requests for information, corrections, or additions to this Specification should
 
 
 Michael Witt 
-
-
++++<br>+++
 Senior Agency Information Security Officer
 
 ////
@@ -197,7 +196,7 @@ APPLICABLE DOCUMENTS:
     |====                                          <-- table closing tag
 
 
- NOTE: Be sure to make all document titles links to those documents. 
+ NOTE: Be sure to make all document titles links (YOURLS) to those documents. 
 
  NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
 ////
