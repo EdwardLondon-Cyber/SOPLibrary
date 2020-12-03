@@ -152,7 +152,7 @@ The purpose of this Security Configuration Specification is to provide mandatory
 
 === Applicability
 
-This Specification is applicable to computing devices managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical/Service Support Centers. 
+This Security Configuration Specification is applicable to computing devices managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical/Service Support Centers. 
 
 This Specification applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts. 
 
