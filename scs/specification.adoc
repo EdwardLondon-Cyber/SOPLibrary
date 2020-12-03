@@ -52,6 +52,7 @@ DOCUMENT VARIABLES:
 // Document variables:
 :function:
 :application:
+:specificationtype:
 :minversion:
 :removaldate:
 
@@ -317,7 +318,7 @@ VERSION AND LIFECYCLE:
 
 == Version and Lifecycle
 
-This Specification applies to the (operating system / application) defined in the chart below, as well as to any more recent version(s) of this (operating system/ application).
+This Specification applies to the {specificationtype} defined in the chart below, as well as to any more recent version(s) of this {specificationtype}.
 
 
 ////
