@@ -44,6 +44,7 @@ DOCUMENT VARIABLES:
  Description of fields:
   function:     Application function (e.g., web browser, media player, etc.)
   application:  The name of the OS or Application 
+  specificationtype: Enter either "operating system" or "application"
   minversion:   Minimum application version required
   removaldate:  Required removal date from the environment
 
@@ -198,14 +199,13 @@ APPLICABLE DOCUMENTS:
 
  NOTE: Be sure to make all document titles links (YOURLS) to those documents. 
 
- NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
 ////
 
 == Applicable Documents
 
 === General
 
-The documents listed in this section were used as references during the creation of this Specification. These documents can serve as additional support for ISOs in meeting the requirements of this Security Configuration Specification. 
+The documents listed in this section contain provisions that constitute requirements of this Security Configuration Specification. These documents can serve as additional support in meeting the requirements defined in this  Specification. 
 
 === Government Documents
 
@@ -213,9 +213,15 @@ The documents listed in this section were used as references during the creation
 |===
 |Document Number or Descriptor|Document Title
 
-|NASA-STD-2601|_Security Requirements for Computing Devices_
-|NPR 2810.1x|_Security of Information Technology_
+|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1]| _Security of Information Technology_
 |===
+
+
+
+////
+NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
+////
 
 === Non-Government Documents
 
@@ -306,14 +312,6 @@ DEFINITIONS TABLE:
 |====
 
 
-
-////
-VERSION AND LIFECYCLE:
-
- In the description below the "Version and Lifecycle" heading, there are 2 instances where 
- "(operating system / application)" appears. 
-  NOTE: Spec authors must edit this manually to suit what you are writing the Spec for. 
-////
 
 == Version and Lifecycle
 
@@ -413,6 +411,9 @@ GENERAL OPERATIONAL GUIDANCE:
 
 ////
 APPENDIX SECTION
+ Note:
+   Appendix is commented out - move the comment block if applicable. 
+
   Appendices are numbered differently then the rest of the document, so make sure to use 3 or more markers on subsection
     titles (=== SUBSECTION). If you drop to 2 markers (==) it will start normal numbering again.
   Content of the appendix will format for sections and subsections, but not number them.
@@ -424,7 +425,9 @@ APPENDIX SECTION
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
     2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
-////
+
 
 [appendix]
 == TITLE OF APPENDIX
+
+////
