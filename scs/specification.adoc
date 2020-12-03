@@ -114,7 +114,7 @@ NOTE:
 
 == Foreword
 
-This Security Configuration Specification is approved for use by NASA Headquarters and all NASA Centers. It is intended to describe configuration setting requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects. It provides the enforceable, measurable details of a Technical Standard.
+This Security Configuration Specification is approved for use by all NASA Centers and Facilities. It is intended to describe configuration setting requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects. It provides the enforceable, measurable details of a Technical Standard.
 
 Adherence to this Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems.
 
