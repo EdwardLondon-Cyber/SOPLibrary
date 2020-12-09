@@ -24,7 +24,7 @@
 :document version: vx.x
 // document-title: No acronyms in title - spell them out. USE ALL CAPS
 :document-title: DOCUMENT TITLE
-:document-subtitle: SECURITY CONFIGURATION SPECIFICATION
+:document-subtitle: NASA TECHNICAL SPECIFICATION
 // approved-date: Input the approved date only when signed. Delete the 20XX-XX-XX and leave blank until it is signed. 
 :approved-date: 20XX-XX-XX
 // document stage: Input either "Draft" or "Baseline"
@@ -186,7 +186,7 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-Tailoring of this Security Configuration Specification to meet the needs of a specific program, project, or system _SHALL_ be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
+Tailoring of this NASA Technical Specification to meet the needs of a specific program, project, or system _SHALL_ be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
 
 === Authority
 
@@ -224,7 +224,7 @@ APPLICABLE DOCUMENTS:
 
 === General
 
-The documents listed in this section contain provisions that constitute requirements of this Security Configuration Specification. These documents can serve as additional support in meeting the requirements defined in this  Specification. 
+The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this  Specification. 
 
 === Government Documents
 
