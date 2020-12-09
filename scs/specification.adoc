@@ -111,22 +111,32 @@ NOTE:
 
 <<<
 
+////
+FOREWORD:
+ Note that this template is worded to best suit Specs that fall under Standard 2601.
+
+ If your spec does not fall under Standard 2601 - make sure to edit paragraph 3 so that it is accurate for your spec. 
+////
 
 == Foreword
 
-This Security Configuration Specification is approved for use by all NASA Centers and Facilities. It is intended to describe configuration setting requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects. It provides the enforceable, measurable details of a Technical Standard.
+This NASA Technical Specification is published by the National Aeronautics and Space Administration (NASA) to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects.
 
-Adherence to this Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems.
+This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. It may also apply to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-Requests for information, corrections, or additions to this Specification should be directed to the NASA John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
+
+Requests for information, corrections, or additions to this Specification can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.   
 
 
 +++<br><br><br><br>+++
 
 
 Michael Witt 
-+++<br>+++
++++<br><br>+++
 Senior Agency Information Security Officer
+
++++<br>+++
 
 ////
 NUMBERED SECTIONS:
@@ -141,41 +151,50 @@ NUMBERED SECTIONS:
 SCOPE:
  The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
 
- If your Spec is not a configuration Spec, you may also need to rewrite the purpose to fit your Spec.
+ If your Spec is not a configuration Spec, you may also need to rewrite the Purpose and Applicability sections to fit your Spec. - Please read the comment blocks above each subheading. 
 ////
 
 == Scope
 
+////
+Purpose: 
+ If your spec does not fall under Standard 2601/ is not a configuration Spec:
+   Make sure to edit the Purpose so that it is accurate for your spec. 
+////
+
 === Purpose
 
-The purpose of this Security Configuration Specification is to provide mandatory version and configuration guidance for {application} deployment and operation.
+The purpose of this NASA Technical Specification is to provide mandatory version and configuration guidance for {application} deployment and operation.
 
+////
+Applicability: 
+ There are two options for sentence 1 under Applicability - choose the one that applies to your spec to make visible. 
+     e.g.:
+       SEP is applicable to all computing systems = choose first option.
+       An Adobe spec would only be applicable to systems that have Adobe.  = choose second option. 
+ 
+ If your spec does not fall under Standard 2601/ is not a configuration Spec:
+   Make sure to edit paragraph 1 under Applicability so that it is accurate for your spec. 
+////
 === Applicability
 
-This Security Configuration Specification is applicable to computing devices managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical/Service Support Centers. 
+// This NASA Technical Specification is applicable to all computing systems.
+// This NASA Technical Specification is applicable to all computing systems using {application}. 
 
-This Specification applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts. 
+This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. It may also apply to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
-* acquiring, developing, integrating, operating, modifying, and maintaining information systems;
-* ensuring system-level implementation of all Agency and Center requirements; and
-*	taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
+=== Tailoring
 
-ISO responsibilities will be added, replaced, or removed from NPR 2810.1x when such changes are deemed appropriate by the Cybersecurity and Privacy Program (CSPP) in order to align these responsibilities with Agency information security- and privacy-related program and project requirements.
-
+Tailoring of this Security Configuration Specification to meet the needs of a specific program, project, or system _SHALL_ be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
 
 === Authority
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/. 
 
-https://standards.nasa.gov/
-
-=== Tailoring
-
-Tailoring of this Security Configuration Specification to meet the needs of a specific program, project, or system _SHALL_ be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
++++<br>+++
 
 ////
 APPLICABLE DOCUMENTS:
@@ -232,6 +251,8 @@ NOTE: Comment out the Non-Government Documents table if you do not have any docu
 |Document Number or Descriptor|Document Title
 
 |===
+
++++<br>+++
 
 ////
 ACRONYMS AND DEFINITIONS:
@@ -299,9 +320,9 @@ ACRONYMS AND DEFINITIONS:
 
 ////
 DEFINITIONS TABLE:
- Comment out this table if you have no definitions to add. 
-  Do not leave a blank table in the document.
-////
+  Leave this table comment blocked out if you have no definitions to add, so as not to leave a blank table in the document.
+  Remove comment block if necessary.
+
 
 .Definitions
 [%header,width="100%",cols=2*a]
@@ -310,8 +331,8 @@ DEFINITIONS TABLE:
 
 | |
 |====
-
-
+////
++++<br>+++
 
 == Version and Lifecycle
 
@@ -343,6 +364,7 @@ endif::[]
 
 |====
 
++++<br>+++
 
 == Security Configurations
  
@@ -408,6 +430,7 @@ GENERAL OPERATIONAL GUIDANCE:
 
 ////
 
++++<br>+++
 
 ////
 APPENDIX SECTION
