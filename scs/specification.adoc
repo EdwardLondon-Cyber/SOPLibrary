@@ -186,7 +186,11 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-Tailoring of this NASA Technical Specification to meet the needs of a specific program, project, or system _SHALL_ be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
+In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system _SHALL_ be approved by the responsible ISO and Authorizing Official (AO) and formally documented by the ISO or system administrators in the system security plan under program or project requirements. 
+
+NASA-STD-2601 mandates that the AO _SHALL_ ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO _SHALL_ ensure all necessary documentation is produced and maintained. 
+
+Note that some NASA Technical Specifications include configuration settings that are classified as "critical". Settings that are classified as "critical" _SHALL NOT_ be eligible for any modifications through the application of an RBD.
 
 === Authority
 
@@ -403,7 +407,7 @@ The table below provides a quick view of the security configuration settings tha
 
 This section contains all settings *required* for Agency compliance, as well as a detailed description for each setting. Required controls are monitored, scored, and reported by the Agency. 
 
-Settings that are classified as *required* _MAY_, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see section 1.4, Tailoring, of this Specification.
+Settings that are classified as *required* _MAY_, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see section 1.3, Tailoring, of this Specification.
 
 
 ////
