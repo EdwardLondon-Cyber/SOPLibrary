@@ -22,13 +22,13 @@
 :document-identifier: NASA-SPEC-2XXXX
 // document version: e.g., 1.0, 1.1, 2.0 etc.
 :document version: vx.x
-// document-title: No acronyms in title - spell them out. USE ALL CAPS
+// document-title: If using acronyms in title, check with Sean for approval.  USE ALL CAPS
 :document-title: DOCUMENT TITLE
 :document-subtitle: NASA TECHNICAL SPECIFICATION
 // approved-date: Input the approved date only when signed. Delete the 20XX-XX-XX and leave blank until it is signed. 
 :approved-date: 20XX-XX-XX
-// document stage: Input either "Draft" or "Baseline"
-:version: Draft
+// document-stage: Input either "Draft" or "Baseline"
+:document-stage: Draft
 // comment block out the cover-page-marks before publishing
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
@@ -57,7 +57,7 @@ DOCUMENT VARIABLES:
 :minversion:
 :removaldate:
 
-= {application} Security Configuration Specification
+= {application} NASA Technical Specification
 
 // Do not show the footer for HTML
 ifdef::backend-html5[]
