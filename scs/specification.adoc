@@ -285,38 +285,18 @@ ACRONYMS AND DEFINITIONS:
 |Term|Expanded
 
 |AO|Authorizing Official
-|ACL|Assessed and Cleared List for technology procurement
 |ASCS|Agency Security Configuration Standards
-|CDM|Continuous Diagnostics and Mitigation
 |CIO|Chief Information Officer
-|CIS|Center for Internet Security
 |CSET|Cybersecurity Standards and Engineering Team
-|CSPP|Cybersecurity and Privacy Program
-|DAR|Data At Rest
-|DISA|Defense Information Systems Agency
 |FFRDC|Federally Funded Research and Development Center
-|FISMA|Federal Information Security Modernization Act
-|FPKI|Federal Public Key Infrastructure
-|GRC|Glenn Research Center
-|ICAM|Identity, Credential, and Access Management
-|IDI|ICAM Device Integration
 |ISO|Information System Owner
 |JPL|Jet Propulsion Laboratory
 |NASA|National Aeronautics and Space Administration
-|NCTR|NASA Client Trust Reference
-|NIST|National Institute of Standards and Technology
 |NPR|NASA Procedural Requirement
-|NSA|National Security Agency
-|NTAM|NASA Trust Anchor Management
 |NTSP|NASA Technical Standards Panel
 |OCIO|Office of the Chief Information Officer
-|PIV|Personal Identity Verification
-|PKI|Public Key Infrastructure
 |RBD|Risk-Based Decision
-|RISCS|Risk Information and Security Compliance System
 |SAISO|Senior Agency Information Security Officer
-|SOC|Security Operations Center
-|STIG|Security Technical Implementation Guide
 
 |====
 
@@ -391,7 +371,7 @@ CRITICAL SETTINGS TABLE:
 
 === Critical Settings Reference
 
-The table below provides a quick view of the security configuration settings that are classified as *critical*. All configurations that are classified as *critical* _SHALL NOT_ be eligible for any modifications through the application of a risk based decision (RBD). The *critical* settings in the table are linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
+The table below provides a quick view of the security configuration settings that are classified as *critical*. All configurations that are classified as *critical* _SHALL NOT_ be eligible for any modifications through the application of an RBD. The *critical* settings in the table are linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
 
 [cols="1h,1"]
 |===
