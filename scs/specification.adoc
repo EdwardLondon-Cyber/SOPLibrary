@@ -186,7 +186,7 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system _SHALL_ be approved by the responsible ISO and Authorizing Official (AO) and formally documented by the ISO or system administrators in the system security plan under program or project requirements. 
+In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system _SHALL_ be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
 
 NASA-STD-2601 mandates that the AO _SHALL_ ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO _SHALL_ ensure all necessary documentation is produced and maintained. 
 
@@ -297,6 +297,7 @@ ACRONYMS AND DEFINITIONS:
 |OCIO|Office of the Chief Information Officer
 |RBD|Risk-Based Decision
 |SAISO|Senior Agency Information Security Officer
+|SSP|System Security Plan
 
 |====
 
