@@ -16,7 +16,7 @@
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
 :toc-placement!:
-
+:sectanchors:
 // Title Page Variables
 :document-type: NASA TECHNICAL SPECIFICATION
 :document-identifier: NASA-SPEC-2XXXX

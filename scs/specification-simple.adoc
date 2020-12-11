@@ -16,6 +16,7 @@
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
 :toc-placement!:
+:sectanchors:
 ////
 TITLE PAGE VARIABLES:
  approved-date: input the approved date only when signed (NOTE: this variable will automatically be plugged into the document history log)

@@ -35,7 +35,7 @@
 :superseding-document-revision: XXXX
 :signatory: First Name Last Name
 :signatory-title: Signatory's Position/Title
-
+:sectanchors:
 
 // Do not show the footer for HTML
 ifdef::backend-html5[]

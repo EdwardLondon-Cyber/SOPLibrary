@@ -33,6 +33,7 @@
 :xrefstyle: full
 // expand levels of header numbers to 5
 :sectnumlevels: 5
+:sectanchors:
 ////
 TABLE CONTENT
 Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete the table.
