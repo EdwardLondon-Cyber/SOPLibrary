@@ -20,7 +20,7 @@
 // Title Page Variables
 :document-type: NASA TECHNICAL SPECIFICATION
 :document-identifier: NASA-SPEC-2XXXX
-// document-version: e.g., 1.0, 1.1, 2.0 etc.
+// document-version: e.g., v1.0, v1.1, v2.0 etc.
 :document-version: vx.x
 // document-title: If using acronyms in title, check with Sean for approval.  USE ALL CAPS
 :document-title: DOCUMENT TITLE
@@ -36,6 +36,8 @@
 :superseding-document: NASA-SPEC-2XXX
 // superseding-document-revision: delete and leave blank if N/A
 :superseding-document-revision: v.XXXX
+// applicability: if this spec is applicable to all computing systems, enter "all". if this spec is only applicable to systems using this OS or application, leave value blank
+:applicability: all
 // xrefstyle full shows the section number and title
 :xrefstyle: full
 
@@ -178,8 +180,13 @@ Applicability:
 ////
 === Applicability
 
-// This NASA Technical Specification is applicable to all computing systems.
-// This NASA Technical Specification is applicable to all computing systems using {application}. 
+ifeval::[ "{applicability}" == "all" ]
+This NASA Technical Specification is applicable to all computing systems.
+endif::[]
+
+ifeval::[ "{applicability}" != "all" ]
+This NASA Technical Specification is applicable to all computing systems using {application}. 
+endif::[]
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. It may also apply to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
