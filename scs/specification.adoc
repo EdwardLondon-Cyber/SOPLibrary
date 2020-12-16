@@ -36,7 +36,7 @@
 :superseding-document: NASA-SPEC-2XXX
 // superseding-document-revision: delete and leave blank if N/A
 :superseding-document-revision: v.XXXX
-// applicability: enter "all" or leave blank
+// applicability: if this spec is applicable to all computing systems, enter "all". if this spec is only applicable to systems using this OS or application, leave value blank
 :applicability: all
 // xrefstyle full shows the section number and title
 :xrefstyle: full
