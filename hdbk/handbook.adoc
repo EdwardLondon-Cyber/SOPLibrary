@@ -19,35 +19,46 @@
 // Title Page Variables
 :document-type: NASA TECHNICAL HANDBOOK
 :document-identifier: NASA-HDBK-XXXX
+// document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval.  
 :document-title: DOCUMENT TITLE
 :document-subtitle: TECHNICAL HANDBOOK
+////
+approved-date: 
+ Input the approved date only when publishing.             
+ Leave blank until then.  
+ Date format: year-month-date
+////
 :approved-date: 20XX-XX-XX
-// document process versions: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
-:version: Initial Draft
-:revision-date: 20XX-XX-XX
+// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+:document-version: vx.x
+// document-stage: Input either  "Draft" or "Published"
+:document-stage: Draft
+// revision-date: remove "//" and input revision date if needed
+// :revision-date: 20XX-XX-XX
+// comment block out the cover-page-marks before publishing
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
-:superseding-document: NASA-HDBK-2XXX
-:superseding-document-revision: XXXX
+// superseding-document: leave blank if N/A, remove "//" and input doc number if needed
+// :superseding-document: NASA-HDBK-2XXX
+// :superseding-document-revision: XXXX
 // xrefstyle full shows the section number and title
 :xrefstyle: full
 // expand levels of header numbers to 5
 :sectnumlevels: 5
 :sectanchors:
+
 ////
-TABLE CONTENT
-Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete the table.
-Description of fields:
-function: Applicaiton function
-application: Application name
-relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
-requiredsettings: Additional required settings, if needed
-version: Minimum application version required
-comments: Additional comments
-removaldate: Required removal date from the enviornment
+TABLE CONTENTS
+ Fill out these fields to complete the table.
+ Description of fields:
+  application: Application name
+  relevanttechnicalstandard:Name of the relevant Technical Standard.  
+    i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
 ////
+
 // Document variables
 :application:
+:relevanttechnicalstandard:
 
 = {application} Handbook
 
@@ -68,31 +79,61 @@ include::document_basecamp/title_page.adoc[]
 toc::[]
 
 [dedication]
+
+////
+DOCUMENT HISTORY LOG:
+  Newest version in the top row!
+  Oldest/first version in the bottom row!
+
+  You must add a row to the top of the table each time a new version of the Handbook is published.
+ 
+  Track drafts and include descriptions for each draft while the document is out for review. 
+
+  But be sure to DELETE DRAFT TRACKING and update the approved date when it is signed and ready to be published. 
+
+  The description box must not be left blank, but it should be brief. 
+   Example descriptions: "Updated to be applicable to xyz"
+
+NOTE: 
+ Approval Date: this will automatically be pulled from the COVER PAGE VARIABLES.
+
+ If you are writing an updated version of a Handbook,  the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+////
+
+[dedication]
 == Document History Log
 
-[%header,width="100%",cols="1,1,1,2,4"]
+[%header,width="100%",cols="1,1,2"]
 |====
-|Status
-|Document Revision
-|Change Number
+|Document Version
 |Approval Date
 |Description
 
-|Baseline
 |1.0
-|
 |{approved-date}
 |
-
 |====
 
 <<<
+
+////
+
+FOREWORD INSTRUCTIONS:
+  You must complete the third paragraph by WRITING THE PURPOSE of this handbook. 
+
+  Example: This NASA Technical Handbook provides guidance for configuring Mission systems to be Personal Identity Verification Mandatory (PIV-M) compliant. 
+
+////
 
 == Foreword
 
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
 
-This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers.
+This NASA Technical Handbook is approved for use by NASA Headquarters and NASA 
+Centers and Facilities. It may also apply to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and 
+cooperative agreements, and parties to other agreements only to the extent specified or 
+referenced in applicable contracts, grants, or agreements.
+
 
 This NASA Technical Handbook establishes current best practices or common guidance for (provide one or two sentences that will be similar to unique Purpose content).
 
