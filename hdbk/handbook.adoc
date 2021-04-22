@@ -183,35 +183,24 @@ https://standards.nasa.gov/.
 == Applicable Documents
 
 === General
-
-The documents listed in this section contain provisions that constitute requirements of this NASA Technical Handbook as cited in the text.
-
-The latest issuances of cited documents shall apply unless specific versions are designated.
-
-Non-use of specifically designated versions shall be approved by the responsible Technical Authority.
-
-The applicable documents are accessible at https://standards.nasa.gov or may be obtained directly from the Standards Developing Body or other document distributors.
+This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the  documents listed in this section.
 
 === Government Documents
 
 ////
 ASSOCIATED DOCUMENTS
   Add Government and Non-Government documents related to this handbook in this section.
-  Add to the tables between the |==== tags, below the header line
-  Example:
-    [%header, cols=2*a]                            <-- table format block
-    |====                                          <-- table opening tag
-    |Document Number|Document Title                <-- header line
-                                                   <-- empty line for readability (optional)
-    |NPR 2810.1|Security of Information Technology <--
-    |NASA-SPEC-0000|Super Special NASA Doc         <--
-                                                   <-- empty line for readability (optional)
-    |====                                          <-- table closing tag
+  
+  List documents in alphanumerical order based on their Document Number or Descriptor.
+
+  Use YOURLS to link to documents and link the Document Number or Descriptor.
+
+
 ////
 
 [%header, cols=2*a]
 |===
-|Document Number|Document Title
+|Document Number or Descriptor|Document Title
 
 |NASA-STD-2601|_Security Requirements for Computing Devices_
 |NPR 2810.1x|_Security of Information Technology_
