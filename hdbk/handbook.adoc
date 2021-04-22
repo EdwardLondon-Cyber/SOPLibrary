@@ -134,10 +134,10 @@ Centers and Facilities. It may also apply to the Jet Propulsion Laboratory (a Fe
 cooperative agreements, and parties to other agreements only to the extent specified or 
 referenced in applicable contracts, grants, or agreements.
 
+This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
+//e.g. provides guidance for. . . / establishes best practices for . . .
 
-This NASA Technical Handbook establishes current best practices or common guidance for (provide one or two sentences that will be similar to unique Purpose content).
-
-Requests for information, corrections, or additions to this NASA Technical Handbook should be directed to the NASA John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
 
 +++<br><br><br><br><br><br><br>+++
 
@@ -154,15 +154,17 @@ COMMON CONTENT
 
 == Scope
 
+CSET handbooks are not requirements documents. Handbooks are produced to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
+
 === Purpose
 
 The purpose of this NASA Technical Handbook is to provide guidance for {application} deployment and operation.
 
 === Applicability
 
-This NASA Technical Handbook is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
+This NASA Technical Handbook is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Handbook applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
 
-NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
+CSET's handbooks serve as supplemental guidance and are developed to help ISOs implement the requirements defined in CSET's standards and specifications. NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
 
 * Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
 * Ensuring system-level implementation of all Agency and Center requirements.
@@ -176,7 +178,7 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
 
-https://standards.nasa.gov/
+https://standards.nasa.gov/.
 
 == Applicable Documents
 
