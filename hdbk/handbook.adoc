@@ -191,11 +191,9 @@ This NASA Technical Handbook provides guidance for configuring systems to be com
 ASSOCIATED DOCUMENTS
   Add Government and Non-Government documents related to this handbook in this section.
   
-  List documents in alphanumerical order based on their Document Number or Descriptor.
+  List documents in alphanumeric order based on their Document Number or Descriptor.
 
   Use YOURLS to link to documents and link the Document Number or Descriptor.
-
-
 ////
 
 [%header, cols=2*a]
