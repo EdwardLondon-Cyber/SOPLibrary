@@ -192,7 +192,7 @@ CSET's handbooks serve as supplemental guidance and are developed to provide ass
 == Applicable Documents
 
 === General
-This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the  documents listed in this section.
+This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the documents listed in this section.
 
 === Government Documents
 
@@ -342,21 +342,21 @@ The following caveats should be carefully reviewed before implementing this solu
 
 ////
 PROCESS/STEP: 
-  At this point, begin walking through the process/solution defined in this handbook. 
+  At this point, begin walking through the process/solution defined in this handbook.
+
+  *Important*: Authors need to title this section with the step or process (do not leave "Process/Step" as this section title.) 
 
   Add sections and subsections as needed to identify different steps in implementing the process/solution. 
 
-  Example (from NASA-HBK-2670, Mission PIV): 
-    The following caveats should be carefully reviewed before implementing this solution:
-      1. For full compliance, this solution requires the use of either the Mission PIV Certificate Revocation List (CRL),which can be found here: Mission PIV CRL Solution, or your own CRL validation solution.
-      2. The registry settings to disable CRL validation for testing need to be removed to be PIV-M compliant.
-      3. The solution provided in this Handbook contains configurations that specifically call out Mission systems and settings.
-
+  *Example* (excerpts from NASA-HBK-2670, Mission PIV): 
+   6. CONFIGURING PIV-M SOLUTION FOR LINUX 
+   7. CONFIGURING PIV-M SOLUTION FOR WINDOWS
+      6.1. Domain-Join Windows Clients to Mission Active Directory
+      6.2. Scope PIV-M MBE GPO to Applicable Endpoints
 ////
 
 == Process/Step 
 
-Content
 
 
 ////
