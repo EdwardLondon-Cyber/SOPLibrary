@@ -1,4 +1,7 @@
 :doctype: book
+ifdef::backend-pdf[]
+:front-cover-image: image::build/pdf-cover.pdf[]
+endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-stylesdir: document_basecamp/
@@ -12,70 +15,49 @@
 :icons: font
 :chapter-label:
 // Table of Contents
+ifdef::backend-html5[]
 :toc: macro
+:toc-placement!:
+endif::[]
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
-:toc-placement!:
-// Title Page Variables
-:document-type: NASA TECHNICAL HANDBOOK
-:document-identifier: NASA-HDBK-XXXX
-// document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval.  
-:document-title: DOCUMENT TITLE
-:document-subtitle: TECHNICAL HANDBOOK
-////
-approved-date: 
- Input the approved date only when publishing.             
- Leave blank until then.  
- Date format: year-month-date
-////
-:approved-date: 20XX-XX-XX
-// document-version: e.g., v1.0,  v1.1, v2.0 etc.
-:document-version: vx.x
-// document-stage: Input either  "Draft" or "Published"
-:document-stage: Draft
-// revision-date: remove "//" and input revision date if needed
-// :revision-date: 20XX-XX-XX
-// comment block out the cover-page-marks before publishing
-:cover-page-mark-1: This official draft has not been approved and is subject to modification
-:cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
-// superseding-document: leave commented out if N/A, remove "//" and input doc number if needed
-// :superseding-document: NASA-HDBK-2XXX
-// :superseding-document-revision: XXXX
 // xrefstyle full shows the section number and title
 :xrefstyle: full
 // expand levels of header numbers to 5
 :sectnumlevels: 5
 :sectanchors:
 
+// Document variables
+include::document-variables.adoc[]
+
+:noheader:
+:nofooter:
+
 ////
-DOCUMENT VARIABLES DESCRIPTIONS:
-  application:  Application name, if applicable to your handbook
+DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
+  topic:  Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
+             *example topic values*: Mission PIV-M, PIV SSSD, macOS Smartcard 
   relevanttechnicalstandard:   Name of the relevant Technical Standard. (i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.)
 ////
 
-// Document variables
-:application:
+// Document variables (that are not on cover page)
+:topic:
 :relevanttechnicalstandard:
 
-= {application} Handbook
-
-// Do not show the footer for HTML
-ifdef::backend-html5[]
-:nofooter:
-endif::[]
-
-// An additional title is needed for PDF output
 ifdef::backend-pdf[]
-[colophon]
-= {nbsp}
+= {topic} Handbook
+{document-subtitle}
+:toc: preamble
 endif::[]
 
-// Title Page
+ifdef::backend-html5[]
+= {topic} Handbook
+
 include::document_basecamp/title_page.adoc[]
 
 toc::[]
 
-[dedication]
+endif::[]
 
 ////
 DOCUMENT HISTORY LOG:
@@ -91,14 +73,17 @@ DOCUMENT HISTORY LOG:
   The description box must not be left blank, but it should be brief. 
    Example descriptions: "Updated to be applicable to xyz"
 
-NOTE: 
- Approval Date: this will automatically be pulled from the COVER PAGE VARIABLES.
+   NOTE: 
+    Approval Date: this will automatically be pulled from the COVER PAGE VARIABLES.
 
- If you are writing an updated version of a Handbook, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+    If you are writing an updated version of a Handbook, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
 ////
 
 [dedication]
 == Document History Log
+ifdef::backend-pdf[]
+:!nofooter:
+endif::[]
 
 [%header,width="100%",cols="1,1,2"]
 |====
@@ -114,7 +99,6 @@ NOTE:
 <<<
 
 ////
-
 FOREWORD INSTRUCTIONS:
   --> Paragraph 3 of Foreword.
       *You must write in THE PURPOSE* of this handbook to complete the sentence that begins with "This NASA Technical Handbook"
@@ -130,7 +114,9 @@ This NASA Technical Handbook is published by the National Aeronautics and Space 
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It may also apply to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
-//e.g. provides guidance for. . . / establishes best practices for . . .
+// provides guidance for {topic} deployment and operation.
+// provides guidance for. . . 
+// establishes best practices for configuring {topic}. . .
 
 Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
 
@@ -169,9 +155,9 @@ PURPOSE:
 
 The purpose of this NASA Technical Handbook is to *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS HANDBOOK)*.
 
-// provide guidance for {application} deployment and operation.
-// provide guidance for configuring . . . 
-// provide an alternative solution for . . .
+// provide guidance for {topic} deployment and operation.
+// provide guidance for configuring {topic}. 
+// provide a solution for . . .
 // establish best practices for configuring . . .
 
 === Applicability
