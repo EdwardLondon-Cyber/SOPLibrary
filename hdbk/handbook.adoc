@@ -230,7 +230,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
   Add and remove acronyms as needed. 
   List acronyms, abbreviations, and definitions in alphabetical order.
 
-  Change the title of Section 3 as necessary: 
+  Change the title of this section as necessary: 
     If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 ////
 
