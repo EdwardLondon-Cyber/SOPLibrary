@@ -257,6 +257,8 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 // |SOC|Security Operations Center
 // |STIG|Security Technical Implementation Guide
 
+
+// If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 |====
 
 .Definitions
