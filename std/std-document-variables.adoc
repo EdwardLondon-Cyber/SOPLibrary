@@ -3,7 +3,7 @@
 :document-identifier: NASA-STD-XXXX
 // document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval. 
 :document-title: DOCUMENT TITLE
-:document-subtitle: TECHNICAL STANDARD
+:document-subtitle: NASA TECHNICAL STANDARD
 ////
 approved-date: 
  Input the approved date only when publishing.             

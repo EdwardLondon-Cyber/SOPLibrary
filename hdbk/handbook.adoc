@@ -27,11 +27,9 @@ endif::[]
 :sectnumlevels: 5
 :sectanchors:
 
-// Document variables
-include::document-variables.adoc[]
+// NOTE: include statement need blank line before and after
 
-:noheader:
-:nofooter:
+include::hdbk-document-variables.adoc[]
 
 ////
 DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
@@ -44,6 +42,9 @@ DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
 :topic:
 :relevanttechnicalstandard:
 
+:noheader:
+:nofooter:
+
 ifdef::backend-pdf[]
 = {topic} Handbook
 {document-subtitle}
@@ -52,6 +53,8 @@ endif::[]
 
 ifdef::backend-html5[]
 = {topic} Handbook
+
+// NOTE: include statement need blank line before and after
 
 include::document_basecamp/title_page.adoc[]
 

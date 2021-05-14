@@ -23,10 +23,13 @@ endif::[]
 :toclevels: 3
 // xrefstyle full shows the section number and title
 :xrefstyle: full
+// expand levels of header numbers to 5
+:sectnumlevels: 5
+:sectanchors:
 
 // NOTE: include statement need blank line before and after
 
-include::document-variables.adoc[]
+include::spec-document-variables.adoc[]
 
 ////
 DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
@@ -58,11 +61,6 @@ endif::[]
 
 ifdef::backend-html5[]
 = {application} NASA Technical Specification
-
-// Do not show the footer for HTML
-ifdef::backend-html5[]
-:nofooter:
-endif::[]
 
 // NOTE: include statement need blank line before and after
 

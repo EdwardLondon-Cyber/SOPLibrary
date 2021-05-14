@@ -29,7 +29,7 @@ endif::[]
 
 // NOTE: include statement need blank line before and after
 
-include::document-variables.adoc[]
+include::std-document-variables.adoc[]
 
 :noheader:
 :nofooter:
