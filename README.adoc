@@ -10,7 +10,7 @@ The files contained in each of these directories serve as the format to be used 
 === CSET Handbooks
 CSET's Handbook template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
 
-*This directory contains the following three files: *
+*This directory contains the following three files:*
 
 * handbook.adoc
 * hbk-pdf-cover.adoc
@@ -28,14 +28,14 @@ When you are ready to write or update your Handbook, follow these steps:
 === CSET Specifications
 CSET's Specification template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
 
-This directory contains the following four files: 
+*This directory contains the following three files:*
 
 * spec-document-variables.adoc
 * spec-pdf-cover.adoc
 * specification-simple.adoc
 * specification.adoc
 
-*When creating or updating a Sepcification* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
+*When creating or updating a Specification* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
 When you are ready to write or update your Spec, follow these steps: 
 
 . Input or edit the variables in the *spec-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
@@ -48,7 +48,8 @@ When you are ready to write or update your Spec, follow these steps:
 === CSET Standards
 CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
-This directory contains the following three files: 
+*This directory contains the following three files:*
+
 * standard.adoc
 * std-document-variables.adoc
 * std-pdf-cover.adoc
