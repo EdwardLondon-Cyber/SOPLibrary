@@ -1,0 +1,25 @@
+// Title Page Variables
+:document-type: NASA TECHNICAL HANDBOOK
+:document-identifier: NASA-HDBK-XXXX
+// document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval.  
+:document-title: DOCUMENT TITLE
+:document-subtitle: TECHNICAL HANDBOOK
+////
+approved-date: 
+ Input the approved date only when publishing.             
+ Leave blank until then.  
+ Date format: year-month-date
+////
+:approved-date: 20XX-XX-XX
+// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+:document-version: vx.x
+// document-stage: Input either  "Draft" or "Published"
+:document-stage: Draft
+// revision-date: remove "//" from line below and input revision date if needed
+// :revision-date: 20XX-XX-XX
+// comment block out the cover-page-marks before publishing
+:cover-page-mark-1: This official draft has not been approved and is subject to modification
+:cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
+// superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
+// :superseding-document: NASA-HDBK-2XXX
+// :superseding-document-revision: XXXX

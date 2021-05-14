@@ -1,4 +1,7 @@
 :doctype: book
+ifdef::backend-pdf[]
+:front-cover-image: image::build/pdf-cover.pdf[]
+endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-stylesdir: document_basecamp/
@@ -12,91 +15,113 @@
 :icons: font
 :chapter-label:
 // Table of Contents
+ifdef::backend-html5[]
 :toc: macro
+:toc-placement!:
+endif::[]
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
-:toc-placement!:
-// Title Page Variables
-:document-type: NASA TECHNICAL HANDBOOK
-:document-identifier: NASA-HDBK-XXXX
-:document-title: DOCUMENT TITLE
-:document-subtitle: TECHNICAL HANDBOOK
-:approved-date: 20XX-XX-XX
-// document process versions: "Initial Draft", "Informal Draft", "Formal Draft", "Final Draft", "Baseline"
-:version: Initial Draft
-:revision-date: 20XX-XX-XX
-:cover-page-mark-1: This official draft has not been approved and is subject to modification
-:cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
-:superseding-document: NASA-HDBK-2XXX
-:superseding-document-revision: XXXX
 // xrefstyle full shows the section number and title
 :xrefstyle: full
 // expand levels of header numbers to 5
 :sectnumlevels: 5
 :sectanchors:
-////
-TABLE CONTENT
-Similar to the CRC table in NASA-STD-2804.  Fill out these fields to complete the table.
-Description of fields:
-function: Applicaiton function
-application: Application name
-relevanttechnicalstandard: Relevant Technical Standard.  i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.
-requiredsettings: Additional required settings, if needed
-version: Minimum application version required
-comments: Additional comments
-removaldate: Required removal date from the enviornment
-////
-// Document variables
-:application:
 
-= {application} Handbook
+// NOTE: include statement need blank line before and after
 
-// Do not show the footer for HTML
-ifdef::backend-html5[]
+include::hdbk-document-variables.adoc[]
+
+////
+DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
+  topic:  Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
+             *example topic values*: Mission PIV-M, PIV SSSD, macOS Smartcard 
+  relevanttechnicalstandard:   Name of the relevant Technical Standard. (i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.)
+////
+
+// Document variables (that are not on cover page)
+:topic:
+:relevanttechnicalstandard:
+
+:noheader:
 :nofooter:
-endif::[]
 
-// An additional title is needed for PDF output
 ifdef::backend-pdf[]
-[colophon]
-= {nbsp}
+= {topic} Handbook
+{document-subtitle}
+:toc: preamble
 endif::[]
 
-// Title Page
+ifdef::backend-html5[]
+= {topic} Handbook
+
+// NOTE: include statement need blank line before and after
+
 include::document_basecamp/title_page.adoc[]
 
 toc::[]
 
+endif::[]
+
+////
+DOCUMENT HISTORY LOG:
+  Newest version in the top row! 
+  Oldest/first version in the bottom row!
+
+  You must *add a row to the top of the table* each time a new version of the Handbook is published.
+ 
+  Track drafts and include descriptions for each draft while the document is out for review. 
+
+  But be sure to DELETE DRAFT TRACKING and update the approved date when it is signed and ready to be published. 
+
+  The description box must not be left blank, but it should be brief. 
+   Example descriptions: "Updated to be applicable to xyz"
+
+   NOTE: 
+    Approval Date: this will automatically be pulled from the document-variables.adoc file.
+
+    If you are writing an updated version of a Handbook, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+////
+
 [dedication]
 == Document History Log
+ifdef::backend-pdf[]
+:!nofooter:
+endif::[]
 
-[%header,width="100%",cols="1,1,1,2,4"]
+[%header,width="100%",cols="1,1,2"]
 |====
-|Status
-|Document Revision
-|Change Number
+|Document Version
 |Approval Date
 |Description
 
-|Baseline
 |1.0
-|
 |{approved-date}
 |
-
 |====
 
 <<<
+
+////
+FOREWORD INSTRUCTIONS:
+  --> Paragraph 3 of Foreword.
+      *You must write in THE PURPOSE* of this handbook to complete the sentence that begins with "This NASA Technical Handbook"
+
+        *Example* (from NASA-HBK-2670, Mission PIV-M):  
+            This NASA Technical Handbook provides guidance for configuring Mission systems to be Personal Identity Verification Mandatory (PIV-M) compliant. 
+////
 
 == Foreword
 
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
 
-This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers.
+This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It may also apply to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-This NASA Technical Handbook establishes current best practices or common guidance for (provide one or two sentences that will be similar to unique Purpose content).
+This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
+// provides guidance for {topic} deployment and operation.
+// provides guidance for. . . 
+// establishes best practices for configuring {topic}. . .
 
-Requests for information, corrections, or additions to this NASA Technical Handbook should be directed to the NASA John H. Glenn Research Center at Lewis Field (GRC), Cybersecurity Standards and Engineering Team (CSET), MS 142-5, Cleveland, OH, 44135 or to nasa-ascs-staff@lists.nasa.gov.
+Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
 
 +++<br><br><br><br><br><br><br>+++
 
@@ -113,67 +138,72 @@ COMMON CONTENT
 
 == Scope
 
+CSET handbooks are not requirements documents. Handbooks are produced to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
+
+////
+PURPOSE: 
+  Make sure to complete the sentence AND provide more supporting details (if necessary) to describe why this handbook is necessary
+
+   *Example* (from NASA-HBK-2670, Mission PIV-M):  
+    The purpose of this NASA Technical Handbook is to provide guidance for configuring Mission systems to be PIV-M compliant. 
+
+    Homeland Security Presidential Directive-12 (HSPD-12), the Federal Information Security Modernization Act (FISMA), and other Federal directives and standards require NASA systems to use PIV-based authentication for physical and logical access (i.e., to be PIV-M compliant). 
+    
+    The solution laid out in this handbook was developed by the Cybersecurity Services and Integration Division (Code 710) System Administrator team in order to allow systems used on networks that are isolated from NASA’s Corporate infrastructure (e.g., Mission systems) to be PIV-M compliant.
+
+    This Handbook provides the configurations necessary for Information System Owners (ISOs) of systems in isolated AD environments to carry out authentication and user management via their own local AD while also enabling these systems to be PIV-M compliant.   
+////
+
 === Purpose
 
-The purpose of this NASA Technical Handbook is to provide guidance for {application} deployment and operation.
+The purpose of this NASA Technical Handbook is to *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS HANDBOOK)*.
+
+// provide guidance for {topic} deployment and operation.
+// provide guidance for configuring {topic}. 
+// provide a solution for . . .
+// establish best practices for configuring . . .
 
 === Applicability
 
-This NASA Technical Handbook is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
+This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It may also apply to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in their applicable contracts, grants, or agreements.
 
-NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
-
-* Acquiring, developing, integrating, operating, modifying, and maintaining information systems.
-* Ensuring system-level implementation of all Agency and Center requirements.
-* Taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
-
-Standard guidance will be added, replaced, or removed as appropriate to align these responsibilities with Agency information security- and privacy-related program and project requirements.
+This NASA Technical Handbook, or portions thereof, may be referenced in contract, program, 
+and other Agency documents for guidance. When it contains procedural or process requirements, they may be cited in contract, program, and other Agency documents.
 
 === Authority
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at:
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/.
 
-https://standards.nasa.gov/
+CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in _Section 2. Applicable Documents_. 
+
+////
+APPLICABLE DOCUMENTS
+  Add Government and Non-Government documents related to this handbook in this section.
+  
+  List documents in alphanumeric order based on their Document Number or Descriptor.
+
+  Use YOURLS to link to documents and link the Document Number or Descriptor.
+////
 
 == Applicable Documents
 
 === General
-
-The documents listed in this section contain provisions that constitute requirements of this NASA Technical Handbook as cited in the text.
-
-The latest issuances of cited documents shall apply unless specific versions are designated.
-
-Non-use of specifically designated versions shall be approved by the responsible Technical Authority.
-
-The applicable documents are accessible at https://standards.nasa.gov or may be obtained directly from the Standards Developing Body or other document distributors.
+This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the documents listed in this section.
 
 === Government Documents
 
-////
-ASSOCIATED DOCUMENTS
-  Add Government and Non-Government documents related to this handbook in this section.
-  Add to the tables between the |==== tags, below the header line
-  Example:
-    [%header, cols=2*a]                            <-- table format block
-    |====                                          <-- table opening tag
-    |Document Number|Document Title                <-- header line
-                                                   <-- empty line for readability (optional)
-    |NPR 2810.1|Security of Information Technology <--
-    |NASA-SPEC-0000|Super Special NASA Doc         <--
-                                                   <-- empty line for readability (optional)
-    |====                                          <-- table closing tag
-////
-
 [%header, cols=2*a]
-|===
-|Document Number|Document Title
-
-|NASA-STD-2601|_Security Requirements for Computing Devices_
-|NPR 2810.1x|_Security of Information Technology_
 
 |===
+|Document Number or Descriptor|Document Title
+
+|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.x]| _Security of Information Technology_
+|===
+
+// NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
 
 === Non-Government Documents
 
@@ -187,61 +217,60 @@ ASSOCIATED DOCUMENTS
 
 ////
 ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
-  The following tables should be in alphabetical order
-  Note they do not have a header line, so content can be added in order.
-  Add to the tables between the |==== tags
-  Example:
-    .Definitions                                   <-- table title (will display in presentation)
-    [%header, cols=2*a]                            <-- table format block
-    |====                                          <-- table opening tag
-    |Space|Is really, really big                   <-- term and definition/acronym and expansion
-                                                   <-- empty line for readability (optional)
-    |====                                          <-- table closing tag
+  Add and remove acronyms as needed. 
+  List acronyms, abbreviations, and definitions in alphabetical order.
+
+  Change the title of this section as necessary: 
+    If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 ////
 
-== Acronyms and Definitions
+== Acronyms, Abbreviations, and Definitions
 
 .Acronyms and Abbreviations
 [width="100%",cols="1,3"]
 |====
 |AO|Authorizing Official
-|ACL|Assessed and Cleared List for technology procurement
+// |ACL|Assessed and Cleared List for technology procurement
 |ASCS|Agency Security Configuration Standards
-|CDM|Continuous Diagnostics and Mitigation
+// |CDM|Continuous Diagnostics and Mitigation
 |CIO|Chief Information Officer
 |CIS|Center for Internet Security
 |CSET|Cybersecurity Standards and Engineering Team
-|DAR|Data At Rest
-|DISA|Defense Information Systems Agency
+// |DAR|Data At Rest
+// |DISA|Defense Information Systems Agency
 |FFRDC|Federally Funded Research and Development Center
 |FISMA|Federal Information Security Modernization Act
-|FPKI|Federal Public Key Infrastructure
+//|FPKI|Federal Public Key Infrastructure
 |GRC|Glenn Research Center
-|ICAM|Identity, Credential, and Access Management
-|IDI|ICAM Device Integration
+// |ICAM|Identity, Credential, and Access Management
+// |IDI|ICAM Device Integration
 |ISO|Information System Owner
 |JPL|Jet Propulsion Laboratory
 |NASA|National Aeronautics and Space Administration
-|NCTR|NASA Client Trust Reference
-|NIST|National Institute of Standards and Technology
+// |NCTR|NASA Client Trust Reference
+// |NIST|National Institute of Standards and Technology
 |NPR|NASA Procedural Requirement
-|NSA|National Security Agency
-|NTAM|NASA Trust Anchor Management
+// |NSA|National Security Agency
+// |NTAM|NASA Trust Anchor Management
 |NTSP|NASA Technical Standards Panel
 |OCIO|Office of the Chief Information Officer
-|PIV|Personal Identity Verification
-|PKI|Public Key Infrastructure
-|RISCS|Risk Information and Security Compliance System
+// |PIV|Personal Identity Verification
+// |PKI|Public Key Infrastructure
+// |RISCS|Risk Information and Security Compliance System
 |SAISO|Senior Agency Information Security Officer
-|SOC|Security Operations Center
-|STIG|Security Technical Implementation Guide
+// |SOC|Security Operations Center
+// |SSP|System Security Plan
+// |STIG|Security Technical Implementation Guide
 
 |====
+
+
+// If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 
 .Definitions
 [width="100%",cols="1,3"]
 |====
-||
+| |
 
 |====
 
@@ -249,7 +278,6 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 DOCUMENT CONTENT
   At this point the body of the document starts.
   Numbering should be at section 4.
-  Each section beyond this (notated by ==) will increment.
 
 NOTE ON INTERNAL CROSS REFERENCE:
   when using internal cross references use the internal function
@@ -265,28 +293,83 @@ NOTE ON INTERNAL CROSS REFERENCE:
     i.e. "6.4.2. Example of a sub-section Title"
 ////
 
-== DOCUMENT BODY WHICH STARTS AT SECTION 4
+////
+PREREQUISITES: 
+  Clearly define anything that is required for someone to implement the steps in this handbook.
 
-Content
+  *Example* (from NASA-HBK-2670, Mission PIV-M):  
+    The following requirements must be met on a server for this solution to be viable:
+      1. The server must be running Windows Server 2016 or Windows Server 2019.
+      2. The AD Domain Services (AD DS) role must be installed.
+      3. The user configuring the PIV-M solution must have an AD user account with Domain Admin rights.
+
+       * Domain Admin rights are required to add the sshPublicKeys attribute and to execute general AD configurations.
+
+////
+
+== Prerequisites
+
+The following requirements must be met for this solution to be viable:
+
+. 
+. 
+
+////
+CAVEATS: 
+  Clearly define any caveats for the solution/process defined in this handbook. 
+  Delete or comment out this section if N/A. 
+
+ *Example* (from NASA-HBK-2670, Mission PIV-M):  
+   The following caveats should be carefully reviewed before implementing this solution:
+      1. For full compliance, this solution requires the use of either the Mission PIV Certificate Revocation List (CRL),which can be found here: Mission PIV CRL Solution, or your own CRL validation solution.
+      2. The registry settings to disable CRL validation for testing need to be removed to be PIV-M compliant.
+      3. The solution provided in this Handbook contains configurations that specifically call out Mission systems and settings.
+
+////
+
+== Caveats
+
+The following caveats should be carefully reviewed before implementing this solution:
+
+. 
+. 
+
+////
+PROCESS/STEP: 
+  At this point, begin walking through the process/solution defined in this handbook.
+
+  *Important*: Authors need to title this section with the step or process (do not leave "Process/Step" as this section title.) 
+
+  Add sections and subsections as needed to identify different steps in implementing the process/solution. 
+
+  *Example* (excerpts from NASA-HBK-2670, Mission PIV): 
+   6. CONFIGURING PIV-M SOLUTION FOR LINUX 
+   7. CONFIGURING PIV-M SOLUTION FOR WINDOWS
+      6.1. Domain-Join Windows Clients to Mission Active Directory
+      6.2. Scope PIV-M MBE GPO to Applicable Endpoints
+////
+
+== Process/Step 
+
 
 
 ////
 APPENDIX SECTION
 
-  Appendix number differently then the document, so make sure to use 3 or more morkers on subsection
+  Appendices are identified differently then the rest of the document, so make sure to use 3 or more markers on subsection titles (=== SUBSECTION).
+  
+  If you drop to 2 markers (==) it will start normal numbering again.
 
-    titles (=== SUBSECTION). If you drop to 2 markers (==) it will start normal numbering again.
   Content of the appendix will format for sections and subsection, but not number them.
+  
   It is appropriate to continue using heading tags (===) as normal.
+  
+  Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
+     APPENDIX A: TITLE OF APPENDIX
 
-  Appendix will be lettered based on the [appendix] tag, so the example title will appear as
-
-  APPENDIX A: TITLE OF APPENDIX
-
-
-  Additional appendix can be used by the [appendix] tag immediately followed on the next line with a
-    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
-
+  Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
+  
+  Subsequent appendices will use appropriate letters (B, C, D...)
 ////
 
 [appendix]
