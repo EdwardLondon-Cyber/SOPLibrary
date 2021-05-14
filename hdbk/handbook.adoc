@@ -175,21 +175,21 @@ The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA
 
 CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in _Section 2. Applicable Documents_. 
 
-== Applicable Documents
-
-=== General
-This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the documents listed in this section.
-
-=== Government Documents
-
 ////
-ASSOCIATED DOCUMENTS
+APPLICABLE DOCUMENTS
   Add Government and Non-Government documents related to this handbook in this section.
   
   List documents in alphanumeric order based on their Document Number or Descriptor.
 
   Use YOURLS to link to documents and link the Document Number or Descriptor.
 ////
+
+== Applicable Documents
+
+=== General
+This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the documents listed in this section.
+
+=== Government Documents
 
 [%header, cols=2*a]
 
@@ -200,6 +200,7 @@ ASSOCIATED DOCUMENTS
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.x]| _Security of Information Technology_
 |===
 
+// NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
 
 === Non-Government Documents
 
@@ -255,11 +256,13 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 // |RISCS|Risk Information and Security Compliance System
 |SAISO|Senior Agency Information Security Officer
 // |SOC|Security Operations Center
+// |SSP|System Security Plan
 // |STIG|Security Technical Implementation Guide
+
+|====
 
 
 // If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
-|====
 
 .Definitions
 [width="100%",cols="1,3"]
