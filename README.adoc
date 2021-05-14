@@ -1,16 +1,65 @@
 = Document Basecamp
 
-This repository houses the AsciiDoc templates and styles utilized to create documents (e.g. Standards, Handbook, Specifications).
+This repository houses the AsciiDoc templates and styles utilized to create CSET's Standards, Handbook, Specifications.
 
 == Templates
+The following subsections provide directions on where to find each of CSET's document template directories, the contents of those directories, and instructions on how to use the files contained in those directories. 
 
-=== Security Configuration Specifications
+The files contained in each of these directories serve as the format to be used for creating each kind of CSET document. 
 
-The template files are located in the following location.
+=== CSET Handbooks
+CSET's Handbook template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
 
-* link::scs[scs/]
+*This directory contains the following three files: *
 
-The files contained in this directory serve as the format to be used for Security Configuration Specifications based on NASA-NTSP-3 guidelines.
+* handbook.adoc
+* hbk-pdf-cover.adoc
+* hdbk-document-variables.adoc
+
+*When creating or updating a Handbook* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
+When you are ready to write or update your Handbook, follow these steps: 
+
+. Input or edit the variables in the *hdbk-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
+. Then write or update the *handbook.adoc* file - this is where the main contents of your Handbook will be contained. 
+
+*Note:*  You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Handbook to be properly generated. 
+
+
+=== CSET Specifications
+CSET's Specification template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
+
+This directory contains the following four files: 
+
+* spec-document-variables.adoc
+* spec-pdf-cover.adoc
+* specification-simple.adoc
+* specification.adoc
+
+*When creating or updating a Sepcification* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
+When you are ready to write or update your Spec, follow these steps: 
+
+. Input or edit the variables in the *spec-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
+. Then write or update the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
+.. Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
+
+*Note:*  You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+
+
+=== CSET Standards
+CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
+
+This directory contains the following three files: 
+* standard.adoc
+* std-document-variables.adoc
+* std-pdf-cover.adoc
+
+*When creating or updating a Standard* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
+When you are ready to write or update your Standard, follow these steps: 
+
+. Input or edit the variables in the *std-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
+. Then write or update the *standard.adoc* file - this is where the main contents of your Standard will be contained. 
+
+*Note:*  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
 
 == Git workflow
 
