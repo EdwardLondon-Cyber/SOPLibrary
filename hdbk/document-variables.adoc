@@ -15,11 +15,11 @@ approved-date:
 :document-version: vx.x
 // document-stage: Input either  "Draft" or "Published"
 :document-stage: Draft
-// revision-date: remove "//" and input revision date if needed
+// revision-date: remove "//" from line below and input revision date if needed
 // :revision-date: 20XX-XX-XX
 // comment block out the cover-page-marks before publishing
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
-// superseding-document: leave commented out if N/A, remove "//" and input doc number if needed
+// superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
 // :superseding-document: NASA-HDBK-2XXX
 // :superseding-document-revision: XXXX
