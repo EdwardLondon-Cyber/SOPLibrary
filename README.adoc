@@ -16,24 +16,45 @@ CSET's Handbook template directory is located in the following location: https:/
 * hbk-pdf-cover.adoc
 * hdbk-document-variables.adoc
 
+WARNING: Do not rename these files. Files reference each other by name.
+
 *When creating or updating a Handbook* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
 When you are ready to write or update your Handbook, follow these steps: 
 
 . Input or edit the variables in the *hdbk-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
 . Then write or update the *handbook.adoc* file - this is where the main contents of your Handbook will be contained. 
 
-*Note:*  You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Handbook to be properly generated. 
+NOTE:  You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Handbook to be properly generated. 
 
+=== Generating HTML Handbooks
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor -D build handbook.adoc
+----
+
+=== Generating PDF Handbooks
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor-pdf -D build hdbk-pdf-cover.adoc handbook.adoc
+----
 
 === CSET Specifications
 CSET's Specification template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
 
-*This directory contains the following three files:*
+*This directory contains the following four files:*
 
 * spec-document-variables.adoc
 * spec-pdf-cover.adoc
 * specification-simple.adoc
 * specification.adoc
+
+WARNING: Do not rename these files. Files reference each other by name.
 
 *When creating or updating a Specification* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
 When you are ready to write or update your Spec, follow these steps: 
@@ -42,8 +63,26 @@ When you are ready to write or update your Spec, follow these steps:
 . Then write or update the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
 .. Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
 
-*Note:*  You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+NOTE:  You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
 
+
+=== Generating HTML Specifications
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor -D build specification.adoc
+----
+
+=== Generating PDF Specifications
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
+----
 
 === CSET Standards
 CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
@@ -54,13 +93,37 @@ CSET's Standards template directory is located in the following location: https:
 * std-document-variables.adoc
 * std-pdf-cover.adoc
 
+WARNING: Do not rename these files. Files reference each other by name.
+
 *When creating or updating a Standard* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
 When you are ready to write or update your Standard, follow these steps: 
 
 . Input or edit the variables in the *std-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
 . Then write or update the *standard.adoc* file - this is where the main contents of your Standard will be contained. 
 
-*Note:*  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+NOTE:  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+
+=== Generating HTML Standards
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor -D build standard.adoc
+----
+
+=== Generating PDF Standards
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
+----
+
+
+
+////
 
 == Git workflow
 
@@ -176,41 +239,13 @@ In most cases generation of the published version of the files are done via comm
 
 [source]
 ----
-asciidoctor -a allow-data-uri <name of doc>.adoc
+asciidoctor -D build <doc type>.adoc
 ----
 
 === Generating PDF
 
 [source]
 ----
-asciidoctor-pdf -r ./document_basecamp/scripts/asciidoctor-pdf-extensions.rb <name of doc>.adoc
+asciidoctor-pdf -D build <doc type>-pdf-cover.adoc <doc type>.adoc
 ----
-
-== Platform Specific Notes
-
-=== Linux Setup
-
-In order to get asciidoctor and asciidoctor-pdf working on RHEL 7 Workstations the following configurations should be made. 
-
-Using rbenv (https://github.com/rbenv/rbenv)[https://github.com/rbenv/rbenv] allows us to have multiple version of Ruby since the stock version in RHEL 7 does not support asciidoctor-pdf. 
-
-[source]
-----
-mkdir ~/opensource
-cd ~/opensource
-git clone https://github.com/rbenv/rbenv.git
-ln -s opensource/rbenv .rbenv
-export PATH=$PATH:/home/jtgilber/.rbenv/bin
-mkdir -p "$(rbenv root)"/plugins
-git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-sudo yum install openssl-devel readline-devel zlib-devel
-eval "$(rbenv init -)"
-rbenv install 2.5.1
-rbenv global 2.5.1
-rbenv local 2.5.1
-gem install asciidoctor
-gem install asciidoctor-pdf
-gem install pygments.rb
-gem install coderay
-----
-
+////
