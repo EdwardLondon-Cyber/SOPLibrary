@@ -8,7 +8,7 @@
 :notitle:
 :numbered!:
 
-include::document-variables.adoc[]
+include::std-document-variables.adoc[]
 
 :nofooter:
 :noheader:

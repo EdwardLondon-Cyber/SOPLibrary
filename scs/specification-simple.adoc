@@ -26,7 +26,7 @@ endif::[]
 
 // NOTE: include statement need blank line before and after
 
-include::document-variables.adoc[]
+include::spec-document-variables.adoc[]
 
 ////
 DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
