@@ -1,6 +1,6 @@
 :doctype: book
 ifdef::backend-pdf[]
-:front-cover-image: image::build/pdf-cover.pdf[]
+:front-cover-image: image::build/std-pdf-cover.pdf[]
 endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
