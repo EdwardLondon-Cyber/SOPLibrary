@@ -121,43 +121,9 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
 ----
 
-
-
-////
-
-== Git workflow
-
-=== New Repository 
-
-TODO: link or document the developer.nasa.gov side of making a new repository
-
-=== First Clone
-
-Cloning a local copy of your working repository can be done via GUI or via shell commands. 
-
-TODO: link to GUI 
-
-.Command Line Cloning
-[source]
-----
-git clone <name of repo>
-----
-
-=== First Branch
-
-Since the repository clone will place you in the master branch the first action will be to make a new branch to work in.
-
-.Command Line Branch
-[source]
-----
-cd <name of repo>
-git branch <new branch name>
-git checkout <new branch name>
-----
+== Git Workflow
 
 === Git Submodule 
-
-After cloning and in a new branch you can link the common templates and tools with the repository.
 
 Adding the Document Basecamp to a document tree uses the git submodule command. The document_basecamp directory will be added as a submodule in the repository. 
 
@@ -170,51 +136,11 @@ git commit -m "adding document_basecamp to document"
 git push origin <branch name>
 ----
 
-=== Document Header
-
-All asciidoc documents will need to have a header added in order to publish with the proper presentation settings provided by the document_basecamp. A helper script is provided in the document_basecamp that will generate this base and add an entry into the README file associated to the document repository. 
-
-Manually adding the header to a document is valid as well, a new document should be created and the following header added to it. 
-
-.Document header example
-[source]
-----
-= <the title of your document>
-:doctype: article
-:pdf-fontsdir: document_basecamp/fonts/
-:pdf-stylesdir: document_basecamp/
-:stylesdir: document_basecamp/
-:pdf-style: asciidoctor-pdf.yml
-:stylesheet: asciidoctor.css
-:toc: macro
-:toc-title: TABLE OF CONTENTS
-:toclevels: 3
-:toc-placement!:
-----
-
-It is good practice to add a link into the README file of the repository since the README file is the landing page for the document repository. 
-
-.README file link example
-[source]
-----
-link:<the name of your asciidocfile>.adoc[]
-----
-
-=== First Push
-
-Now that you have a new repository, a branch to work in, the basecamp set up, and some simple file stubs, you should push the branch up to the server regularly while you are working on it. 
-
-.Command Line Branch Push
-[source]
-----
-git add .
-git commit -m "<make a comment about what the changes are>"
-git push origin <branch name>
-----
-
 === Continued Maintenance
 
-Cloning or fetching the document_basecamp from a previous commit, this is done in the root of the document. Before you run these commands you should see a .gitmodule file (hidden) and a document_basecamp directory that is empty. 
+Cloning or fetching the document_basecamp from a previous commit, this is done in the root of the document. Before you run these commands you should see a .gitmodule file (hidden) and a document_basecamp directory that is empty.
+
+Adding document_basecamp after cloning a repository
 
 [source]
 ----
@@ -230,22 +156,3 @@ cd document_basecamp
 git fetch
 git merge -s recursive -Xours origin origin/master
 ----
-
-== Asciidoctor 
-
-In most cases generation of the published version of the files are done via commands on the command line, if you are using a GUI tool the should be an option to open in Shell (Windows) or Terminal (Mac). 
-
-=== Generating HTML
-
-[source]
-----
-asciidoctor -D build <doc type>.adoc
-----
-
-=== Generating PDF
-
-[source]
-----
-asciidoctor-pdf -D build <doc type>-pdf-cover.adoc <doc type>.adoc
-----
-////
