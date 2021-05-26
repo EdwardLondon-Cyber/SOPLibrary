@@ -37,7 +37,7 @@ page:
   size: LETTER
   #size: A4
 base:
-  align: justify
+  #align: justify
   # color as hex string (leading # is optional)
   font_color: 333333
   # color as RGB array
