@@ -86,6 +86,7 @@ DOCUMENT HISTORY LOG:
 == Document History Log
 ifdef::backend-pdf[]
 :!nofooter:
+:!noheader:
 endif::[]
 
 [%header,width="100%",cols="1,1,2"]

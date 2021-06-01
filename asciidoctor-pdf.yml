@@ -263,7 +263,7 @@ header:
   height: $base_line_height_length * 2.5
   line_height: 1
   padding: [$base_line_height_length / 2, 1, 0, 1]
-  vertical_align: top
+  vertical_align: bottom
   #image_vertical_align: <alignment> or <number>
   # additional attributes for content:
   # * {page-count}
@@ -280,14 +280,22 @@ header:
       #content: '{section-or-chapter-title} | {page-number}'
       #content: '{document-title} | {page-number}'
     center:
-      content: '{version} -- {document-title} -- {revision-date}'
+      content: '{document-title}'
+    right:
+      content:
+    left:
+      content:
   verso:
     #columns: $footer_recto_columns
     #left:
       #content: $footer_recto_right_content
       #content: '{page-number} | {chapter-title}'
     center:
-      content: '{version} -- {document-title} -- {revision-date}'
+      content: '{document-title}'
+    right:
+      content:
+    left:
+      content:
 footer:
   font_size: $base_font_size_small
   # NOTE if background_color is set, background and border will span width of page
@@ -314,6 +322,10 @@ footer:
       #content: '{document-title} | {page-number}'
     center:
       content: '{page-number} of {page-count}'
+    right:
+      content:
+    left:
+      content:
   verso:
     #columns: $footer_recto_columns
     #left:
@@ -321,3 +333,7 @@ footer:
       #content: '{page-number} | {chapter-title}'
     center:
       content: '{page-number} of {page-count}'
+    right:
+      content:
+    left:
+      content:
