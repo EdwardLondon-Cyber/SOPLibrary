@@ -13,10 +13,13 @@ endif::superseding-document[]
 [cols="^.^1s",width="100%"]
 |===
 |+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{document-title}+++<br>+++{document-subtitle}+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-ifdef::version[]
-ifeval::["{version}" != "Baseline"]
-+++{version}+++
+ifdef::document-version[]
+ifeval::["{document-version}" != "Baseline"]
++++{document-version} {document-stage}+++
 endif::[]
-endif::version[]
+ifeval::["{document-version}" == "Baseline"]
++++{document-version}+++
+endif::[]
+endif::document-version[]
 <br><br>+++{cover-page-mark-1}+++<br>+++{cover-page-mark-2}+++<br><br><br><br><br><br><br><br><br>+++
 |===

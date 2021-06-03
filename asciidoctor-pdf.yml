@@ -280,7 +280,7 @@ header:
       #content: '{section-or-chapter-title} | {page-number}'
       #content: '{document-title} | {page-number}'
     center:
-      content: '{document-title}'
+      content: '{document-header}'
     right:
       content:
     left:
@@ -291,7 +291,7 @@ header:
       #content: $footer_recto_right_content
       #content: '{page-number} | {chapter-title}'
     center:
-      content: '{document-title}'
+      content: '{document-header}'
     right:
       content:
     left:
