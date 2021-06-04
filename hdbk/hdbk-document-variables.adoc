@@ -23,3 +23,6 @@ approved-date:
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
 // :superseding-document: NASA-HDBK-2XXX
 // :superseding-document-revision: XXXX
+
+// Customize the PDF header
+:document-header: {document-identifier} {document-version} {document-stage}

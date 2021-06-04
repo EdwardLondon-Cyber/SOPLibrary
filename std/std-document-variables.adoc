@@ -25,3 +25,6 @@ approved-date:
 // :superseding-document-revision: XXXX
 :signatory: First Name Last Name
 :signatory-title: Signatory's Position/Title
+
+// Customize the PDF header
+:document-header: {document-identifier} {document-version} {document-stage}
