@@ -17,7 +17,7 @@ approved-date:
 :document-stage: Draft
 // revision-date: remove "//" from line below and input revision date if needed
 // :revision-date: 20XX-XX-XX
-// comment block out the cover-page-marks before publishing
+// delete values for the cover-page-marks and leave blank before publishing - do not comment out or build script will break
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
