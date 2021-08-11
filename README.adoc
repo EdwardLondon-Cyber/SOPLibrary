@@ -20,7 +20,7 @@ CSET's Handbook template directory is located in the following location: https:/
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-=== Using the CSET Standard Template
+=== Using the CSET Handbook Template
 
 1. Open your Handbook in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Handbook. (See Section 5.1., _Git Submodule_ for instructions.)
