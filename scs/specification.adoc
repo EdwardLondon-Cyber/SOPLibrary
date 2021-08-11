@@ -194,6 +194,8 @@ In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Comput
 
 NASA-STD-2601 mandates that the AO _SHALL_ ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO _SHALL_ ensure all necessary documentation is produced and maintained. 
 
+Document tailoring of the requirements in this NASA Technical Specification for application to a specific program or project as part of program or project requirements and obtain formal approval by the delegated Technical Authority in accordance with NPR 7120.5__x__, _NASA Space Flight Program and Project Management Requirements_.
+
 Note that some NASA Technical Specifications include configuration settings that are classified as "critical". Settings that are classified as "critical" _SHALL NOT_ be eligible for any modifications through the application of an RBD.
 
 === Authority
