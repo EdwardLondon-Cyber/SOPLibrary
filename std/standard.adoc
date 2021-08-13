@@ -175,7 +175,7 @@ The documents listed in this section contain provisions that constitute requirem
 NASA Technical Standard as cited in the text.
 These documents can serve as additional support in meeting the requirements of this NASA Technical Standard.
 
-NOTE: A suffix of __x__ on a document identifier indicates that the latest issuances of the document applies.
+NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
 === Government Documents
 
@@ -193,7 +193,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 [%header, cols=2*a]
 |===
-|Document Number|Document Title
+|Document Identifier|Document Title
 |===
 
 ////

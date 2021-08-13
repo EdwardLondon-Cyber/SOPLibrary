@@ -221,7 +221,7 @@ APPLICABLE DOCUMENTS
 
 The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this  Specification. 
 
-NOTE: A suffix of __x__ on a document identifier indicates that the latest issuances of the document applies.
+NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
 === Government Documents
 
@@ -242,7 +242,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 [%header, cols=2*a]
 |===
-|Document Number or Descriptor|Document Title
+|Document Identifier|Document Title
 
 |===
 
