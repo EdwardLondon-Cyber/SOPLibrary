@@ -120,8 +120,6 @@ WARNING: Do not rename these files. Files reference each other by name.
  * standard.adoc
  * std-document-variables.adoc
  * std-pdf-cover.adoc
- 
-image::/document_basecamp/template.copy.png[template.copy]
 
 4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
 ** The variables in this document will be used throughout the Standard and the cover page. 
