@@ -139,7 +139,7 @@ COMMON CONTENT
 
 == Scope
 
-CSET handbooks are not requirements documents. Handbooks are produced to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
+CSET handbooks are not requirements documents. Handbooks provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
 
 ////
 PURPOSE: 
@@ -177,7 +177,7 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/.
 
-CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in _Section 2. Applicable Documents_. 
+CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in Section 2., _Applicable Documents_. 
 
 ////
 APPLICABLE DOCUMENTS
