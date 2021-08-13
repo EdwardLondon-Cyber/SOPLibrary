@@ -24,7 +24,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 1. Open your Handbook in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Handbook. (See Section 5.1., _Git Submodule_ for instructions.)
-3. From the Document Basecamp folder in your Handbook's directory, make a copy of the following files and paste them into your Handbook's main directory: 
+3. From the Document Basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
 
  * handbook.adoc
  * hbk-pdf-cover.adoc
@@ -70,7 +70,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 1. Open your Specification in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Specification. (See Section 5.1., _Git Submodule_ for instructions.)
-3. From the Document Basecamp folder in your Spec's directory, make a copy of the following files and paste them into your Specification's main directory: 
+3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
  * spec-document-variables.adoc
  * spec-pdf-cover.adoc
  * specification.adoc  OR specification-simple.adoc
@@ -115,7 +115,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 1. Open your Standard in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Standard. (See Section 5.1., _Git Submodule_ for instructions.)
-3. From the Document Basecamp folder in your Standard's directory, make a copy of the following files and paste them into your Standard's main directory: 
+3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
 
  * standard.adoc
  * std-document-variables.adoc
