@@ -144,6 +144,11 @@ The purpose of this NASA Technical Standard is to *(COMPLETE THIS SECTION BY EXP
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
+// the requirement statement acronym consists of the number from the document identifier (e.g., 2601), followed by a space, and then the letter R (for requirement) and a number. 
+// *EXAMPLE: the first _SHALL_ statement within NASA-STD-2601 will be preceded by this: (2601 R1)
+
+Verifiable requirement statements are numbered and designated by the acronym (260X R); verifiable requirement statements contain the word "_SHALL_". This NASA Technical Standard contains # requirements. Explanatory or guidance text is indicated in italics beginning in section 4. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
+
 === Authority
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
