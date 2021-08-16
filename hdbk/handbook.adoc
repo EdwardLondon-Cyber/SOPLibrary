@@ -166,7 +166,7 @@ The purpose of this NASA Technical Handbook is to *(COMPLETE THIS SECTION BY EXP
 
 === Applicability
 
-This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It may also apply to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in their applicable contracts, grants, or agreements.
+This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in their applicable contracts, grants, or agreements.
 
 This NASA Technical Handbook, or portions thereof, may be referenced in contract, program, 
 and other Agency documents for guidance. When it contains procedural or process requirements, they may be cited in contract, program, and other Agency documents.
