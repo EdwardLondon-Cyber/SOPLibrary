@@ -30,7 +30,7 @@ WARNING: Do not rename these files. Files reference each other by name.
  * hbk-pdf-cover.adoc
  * hdbk-document-variables.adoc
 
-image::images/template.copy.png[screenshot of files that need to be copied]
+image::images/handbook.files.png[screenshot of handbook files that need to be copied from document basecamp into main directory]
 
 4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
 ** The variables in this document will be used throughout the Handbook and the cover page. 
