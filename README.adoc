@@ -9,7 +9,7 @@ The following subsections provide directions on where to find each of CSET's doc
 
 The files contained in each of these directories serve as the format to be used for creating each kind of CSET document. 
 
-== CSET Handbooks
+=== CSET Handbooks
 CSET's Handbook template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
 
 *This directory contains the following three files:*
@@ -20,7 +20,7 @@ CSET's Handbook template directory is located in the following location: https:/
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-=== Using the CSET Handbook Template
+==== Using the CSET Handbook Template
 
 
 [%header, width="100%", cols=2*a]
@@ -30,7 +30,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 |1. Open your Handbook in Visual Studio Code (VSC).
 
-2. Add Document Basecamp as a submodule within your Handbook. (See Section 5.1., _Git Submodule_ for instructions.)
+2. Add Document Basecamp as a submodule within your Handbook. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 
 3. From the Document Basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
 
@@ -47,7 +47,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 ^.^a|image::images/handbook.files.png[screenshot of handbook files that need to be copied from document basecamp into main directory]
 |===
 
-==== Generating HTML Handbooks
+===== Generating HTML Handbooks
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -56,7 +56,7 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor -D build handbook.adoc
 ----
 
-==== Generating PDF Handbooks
+===== Generating PDF Handbooks
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -65,7 +65,7 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor-pdf -D build hdbk-pdf-cover.adoc handbook.adoc
 ----
 
-== CSET Specifications
+=== CSET Specifications
 CSET's Specification template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
 
 *This directory contains the following four files:*
@@ -77,7 +77,7 @@ CSET's Specification template directory is located in the following location: ht
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-=== Using the CSET Specification Template
+==== Using the CSET Specification Template
 
 [%header, width="100%", cols=2*a]
 |===
@@ -85,7 +85,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 ^.^|Example
 
 |1. Open your Specification in Visual Studio Code (VSC).
-2. Add Document Basecamp as a submodule within your Specification. (See Section 5.1., _Git Submodule_ for instructions.)
+2. Add Document Basecamp as a submodule within your Specification. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
  * spec-document-variables.adoc
  * spec-pdf-cover.adoc
@@ -100,7 +100,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 ^.^a|image::images/spec.files.png[screenshot of specification files that need to be copied from document basecamp into main directory]
 |===
 
-==== Generating HTML Specifications
+===== Generating HTML Specifications
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -109,7 +109,7 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor -D build specification.adoc
 ----
 
-==== Generating PDF Specifications
+===== Generating PDF Specifications
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -118,7 +118,7 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
 ----
 
-== CSET Standards
+=== CSET Standards
 CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
 *This directory contains the following three files:*
@@ -129,7 +129,7 @@ CSET's Standards template directory is located in the following location: https:
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-=== Using the CSET Standard Template
+==== Using the CSET Standard Template
 
 
 [%header, width="100%", cols=2*a]
@@ -138,7 +138,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 ^.^|Example
 
 |1. Open your Standard in Visual Studio Code (VSC).
-2. Add Document Basecamp as a submodule within your Standard. (See Section 5.1., _Git Submodule_ for instructions.)
+2. Add Document Basecamp as a submodule within your Standard. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
 
  * standard.adoc
@@ -156,7 +156,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 |===
 
 
-==== Generating HTML Standards
+===== Generating HTML Standards
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -176,11 +176,10 @@ asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
 
 == Git Workflow
 
-=== Git Submodule 
+=== Add Document Basecamp with Git Submodule 
 
-Adding the Document Basecamp to a document tree uses the git submodule command. The document_basecamp directory will be added as a submodule in the repository. 
+You can add Document Basecamp to a document tree by using the git submodule command:
 
-.Command Line Submodule
 [source]
 ----
 git submodule add https://developer.nasa.gov/CSET/document_basecamp.git
@@ -189,11 +188,13 @@ git commit -m "adding document_basecamp to document"
 git push origin <branch name>
 ----
 
+The document_basecamp directory will be added as a submodule in the repository. 
+
 === Continued Maintenance
 
-Cloning or fetching the document_basecamp from a previous commit, this is done in the root of the document. Before you run these commands you should see a .gitmodule file (hidden) and a document_basecamp directory that is empty.
+Cloning or fetching the document_basecamp from a previous commit is done in the root of the document. Before you run these commands you should see a .gitmodule file (hidden) and a document_basecamp directory that is empty.
 
-Adding document_basecamp after cloning a repository
+==== Adding document_basecamp after cloning a repository
 
 [source]
 ----
@@ -201,7 +202,7 @@ git submodule init
 git submodule update
 ----
 
-Updating a submodule
+==== Updating Document Basecamp
 
 [source]
 ----
