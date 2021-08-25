@@ -23,7 +23,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 === Using the CSET Handbook Template
 
 
-[%header, cols=1,3]
+[%header, width="100%", cols=1,2]
 |===
 ^.^|Steps
 ^.^|Example
