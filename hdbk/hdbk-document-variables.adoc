@@ -13,8 +13,10 @@ approved-date:
 :approved-date: 20XX-XX-XX
 // document-version: e.g., v1.0,  v1.1, v2.0 etc.
 :document-version: vx.x
-// document-stage: Input either  "Draft" or "Published"
-:document-stage: Draft
+// is-draft: Is this document a draft?
+:is-draft: True
+// document-stage: Input either  "Draft" or "Baseline"
+:draft-stage: Draft
 // revision-date: remove "//" from line below and input revision date if needed
 // :revision-date: 20XX-XX-XX
 // delete values for the cover-page-marks and leave blank before publishing - do not comment out or build script will break
@@ -23,6 +25,13 @@ approved-date:
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
 // :superseding-document: NASA-HDBK-2XXX
 // :superseding-document-revision: XXXX
+:signatory: First Name Last Name
+:signatory-title: Signatory's Position/Title
 
 // Customize the PDF header
-:document-header: {document-identifier} {document-version} {document-stage}
+ifeval::["{is-draft}" == "True"]
+:document-header: {document-identifier} {document-version} {draft-stage}
+endif::[]
+ifeval::["{is-draft}" != "True"]
+:document-header: {document-identifier} {document-version}
+endif::[]

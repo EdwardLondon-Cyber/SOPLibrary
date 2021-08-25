@@ -5,6 +5,9 @@
 ifeval::["{is-draft}" != "True"]
 +++Approved: {approved-date}+++<br><br>+++
 endif::[]
+ifeval::["{is-draft}" == "True"]
++++Approved: N/A+++<br><br>+++
+endif::[]
 ifdef::superseding-document[]
 ifeval::["{superseding-document}" != ""]
 Superseding: {superseding-document} {superseding-document-revision}
@@ -15,16 +18,12 @@ endif::superseding-document[]
 [cols="^.^1s",width="100%"]
 |===
 |+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{document-title}+++<br>+++{document-subtitle}+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-ifdef::document-version[]
-ifeval::["{document-version}" != "Baseline"]
-+++{document-version} {document-stage}+++
-endif::[]
-ifeval::["{document-version}" == "Baseline"]
-+++{document-version}+++
-endif::[]
-endif::document-version[]
-<br><br>
 ifeval::["{is-draft}" == "True"]
++++{document-version} {draft-stage}+++
+<br><br>
 +++{cover-page-mark-1}+++<br>+++{cover-page-mark-2}+++<br><br><br><br><br><br><br><br><br>+++
+endif::[]
+ifeval::["{is-draft}" != "True"]
+<br><br><br><br><br><br><br><br><br><br><br><br><br>+++
 endif::[]
 |===
