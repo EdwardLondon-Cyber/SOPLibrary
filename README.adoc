@@ -34,36 +34,18 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 3. From the Document Basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
 
- a. handbook.adoc
-
- b. hbk-pdf-cover.adoc
-
- c. hdbk-document-variables.adoc
+ * handbook.adoc
+ * hbk-pdf-cover.adoc
+ * hdbk-document-variables.adoc
 
 4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
-** The variables in this document will be used throughout the Handbook and the cover page. 
+ * The variables in this document will be used throughout the Handbook and the cover page. 
 5. Then write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Spec will be contained. 
 
 *Note:* You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Handbook to be properly generated. 
  
 ^.^a|image::images/handbook.files.png[screenshot of handbook files that need to be copied from document basecamp into main directory]
 |===
-
-1. Open your Handbook in Visual Studio Code (VSC).
-2. Add Document Basecamp as a submodule within your Handbook. (See Section 5.1., _Git Submodule_ for instructions.)
-3. From the Document Basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
-
- * handbook.adoc
- * hbk-pdf-cover.adoc
- * hdbk-document-variables.adoc
-
-image::images/handbook.files.png[screenshot of handbook files that need to be copied from document basecamp into main directory]
-
-4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
-** The variables in this document will be used throughout the Handbook and the cover page. 
-5. Then write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Spec will be contained. 
-
-*Note:* You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Handbook to be properly generated. 
 
 ==== Generating HTML Handbooks
 
@@ -97,19 +79,26 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 === Using the CSET Specification Template
 
-1. Open your Specification in Visual Studio Code (VSC).
+[%header, width="100%", cols=2*a]
+|===
+^.^|Steps
+^.^|Example
+
+|1. Open your Specification in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Specification. (See Section 5.1., _Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
  * spec-document-variables.adoc
  * spec-pdf-cover.adoc
  * specification.adoc  OR specification-simple.adoc
 4. Input or edit the variables in your Spec's copy of the *spec-document-variables.adoc* file first. 
-** The variables in this document will be used throughout the guide and the cover page. 
+ * The variables in this document will be used throughout the guide and the cover page. 
 5. Then write or update your Spec's copy of the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
 ** Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
 
 *Note:* You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
 
+^.^a|image::images/spec.files.png[screenshot of specification files that need to be copied from document basecamp into main directory]
+|===
 
 ==== Generating HTML Specifications
 
@@ -142,7 +131,13 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 === Using the CSET Standard Template
 
-1. Open your Standard in Visual Studio Code (VSC).
+
+[%header, width="100%", cols=2*a]
+|===
+^.^|Steps
+^.^|Example
+
+|1. Open your Standard in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Standard. (See Section 5.1., _Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
 
@@ -155,6 +150,11 @@ WARNING: Do not rename these files. Files reference each other by name.
 5. Then write or update your Standard's copy of the *standard.adoc* file - this is where the main contents of your Spec will be contained. 
 
 *Note:*  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+
+
+^.^a|image::images/standard.files.png[screenshot of standard files that need to be copied from document basecamp into main directory]
+|===
+
 
 ==== Generating HTML Standards
 
