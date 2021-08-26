@@ -10,7 +10,7 @@ ifeval::["{is-draft}" == "True"]
 endif::[]
 ifdef::superseding-document[]
 ifeval::["{superseding-document}" != ""]
-Superseding: {superseding-document} {superseding-document-revision}
+Superseding: {superseding-document} {superseding-document-version}
 endif::[]
 endif::superseding-document[]
 |======

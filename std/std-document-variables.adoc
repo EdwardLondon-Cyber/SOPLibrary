@@ -13,9 +13,9 @@ approved-date:
 :approved-date: 20XX-XX-XX
 // document-version: e.g., v1.0,  v1.1, v2.0 etc.
 :document-version: vx.x
-// is-draft: Is this document a draft?
+// is-draft: Is this document a draft? (enter True if it is a draft)
 :is-draft: True
-// document-stage: Input either  "Draft" or "Baseline"
+// document-stage: Input either  "Draft", "Informal Draft", or "Formal Draft"
 :draft-stage: Draft
 // revision-date: remove "//" from line below and input revision date if needed
 // :revision-date: 20XX-XX-XX
@@ -24,7 +24,7 @@ approved-date:
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
 // :superseding-document: NASA-HDBK-2XXX
-// :superseding-document-revision: XXXX
+// :superseding-document-version: vx.x
 :signatory: First Name Last Name
 :signatory-title: Signatory's Position/Title
 
