@@ -2,6 +2,8 @@
 
 This repository houses the AsciiDoc templates and styles utilized to create CSET's Standards, Handbook, Specifications.
 
+:numbered:
+
 == Templates
 The following subsections provide directions on where to find each of CSET's document template directories, the contents of those directories, and instructions on how to use the files contained in those directories. 
 
@@ -18,15 +20,34 @@ CSET's Handbook template directory is located in the following location: https:/
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-*When creating or updating a Handbook* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
-When you are ready to write or update your Handbook, follow these steps: 
+==== Using the CSET Handbook Template
 
-. Input or edit the variables in the *hdbk-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
-. Then write or update the *handbook.adoc* file - this is where the main contents of your Handbook will be contained. 
 
-NOTE:  You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Handbook to be properly generated. 
+[%header, width="100%", cols=2*a]
+|===
+^.^|Steps
+^.^|Example
 
-=== Generating HTML Handbooks
+|1. Open your Handbook in Visual Studio Code (VSC).
+
+2. Add Document Basecamp as a submodule within your Handbook. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
+
+3. From the Document Basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
+
+ * handbook.adoc
+ * hbk-pdf-cover.adoc
+ * hdbk-document-variables.adoc
+
+4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
+ * The variables in this document will be used throughout the Handbook and the cover page. 
+5. Then write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Spec will be contained. 
+
+*Note:* You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Handbook to be properly generated. 
+ 
+^.^a|image::images/handbook.files.png[screenshot of handbook files that need to be copied from document basecamp into main directory]
+|===
+
+===== Generating HTML Handbooks
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -35,7 +56,7 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor -D build handbook.adoc
 ----
 
-=== Generating PDF Handbooks
+===== Generating PDF Handbooks
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -56,17 +77,30 @@ CSET's Specification template directory is located in the following location: ht
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-*When creating or updating a Specification* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
-When you are ready to write or update your Spec, follow these steps: 
+==== Using the CSET Specification Template
 
-. Input or edit the variables in the *spec-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
-. Then write or update the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
-.. Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
+[%header, width="100%", cols=2*a]
+|===
+^.^|Steps
+^.^|Example
 
-NOTE:  You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+|1. Open your Specification in Visual Studio Code (VSC).
+2. Add Document Basecamp as a submodule within your Specification. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
+3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
+ * spec-document-variables.adoc
+ * spec-pdf-cover.adoc
+ * specification.adoc  OR specification-simple.adoc
+4. Input or edit the variables in your Spec's copy of the *spec-document-variables.adoc* file first. 
+ * The variables in this document will be used throughout the guide and the cover page. 
+5. Then write or update your Spec's copy of the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
+** Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
 
+*Note:* You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
 
-=== Generating HTML Specifications
+^.^a|image::images/spec.files.png[screenshot of specification files that need to be copied from document basecamp into main directory]
+|===
+
+===== Generating HTML Specifications
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -75,7 +109,7 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor -D build specification.adoc
 ----
 
-=== Generating PDF Specifications
+===== Generating PDF Specifications
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -95,15 +129,34 @@ CSET's Standards template directory is located in the following location: https:
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-*When creating or updating a Standard* you will need to clone this entire directory (see the section titled _Git Workflow_ below to make sure you have done this correctly).
-When you are ready to write or update your Standard, follow these steps: 
+==== Using the CSET Standard Template
 
-. Input or edit the variables in the *std-document-variables.adoc* file first. The variables in this document will be used throughout the guide and the cover page. 
-. Then write or update the *standard.adoc* file - this is where the main contents of your Standard will be contained. 
 
-NOTE:  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+[%header, width="100%", cols=2*a]
+|===
+^.^|Steps
+^.^|Example
 
-=== Generating HTML Standards
+|1. Open your Standard in Visual Studio Code (VSC).
+2. Add Document Basecamp as a submodule within your Standard. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
+3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
+
+ * standard.adoc
+ * std-document-variables.adoc
+ * std-pdf-cover.adoc
+
+4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
+** The variables in this document will be used throughout the Standard and the cover page. 
+5. Then write or update your Standard's copy of the *standard.adoc* file - this is where the main contents of your Spec will be contained. 
+
+*Note:*  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
+
+
+^.^a|image::images/standard.files.png[screenshot of standard files that need to be copied from document basecamp into main directory]
+|===
+
+
+===== Generating HTML Standards
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -112,7 +165,7 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor -D build standard.adoc
 ----
 
-=== Generating PDF Standards
+==== Generating PDF Standards
 
 IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
 
@@ -123,11 +176,10 @@ asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
 
 == Git Workflow
 
-=== Git Submodule 
+=== Add Document Basecamp with Git Submodule to a New Repository
 
-Adding the Document Basecamp to a document tree uses the git submodule command. The document_basecamp directory will be added as a submodule in the repository. 
+You can add Document Basecamp to a document tree by using the git submodule command:
 
-.Command Line Submodule
 [source]
 ----
 git submodule add https://developer.nasa.gov/CSET/document_basecamp.git
@@ -136,11 +188,11 @@ git commit -m "adding document_basecamp to document"
 git push origin <branch name>
 ----
 
-=== Continued Maintenance
+The document_basecamp directory will be added as a submodule in the repository. 
 
-Cloning or fetching the document_basecamp from a previous commit, this is done in the root of the document. Before you run these commands you should see a .gitmodule file (hidden) and a document_basecamp directory that is empty.
+=== Initializing Document Basecamp in an Existing Repository
 
-Adding document_basecamp after cloning a repository
+Use these commands if you have cloned an existing repository and you need to get the document basecamp contents into the submodule: 
 
 [source]
 ----
@@ -148,7 +200,9 @@ git submodule init
 git submodule update
 ----
 
-Updating a submodule
+=== Updating Document Basecamp
+
+If you are working in a repository that contains an outdated version of the document_basecamp submodule, use these commands to get the most up-to-date version: 
 
 [source]
 ----

@@ -100,7 +100,8 @@ Forward:
 
 This NASA Technical Standard is published by the National Aeronautics and Space Administration (NASA) to provide uniform engineering and technical requirements for processes, procedures, practices, and methods that have been endorsed as standard for NASA programs and projects, including requirements for selection, application, and design criteria of an item.
 
-This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers.
+This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+
 
 This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS STANDARD)*.
 
@@ -137,19 +138,16 @@ Purpose:
 
 === Purpose
 
-The purpose of this NASA Technical Standard is *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS STANDARD)*.
+The purpose of this NASA Technical Standard is to *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS STANDARD)*.
 
 === Applicability
 
-This NASA Technical Standard is applicable to technology programs and projects managed by federal employee or contractor Information System Owners (ISOs) at NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This Standard applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), and other non-Agency facility contractors only to the extent specified or referenced in applicable contracts.
+This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-NPR 2810.1x, _Security of Information Technology_, clearly defines the role and responsibilities of ISOs in relation to Agency information systems. These responsibilities include:
+// the requirement statement acronym consists of the number from the document identifier (e.g., 2601), followed by a space, and then the letter R (for requirement) and a number. 
+// *EXAMPLE: the first _SHALL_ statement within NASA-STD-2601 will be preceded by this: (2601 R1)
 
-* acquiring, developing, integrating, operating, modifying, and maintaining information systems;
-* ensuring system-level implementation of all Agency and Center requirements; and
-*	taking appropriate actions to identify and minimize or eliminate information system security deficiencies and weaknesses.
-
-ISO responsibilities will be added, replaced, or removed from NPR 2810.1x when such changes are deemed appropriate by the Cybersecurity and Privacy Program (CSPP) in order to align these responsibilities with Agency information security- and privacy-related program and project requirements.
+Verifiable requirement statements are numbered and designated by the acronym (260X R); verifiable requirement statements contain the word "_SHALL_". This NASA Technical Standard contains # requirements. Explanatory or guidance text is indicated in italics beginning in section 4. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
 
 === Authority
 
@@ -176,14 +174,17 @@ APPLICABLE DOCUMENTS
 
 === General
 
-The documents listed in this section were used as references during the creation of this Standard. These documents can serve as additional support for users in meeting the requirements of this Technical Standard . 
+The documents listed in this section contain provisions that constitute requirements of this 
+NASA Technical Standard as cited in the text.
+These documents can serve as additional support in meeting the requirements of this NASA Technical Standard.
 
+NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
 === Government Documents
 
 [%header, cols=2*a]
 |===
-|Document Number|Document Title
+|Document Identifier|Document Title
 
 |===
 
@@ -195,7 +196,7 @@ The documents listed in this section were used as references during the creation
 
 [%header, cols=2*a]
 |===
-|Document Number|Document Title
+|Document Identifier|Document Title
 |===
 
 ////
