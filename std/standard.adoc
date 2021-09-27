@@ -138,16 +138,20 @@ Purpose:
 
 === Purpose
 
-The purpose of this NASA Technical Standard is to *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS STANDARD)*.
+The purpose of this NASA Technical Standard is to establish *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS STANDARD)*.
+
+// for standards, "establish" is probably the best verb. 
+// don't use "provide guidance" - that is handbook verbiage
 
 === Applicability
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-// the requirement statement acronym consists of the number from the document identifier (e.g., 2601), followed by a space, and then the letter R (for requirement) and a number. 
-// *EXAMPLE: the first _SHALL_ statement within NASA-STD-2601 will be preceded by this: (2601 R1)
+// (260X R) = the requirement statement acronym. It consists of the number from the document identifier (e.g., 2601), followed by a space, and then the letter R (for requirement) and a number. 
 
-Verifiable requirement statements are numbered and designated by the acronym (260X R); verifiable requirement statements contain the word "_SHALL_". This NASA Technical Standard contains # requirements. Explanatory or guidance text is indicated in italics beginning in section 4. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
+// *EXAMPLE: (2601 R1) = appears in front of the first *_SHALL_* statement within NASA-STD-2601 
+
+Verifiable requirement statements are numbered and designated by the acronym (260**X** R#); verifiable requirement statements contain the word "*_SHALL_*". This NASA Technical Standard contains *#* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
 
 === Authority
 
@@ -289,4 +293,65 @@ APPENDIX SECTION
 ////
 
 [appendix]
-== TITLE OF APPENDIX
+== Requirements Compliance Matrix
+
+// Enter all requirements into this matrix. 
+// Only enter information for the first 3 columns (|Section |Description |Requirement) - see the example below. 
+// leave the Applicable and Comments columns blank - this is what program managers, project managers, and cybersecurity SERT members will use (like a worksheet). 
+
+[width="100%",cols="1,3,3,1,2"]
+|====
+|Section |Description |Requirement |Applicable | Comments
+
+| 
+|
+| 
+| 
+|
+
+| 
+|
+| 
+| 
+|
+
+| 
+|
+| 
+| 
+|
+
+| 
+|
+| 
+| 
+|
+
+|====
+
+
+////
+*EXAMPLE* Requirements Compliance Matrix
+  This example was taken from Standards 2602
+
+
+[width="100%",cols="1,3,3,1,2"]
+|====
+|Section |Description |Requirement |Applicable | Comments
+
+| 4.1
+| Agency-approved encryption solutions for data storage devices
+| *(2602 R1)* ISOs, system administrators, and users *_SHALL_* adhere to the requirements pertaining to Agency-approved encryption solutions on Agency-approved data storage devices defined in ASCS Specifications in the NASA-SPEC-2601__x__ and NASA-SPEC-2602__x__ series.
+| 
+|
+
+| 4.1
+| Agency-approved encryption solutions for mobile devices
+| *(2602 R2)* Only mobile devices and operating systems that include Federal Information Processing Standards (FIPS) 140-validated cryptographic modules approved by the National Institute of Standards and Technology (NIST) SHALL be deployed.
+| 
+|
+
+|====
+
+////
+

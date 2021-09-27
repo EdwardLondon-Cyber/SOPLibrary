@@ -159,11 +159,12 @@ SCOPE:
 Purpose: 
  If your spec does not fall under Standard 2601/ is not a configuration Spec:
    Make sure to edit the Purpose so that it is accurate for your spec. 
+   "define" is probably the best verb for Specification purpose statements. (establish = for standards; provide guidance = for handbooks)
 ////
 
 === Purpose
 
-The purpose of this NASA Technical Specification is to provide mandatory version and configuration guidance for {application} deployment and operation.
+The purpose of this NASA Technical Specification is to define version and configuration requirements for {application} deployment and operation.
 
 ////
 Applicability: 
@@ -186,6 +187,8 @@ This NASA Technical Specification is applicable to all computing systems using {
 endif::[]
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Specification also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+
+Verifiable requirement statements in this NASA Technical Specification contain the word "*_SHALL_*".
 
 
 === Tailoring
