@@ -151,7 +151,7 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 
 // *EXAMPLE: (2601 R1) = appears in front of the first *_SHALL_* statement within NASA-STD-2601 
 
-Verifiable requirement statements are numbered and designated by the acronym (260**X** R#); verifiable requirement statements contain the word "*_SHALL_*". This NASA Technical Standard contains *#* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
+Verifiable requirement statements are numbered and designated by the acronym (260**X**-R); verifiable requirement statements contain the word "*_SHALL_*". This NASA Technical Standard contains *#* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
 
 === Authority
 
@@ -249,7 +249,6 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 // |SOC|Security Operations Center
 // |SSP|System Security Plan
 // |STIG|Security Technical Implementation Guide
-
 |====
 
 
@@ -277,81 +276,14 @@ Content
 ////
 APPENDIX SECTION
   Appendices are identified differently then the rest of the document, so make sure to use 3 or more markers on subsection titles (=== SUBSECTION). 
-  
   If you drop to 2 markers (==) it will start normal numbering again.
-
   Content of the appendix will format for sections and subsections, but not number them.
-  
   It is appropriate to continue using heading tags (===) as normal.
-  
   Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
      APPENDIX A: TITLE OF APPENDIX
-
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
-  
   Subsequent appendices will use appropriate letters (B, C, D...)
 ////
 
 [appendix]
 == Requirements Compliance Matrix
-
-// Enter all requirements into this matrix. 
-// Only enter information for the first 3 columns (|Section |Description |Requirement) - see the example below. 
-// leave the Applicable and Comments columns blank - this is what program managers, project managers, and cybersecurity SERT members will use (like a worksheet). 
-
-[width="100%",cols="1,3,3,1,2"]
-|====
-|Section |Description |Requirement |Applicable | Comments
-
-| 
-|
-| 
-| 
-|
-
-| 
-|
-| 
-| 
-|
-
-| 
-|
-| 
-| 
-|
-
-| 
-|
-| 
-| 
-|
-
-|====
-
-
-////
-*EXAMPLE* Requirements Compliance Matrix
-  This example was taken from Standards 2602
-
-
-[width="100%",cols="1,3,3,1,2"]
-|====
-|Section |Description |Requirement |Applicable | Comments
-
-| 4.1
-| Agency-approved encryption solutions for data storage devices
-| *(2602 R1)* ISOs, system administrators, and users *_SHALL_* adhere to the requirements pertaining to Agency-approved encryption solutions on Agency-approved data storage devices defined in ASCS Specifications in the NASA-SPEC-2601__x__ and NASA-SPEC-2602__x__ series.
-| 
-|
-
-| 4.1
-| Agency-approved encryption solutions for mobile devices
-| *(2602 R2)* Only mobile devices and operating systems that include Federal Information Processing Standards (FIPS) 140-validated cryptographic modules approved by the National Institute of Standards and Technology (NIST) SHALL be deployed.
-| 
-|
-
-|====
-
-////
-
