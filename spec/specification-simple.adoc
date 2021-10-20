@@ -161,11 +161,12 @@ SCOPE:
 Purpose: 
  If your spec does not fall under Standard 2601/ is not a configuration Spec:
    Make sure to edit the Purpose so that it is accurate for your spec. 
+    "define" is probably the best verb for Specification purpose statements. (establish = for standards; provide guidance = for handbooks)
 ////
 
 === Purpose
 
-The purpose of this NASA Technical Specification is to provide mandatory version and configuration guidance for {application} deployment and operation.
+The purpose of this NASA Technical Specification is to define version and configuration requirements for {application} deployment and operation.
 
 ////
 Applicability: 
@@ -189,16 +190,15 @@ endif::[]
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. It also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-
 === Tailoring
 
-In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system _SHALL_ be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
+In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
 
-NASA-STD-2601 mandates that the AO _SHALL_ ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO _SHALL_ ensure all necessary documentation is produced and maintained. 
+NASA-STD-2601 mandates that the AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
 Document tailoring of the requirements in this NASA Technical Specification for application to a specific program or project as part of program or project requirements and obtain formal approval by the delegated Technical Authority in accordance with NPR 7120.5__x__, _NASA Space Flight Program and Project Management Requirements_.
 
-Note that some NASA Technical Specifications include configuration settings that are classified as "critical". Settings that are classified as "critical" _SHALL NOT_ be eligible for any modifications through the application of an RBD.
+Note that some NASA Technical Specifications include configuration settings that are classified as "critical". Settings that are classified as "critical" *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
 
 === Authority
 
