@@ -121,39 +121,40 @@ asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
 === CSET Standards
 CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
-*This directory contains the following three files:*
+*This directory contains the following four files:*
 
 * standard.adoc
 * std-document-variables.adoc
 * std-pdf-cover.adoc
+* build_req_table.py
+
+NOTE: The build_req_table.py file is a new addition (as of October 2021)! Don't forget to grab this file as well and add it to your directory when working on a Standard!
 
 WARNING: Do not rename these files. Files reference each other by name.
 
 ==== Using the CSET Standard Template
 
 
-[%header, width="100%", cols=2*a]
-|===
-^.^|Steps
-^.^|Example
 
-|1. Open your Standard in Visual Studio Code (VSC).
+1. Open your Standard in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Standard. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
 
  * standard.adoc
  * std-document-variables.adoc
  * std-pdf-cover.adoc
+ * build_req_table.py
 
 4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
 ** The variables in this document will be used throughout the Standard and the cover page. 
 5. Then write or update your Standard's copy of the *standard.adoc* file - this is where the main contents of your Spec will be contained. 
+** Note that there is a new variable that needs to be filled in in the *standard.adoc* file: 
+*** New variable: :reqkey: 
+*** Appears on line 38 of template.
+*** See comment lines above line 38 in the template for instructions on how to fill in this variable. 
+*** All other variables that need to be input or updated are housed in the *std-document-variables.adoc* file.
 
 *Note:*  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
-
-
-^.^a|image::images/standard.files.png[screenshot of standard files that need to be copied from document basecamp into main directory]
-|===
 
 
 ===== Generating HTML Standards
