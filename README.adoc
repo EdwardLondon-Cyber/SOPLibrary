@@ -121,20 +121,15 @@ asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
 === CSET Standards
 CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
-*This directory contains the following four files:*
+*This directory contains the following three files:*
 
 * standard.adoc
 * std-document-variables.adoc
 * std-pdf-cover.adoc
-* build_req_table.py
-
-NOTE: The build_req_table.py file is a new addition (as of October 2021)! Don't forget to grab this file as well and add it to your directory when working on a Standard!
 
 WARNING: Do not rename these files. Files reference each other by name.
 
 ==== Using the CSET Standard Template
-
-
 
 1. Open your Standard in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Standard. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
@@ -143,7 +138,6 @@ WARNING: Do not rename these files. Files reference each other by name.
  * standard.adoc
  * std-document-variables.adoc
  * std-pdf-cover.adoc
- * build_req_table.py
 
 4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
 ** The variables in this document will be used throughout the Standard and the cover page. 
@@ -156,6 +150,16 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 *Note:*  You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be included for the pdf version of your Spec to be properly generated. 
 
+==== Pre-Build Requirements Compliance Matrix
+
+Run this command before running either the HTML or PDF build script *each time* to generate an up-to-date Requirement Compliance Matrix (the std-compliance-matrix.adoc). 
+
+NOTE: Command below requires Python3 installed and configured on system. 
+
+[source]
+----
+python3 ./document_basecamp/std/build_req_table.py standard.adoc
+----
 
 ==== Generating HTML Standards
 
