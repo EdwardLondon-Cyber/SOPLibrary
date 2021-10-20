@@ -31,9 +31,10 @@ endif::[]
 
 include::std-document-variables.adoc[]
 
-// AUTONUMBERING: Special variables for auto numnber requirements
-// The reqkey should be the document number (such as 2601) the counter will auto-increment the requirements
-//   so the result will be the reqkey, a "-R", then the requirement number (such as 2601-R8). 
+// **VARIABLES!** 
+// AUTO-NUMBERING: Special variables for auto number requirements
+// VARIABLE: reqkey = enter the document number (example: 2601) 
+//           the counter will auto-increment the requirements so the result will be: reqkey followed by "-R" followed by the requirement number (example: 2601-R8). 
 :reqkey: 
 :counter: requirement: 0
 
@@ -153,12 +154,11 @@ The purpose of this NASA Technical Standard is to establish *(COMPLETE THIS SECT
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-// (260X R) = the requirement statement acronym. It consists of the number from the document identifier (e.g., 2601), followed by a space, and then the letter R (for requirement) and a number. 
+Verifiable requirement statements are numbered and designated by the acronym (26**XX**-R); verifiable requirement statements contain the word "*_SHALL_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
 
-// *EXAMPLE: (2601 R1) = appears in front of the first *_SHALL_* statement within NASA-STD-2601 
-
-Verifiable requirement statements are numbered and designated by the acronym (260**X**-R); verifiable requirement statements contain the word "*_SHALL_*". This NASA Technical Standard contains *#* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
-
+// once you have finished writing this Standard, look at the preview to see how many SHALL statements (requirements) it contains. 
+// you have to MANUALLY TYPE the number into the sentence above - delete the note in bold and replace with the number
+// note: spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
 === Authority
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
@@ -168,7 +168,7 @@ The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA
 
 === Tailoring
 
-Tailoring of this NASA Technical Standard for application to a specific program, project, or system shall be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
+Tailoring of this NASA Technical Standard for application to a specific program, project, or system *_SHALL_* be formally documented as part of program or project requirements and approved by the responsible ISO and Authorizing Official (AO).
 
 
 ////
@@ -184,9 +184,7 @@ APPLICABLE DOCUMENTS
 
 === General
 
-The documents listed in this section contain provisions that constitute requirements of this 
-NASA Technical Standard as cited in the text.
-These documents can serve as additional support in meeting the requirements of this NASA Technical Standard.
+The documents listed in this section contain provisions that constitute requirements of this NASA Technical Standard as cited in the text. These documents can serve as additional support in meeting the requirements of this NASA Technical Standard.
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
@@ -276,15 +274,19 @@ DOCUMENT CONTENT
 
 == DOCUMENT BODY WHICH STARTS AT SECTION 4
 
-//// 
+////
 AUTONUMBERING:
   When writing content for a requirement, use the key as follows. 
 
 *({reqkey}-R{counter:requirement})* Then your requirement text following on a single line
+                                   ^ make sure you leave a space here!
+
+EXAMPLE: 
+ *({reqkey}-R{counter:requirement})* A Windows virtual machine (VM) *_SHALL_* be encrypted using Virtual Trusted Platform Modules (vTPM).
 ////
 
-Content
 
+ 
 
 ////
 APPENDIX SECTION
