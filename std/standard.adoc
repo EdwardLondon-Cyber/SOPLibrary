@@ -115,15 +115,13 @@ This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEME
 Requests for information, corrections, or additions to this Standard can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
 
 
-+++<br><br><br><br><br><br><br>+++
++++<br><br><br><br>+++
 
 
 {signatory} +
 {signatory-title}
 
-+++<br><br><br><br><br><br><br>+++
-
-toc::[]
++++<br>+++
 
 ////
 NUMBERED SECTIONS:

@@ -589,7 +589,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 //## R
 //|RBAC|Role-Based Access Control
-//|RBD|Risk-Based Decision
+|RBD|Risk-Based Decision
 //|RDP|Remote Desktop Protocol
 //|RFC|Request for Comment
 //|RHEL|Red Hat Enterprise Linux
@@ -643,7 +643,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 //|SSHD|Secure Shell Daemon
 //|SSL|Secure Socket Laye
 //|SSO|Single Sign On
-//|SSP|System Security Plan
+|SSP|System Security Plan
 //|SSSD|System Security Services Daemon
 //|STD|Standard
 //|STIG|Security Technical Implementation Guide

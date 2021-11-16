@@ -139,7 +139,7 @@ COMMON CONTENT
 
 == Scope
 
-CSET handbooks are not requirements documents. Handbooks provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
+This Handbook is not a requirements document. The Cybersecurity Standards and Engineering Team (CSET) creates handbooks to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
 
 ////
 PURPOSE: 
@@ -171,7 +171,7 @@ This NASA Technical Handbook is approved for use by NASA Headquarters and NASA C
 
 === Authority
 
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized CSET, via the Agency Security Configuration Standards (ASCS) initiative, to create binding Technical Standards related to Agency cybersecurity topics.
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/.
 
@@ -274,7 +274,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 //|AI/ML|Artificial Intelligence/Machine Learning
 //|ALF|Application Layer Firewall
 //|AMT|Active Management Technology
-|AO|Authorizing Official
+//|AO|Authorizing Official
 //|AODR|Authorizing Official Designated Representative
 //|API|Application Programming Interface
 //|APNS|Apple Push Notification Service
@@ -428,7 +428,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 //|IR|Incident Response
 //|IRM|Incident Response Manager
 //|ISA|Interconnection Security Agreement
-|ISO|Information System Owner
+//|ISO|Information System Owner
 //|ISSE|Information System Security Engineer
 //|ISSO|Information System Security Officer
 //|IT|Information Technology
