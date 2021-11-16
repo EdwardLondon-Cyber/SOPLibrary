@@ -20,7 +20,8 @@ if __name__=="__main__":
     print("File name is required, use: python3 <path_to>/build_req_table.py <filename>")
     sys.exit(1)
 
-  with open(sys.argv[1], "r") as f:
+  # fix-for-utf8: on Windows system the console may end up in non-utf8 encoding. make sure to force open statements
+  with open(sys.argv[1], "r", encoding="utf8") as f:
     _doc = f.read().splitlines()
 
   # While most of the content will be single line (at least at first) this script will work
@@ -130,7 +131,8 @@ if __name__=="__main__":
     _output.append('')
   _output.append('|====')
 
-  with open('std-compliance-matrix.adoc', 'w') as f:
+  # fix-for-utf8: on Windows system the console may end up in non-utf8 encoding. make sure to force open statements
+  with open('std-compliance-matrix.adoc', 'w', encoding="utf8") as f:
     f.write("\n".join(_output))
 
 
