@@ -115,7 +115,7 @@ FOREWORD INSTRUCTIONS:
 
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
 
-This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
 // provides guidance for {topic} deployment and operation.
@@ -139,7 +139,7 @@ COMMON CONTENT
 
 == Scope
 
-CSET handbooks are not requirements documents. Handbooks provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
+This Handbook is not a requirements document. The Cybersecurity Standards and Engineering Team (CSET) creates handbooks to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
 
 ////
 PURPOSE: 
@@ -171,7 +171,7 @@ This NASA Technical Handbook is approved for use by NASA Headquarters and NASA C
 
 === Authority
 
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized CSET, via the Agency Security Configuration Standards (ASCS) initiative, to create binding Technical Standards related to Agency cybersecurity topics.
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/.
 
@@ -188,20 +188,40 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
-=== General
 This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the documents listed in this section.
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
 === Government Documents
 
+.White House Releases
 [%header, cols=2*a]
-
 |===
 |Document Identifier|Document Title
+| | 
+|===
 
+.NASA Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
 |link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
-|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.x]| _Security of Information Technology_
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1]| _Security of Information Technology_
+| | 
+|===
+
+.NIST Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+
+.Other Government Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
 |===
 
 // NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
@@ -213,7 +233,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
-
+| | 
 |===
 
 ////
@@ -230,38 +250,419 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 .Acronyms and Abbreviations
 [width="100%",cols="1,3"]
 |====
-|AO|Authorizing Official
-// |ACL|Assessed and Cleared List for technology procurement
+//## #
+//|3PAO|Third-Party Assessment Organization
+
+//## A
+//|AA|Administrator Account
+//|AAL|Authenticator Assurance Level
+//|AAO|Agency Application Office
+//|ABM|Apple Business Manager
+//|AC|Application Control
+
+//|ACL|Assessed and Cleared List 
+//|ACL|Access Control List
+// ACL NOTE: if - and only if - both acronyms are needed in one document, then use the following: 
+//|ACL (Procurement)|Assessed and Cleared List
+//|ACL (Security)|Access Control List
+
+//|AD|Active Directory
+//|ADC|Active Directory Controller
+//|ADUC|Active Directory Users and Computers
+//|AEAD|Authenticated Encryption with Additional Data
+//|AFP|Apple Filing Protocol
+//|AI/ML|Artificial Intelligence/Machine Learning
+//|ALF|Application Layer Firewall
+//|AMT|Active Management Technology
+//|AO|Authorizing Official
+//|AODR|Authorizing Official Designated Representative
+//|API|Application Programming Interface
+//|APNS|Apple Push Notification Service
+//|ARD|Apple Remote Desktop
+//|ASB|Agency Smart Badge
 |ASCS|Agency Security Configuration Standards
-// |CDM|Continuous Diagnostics and Mitigation
+//|ASP|Active Server Pages
+//|ASRL|Address Space Layout Randomization
+//|ATO|Authenticator Assurance Level
+//|AUFS|Advanced multi-layer Unification File System
+//|AUID|Agency User Identifier
+//|AzureAD|Azure Active Directory
+
+//## B
+//|BCP|Business Continuity Plan
+//|BCU|BIOS Configuration Utility
+//|BEC|Business Email Compromise
+//|BIA|Business Impact Analysis
+//|BIOS|Basic Input Output System
+//|BOD|Binding Operational Directive
+//|BYOD|Bring Your Own Device
+
+//## C
+//|CA|Certificate Authority
+//|CAC|Common Access Card
+//|CAD|Computer-Aided Design
+//|CCID|Card Chip Interface Device
+//|CCRM|Center Cybersecurity Risk Manager
+//|CDM|Continuous Diagnostics and Mitigation
+//|CGI|Common Gate Interface
+//|CI|Configuration Item
 |CIO|Chief Information Officer
-|CIS|Center for Internet Security
+//|CIS|Center for Internet Security
+//|CISO|Chief Information Security Officer
+//|CLI|Command Line Interface
+//|CM|COnfiguration Management
+//|CNAME|Canonical Name Record
+//|CONOPS|Concept of Operations
+//|COTS|Commercial Off-The-Shelf
+//|CPC|Contingency Planning Coordinator
+//|CPM|Center Privacy Manager
+//|CPS|Certificate Practice Statement
+//|CPU|Central Processing Unit
+//|CRL|Certificate Revocation List
+//|CSE|Client-Side Extension
 |CSET|Cybersecurity Standards and Engineering Team
-// |DAR|Data At Rest
-// |DISA|Defense Information Systems Agency
+//|CSPD|Cybersecurity and Privacy Division
+//|CSPO|Computing Services Program Office
+//|CSPP|Cybersecurity and Privacy Program
+//|CT-API|Card Terminal Application Programming Interface
+//|CUI|Controlled Unclassified Information
+//|CUPS|Common Unix Printing System
+
+//## D
+//|DAC|Directory Access Controls
+//|DANE|DNS-Based Authentication of Named Entities
+//|DANE-TA|DNS-Based Authentication of Named Entities - Trust Anchor
+//|DAR|Data At Rest
+//|DC|Domain Controller
+//|DCCP|Datagram Congestion Control Protocol
+//|DDoS|Distributed Denial of Service
+//|DER|Distinguished Encoding Rules
+//|DHA|Device Health Attestation
+//|DHCP|Dynamic Host Configuration Protocol
+//|DHS|Department of Homeland Security
+//|DISA|Defense Information Systems Agency
+//|DMA|Direct Memory Access
+//|DMAr|DMA-remapping
+//|DMARC|Domain-based Message Authentication, Reporting and Conformance
+//|DMZ|DeMilitarized Zone
+//|DN|Domain Name
+//|DNS|Domain Name System
+//|DoD|Department of Defense
+//|DOS|Denial of Service
+//|DRA|Directory Resource Administrator
+//|DRM|Dell Repository Manager
+
+//## E
+//|E3A|Einstein 3 Accelerated
+//|EA|Extension Attribute
+//|EAR|Export Administration Regulations
+//|EKU|Extended Key Usage
+//|EMCC|Enterprise Managed Cloud Computing
+//|EO|Executive Order
+//|EP|Elevated Privilege 
+//|EPACS|Enterprise Physical Access Control System
+//|EPEL|Extra Packages for Enterprise Linux
+//|ESAE|Enhanced Security Administrative Environment
+//|ESD|Enterprise Service Desk
+//|ETADS|Enterprise Technology Assessments and Digital Standards
+
+//## F
+//|FAR|Federal Acquisition Regulations
+//|FCPCA|Federal Common Policy Certificate Authority
+//|FedRAMP|Federal Risk and Authorization Management Program
 |FFRDC|Federally Funded Research and Development Center
-|FISMA|Federal Information Security Modernization Act
+//|FICAM|Federal Identity, Credential, and Access Management
+//|FIPS|Federal Information Processing Standards
+//|FISMA|Federal Information Security Modernization Act
 //|FPKI|Federal Public Key Infrastructure
-|GRC|Glenn Research Center
-// |ICAM|Identity, Credential, and Access Management
-// |IDI|ICAM Device Integration
-|ISO|Information System Owner
+//|FQDN|Fully Qualified Domain Name
+//|FTP|File Transport Protocol
+//|FW|Firewall
+
+//## G
+//|GAO|Government Accountability Office
+//|GDM|Gnome Display Manage
+//|GID|Group ID
+//|GMT|Greenwich Mean Time
+//|GOTS|Government Off-The-Shelf
+//|GPO|Group Policy Object
+//|GPU|Graphic Processing Unit
+//|GRC|Glenn Research Center
+//|GSFC|Goddard Space Flight Center
+//|GSSAPI|Generic Security Service Application Program Interface
+//|GUI|Graphical User Interface
+
+//## H
+//|HBK|Handbook
+//|HBMA|Host-Based MAC Address
+//|HPIA|HP Image Assistant
+//|HPKP|HTTP Public Key Pinning
+//|HRC|Hardware Reference Configuration
+//|HSPD-12|Homeland Security Presidential Directive-12
+//|HSTS|HTTP Strict Transport Security
+//|HTTP|Hypertext Transfer Protocol
+//|HTTPS|HTTP over TLS
+//|HVA|High-Value Asset
+
+//## I
+//|I/O|Input/Output
+//|IaaS|Infrastructure-as-a-Service
+//|ICAM|Identity, Credential, and Access Management
+//|ICCD|Integrated Circuit(s) Card Devices
+//|ICMP|Internet Control Message Protocol
+//|ICS|Industrial Control Systems
+//|ICT|Information and Communications Technology
+//|ID|Identifier
+//|IDI|ICAM Device Integration
+//|idM|Identity Management (Red Hat Product)
+//|IDPREF|Identity Preference
+//|IDS|Intrusion Detection
+//|IETF|Internet Engineering Task Force
+//|IMAP|Internet Message Access Protocol
+//|IOMMU|Input/Output Memory Management Unit
+//|IoT|Internet of Things
+//|IP|Internet Protocol
+//|IPC|Inter-Process Communication
+//|IPS|Intrusion Prevention System
+//|IPTA|Initial Privacy Threshold Analysis
+//|IR|Incident Response
+//|IRM|Incident Response Manager
+//|ISA|Interconnection Security Agreement
+//|ISO|Information System Owner
+//|ISSE|Information System Security Engineer
+//|ISSO|Information System Security Officer
+//|IT|Information Technology
+//|ITAR|International Traffic in Arms Regulations
+//|ITCP|Information Technology Contingency Plan
+//|ITSM|Information Technology Service Management
+
+//## J
+//|JAB P-ATO|Joint Authorization Board Provisional Authority to Operate (FedRAMP)
 |JPL|Jet Propulsion Laboratory
+
+//## K
+//|KSC|Kennedy Space Center
+
+//## L
+//|LAPS|Local Administrator Password Solution
+//|LaRC|Langley Research Center
+//|LDAP|Lightweight Directory Access Protocol
+//|LDAPS|LDAP over SSL/TLS
+//|LGPO|Local Group Policy Object
+//|LOC|Level of Confidence
+//|LSM|Linux Security Module
+//|LUKS|Linux Unified Key Setup
+//|LVM|Logical Volume Manager
+//|LXC|LinuX Container
+//|LXD|LXc (LinuX Container) Daemon
+
+//## M
+//|MAC (Network)| Media Access Control
+//|MAC (Security)| Mandatory Access Control
+//|MAM|Mobile Application Management
+//|MAR|Mitigation Action Requirement
+//|MAU|Microsoft AutoUpdate
+//|MBAM|Microsoft BitLocker Administration and Monitoring
+//|MDM|Mobile Device Management
+//|MDR|Mobile Device Registration
+//|MFA|Multi-Factor Authentication
+//|MIME|Multipurpose Internet Mail Extensions
+//|MITM|Man in the Middle
+//|MOA|Memorandum of Agreement
+//|MOSM|Mac OS Management
+//|MOU|Memorandum of Understanding
+//|MP|Media Protection
+//|MSI|Microsoft Installer
+//|MSCP|macOS Security Compliance Project
+//|MTA-STS|Mail Transfer Agent Strict Transport Security
+//|MX|Mail Exchange
+
+//## N
+//|NAC|Network Access Control
+//|NAMS|NASA Access Management System
 |NASA|National Aeronautics and Space Administration
-// |NCTR|NASA Client Trust Reference
-// |NIST|National Institute of Standards and Technology
-|NPR|NASA Procedural Requirement
-// |NSA|National Security Agency
-// |NTAM|NASA Trust Anchor Management
-|NTSP|NASA Technical Standards Panel
-|OCIO|Office of the Chief Information Officer
-// |PIV|Personal Identity Verification
-// |PKI|Public Key Infrastructure
-// |RISCS|Risk Information and Security Compliance System
+//|NAT|Network Address Translation
+//|NCAA|NASA Cloud Assessment and Authorization
+//|NCAD|NASA Consolidated Active Directory
+//|NCTR|NASA Client Trust Reference
+//|NDA|Non-Disclosure Agreement
+//|NED|NASA Enterprise Directory
+//|NFS|Network File System
+//|NICA|NASA Internal Certificate Authority
+//|NID|NASA Interim Directive
+//|NIS|Network Information Service
+//|NISN|NASA Integrated Services Network
+//|NIST|National Institute of Standards and Technology
+//|NOCA|NASA Operational Certificate Authority
+//|NOMAD|NASA Operational Messaging and Directory
+//|NPD|NASA Policy Directives
+//|NPE|Non-Person Entity
+//|NPR|NASA Procedural Requirement
+//|NPrivAMS|Nasa Privileges Access Management System
+//|NRRS|NASA Records Retention Schedules
+//|NSA|National Security Agency
+//|NSS|Network Security Service
+//|NSSDB|Network Security Services Database
+//|NTAM|NASA Trust Anchor Management
+//|NTP|Network Time Protocol
+|NTSP|NASA Technical Standards Program
+//|NTSS|NASA Technical Standards System
+
+//## O
+//|O365|Office 365
+//|OCI|Open Container Initiative
+//|OCIO|Office of the Chief Information Officer
+//|OCSP|Online Certificate Status Protocol
+//|ODV|Organization-Defined Value
+//|OEM|Original Equipment Manufacturer
+//|OGC|Office of the General Counsel
+//|OHCM|Office of Human Capital Management
+//|OIG|Office of the Inspector General
+//|OLA|Operating Level Agreement
+//|OMB|Office of Management and Budge
+//|OpenSC|Open Smart Card
+//|OPS| Operations Physical Security
+//|OS|Operating System
+//|OT|Operations Technology
+//|OTP|One-Time Password
+//|OU|Organizational Uni
+
+//## P
+//|P2P|Peer 2 Peer
+//|PaaS|Platform as a Service
+//|PAM|Pluggable Authentication Modules
+//|PAM|Privileged Access Management
+//|PAW|Privileged Access Workstation
+//|PBKDF2|Password-Based Key Derivation Function 2
+//|PC|Personal Computer
+//|PCD|Procurement Class Deviation
+//|PCSC|Personal Computer/Smart Card
+//|PEM|Privacy-Enhanced Mail
+//|PIA|Privacy Impact Assessment
+//|PID|Process ID
+//|PII|Personally Identifiable Information
+//|PIN|Personal Identification Number
+//|PIV|Personal Identity Verification
+//|PIV-M|Personal Identity Verification Mandatory
+//|PKI|Public Key Infrastructure
+//|POA&M|Plan of Action and Mileston
+//|POP3|Post Office Protocol version 3
+//|PDF|Portable Document Format
+//|PTA|Privacy Threshold Analysis
+//|PtH|Pass the Hash
+
+//## Q
+
+//## R
+//|RBAC|Role-Based Access Control
+//|RBD|Risk-Based Decision
+//|RDP|Remote Desktop Protocol
+//|RFC|Request for Comment
+//|RHEL|Red Hat Enterprise Linux
+//|RHV|Red Hat Virtualization
+//|RISCS|Risk Information and Security Compliance System
+//|ROP|Return Oriented Programming
+//|RPS|Registration Practice Statement
+//|RSA|Cryptographic System (Rivest–Shamir–Adleman)
+
+//## S
+//|S/MIME|Secure/Multipurpose Internet Mail Extensions
+//|SA|System Administrator
+//|SaaS|Software as a Service
 |SAISO|Senior Agency Information Security Officer
-// |SOC|Security Operations Center
-// |SSP|System Security Plan
-// |STIG|Security Technical Implementation Guide
+//|SAML|Security Assessment Markup Language
+//|SAOP|Senior Agency Official for Privacy
+//|SAR|Security Assessment Report
+//|SBU|Sensitive But Unclassified
+//|SCA|Security Control Assessor
+//|SCAP|Security Content Automation Protocol
+//|SCCM|System Center Configuration Manager
+//|SCE|Self Contained Executable
+//|SCP|Secure Copy
+//|SCRM|Supply Chain Risk Management
+//|SCTP|Stream Control Transmission Protocol
+//|SD-A|Software Defined - Access
+//|SDLC|System Development Life Cycle
+//|SeCM|Security Configuration Management
+//|SELinux|Security Enhanced Linux
+//|SEP|Symantec Endpoint Protection
+//|SFTP|Secure File Transfer Protocol
+//|SGID|Set Group ID
+//|SGT|Security Group Tags
+//|SHA-1|Secure Hash Algorithm 1
+//|SHA-2|Secure Hash Algorithm 2
+//|SIEM|Security Information and Event Management
+//|SIP|System Integrity Protection
+//|SLA|Service Level Agreement
+//|SMB|Server Message Block
+//|SMM|System Management Mode
+//|SMTP|Simple Mail Transfer Protocol
+//|SNI|Server Name Indication
+//|SOC|Security Operations Center
+//|SORN|System of Records Notice
+//|SP|Special Publication
+//|SPEC|Specification
+//|SPF|Sender Policy Framework
+//|SPICE|Simple Protocol for Independent Computing Environments
+//|SQL|Structured Query Language
+//|SSH|Secure Shell
+//|SSHD|Secure Shell Daemon
+//|SSL|Secure Socket Laye
+//|SSO|Single Sign On
+//|SSP|System Security Plan
+//|SSSD|System Security Services Daemon
+//|STD|Standard
+//|STIG|Security Technical Implementation Guide
+//|sudo|Superuser Do
+//|SUID|Set User ID
+//|SUP|Software Update Point
+
+//## T
+//|TCP|Transmission Control Protocol
+//|TFTP|Trivial File Transfer Protocol
+//|TIC|Trusted Internet Connections
+//|TGS|Kerberos Ticket-Granting Service
+//|TGT|Kerberos Ticket-Granting Ticket
+//|TLS|Transport Layer Security
+//|TPM|Trusted Platform Module
+//|TRCA|U.S. Treasury Root Certification Authority
+//|TXT|Trusted Execution Technology
+
+//## U
+//|UAMDM|User Approved MDM
+//|UEFI|Unified Extensible Firmware Interface
+//|UID|User ID
+//|UPN|User Principal Name
+//|URI|Uniform Resource Identifier
+//|URL|Uniform Resource Locator
+//|UTC|Coordinated Universal Time
+//|UTS|Unix Time Sharing
+
+//## V
+//|VBA|Visual Basic for Applications
+//|VB|Visual Basic
+//|VLAN|Virtual Local Area Network
+//|VM|Virtual Machine
+//|VN|Virtual Networks
+//|VPN|Virtual Private Network
+//|VTd|Virtualization Technology for Directed I/O
+//|VTx|Virtualization Technology
+
+//## W
+//|WAN|Wide Area Network
+//|WCF|Web Content Filter
+//|WebDAV|Web Distributed Authoring and Versioning
+//|WinHEC|Windows Hardware Engineering Community
+//|WLAN|Wireless Local Area Network
+//|WSUS|Windows Server Update Services
+//|WWAN|Wireless Wide Area Network
+
+//## X
+//|XCCDF|eXtensible Configuration Checklist Description Format
+
+//## Y
+
+//## Z
 
 |====
 
