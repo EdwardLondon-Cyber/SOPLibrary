@@ -259,10 +259,13 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 //|AAO|Agency Application Office
 //|ABM|Apple Business Manager
 //|AC|Application Control
-//|ACL|Assessed and Cleared List for technology procurement
+
+//|ACL|Assessed and Cleared List 
 //|ACL|Access Control List
+// ACL NOTE: if - and only if - both acronyms are needed in one document, then use the following: 
 //|ACL (Procurement)|Assessed and Cleared List
 //|ACL (Security)|Access Control List
+
 //|AD|Active Directory
 //|ADC|Active Directory Controller
 //|ADUC|Active Directory Users and Computers
@@ -502,7 +505,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 //|NSSDB|Network Security Services Database
 //|NTAM|NASA Trust Anchor Management
 //|NTP|Network Time Protocol
-|NTSP|NASA Technical Standards Panel
+|NTSP|NASA Technical Standards Program
 //|NTSS|NASA Technical Standards System
 
 //## O
