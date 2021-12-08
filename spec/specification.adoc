@@ -194,7 +194,7 @@ In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Comput
 
 NASA-STD-2601 mandates that the AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
-Note that some NASA Technical Specifications include configuration settings that are classified as "critical". Settings that are classified as "critical" *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
+Note that some NASA Technical Specifications include "critical" configuration settings. "Critical" configuration settings *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
 
 === Authority
 
@@ -278,7 +278,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 == Acronyms, Abbreviations, and Definitions
 
-include::document_basecamp/acronymlist.adoc[] 
+include::acronymlist.adoc[]
 
 // If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 

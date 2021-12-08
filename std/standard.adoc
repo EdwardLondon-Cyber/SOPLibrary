@@ -239,7 +239,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 == Acronyms, Abbreviations, and Definitions
 
-include::document_basecamp/acronymlist.adoc[]
+include::acronymlist.adoc[]
 
 
 ////
