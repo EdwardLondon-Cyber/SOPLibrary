@@ -344,7 +344,11 @@ CRITICAL SETTINGS TABLE:
 
 === Critical Settings Reference
 
-The table below provides a quick view of the *_critical_* security configuration settings. All *_critical_* configurations *_SHALL NOT_* be eligible for any modifications through the application of an RBD. The *_critical_* settings in the table are linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
+The table below provides a quick view of the _critical_ security configuration settings. 
+
+_Critical_ settings *_SHALL_* be adhered to, as they are monitored, scored, and reported by the Agency. 
+
+_Critical_ settings *_SHALL NOT_* be eligible for any modifications through the application of an RBD. Each _critical_ setting in the table below is linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
 
 [cols="1h,1"]
 |===
@@ -358,11 +362,11 @@ The table below provides a quick view of the *_critical_* security configuration
 
 === Required Settings
 
-This section contains all security configuration settings that are [.underline]#required# for Agency compliance, as well as a description for each setting. 
+This section contains all _required_ security configuration settings as well as a description for each setting. 
 
-[.underline]#Required# controls *_SHALL_* be adhered to, as they are monitored, scored, and reported by the Agency. 
+_Required_ settings *_SHALL_* be adhered to, as they are monitored, scored, and reported by the Agency. 
 
-Settings that are [.underline]#required# *_MAY_*, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see <<Tailoring>> in this Specification.
+_Required_ settings *_MAY_*, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see <<Tailoring>> in this Specification.
 
 
 ////
@@ -374,7 +378,9 @@ RECOMMENDED SETTINGS REFERENCE:
 
 === Recommended Settings
 
-This section contains all [.underline]#recommended# settings. Settings that are classified as [.underline]#recommended# are not required, but they are deemed highly beneficial by ASCS. These settings are expected to be implemented, unless there is a justifiable cause not to. However, [.underline]#recommended# settings that are not implemented will not be scored as deviation from compliance.
+This section contains _recommended_ security configuration settings. 
+
+_Recommended_ settings are not required, but they are deemed highly beneficial by ASCS. These settings are expected to be implemented, unless there is a justifiable cause not to. However, _recommended_ settings that are not implemented will not be scored or reported by the Agency.
 ////
 
 
