@@ -7,11 +7,11 @@ ifeval::["{is-draft}" != "True"]
 // Display approved date for specs and standards
 ifdef::approved-date[]
 +++Approved: {approved-date}+++<br><br>+++
-endif::[]approved-date[]
+endif::approved-date[]
 // Display published date for handbooks
 ifdef::published-date[]
 +++Published: {published-date}+++<br><br>+++
-endif::[]published-date[]
+endif::published-date[]
 endif::[]
 ifdef::superseding-document[]
 ifeval::["{superseding-document}" != ""]
