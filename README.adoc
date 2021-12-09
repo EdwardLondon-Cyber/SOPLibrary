@@ -29,7 +29,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 3. From the Document Basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
 
-[width="100%", cols="1,4"]
+[width="100%", cols="2,1"]
 |===
 a|. acronymlist.adoc
 . handbook.adoc
@@ -144,7 +144,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 
 
-[width="100%", cols="1,4"]
+[width="100%", cols="2,1"]
 |===
 a|. acronymlist.adoc
 . standard.adoc
