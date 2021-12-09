@@ -12,7 +12,7 @@ The files contained in each of these directories serve as the format to be used 
 === CSET Handbooks
 CSET's Handbook template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
 
-*This directory contains the following three files:*
+*This directory contains the following four files:*
 
 * acronymlist.adoc
 * handbook.adoc
@@ -42,7 +42,7 @@ a|. acronymlist.adoc
 4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
  * The variables in this document will be used throughout the Handbook and the cover page. 
 5. Then write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Spec will be contained. 
-6. Edit the your Handbook's copy of the *acronymlist.adoc* to include the acronyms used throughout your handbook. 
+6. Edit your Handbook's copy of the *acronymlist.adoc* to include the acronyms used throughout your handbook. 
 
 NOTE: You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's main directory for the pdf version of your Handbook to be properly generated. 
 
@@ -67,7 +67,7 @@ asciidoctor-pdf -D build hdbk-pdf-cover.adoc handbook.adoc
 === CSET Specifications
 CSET's Specification template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
 
-*This directory contains the following four files:*
+*This directory contains the following five files:*
  
 * acronymlist.adoc
 * spec-document-variables.adoc
@@ -97,7 +97,7 @@ a|. acronymlist.adoc
  * The variables in this document will be used throughout the guide and the cover page. 
 5. Then write or update your Spec's copy of the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
 ** Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
-6. Edit the your Spec's copy of the *acronymlist.adoc* to include the acronyms used throughout your Spec. 
+6. Edit your Spec's copy of the *acronymlist.adoc* to include the acronyms used throughout your Spec. 
 
 NOTE: You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's main directory for the pdf version of your Specification to be properly generated. 
 
@@ -122,7 +122,7 @@ asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
 === CSET Standards
 CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
-*This directory contains the following three files:*
+*This directory contains the following four files:*
 
 * acronymlist.adoc
 * standard.adoc
@@ -155,7 +155,7 @@ a|. acronymlist.adoc
 *** Appears on line 38 of template.
 *** See comment lines above line 38 in the template for instructions on how to fill in this variable. 
 *** All other variables that need to be input or updated are housed in the *std-document-variables.adoc* file.
-6. Edit the your Standard's copy of the *acronymlist.adoc* to include the acronyms used throughout your Standard. 
+6. Edit your Standard's copy of the *acronymlist.adoc* to include the acronyms used throughout your Standard. 
 
 NOTE: You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be copied over from document basecamp and pasted into your document's main directory for the pdf version of your Standard to be properly generated. 
 
