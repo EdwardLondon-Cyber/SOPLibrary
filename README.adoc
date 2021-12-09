@@ -84,7 +84,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 2. Add Document Basecamp as a submodule within your Specification. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
  
-[width="100%", cols=2*a]
+[width="100%", cols="2,1"]
 |===
 a|. acronymlist.adoc
 . spec-document-variables.adoc
