@@ -5,12 +5,12 @@
 :document-title: DOCUMENT TITLE
 :document-subtitle: TECHNICAL HANDBOOK
 ////
-approved-date: 
- Input the approved date only when publishing.             
+published-date: 
+ Input the date only when publishing.             
  Leave blank until then.  
  Date format: year-month-date
 ////
-:approved-date: 20XX-XX-XX
+:published-date: 20XX-XX-XX
 // document-version: e.g., v1.0,  v1.1, v2.0 etc.
 :document-version: vx.x
 // is-draft: Is this document a draft? (enter true if it is a draft)

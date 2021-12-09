@@ -2,11 +2,16 @@
 |======
 |image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100] {document-type}+++<br><br>+++National Aeronautics and Space Administration
 |{document-identifier} {document-version}+++<br>
+//Only display date if not in draft form
 ifeval::["{is-draft}" != "True"]
+// Display approved date for specs and standards
+ifdef::approved-date[]
 +++Approved: {approved-date}+++<br><br>+++
-endif::[]
-ifeval::["{is-draft}" == "True"]
-+++Approved: N/A+++<br><br>+++
+endif::approved-date[]
+// Display published date for handbooks
+ifdef::published-date[]
++++Published: {published-date}+++<br><br>+++
+endif::published-date[]
 endif::[]
 ifdef::superseding-document[]
 ifeval::["{superseding-document}" != ""]
