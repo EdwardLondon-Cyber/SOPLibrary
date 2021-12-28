@@ -154,6 +154,8 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 
 Verifiable requirement statements are numbered and designated by the acronym **26XX-R#**. Verifiable requirement statements also contain the word "*_SHALL_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
 
+// numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. do not number the SHALL statement in the applicability section. 
+
 // requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_* and each one is counted as a single requirement statement. 
 // once you have finished writing this Standard, look at the preview to see how many SHALL statements (requirements) it contains. 
 // you have to MANUALLY TYPE the number into the sentence above - delete the note in bold and replace with the number
