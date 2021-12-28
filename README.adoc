@@ -14,7 +14,7 @@ CSET's Handbook template directory is located in the following location: https:/
 
 *This directory contains the following four files:*
 
-* acronymlist.adoc
+* hdbk-acronymlist.adoc
 * handbook.adoc
 * hbk-pdf-cover.adoc
 * hdbk-document-variables.adoc
@@ -31,7 +31,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 [width="100%", cols="2,1"]
 |===
-a|. acronymlist.adoc
+a|. hdbk-acronymlist.adoc
 . handbook.adoc
 . hbk-pdf-cover.adoc
 . hdbk-document-variables.adoc 
@@ -69,7 +69,7 @@ CSET's Specification template directory is located in the following location: ht
 
 *This directory contains the following five files:*
  
-* acronymlist.adoc
+* spec-acronymlist.adoc
 * spec-document-variables.adoc
 * spec-pdf-cover.adoc
 * specification-simple.adoc
@@ -85,7 +85,7 @@ WARNING: Do not rename these files. Files reference each other by name.
  
 [width="100%", cols="2,1"]
 |===
-a|. acronymlist.adoc
+a|. spec-acronymlist.adoc
 . spec-document-variables.adoc
 . spec-pdf-cover.adoc
 . specification.adoc  OR specification-simple.adoc
@@ -124,7 +124,7 @@ CSET's Standards template directory is located in the following location: https:
 
 *This directory contains the following four files:*
 
-* acronymlist.adoc
+* std-acronymlist.adoc
 * standard.adoc
 * std-document-variables.adoc
 * std-pdf-cover.adoc
@@ -139,7 +139,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 [width="100%", cols="2,1"]
 |===
-a|. acronymlist.adoc
+a|. std-acronymlist.adoc
 . standard.adoc
 . std-document-variables.adoc
 . std-pdf-cover.adoc

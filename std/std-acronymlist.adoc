@@ -108,6 +108,7 @@
 //|E3A|Einstein 3 Accelerated
 //|EA|Extension Attribute
 //|EAR|Export Administration Regulations
+//|ECDSA|Elliptic Curve Digital Signature Algorithm
 //|EKU|Extended Key Usage
 //|EMCC|Enterprise Managed Cloud Computing
 //|EO|Executive Order
@@ -137,6 +138,7 @@
 //|GID|Group ID
 //|GMT|Greenwich Mean Time
 //|GOTS|Government Off-The-Shelf
+//|GPA|Group Policy Administrator
 //|GPO|Group Policy Object
 //|GPU|Graphic Processing Unit
 //|GRC|Glenn Research Center
@@ -343,6 +345,7 @@
 //|SGT|Security Group Tags
 //|SHA-1|Secure Hash Algorithm 1
 //|SHA-2|Secure Hash Algorithm 2
+//|SID|Security Identifier
 //|SIEM|Security Information and Event Management
 //|SIP|System Integrity Protection
 //|SLA|Service Level Agreement
