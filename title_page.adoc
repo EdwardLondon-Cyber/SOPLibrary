@@ -28,8 +28,8 @@ endif::superseding-document[]
 {document-subtitle}
 +++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++
 ifeval::["{is-draft}" == "True"]
-+++{draft-stage}+++
-<br><br>
+{draft-stage}
++++<br><br>+++
 {cover-page-mark-1}
 +++<br>+++
 {cover-page-mark-2}
@@ -38,3 +38,4 @@ endif::[]
 ifeval::["{is-draft}" != "True"]
 +++<br><br><br><br><br><br><br><br><br><br><br><br><br>+++
 endif::[]
+|===
