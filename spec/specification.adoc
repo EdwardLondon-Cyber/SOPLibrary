@@ -366,7 +366,7 @@ This section contains all _required_ security configuration settings as well as 
 
 _Required_ settings *_SHALL_* be adhered to, as they are monitored, scored, and reported by the Agency. 
 
-_Required_ settings *_MAY_*, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see <<Tailoring>> in this Specification.
+_Required_ settings *_MAY_*, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see <<_tailoring>> in this Specification.
 
 
 ////
