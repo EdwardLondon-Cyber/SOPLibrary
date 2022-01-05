@@ -150,7 +150,7 @@ The purpose of this NASA Technical Standard is to establish *(COMPLETE THIS SECT
 
 === Applicability
 
-This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to JPL (an FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 Verifiable requirement statements are numbered and designated by the acronym **26XX-R#**. Verifiable requirement statements also contain the word "*_SHALL_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
 
