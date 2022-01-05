@@ -169,7 +169,9 @@ The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA
 
 === Tailoring
 
-Tailoring of this NASA Technical Standard for application to a specific program, project, or system *_SHALL_* be formally documented as part of program or project requirements and approved by the responsible Information System Owner (ISO) and Authorizing Official (AO).
+Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
+
+The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
 
 ////
