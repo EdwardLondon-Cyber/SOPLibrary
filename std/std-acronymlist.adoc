@@ -51,6 +51,7 @@
 
 //## C
 //|CA|Certificate Authority
+//|CAB/F BR| Certificate Authority Browser Forum Baseline Requirements
 //|CAC|Common Access Card
 //|CAD|Computer-Aided Design
 //|CCID|Card Chip Interface Device
@@ -63,6 +64,7 @@
 //|CISO|Chief Information Security Officer
 //|CLI|Command Line Interface
 //|CM|COnfiguration Management
+//|CN|Common Name
 //|CNAME|Canonical Name Record
 //|CONOPS|Concept of Operations
 //|COTS|Commercial Off-The-Shelf
@@ -145,6 +147,7 @@
 //|GSFC|Goddard Space Flight Center
 //|GSSAPI|Generic Security Service Application Program Interface
 //|GUI|Graphical User Interface
+//|GUID|Globally Unique Identifier
 
 //## H
 //|HBK|Handbook
@@ -325,6 +328,7 @@
 //|SaaS|Software as a Service
 |SAISO|Senior Agency Information Security Officer
 //|SAML|Security Assessment Markup Language
+//|SAN|Subject Alternative Name
 //|SAOP|Senior Agency Official for Privacy
 //|SAR|Security Assessment Report
 //|SBU|Sensitive But Unclassified
@@ -362,7 +366,7 @@
 //|SQL|Structured Query Language
 //|SSH|Secure Shell
 //|SSHD|Secure Shell Daemon
-//|SSL|Secure Socket Laye
+//|SSL|Secure Socket Layer
 //|SSO|Single Sign On
 //|SSP|System Security Plan
 //|SSSD|System Security Services Daemon
