@@ -29,14 +29,10 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 3. From the document_basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
 
-[width="100%", cols="2,1"]
-|===
-a|. hdbk-acronymlist.adoc
+. hdbk-acronymlist.adoc
 . handbook.adoc
 . hbk-pdf-cover.adoc
 . hdbk-document-variables.adoc 
-^.^a|image::images/handbook.files.png[screenshot of handbook files that need to be copied from document basecamp into main directory]
-|===
 
 [start=4]
 4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
@@ -83,14 +79,10 @@ WARNING: Do not rename these files. Files reference each other by name.
 2. Add Document Basecamp as a submodule within your Specification. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
  
-[width="100%", cols="2,1"]
-|===
-a|. spec-acronymlist.adoc
+. spec-acronymlist.adoc
 . spec-document-variables.adoc
 . spec-pdf-cover.adoc
-. specification.adoc  OR specification-simple.adoc
-^.^a|image::images/spec.files.png[screenshot of specification files that need to be copied from document basecamp into main directory]
-|===
+. specification.adoc (or specification-simple.adoc)
 
 [start=4]
 4. Input or edit the variables in your Spec's copy of the *spec-document-variables.adoc* file first. 
@@ -137,14 +129,11 @@ WARNING: Do not rename these files. Files reference each other by name.
 2. Add Document Basecamp as a submodule within your Standard. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
 
-[width="100%", cols="2,1"]
-|===
-a|. std-acronymlist.adoc
+. std-acronymlist.adoc
 . standard.adoc
 . std-document-variables.adoc
 . std-pdf-cover.adoc
-^.^a|image::images/standard.files.png[screenshot of Standard files that need to be copied from document basecamp into main directory]
-|===
+
 
 [start=4]
 4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
