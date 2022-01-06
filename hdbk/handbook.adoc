@@ -166,7 +166,7 @@ The purpose of this NASA Technical Handbook is to *(COMPLETE THIS SECTION BY EXP
 
 === Applicability
 
-This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to the Jet Propulsion Laboratory (JPL), a Federally Funded Research and Development Center (FFRDC), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in their applicable contracts, grants, or agreements.
+This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in their applicable contracts, grants, or agreements.
 
 
 === Authority
@@ -247,7 +247,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 == Acronyms, Abbreviations, and Definitions
 
-include::acronymlist.adoc[] 
+include::acronym_list.adoc[] 
 
 // If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 

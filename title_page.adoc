@@ -1,16 +1,16 @@
 [cols="55s,^.^45s"]
 |======
 |image:document_basecamp/images/meatball.png[National Aeronautics and Space Administration Logo,height=120,width=100] {document-type}+++<br><br>+++National Aeronautics and Space Administration
-|{document-identifier} {document-version}+++<br>
+|{document-identifier} {document-version}+++<br>+++
 //Only display date if not in draft form
 ifeval::["{is-draft}" != "True"]
 // Display approved date for specs and standards
 ifdef::approved-date[]
-+++Approved: {approved-date}+++<br><br>+++
+Approved: {approved-date}+++<br><br>+++
 endif::approved-date[]
 // Display published date for handbooks
 ifdef::published-date[]
-+++Published: {published-date}+++<br><br>+++
+Published: {published-date}+++<br><br>+++
 endif::published-date[]
 endif::[]
 ifdef::superseding-document[]
@@ -22,13 +22,20 @@ endif::superseding-document[]
 
 [cols="^.^1s",width="100%"]
 |===
-|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++{document-title}+++<br>+++{document-subtitle}+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++
+{document-title}
++++<br>+++
+{document-subtitle}
++++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++
 ifeval::["{is-draft}" == "True"]
-+++{draft-stage}+++
-<br><br>
-+++{cover-page-mark-1}+++<br>+++{cover-page-mark-2}+++<br><br><br><br><br><br><br><br><br>+++
+{draft-stage}
++++<br><br>+++
+{cover-page-mark-1}
++++<br>+++
+{cover-page-mark-2}
++++<br><br><br><br><br><br><br><br><br>+++
 endif::[]
 ifeval::["{is-draft}" != "True"]
-<br><br><br><br><br><br><br><br><br><br><br><br><br>+++
++++<br><br><br><br><br><br><br><br><br><br><br><br><br>+++
 endif::[]
 |===

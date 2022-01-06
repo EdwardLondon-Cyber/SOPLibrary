@@ -188,15 +188,13 @@ ifeval::[ "{applicability}" != "all" ]
 This NASA Technical Specification is applicable to all computing systems using {application}. 
 endif::[]
 
-This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. It also applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. It also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 === Tailoring
 
-In accordance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
+Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
 
-NASA-STD-2601 mandates that the AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
-
-Note that some NASA Technical Specifications include configuration settings that are classified as "critical". Settings that are classified as "critical" *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
+The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
 === Authority
 
@@ -280,8 +278,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 == Acronyms, Abbreviations, and Definitions
 
-include::acronymlist.adoc[] 
-
+include::acronym_list.adoc[]
 
 // If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 

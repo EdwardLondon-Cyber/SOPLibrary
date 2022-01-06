@@ -11,13 +11,11 @@
 //|AAO|Agency Application Office
 //|ABM|Apple Business Manager
 //|AC|Application Control
-
 //|ACL|Assessed and Cleared List 
 //|ACL|Access Control List
 // ACL NOTE: if - and only if - both acronyms are needed in one document, then use the following: 
 //|ACL (Procurement)|Assessed and Cleared List
 //|ACL (Security)|Access Control List
-
 //|AD|Active Directory
 //|ADC|Active Directory Controller
 //|ADUC|Active Directory Users and Computers
@@ -26,7 +24,7 @@
 //|AI/ML|Artificial Intelligence/Machine Learning
 //|ALF|Application Layer Firewall
 //|AMT|Active Management Technology
-//|AO|Authorizing Official
+|AO|Authorizing Official
 //|AODR|Authorizing Official Designated Representative
 //|API|Application Programming Interface
 //|APNS|Apple Push Notification Service
@@ -51,6 +49,7 @@
 
 //## C
 //|CA|Certificate Authority
+//|CAB/F BR| Certificate Authority Browser Forum Baseline Requirements
 //|CAC|Common Access Card
 //|CAD|Computer-Aided Design
 //|CCID|Card Chip Interface Device
@@ -63,6 +62,7 @@
 //|CISO|Chief Information Security Officer
 //|CLI|Command Line Interface
 //|CM|COnfiguration Management
+//|CN|Common Name
 //|CNAME|Canonical Name Record
 //|CONOPS|Concept of Operations
 //|COTS|Commercial Off-The-Shelf
@@ -108,6 +108,7 @@
 //|E3A|Einstein 3 Accelerated
 //|EA|Extension Attribute
 //|EAR|Export Administration Regulations
+//|ECDSA|Elliptic Curve Digital Signature Algorithm
 //|EKU|Extended Key Usage
 //|EMCC|Enterprise Managed Cloud Computing
 //|EO|Executive Order
@@ -137,12 +138,14 @@
 //|GID|Group ID
 //|GMT|Greenwich Mean Time
 //|GOTS|Government Off-The-Shelf
+//|GPA|Group Policy Administrator
 //|GPO|Group Policy Object
 //|GPU|Graphic Processing Unit
 //|GRC|Glenn Research Center
 //|GSFC|Goddard Space Flight Center
 //|GSSAPI|Generic Security Service Application Program Interface
 //|GUI|Graphical User Interface
+//|GUID|Globally Unique Identifier
 
 //## H
 //|HBK|Handbook
@@ -307,7 +310,7 @@
 
 //## R
 //|RBAC|Role-Based Access Control
-//|RBD|Risk-Based Decision
+|RBD|Risk-Based Decision
 //|RDP|Remote Desktop Protocol
 //|RFC|Request for Comment
 //|RHEL|Red Hat Enterprise Linux
@@ -323,6 +326,7 @@
 //|SaaS|Software as a Service
 |SAISO|Senior Agency Information Security Officer
 //|SAML|Security Assessment Markup Language
+//|SAN|Subject Alternative Name
 //|SAOP|Senior Agency Official for Privacy
 //|SAR|Security Assessment Report
 //|SBU|Sensitive But Unclassified
@@ -343,6 +347,7 @@
 //|SGT|Security Group Tags
 //|SHA-1|Secure Hash Algorithm 1
 //|SHA-2|Secure Hash Algorithm 2
+//|SID|Security Identifier
 //|SIEM|Security Information and Event Management
 //|SIP|System Integrity Protection
 //|SLA|Service Level Agreement
@@ -359,7 +364,7 @@
 //|SQL|Structured Query Language
 //|SSH|Secure Shell
 //|SSHD|Secure Shell Daemon
-//|SSL|Secure Socket Laye
+//|SSL|Secure Socket Layer
 //|SSO|Single Sign On
 //|SSP|System Security Plan
 //|SSSD|System Security Services Daemon
