@@ -247,7 +247,7 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 == Acronyms, Abbreviations, and Definitions
 
-include::acronymlist.adoc[] 
+include::acronym_list.adoc[] 
 
 // If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
 

@@ -14,7 +14,6 @@ CSET's Handbook template directory is located in the following location: https:/
 
 *This directory contains the following four files:*
 
-* acronymlist.adoc
 * handbook.adoc
 * hbk-pdf-cover.adoc
 * hdbk-document-variables.adoc
@@ -27,9 +26,9 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 2. Add Document Basecamp as a submodule within your Handbook. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 
-3. From the document_basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
+3. From the document_basecamp folder, *make a copy of the following files and paste them into your Handbook's root directory*: 
 
-. acronymlist.adoc
+. acronym_list.adoc
 . handbook.adoc
 . hbk-pdf-cover.adoc
 . hdbk-document-variables.adoc 
@@ -38,9 +37,9 @@ WARNING: Do not rename these files. Files reference each other by name.
 4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
  * The variables in this document will be used throughout the Handbook and the cover page. 
 5. Then write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Spec will be contained. 
-6. Edit your Handbook's copy of the *acronymlist.adoc* to include the acronyms used throughout your handbook. 
+6. Edit your Handbook's copy of the *acronym_list.adoc* to include the acronyms used throughout your handbook. 
 
-NOTE: You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's main directory for the pdf version of your Handbook to be properly generated. 
+NOTE: You do not need to edit the *hbk-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Handbook to be properly generated. 
 
 ==== Generating HTML Handbooks
 
@@ -65,7 +64,6 @@ CSET's Specification template directory is located in the following location: ht
 
 *This directory contains the following five files:*
  
-* acronymlist.adoc
 * spec-document-variables.adoc
 * spec-pdf-cover.adoc
 * specification-simple.adoc
@@ -77,9 +75,9 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 1. Open your Specification in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Specification. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
-3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
+3. From the Document Basecamp folder, *make a copy of the following files and paste them into your Specification's root directory*: 
  
-. acronymlist.adoc
+. acronym_list.adoc
 . spec-document-variables.adoc
 . spec-pdf-cover.adoc
 . specification.adoc (or specification-simple.adoc)
@@ -89,9 +87,9 @@ WARNING: Do not rename these files. Files reference each other by name.
  * The variables in this document will be used throughout the guide and the cover page. 
 5. Then write or update your Spec's copy of the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
 ** Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
-6. Edit your Spec's copy of the *acronymlist.adoc* to include the acronyms used throughout your Spec. 
+6. Edit your Spec's copy of the *acronym_list.adoc* to include the acronyms used throughout your Spec. 
 
-NOTE: You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's main directory for the pdf version of your Specification to be properly generated. 
+NOTE: You do not need to edit the *spec-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Specification to be properly generated. 
 
 ==== Generating HTML Specifications
 
@@ -116,7 +114,6 @@ CSET's Standards template directory is located in the following location: https:
 
 *This directory contains the following four files:*
 
-* acronymlist.adoc
 * standard.adoc
 * std-document-variables.adoc
 * std-pdf-cover.adoc
@@ -127,9 +124,9 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 1. Open your Standard in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Standard. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
-3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
+3. From the Document Basecamp folder, *make a copy of the following files and paste them into your Standard's root directory*: 
 
-. acronymlist.adoc
+. acronym_list.adoc
 . standard.adoc
 . std-document-variables.adoc
 . std-pdf-cover.adoc
@@ -144,9 +141,9 @@ WARNING: Do not rename these files. Files reference each other by name.
 *** Appears on line 38 of template.
 *** See comment lines above line 38 in the template for instructions on how to fill in this variable. 
 *** All other variables that need to be input or updated are housed in the *std-document-variables.adoc* file.
-6. Edit your Standard's copy of the *acronymlist.adoc* to include the acronyms used throughout your Standard. 
+6. Edit your Standard's copy of the *acronym_list.adoc* to include the acronyms used throughout your Standard. 
 
-NOTE: You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be copied over from document basecamp and pasted into your document's main directory for the pdf version of your Standard to be properly generated. 
+NOTE: You do not need to edit the *std-pdf-cover.adoc* file, but this file does need to be copied over from document basecamp and pasted into your document's root directory for the pdf version of your Standard to be properly generated. 
 
 ==== Pre-Build Requirements Compliance Matrix
 
