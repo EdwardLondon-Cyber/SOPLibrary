@@ -11,13 +11,11 @@
 //|AAO|Agency Application Office
 //|ABM|Apple Business Manager
 //|AC|Application Control
-
 //|ACL|Assessed and Cleared List 
 //|ACL|Access Control List
 // ACL NOTE: if - and only if - both acronyms are needed in one document, then use the following: 
 //|ACL (Procurement)|Assessed and Cleared List
 //|ACL (Security)|Access Control List
-
 //|AD|Active Directory
 //|ADC|Active Directory Controller
 //|ADUC|Active Directory Users and Computers
@@ -26,7 +24,7 @@
 //|AI/ML|Artificial Intelligence/Machine Learning
 //|ALF|Application Layer Firewall
 //|AMT|Active Management Technology
-//|AO|Authorizing Official
+|AO|Authorizing Official
 //|AODR|Authorizing Official Designated Representative
 //|API|Application Programming Interface
 //|APNS|Apple Push Notification Service
@@ -312,7 +310,7 @@
 
 //## R
 //|RBAC|Role-Based Access Control
-//|RBD|Risk-Based Decision
+|RBD|Risk-Based Decision
 //|RDP|Remote Desktop Protocol
 //|RFC|Request for Comment
 //|RHEL|Red Hat Enterprise Linux
