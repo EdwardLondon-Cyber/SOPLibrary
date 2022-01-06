@@ -14,7 +14,7 @@ CSET's Handbook template directory is located in the following location: https:/
 
 *This directory contains the following four files:*
 
-* hdbk-acronymlist.adoc
+* acronymlist.adoc
 * handbook.adoc
 * hbk-pdf-cover.adoc
 * hdbk-document-variables.adoc
@@ -29,7 +29,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 3. From the document_basecamp folder in your Handbook's directory, *make a copy of the following files and paste them into your Handbook's main directory*: 
 
-. hdbk-acronymlist.adoc
+. acronymlist.adoc
 . handbook.adoc
 . hbk-pdf-cover.adoc
 . hdbk-document-variables.adoc 
@@ -65,7 +65,7 @@ CSET's Specification template directory is located in the following location: ht
 
 *This directory contains the following five files:*
  
-* spec-acronymlist.adoc
+* acronymlist.adoc
 * spec-document-variables.adoc
 * spec-pdf-cover.adoc
 * specification-simple.adoc
@@ -79,7 +79,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 2. Add Document Basecamp as a submodule within your Specification. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Spec's directory, *make a copy of the following files and paste them into your Specification's main directory*: 
  
-. spec-acronymlist.adoc
+. acronymlist.adoc
 . spec-document-variables.adoc
 . spec-pdf-cover.adoc
 . specification.adoc (or specification-simple.adoc)
@@ -116,7 +116,7 @@ CSET's Standards template directory is located in the following location: https:
 
 *This directory contains the following four files:*
 
-* std-acronymlist.adoc
+* acronymlist.adoc
 * standard.adoc
 * std-document-variables.adoc
 * std-pdf-cover.adoc
@@ -129,7 +129,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 2. Add Document Basecamp as a submodule within your Standard. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
 3. From the Document Basecamp folder in your Standard's directory, *make a copy of the following files and paste them into your Standard's main directory*: 
 
-. std-acronymlist.adoc
+. acronymlist.adoc
 . standard.adoc
 . std-document-variables.adoc
 . std-pdf-cover.adoc
