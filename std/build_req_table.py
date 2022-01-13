@@ -42,8 +42,20 @@ if __name__=="__main__":
   _numbered = False
   _section = "0"
   _description = ""
+  # track comment block and ignore
+  _in_comment_block = False
   # process the input file
   for _line in _doc:
+    if _line.find("////") == 0 and not _in_comment_block:
+      _in_comment_block = True
+    elif _line.find("////") == 0 and _in_comment_block:
+      _in_comment_block = False
+      continue
+    if _in_comment_block:
+      continue
+    if _line.find("//") == 0:
+      # single line comment
+      continue
     # check for reqkey
     if _line.find(":reqkey:") != -1:
       _reqkey = _line.split(" ",1)[1]
