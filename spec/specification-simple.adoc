@@ -102,7 +102,7 @@ endif::[]
 [%header,width="100%",cols="1,1,2"]
 |====
 |Document Version
-|Approval Date
+|Date Approved
 |Description
 
 |1.0
@@ -130,14 +130,13 @@ Adherence to this NASA Technical Specification ensures compliance with NASA-STD-
 Requests for information, corrections, or additions to this Specification can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.   
 
 
-+++<br><br><br><br>+++
-
-
-Michael Witt 
-+++<br><br>+++
-Senior Agency Information Security Officer
 
 +++<br>+++
+
+Refer to link:[https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600],  Enumeration of ASCS Cybersecurity Requirements|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
+
++++<br>+++
+
 
 ////
 NUMBERED SECTIONS:
@@ -190,6 +189,8 @@ endif::[]
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. It also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
+In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+
 === Tailoring
 
 Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
@@ -221,40 +222,38 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 === Government Documents
 
-// NOTE: make sure to comment block out any of the tables below if not needed
+// NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
+////
 .White House Releases
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
+////
 
-.NASA Documents
-[%header, cols=2*a]
-|===
-|Document Identifier|Document Title
-|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
-|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
-| | 
-|===
 
+////
 .NIST Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
+////
 
+////
 .Other Government Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
+////
 
-// NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
 
+////
 === Non-Government Documents
 
 // Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
@@ -264,6 +263,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |Document Identifier|Document Title
 | | 
 |===
+////
 
 +++<br>+++
 

@@ -130,16 +130,14 @@ if __name__=="__main__":
   _counter = 0
   # process the requirement text into table
   _output = []
-  _output.append('[width="100%",cols="1,3,3,1,2"]')
+  _output.append('[width="100%",cols="1,3,3"]')
   _output.append('|====')
-  _output.append('|Section |Description |Requirement |Applicable | Comments')
+  _output.append('|Section |Description |Requirement ')
   _output.append('')
   for _k,_v in _reqs.items():
     _output.append("|{}".format(_v["section"]))
     _output.append("|{}".format(_v["description"]))
     _output.append("|*({})* {}".format(_k, _v["raw_text"]))
-    _output.append("|")
-    _output.append("|")
     _output.append('')
   _output.append('|====')
 

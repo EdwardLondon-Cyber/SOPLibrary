@@ -8,9 +8,9 @@
 approved-date: 
  Input the approved date only when publishing.             
  Leave blank until then.  
- Date format: year-month-date
+ Date format: year-month-date:  20XX-XX-XX
 ////
-:approved-date: 20XX-XX-XX
+:approved-date:
 // document-version: e.g., v1.0,  v1.1, v2.0 etc.
 :document-version: vx.x
 // is-draft: Is this document a draft?
