@@ -25,8 +25,8 @@ approved-date:
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
 // :superseding-document: NASA-HDBK-2XXX
 // :superseding-document-version: vx.x
-:signatory: First Name Last Name
-:signatory-title: Signatory's Position/Title
+:signatory: Michael Witt
+:signatory-title: Senior Agency Information Security Officer (SAISO)
 
 // Customize the PDF header
 ifeval::["{is-draft}" == "True"]

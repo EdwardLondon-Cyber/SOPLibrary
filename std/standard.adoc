@@ -116,9 +116,15 @@ Requests for information, corrections, or additions to this Standard can be made
 
 +++<br>+++
 
-Refer to link:[https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600],  Enumeration of ASCS Cybersecurity Requirements|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
+{signatory}
 
 +++<br>+++
+
+{signatory-title}
+
+
++++<br>+++
+
 
 
 ////
