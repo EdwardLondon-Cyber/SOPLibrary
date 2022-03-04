@@ -6,7 +6,7 @@ include::spec-document-variables.adoc[]
 :numbered:
 
 == DESCRIPTION
-This ASCS specification defines security configuration settings for *INSERT NAME OF APP OR OS*.
+This ASCS specification defines security configuration settings for {document-title}.
 
 NOTE: Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
 
