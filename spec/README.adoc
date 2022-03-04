@@ -1,0 +1,59 @@
+include::spec-document-variables.adoc[]
+
+
+= {document-identifier}, _{document-title}_
+
+:numbered:
+
+== DESCRIPTION
+This ASCS specification defines security configuration settings for *INSERT NAME OF APP OR OS*.
+
+NOTE: Comments, concerns, issues found in the content of the specification can be directed to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov
+
+or this: 
+
+NOTE: Requests for information, corrections, or additions to this Specification can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+
+== GUIDE
+
+// Edit the link below: 
+
+HTML and PDF documents will be maintained within https://developer.nasa.gov/ASCS/INSERTLINK[GitHub Releases].
+
+== SCRIPTS
+
+=== 
+
+////
+The content that goes in the SCRIPTS section is specific to your document. 
+ 
+ e.g.:  
+    - Windows OS specs will include subsections for GPO reports, objects, templates, etc.
+    - macOS specs will include subsections for collections of scripts and configuration profiles
+    - Linux OS specs will include subsections for Online Detailed Specification with CDM checks
+////
+
+== DOCUMENT HISTORY
+
+// Highlights = Include current version and last version 
+// Only include big important changes in the description
+
+.Highlights from Document History 
+[%header,width="100%",cols="1,1,3"]
+|====
+|Document Version
+|Date Approved
+|Description
+
+|{document-version}
+|{approved-date}
+|
+
+| *TYPE IN PREVIOUS VERSION*
+| *TYPE IN PREVIOUS DATE APPROVED*
+|
+|====
+
+// Edit the link below: 
+
+NOTE: For a complete, detailed history of changes made to this document, see the link:CHANGELOG.adoc[Full Changelog]. 
