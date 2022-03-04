@@ -2,6 +2,8 @@
 
 This repository houses the AsciiDoc templates and styles utilized to create CSET's Standards, Handbook, Specifications.
 
+NOTE: See the https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitHub Knowledge Base] in Confluence for instructions on how to install and use Git. This knowledge base includes step-by-step instructions on how to create documents, use the forking method for draft documents, and make GitHub releases. 
+
 :numbered:
 
 == Templates
@@ -174,39 +176,3 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
 ----
 
-== Git Workflow
-
-=== Add Document Basecamp with Git Submodule to a New Repository
-
-You can add Document Basecamp to a document tree by using the git submodule command:
-
-[source]
-----
-git submodule add https://developer.nasa.gov/CSET/document_basecamp.git
-git add .
-git commit -m "adding document_basecamp to document"
-git push origin <branch name>
-----
-
-The document_basecamp directory will be added as a submodule in the repository. 
-
-=== Initializing Document Basecamp in an Existing Repository
-
-Use these commands if you have cloned an existing repository and you need to get the document basecamp contents into the submodule: 
-
-[source]
-----
-git submodule init
-git submodule update
-----
-
-=== Updating Document Basecamp
-
-If you are working in a repository that contains an outdated version of the document_basecamp submodule, use these commands to get the most up-to-date version: 
-
-[source]
-----
-cd document_basecamp
-git fetch
-git merge -s recursive -Xours origin origin/master
-----
