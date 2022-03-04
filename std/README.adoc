@@ -1,0 +1,47 @@
+include::std-document-variables.adoc[]
+
+
+= {document-identifier}, _{document-title}_
+
+:numbered:
+
+== DESCRIPTION
+This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS STANDARD)*.
+
+NOTE: Comments, concerns, issues found in the content of the Standard can be directed to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov
+
+or this: 
+
+NOTE: Requests for information, corrections, or additions to this Standard can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+
+== STANDARD
+
+// Edit the link below: 
+
+HTML and PDF documents will be maintained within https://developer.nasa.gov/ASCS/INSERTLINK[GitHub Releases].
+
+
+== DOCUMENT HISTORY
+
+// Highlights = Include current version and last version 
+// Only include big important changes in the description
+
+.Highlights from Document History 
+[%header,width="100%",cols="1,1,3"]
+|====
+|Document Version
+|Date Approved
+|Description
+
+|{document-version}
+|{approved-date}
+|
+
+| *TYPE IN PREVIOUS VERSION*
+| *TYPE IN PREVIOUS DATE APPROVED*
+|
+|====
+
+// Edit the link below: 
+
+NOTE: For a complete, detailed history of changes made to this document, see the link:CHANGELOG.adoc[Full Changelog]. 

@@ -8,7 +8,7 @@ include::spec-document-variables.adoc[]
 == DESCRIPTION
 This ASCS specification defines security configuration settings for *INSERT NAME OF APP OR OS*.
 
-NOTE: Comments, concerns, issues found in the content of the specification can be directed to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov
+NOTE: Comments, concerns, issues found in the content of this Specification can be directed to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov
 
 or this: 
 
