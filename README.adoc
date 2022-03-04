@@ -1,8 +1,8 @@
 = Document Basecamp
 
-This repository houses the AsciiDoc templates and styles utilized to create CSET's Standards, Handbook, Specifications.
+This repository houses the AsciiDoc templates utilized to create CSET's Standards, Handbook, Specifications as well as instructions on how to use these templates. 
 
-NOTE: See the https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitHub Knowledge Base] in Confluence for instructions on how to install and use Git. This knowledge base includes step-by-step instructions on how to create documents, use the forking method for draft documents, and make GitHub releases. 
+IMPORTANT: See the https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitHub Knowledge Base] in Confluence for instructions on how to install and use Git. This knowledge base includes step-by-step instructions on how to create documents, use the forking method for draft documents, and make GitHub releases. 
 
 :numbered:
 
@@ -17,8 +17,9 @@ CSET's Handbook template directory is located in the following location: https:/
 *This directory contains the following four files:*
 
 * handbook.adoc
-* hbk-pdf-cover.adoc
 * hdbk-document-variables.adoc
+* hbk-pdf-cover.adoc
+* README.adoc
 
 WARNING: Do not rename these files. Files reference each other by name.
 
@@ -26,7 +27,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 1. Open your Handbook in Visual Studio Code (VSC).
 
-2. Add Document Basecamp as a submodule within your Handbook. (See Section 2.1., _Add Document Basecamp with Git Submodule_ for instructions.)
+2. Add Document Basecamp as a submodule within your Handbook.
 
 3. From the document_basecamp folder, *make a copy of the following files and paste them into your Handbook's root directory*: 
 
@@ -34,6 +35,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 . handbook.adoc
 . hbk-pdf-cover.adoc
 . hdbk-document-variables.adoc 
+. README.adoc
 
 [start=4]
 4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
@@ -70,6 +72,7 @@ CSET's Specification template directory is located in the following location: ht
 * spec-pdf-cover.adoc
 * specification-simple.adoc
 * specification.adoc
+* README.adoc
 
 WARNING: Do not rename these files. Files reference each other by name.
 
@@ -83,6 +86,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 . spec-document-variables.adoc
 . spec-pdf-cover.adoc
 . specification.adoc (or specification-simple.adoc)
+. README.adoc
 
 [start=4]
 4. Input or edit the variables in your Spec's copy of the *spec-document-variables.adoc* file first. 
@@ -119,6 +123,7 @@ CSET's Standards template directory is located in the following location: https:
 * standard.adoc
 * std-document-variables.adoc
 * std-pdf-cover.adoc
+* README.adoc
 
 WARNING: Do not rename these files. Files reference each other by name.
 
@@ -132,6 +137,7 @@ WARNING: Do not rename these files. Files reference each other by name.
 . standard.adoc
 . std-document-variables.adoc
 . std-pdf-cover.adoc
+. README.adoc
 
 
 [start=4]
