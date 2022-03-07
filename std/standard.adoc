@@ -119,7 +119,6 @@ This NASA Technical Standard is published by the National Aeronautics and Space 
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-
 This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS STANDARD)*.
 
 Requests for information, corrections, or additions to this Standard can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
@@ -223,14 +222,16 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |===
 ////
 
-////
+
+
 .NASA Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
-| | 
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
+// | | 
 |===
-////
+
 
 ////
 .NIST Documents
@@ -272,14 +273,14 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
   List acronyms, abbreviations, and definitions in alphabetical order.
 
   Change the title of this section as necessary: 
-    If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
+    If you don't have anything for the Definitions table, change Section 3 title to: == Acronyms and Abbreviations
 ////
 
 == Acronyms, Abbreviations, and Definitions
 
 include::acronym_list.adoc[]
 
-// If you don't have anything for the Definitions table, change Section 3 title to: == Acronyms and Abbreviations
+
 
 ////
 .Definitions
