@@ -139,7 +139,7 @@ COMMON CONTENT
 
 == Scope
 
-This Handbook is not a requirements document. The Cybersecurity Standards and Engineering Team (CSET) creates handbooks to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET’s standards and specifications.
+This Handbook is not a requirements document. The Cybersecurity Standards and Engineering Team (CSET) creates handbooks to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET's standards and specifications.
 
 ////
 PURPOSE: 

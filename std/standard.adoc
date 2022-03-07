@@ -31,10 +31,20 @@ endif::[]
 
 include::std-document-variables.adoc[]
 
-// **VARIABLES!** 
-// AUTO-NUMBERING: Special variables for auto number requirements
-// VARIABLE: reqkey = enter the document number (example: 2601) 
-//           the counter will auto-increment the requirements so the result will be: reqkey followed by "-R" followed by the requirement number (example: 2601-R8). 
+////
+ **VARIABLES!** 
+  The two variables below are special variables for automatically generating numbers to identify the requirements (SHALL statements) in this Standard
+
+  reqkey = enter the document number 
+           example: 2601
+  
+  counter = requirement: 0 (do not change from template) 
+  
+  The counter will auto-increment the requirements so the result will be: reqkey followed by "-R" followed by the requirement number 
+    It will look like this:  2601-R8
+////
+
+//VARIABLES: 
 :reqkey: 
 :counter: requirement: 0
 
@@ -156,13 +166,16 @@ The purpose of this NASA Technical Standard is to establish *(COMPLETE THIS SECT
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-Verifiable requirement statements are numbered and designated by the acronym **26XX-R#**. Verifiable requirement statements also contain the word "*_SHALL_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
+// Replace the question marks in the line below with your Standard's number! (e.g., 2601)
 
-// numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. do not number the SHALL statement in the applicability section. 
+Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
 
-// requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_* and each one is counted as a single requirement statement. 
-// once you have finished writing this Standard, look at the preview to see how many SHALL statements (requirements) it contains. 
-// you have to MANUALLY TYPE the number into the sentence above - delete the note in bold and replace with the number
+// Note: numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. do not number the SHALL statement in the applicability section. 
+
+// IMPORTANT: requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_*, and each one is counted as a single requirement statement. 
+
+// IMPORTANT: once you have finished writing this Standard, look at the preview to see how many SHALL statements (requirements) this Standard contains and MANUALLY TYPE the number into line 171 above - delete the note in bold and replace with the number.
+
 // note: spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
 
 In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
@@ -173,10 +186,11 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/
 
+In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
 === Tailoring
 
-Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
+Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
@@ -192,7 +206,7 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
-The documents listed in this section contain provisions that constitute requirements of this NASA Technical Standard as cited in the text. These documents can serve as additional support in meeting the requirements of this NASA Technical Standard.
+The documents listed in this section contain provisions that constitute requirements of this NASA Technical Standard. These documents can serve as additional support in meeting the requirements of this NASA Technical Standard.
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
@@ -265,14 +279,17 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 include::acronym_list.adoc[]
 
-// If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
+// If you don't have anything for the Definitions table, change Section 3 title to: == Acronyms and Abbreviations
 
+////
 .Definitions
 [width="100%",cols="1,3"]
-|====
-| |
 
 |====
+| |
+|====
+
+////
 
 
 

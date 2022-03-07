@@ -127,10 +127,9 @@ Adherence to this NASA Technical Specification ensures compliance with NASA-STD-
 
 Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
 
-
 +++<br>+++
 
-Refer to link:[https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600],  Enumeration of ASCS Cybersecurity Requirements|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
+Refer to link:|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
 
 +++<br>+++
 
@@ -187,7 +186,7 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
+Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
@@ -214,7 +213,7 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
-The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this  Specification. 
+The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this Specification. 
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 

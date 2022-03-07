@@ -1,6 +1,6 @@
 = Document Basecamp
 
-This repository houses the AsciiDoc templates utilized to create CSET's Standards, Handbook, Specifications. 
+This repository houses the AsciiDoc templates utilized to create CSET's standards, handbooks, and specifications. 
 
 This (README) page provides instructions on where to find each of CSET's document template directories, the contents of those directories, and how to use the files contained in those directories. 
 
@@ -13,7 +13,7 @@ IMPORTANT: See the https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitH
 :numbered:
 
 == CSET Handbooks
-CSET's Handbook template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
+CSET's Handbook template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
 
 *This directory contains the following files:*
 
@@ -47,13 +47,13 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 [start=4]
 4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
- ** The variables in this document will be used throughout the Handbook and the cover page. 
+ ** The variables in this file will be used throughout the Handbook and the cover page. 
 5. Next, write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Handbook will be contained. 
 6. Update your Handbook's copy of the *acronym_list.adoc* to include the acronyms used throughout your handbook. 
 7. Update your Handbook's copy of the *README.adoc*. 
  ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents.  
 
-NOTE: You will not edit the *hbk-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Handbook to be properly generated. 
+IMPORTANT: You will not edit the *hbk-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Handbook to be properly generated. 
 
 === Generating HTML Handbooks
 
@@ -76,7 +76,7 @@ asciidoctor-pdf -D build hdbk-pdf-cover.adoc handbook.adoc
 +++<br>+++
 
 == CSET Specifications
-CSET's Specification template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
+CSET's Specification template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
 
 *This directory contains the following five files:*
  
@@ -109,14 +109,14 @@ WARNING: Do not rename these files. Files reference each other by name.
 
 [start=4]
 4. Input or edit the variables in your Spec's copy of the *spec-document-variables.adoc* file first. 
- * The variables in this document will be used throughout the guide and the cover page. 
+ * The variables in this file will be used throughout the guide and the cover page. 
 5. Then write or update your Spec's copy of the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
 ** Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
 6. Edit your Spec's copy of the *acronym_list.adoc* to include the acronyms used throughout your Spec. 
 7. Update your Spec's copy of the *README.adoc*. 
  ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents. 
 
-NOTE: You will not edit the *spec-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Specification to be properly generated. 
+IMPORTANT: You will not edit the *spec-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Specification to be properly generated. 
 
 === Generating HTML Specifications
 
@@ -139,7 +139,7 @@ asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
 +++<br>+++
 
 == CSET Standards
-CSET's Standards template directory is located in the following location: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
+CSET's Standards template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
 *This directory contains the following four files:*
 
@@ -172,22 +172,22 @@ a|image::images\std.png[]
 
 [start=4]
 4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
-** The variables in this document will be used throughout the Standard and the cover page. 
+** The variables in this file will be used throughout the Standard and the cover page. 
 5. Then write or update your Standard's copy of the *standard.adoc* file - this is where the main contents of your Standard will be contained. 
 ** Note that there is a new variable that needs to be filled in in the *standard.adoc* file: 
 *** New variable: :reqkey: 
-*** Appears on line 38 of template.
-*** See comment lines above line 38 in the template for instructions on how to fill in this variable. 
+*** Appears on line 48 of template.
+*** See comment block above line 48 in the template for instructions on how to fill in this variable. 
 *** All other variables that need to be input or updated are housed in the *std-document-variables.adoc* file.
 6. Edit your Standard's copy of the *acronym_list.adoc* to include the acronyms used throughout your Standard. 
 7. Update your Standard's copy of the *README.adoc*. 
  ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents.  
 
-NOTE: You will not edit the *std-pdf-cover.adoc* file, but this file does need to be copied over from document basecamp and pasted into your document's root directory for the pdf version of your Standard to be properly generated. 
+IMPORTANT: You will not edit the *std-pdf-cover.adoc* file, but this file does need to be copied over from document basecamp and pasted into your document's root directory for the pdf version of your Standard to be properly generated. 
 
-=== Pre-Build Requirements Compliance Matrix
+=== Pre-Build the Standard's Requirements Compliance Matrix
 
-Run this command before running either the HTML or PDF build script *each time* to generate an up-to-date Requirement Compliance Matrix (the std-compliance-matrix.adoc). 
+Run this command before running either the HTML or PDF build script *each time* to generate an up-to-date Requirements Compliance Matrix (the std-compliance-matrix.adoc). 
 
 NOTE: Command below requires Python3 installed and configured on system. 
 
