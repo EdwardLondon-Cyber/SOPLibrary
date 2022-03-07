@@ -1,6 +1,6 @@
 // Title Page Variables
 :document-type: NASA TECHNICAL SPECIFICATION
-:document-identifier: NASA-SPEC-2XXXX
+:document-identifier: NASA-SPEC-2XXX
 // document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval. 
 :document-title: DOCUMENT TITLE
 :document-subtitle: SECURITY CONFIGURATION SPECIFICATION
