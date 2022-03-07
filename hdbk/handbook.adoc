@@ -124,7 +124,7 @@ This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOS
 
 Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
 
-+++<br><br><br><br><br><br><br>+++
++++<br><br><br>+++
 
 
 
@@ -211,7 +211,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |Document Identifier|Document Title
 |link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
-| | 
+// | | 
 |===
 
 ////
@@ -260,14 +260,17 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 include::acronym_list.adoc[] 
 
-// If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
+// If you don't have anything for the Definitions table, change Section 3 title to: == Acronyms and Abbreviations
 
+////
 .Definitions
 [width="100%",cols="1,3"]
 |====
 | |
 
 |====
+////
+
 
 ////
 DOCUMENT CONTENT
@@ -306,8 +309,8 @@ PREREQUISITES:
 
 The following requirements must be met for this solution to be viable:
 
-. 
-. 
+. _xyz_
+. _xyz_
 
 ////
 CAVEATS: 
@@ -326,16 +329,15 @@ CAVEATS:
 
 The following caveats should be carefully reviewed before implementing this solution:
 
-. 
-. 
+. _xyz_
+. _xyz_
 
 ////
-PROCESS/STEP: 
+Begin Instructions: 
   At this point, begin walking through the process/solution defined in this handbook.
 
-  *Important*: Authors need to title this section with the step or process (do not leave "Process/Step" as this section title.) 
-
-  Add sections and subsections as needed to identify different steps in implementing the process/solution. 
+  *Important*: Authors need to title this section with the step or process 
+   Add sections and subsections as needed to identify different steps in implementing the process/solution. 
 
   *Example* (excerpts from NASA-HBK-2670, Mission PIV): 
    6. CONFIGURING PIV-M SOLUTION FOR LINUX 
@@ -344,7 +346,7 @@ PROCESS/STEP:
       6.2. Scope PIV-M MBE GPO to Applicable Endpoints
 ////
 
-== Process/Step 
+== Begin Instructions 
 
 
 
