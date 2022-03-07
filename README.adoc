@@ -50,6 +50,7 @@ WARNING: Do not rename these files. Files reference each other by name.
  ** The variables in this file will be used throughout the Handbook and the cover page. 
 5. Next, write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Handbook will be contained. 
 6. Update your Handbook's copy of the *acronym_list.adoc* to include the acronyms used throughout your handbook. 
+ ** Note: ISO, RBD, and SSP are in the template acronym list because they appear in the spec and std templates - if you do not use these acronyms in your own document's content, make sure to comment them out of the acronym_list.adoc file. 
 7. Update your Handbook's copy of the *README.adoc*. 
  ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents.  
 
