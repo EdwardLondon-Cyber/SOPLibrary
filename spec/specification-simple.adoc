@@ -102,7 +102,7 @@ endif::[]
 [%header,width="100%",cols="1,1,2"]
 |====
 |Document Version
-|Approval Date
+|Date Approved
 |Description
 
 |1.0
@@ -127,17 +127,14 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
 
-Requests for information, corrections, or additions to this Specification can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.   
-
-
-+++<br><br><br><br>+++
-
-
-Michael Witt 
-+++<br><br>+++
-Senior Agency Information Security Officer
+Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
 
 +++<br>+++
+
+Refer to link:|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
+
++++<br>+++
+
 
 ////
 NUMBERED SECTIONS:
@@ -192,7 +189,7 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the  System Security Plan (SSP) under program or project requirements. 
+Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
@@ -201,6 +198,8 @@ The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/. 
+
+In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
 +++<br>+++
 
@@ -215,46 +214,53 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
-The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this  Specification. 
+The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this Specification. 
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
 === Government Documents
 
-// NOTE: make sure to comment block out any of the tables below if not needed
+// NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
+////
 .White House Releases
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
+////
+
 
 .NASA Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600] |_Enumeration of ASCS Cybersecurity Requirements_
 |link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
-| | 
 |===
 
+////
 .NIST Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
+////
 
+////
 .Other Government Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
+////
 
-// NOTE: Comment out the Non-Government Documents table if you do not have any documents to include.  (i.e., Do not leave a blank table in the document)
 
+////
 === Non-Government Documents
 
 // Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
@@ -264,6 +270,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |Document Identifier|Document Title
 | | 
 |===
+////
 
 +++<br>+++
 

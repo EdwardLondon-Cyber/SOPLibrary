@@ -8,9 +8,9 @@
 approved-date: 
  Input the approved date only when publishing.             
  Leave blank until then.  
- Date format: year-month-date
+ Date format: year-month-date: 20XX-XX-XX
 ////
-:approved-date: 20XX-XX-XX
+:approved-date:
 // document-version: e.g., v1.0,  v1.1, v2.0 etc.
 :document-version: vx.x
 // is-draft: Is this document a draft? (enter True if it is a draft)
@@ -25,8 +25,8 @@ approved-date:
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
 // :superseding-document: NASA-HDBK-2XXX
 // :superseding-document-version: vx.x
-:signatory: First Name Last Name
-:signatory-title: Signatory's Position/Title
+:signatory: Michael Witt
+:signatory-title: Senior Agency Information Security Officer (SAISO)
 
 // Customize the PDF header
 ifeval::["{is-draft}" == "True"]

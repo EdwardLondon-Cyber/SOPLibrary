@@ -1,6 +1,6 @@
 // Title Page Variables
 :document-type: NASA TECHNICAL SPECIFICATION
-:document-identifier: NASA-SPEC-2XXXX
+:document-identifier: NASA-SPEC-2XXX
 // document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval. 
 :document-title: DOCUMENT TITLE
 :document-subtitle: SECURITY CONFIGURATION SPECIFICATION
@@ -8,9 +8,9 @@
 approved-date: 
  Input the approved date only when publishing.             
  Leave blank until then.  
- Date format: year-month-date
+ Date format: year-month-date:  20XX-XX-XX
 ////
-:approved-date: 20XX-XX-XX
+:approved-date:
 // document-version: e.g., v1.0,  v1.1, v2.0 etc.
 :document-version: vx.x
 // is-draft: Is this document a draft?
@@ -24,8 +24,7 @@ approved-date:
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
 // :superseding-document: NASA-SPEC-2XXX
 // :superseding-document-version: vx.x
-:signatory: First Name Last Name
-:signatory-title: Signatory's Position/Title
+
 
 // Customize the PDF header
 ifeval::["{is-draft}" == "True"]

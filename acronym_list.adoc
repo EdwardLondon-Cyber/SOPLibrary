@@ -183,7 +183,7 @@
 //|IR|Incident Response
 //|IRM|Incident Response Manager
 //|ISA|Interconnection Security Agreement
-//|ISO|Information System Owner
+|ISO|Information System Owner
 //|ISSE|Information System Security Engineer
 //|ISSO|Information System Security Officer
 //|IT|Information Technology
@@ -366,7 +366,7 @@
 //|SSHD|Secure Shell Daemon
 //|SSL|Secure Socket Layer
 //|SSO|Single Sign On
-//|SSP|System Security Plan
+|SSP|System Security Plan
 //|SSSD|System Security Services Daemon
 //|STD|Standard
 //|STIG|Security Technical Implementation Guide

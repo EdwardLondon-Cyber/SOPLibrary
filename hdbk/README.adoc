@@ -1,0 +1,44 @@
+include::hdbk-document-variables.adoc[]
+
+
+= {document-identifier}, _{document-title}_
+
+:numbered:
+
+== DESCRIPTION
+This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
+
+
+NOTE: Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+
+== HANDBOOK
+
+// Edit the link below: 
+
+HTML and PDF documents will be maintained within https://developer.nasa.gov/ASCS/INSERTLINK[GitHub Releases].
+
+
+
+== DOCUMENT HISTORY
+
+// Highlights = Include current version and last version 
+// Only include big important changes in the description
+
+.Highlights from Document History 
+[%header,width="100%",cols="1,3"]
+|====
+|Document Version
+|Important Changes Made
+
+|{document-version}
+a|* example
+* example
+
+
+|vx.x 
+a|* example
+*  example
+|====
+
+// Edit the link below: 
+NOTE: For a complete, detailed history of changes made to this document, see the link:CHANGELOG.adoc[Full Changelog]. 
