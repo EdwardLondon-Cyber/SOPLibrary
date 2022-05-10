@@ -287,14 +287,15 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 include::acronym_list.adoc[]
 
-// If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
+// If you don't have anything for the Definitions table, change section title to: == Acronyms and Abbreviations
 
+////
 .Definitions
-[width="100%",cols="1,3"]
-|====
-| |
+
+include::definitions.adoc[]
 
 |====
+////
 
 +++<br>+++
 
