@@ -33,7 +33,7 @@
 |ASCS|Agency Security Configuration Standards
 //|ASP|Active Server Pages
 //|ASRL|Address Space Layout Randomization
-//|ATO|Authenticator Assurance Level
+//|ATO|Authorization to Operate
 //|AUFS|Advanced multi-layer Unification File System
 //|AUID|Agency User Identifier
 //|AzureAD|Azure Active Directory
@@ -54,7 +54,7 @@
 //|CAD|Computer-Aided Design
 //|CCID|Card Chip Interface Device
 //|CCRM|Center Cybersecurity Risk Manager
-//|CDM|Continuous Diagnostics and Mitigation
+|CDM|Continuous Diagnostics and Mitigation
 //|CGI|Common Gate Interface
 //|CI|Configuration Item
 |CIO|Chief Information Officer
@@ -84,7 +84,7 @@
 //|DAC|Directory Access Controls
 //|DANE|DNS-Based Authentication of Named Entities
 //|DANE-TA|DNS-Based Authentication of Named Entities - Trust Anchor
-//|DAR|Data At Rest
+//|DAR|Data at Rest
 //|DC|Domain Controller
 //|DCCP|Datagram Congestion Control Protocol
 //|DDoS|Distributed Denial of Service
@@ -103,6 +103,7 @@
 //|DOS|Denial of Service
 //|DRA|Directory Resource Administrator
 //|DRM|Dell Repository Manager
+//|DSI|Desktop Smartcard Integration
 
 //## E
 //|E3A|Einstein 3 Accelerated
@@ -241,6 +242,7 @@
 //|NCAD|NASA Consolidated Active Directory
 //|NCTR|NASA Client Trust Reference
 //|NDA|Non-Disclosure Agreement
+//|NDC|NASA Data Center
 //|NED|NASA Enterprise Directory
 //|NFS|Network File System
 //|NICA|NASA Internal Certificate Authority
@@ -412,6 +414,7 @@
 //|WinHEC|Windows Hardware Engineering Community
 //|WLAN|Wireless Local Area Network
 //|WSUS|Windows Server Update Services
+//|WUfB|Windows Update for Business
 //|WWAN|Wireless Wide Area Network
 
 //## X
