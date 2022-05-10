@@ -188,7 +188,7 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
-The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
+The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained..
 
 NOTE: Some NASA Technical Specifications include "_critical_" configuration settings. "_Critical_" configuration settings *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
 
