@@ -1,18 +1,20 @@
-
 .Definitions
 [width="100%",cols="1,3"]
 |====
-//## #
-//|3PAO|Third-Party Assessment Organization
 
 //## A
+//|AA Account| An account that refers to an Active Directory Resource Management Account. This secondary account is used to manage servers or other resources that are part of "NDC.NASA.GOV." These accounts typically have the prefix "aa-" (e.g., aa-jdoe).
+//|Authentication| Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system. (NIST)
+//|Authorization|Access privileges granted to a user, program, or process or the act of granting those privileges. (NIST)
 
 
 //## B
-
+//|Block Storage - Also know as block-level storage breaks data into blocks and stores each block separately.  Each block has a unique identifier within the storage system.  File systems routinely are built upon block storage systems.  Block storage is utilized for file access by most cloud provider.
 
 //## C
-
+//|Cipher Strength| The number of bits encrypting data within a key.
+//|Clean Source Principle| All security dependencies – such as a vendor’s sales channel or a software download site – must be as trustworthy as the object – such as an operating system or application – being secured. Per Microsoft, "Any subject in control of an object is a security dependency of that object. If an adversary can control anything ineffective control of a target object, they can control that target object. Because of this, you must ensure that the assurances for all security dependencies are at or above the desired security level of the object itself."
+//|Cloud Consumer| An organization or individual that has a formal contract or arrangement with a cloud service provider to use IT resources or components made available by the cloud service provider.
 
 
 //## D
