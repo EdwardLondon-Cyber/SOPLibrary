@@ -20,29 +20,31 @@ The table below contains definitions for key terms used in this document. Parent
 //|Cloud Service Provider|A company that offers some component of cloud computing such as a cloud-based platform, infrastructure, application, or storage device. These components are typically delivered via various cloud service models (e.g., IaaS, PaaS, SaaS).
 //|Cloud Storage Services| Services that allow information and data to be stored within a cloud environment. These services can include, but are not limited to, block storage, object storage, cloud-hosted file systems, and Software as a Service (SaaS) cloud storage.  
 //|Community Cloud| Cloud infrastructure that is provisioned for exclusive use by a specific community of cloud consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). A community cloud may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
-//|Computing Systems| Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and Infrastructure-as-a-Service (IaaS) systems. Computing systems are a subset of information systems and may be physical or virtual.
-//|Configuration Item| An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process. (NIST)
-//|Configuration Management| A collection of activities focused on establishing and maintaining the integrity of products and systems, through control of the processes for initializing, changing, and monitoring the configurations of those products and systems throughout the system development life cycle. (NIST)
-//|Configuration Profile| A configuration profile is an XML file that allows you to distribute configuration settings to macOS devices.
-//|Controlled Unclassified Information| Information that the Government creates or possesses, or that an entity creates or possesses for or on behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls. However, CUI does not include classified information or information a non-executive branch entity possesses and maintains in its own systems that did not come from, or was not created or possessed by or for, an executive branch agency or an entity acting for an agency. (NIST)
+//|Computing Device|A machine (real or virtual) for performing calculations automatically. Computing devices include, but are not limited to, computers, servers, routers, and switches. (NIST)
+//|Computing System|A subset of information systems and may be physical or virtual. Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and Infrastructure-as-a-Service (IaaS) systems. 
+//|Configuration Item|An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process. (NIST)
+//|Configuration Management|A collection of activities focused on establishing and maintaining the integrity of products and systems, through control of the processes for initializing, changing, and monitoring the configurations of those products and systems throughout the system development life cycle. (NIST)
+//|Configuration Profile|A configuration profile is an XML file that allows you to distribute configuration settings to macOS devices.
+//|Controlled Unclassified Information|Information that the Government creates or possesses, or that an entity creates or possesses for or on behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls. However, CUI does not include classified information or information a non-executive branch entity possesses and maintains in its own systems that did not come from, or was not created or possessed by or for, an executive branch agency or an entity acting for an agency. (NIST)
 //|Cryptography| The discipline that embodies the principles, means, and methods for the transformation of data in order to hide their semantic content, prevent their unauthorized use, or prevent their undetected modification. (NIST)
-//|Computing Device|A functional unit that can perform substantial computations, including numerous arithmetic operations and logic operations without human intervention. A computing device can consist of a standalone unit or several interconnected units. It can also be a device that provides a specific set of functions, such as a phone or a personal organizer, or more general functions such as a laptop or desktop computer. (NIST)
+
 
 //## D
 //|Data|Any piece of information suitable for use in a computer. (NIST)
-//|Data At Rest| Data in persistent storage on a device.
-//|Data Storage Device| Any device that can store data either temporarily or permanently. Data storage devices include but are not limited to computer storage devices, server storage devices, laptops/notebooks, phones, backup media, removable digital system media, and cloud storage.
+//|Data At Rest|Data in persistent storage on a device.
+//|Data Storage Device|Any device that can store data (either temporarily or permanently). Data storage devices include but are not limited to computer storage devices, server storage devices, laptops/notebooks, phones, backup media, removable digital system media, and cloud storage.
 
 
 //## E
-//|Elevated Privilege| Having the ability to change the system configuration of a compute system.
-//|Email Server| A server that has the ability to send and receive email for remote clients. A system that only handles self-generated email is not an email server.
-//|Emergency Access Account| An emergency access account is a highly privileged account, not assigned to any one individual, and is meant to mitigate scenarios where there is an accidental lack of administrative access within the organization.
-//|End-User Workstation| A term used generically to refer to desktops, laptop computers, mobile devices, engineering workstations, and other computing devices that are utilized to provide basic interoperability.
-//|Environment| Aggregate of external procedures, conditions, and objects affecting the development, operation, and maintenance of an information system. (NIST)
+//|Elevated Privilege|Permissions that allow a user to change the system configuration of a computing system.
+//|Email Server|A server that has the ability to send and receive email for remote clients. A system that only handles self-generated email is not an email server. 
+//|Emergency Access Account|Highly privileged accounts that are not assigned to specific individuals but are accessible to a limited list of administrators to use in case of emergency. Emergency access accounts are limited to emergency (also referred to as "break glass") scenarios in which normal administrative accounts cannot be used. 
+//|End-User Workstation|A term used generically to refer to desktops, laptop computers, mobile devices, engineering workstations, and other computing devices that are utilized to provide basic interoperability.
+//|Environment|Aggregate of external procedures, conditions, and objects affecting the development, operation, and maintenance of an information system. (NIST)
 
 //## F
-
+//Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
+//Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as whole disk encryption.
 
 
 //## G
@@ -50,7 +52,9 @@ The table below contains definitions for key terms used in this document. Parent
 
 
 //## H
-
+//|Headless|A term used to describe an asset that is accessed exclusively via a network connection. A headless asset will not have peripheral hardware (e.g., keyboard, mouse, or monitor) connected to it.
+//|High-Value Asset|Information or an information system that is so critical to an organization that the loss or corruption of this information or loss of access to the system would have serious impacts on the organization's ability to perform its mission or conduct business.
+//|Hybrid Cloud|A computing environment comprising two or more distinct cloud infrastructures (e.g., private, community, or public).The infrastructures used in a hybrid cloud environment remain unique entities, but they are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
 
 //## I
 
