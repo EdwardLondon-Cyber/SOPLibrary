@@ -25,7 +25,7 @@ The table below contains definitions for key terms used in this document. Parent
 //|Configuration Item|An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process. (NIST)
 //|Configuration Management|A collection of activities focused on establishing and maintaining the integrity of products and systems, through control of the processes for initializing, changing, and monitoring the configurations of those products and systems throughout the system development life cycle. (NIST)
 //|Configuration Profile|A configuration profile is an XML file that allows you to distribute configuration settings to macOS devices.
-//|Controlled Unclassified Information|Information that the Government creates or possesses, or that an entity creates or possesses for or on behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls. However, CUI does not include classified information or information a non-executive branch entity possesses and maintains in its own systems that did not come from, or was not created or possessed by or for, an executive branch agency or an entity acting for an agency. (NIST)
+//|Controlled Unclassified Information|Information that the Government creates or possesses, or that an entity creates or possesses for or on behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls. However, Controlled Unclassified Information (CUI) does not include classified information or information a non-executive branch entity possesses and maintains in its own systems that did not come from, or was not created or possessed by or for, an executive branch agency or an entity acting for an agency. (NIST)
 //|Cryptography| The discipline that embodies the principles, means, and methods for the transformation of data in order to hide their semantic content, prevent their unauthorized use, or prevent their undetected modification. (NIST)
 
 
@@ -42,6 +42,13 @@ The table below contains definitions for key terms used in this document. Parent
 //|End-User Workstation|A term used generically to refer to desktops, laptop computers, mobile devices, engineering workstations, and other computing devices that are utilized to provide basic interoperability.
 //|Environment|Aggregate of external procedures, conditions, and objects affecting the development, operation, and maintenance of an information system. (NIST)
 
+// Azure AD:
+//Extension Attributes|Directory schema extension attributes provide a way to store additional data in Azure Active Directory on user objects and other directory objects such as groups, tenant details, service principals. Only extension attributes on user objects can be used for emitting claims to applications.(Microsoft) 
+
+//Jamf:
+//Extension Attributes|Computer extension attributes are custom fields created in Jamf Pro to collect almost any type of data from a system.
+
+
 //## F
 //Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
 //Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as whole disk encryption.
@@ -57,55 +64,123 @@ The table below contains definitions for key terms used in this document. Parent
 //|Hybrid Cloud|A computing environment comprising two or more distinct cloud infrastructures (e.g., private, community, or public).The infrastructures used in a hybrid cloud environment remain unique entities, but they are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
 
 //## I
-
+//|Incident| An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies. (NIST)
+//|Information System|A discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information. (NIST)
+//|Information System Owner|Official responsible for the overall procurement, development, integration, modification, or operation and maintenance of an information system. (NIST)
+//|Interactive Authentication|Authentication to the recovery of encrypted data requiring an authorized user or administrator to access the encryption recovery key for direct access to the encrypted volume.
+//|Infrastructure|The hardware, software, facilities, and service components that support the delivery of business systems and IT-enabled processes.
+//|Intrusion| A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so. (NIST)
 
 
 //## J
+Jump System| In the case of a multiple hop scenario, the intervening systems between origin and target are called jump systems.
 
 
 
 //## K
-
+Key Escrow| A cryptographic key exchange process in which a key is held in escrow, or stored, by a secure third party. A key that is lost or compromised by its original user(s) may be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state (source: https://www.techopedia.com/definition/3997/key-escrow).
+Key| In the context of identity authentication, a key or certificate pair is a cryptographic mechanism with two parts, a public part and a private part. Also known as a Certificate Pair.
 
 
 //## L
-
+Least Privilege| The minimum level of access a user needs to perform their official duties.
+Least Privilege| The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function.
 
 
 //## M
-
+Mission System| Mission Systems are computing systems defined by NASA program specifications to meet broad mission needs and include engineering HRCs, mobile engineering HRCs,and CAD HRCs.
+Multi-User System| Computing systems designed with the purpose of providing access to one or more primary users. A multi-user system is designed to provide access to one or more primary users, providing the ability for multiple users to meet the same or differing computing needs by allowing for individual configuration (i.e. installation of different applications, the ability to have separate directories for user specific files, etc.). Shared laptops, desktops, servers, and tablets are examples that may apply.
 
 
 //## N
-
+NASA User| Any explicitly authorized patron of a NASA information system.
+Network Administrator - A NASA user who has administrator privileges to the devices that make up the networking infrastructure.
+Non-Organizational Users| As defined by NIST: Non-organizational users include information system users other than organizational users explicitly covered by IA-2.
 
 
 //## O
-
+Object Storage - Sometimes referred to as blob storage.   This storage type treats data as an object type.  Object types then are assigned unique identifiers, allowing systems to retrieve them.  With this method data stored within object storage are treated similar to a database to access the object.
+Optional Applications| Applications that service offices and / or ISOs may implement and support appeal to different business use cases, like office automation. Service offices and ISOs must apply ASCS specifications when they exist for optional applications, and they must provide security patching and other user support.
+Organizational User| As defined by NIST: employees or individuals that organizations deem to have equivalent status of employees.
+Organizational User|
+Origin System| The origin system is the system for which the smartcard is physically presented.
 
 //## P
+PC Hardware| Also known as PC-based hardware, PC-based system, or PC system. This term refers to end-user workstations that run on an operating system (OS) other than macOS.
+PIV| While PIV itself is Personal Identity Verification, the terms PIV, PIV card, PIV smartcard, Smart Badge, or Badge are used synonymously to describe the physical smartcard issued to federal workers.
+Persistent Data Storage Device| Any data storage device that retains data after power to that device is shut off.
 
+Platform as a Service - The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.
+Portable Storage Device| Any storage device that can be temporarily connected to one or more computing systems to copy, save, store, and / or move data. This includes USB drives, flash drives, memory cards, external hard drives, storage cards, magnetic tapes, external/removable hard drives,
+or any electronic device.
+Primary Logical Storage| Any fixed storage device that contains the operating system.
+Primary User| A primary user is one that has the ability to login interactively to a device and access services, applications and may or may not have the ability to manage device settings via the devices OEM interface(s).
+Private cloud -The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple cloud consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
+Private Key/Certificate| This is the half that is provided by the identity holder. In the case of PIV, the private key is stored on the smartcard and is inaccessible to even the card-holder
+Privileged Access| The ability to access and manage an organization’s information assets and systems.
+Privileged Access Workstation| A dedicated workstation whose exclusive purpose is for "administrative management of designated high-value IT resources, including servers, workstations, directory services, applications, databases, and network components."
+Privileged Management| As defined by FICAM, processes for establishing and maintaining the entitlement or privilege attributes that comprise an individual‘s access profile. These attributes represent features of an individual that can be used as the basis for determining access decisions to both physical and logical resources. Privileges are considered attributes that can be linked to a digital identity. 
+Procedural Authentication| Authentication to the recovery of encrypted data with the purpose of managing the system or system functions.
+Public cloud - The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud service provider.
+Public Key/Certificate| The public half of the pair provides the component that is managed on the identity
+authority.
 
 
 //## Q
 
 
 //## R
+Reader| The integrated or attached device component that allows the system to access the physical smartcard.
+Removable Digital System Media| Media that stores digitized data and which can be easily removed and/or transported from one computer system to another. (e.g., diskettes, magnetic tapes, external and removable hard disk drives, flash drives, compact disks, and digital video disks.)
+Required Applications| Applications that service offices and / or ISOs must implement and support to enforce information security on all NASA computing systems. Required software may differ by operating system.
+Resource Administrator| A NASA user who has elevated privileges to one or multiple servers that require an "AA Account" for login.
+Risk-Based Decision (RBD)| Risk-based decisions, or waivers, are required to void IT security requirements ("shall" and "must" statements) in NASA OCIO policies, standards, and specifications. RBDs shall be requested via the Agency Risk Management tool (https://riscs.nasa.gov, or RISCS) and rejected or approved by the Authorizing Official that has been identified for project must also be documented in RISCS. For each requirement that is risk-accepted, the Authorizing Official should request specific security
+mitigations.
 
 
 //## S
-
+Sanitization| A process that renders access to target data on the data storage device infeasible.
+Secondary Logical Storage| Any fixed storage device that does not contain the operating system
+Self Service| Self Service is a bundled application in Jamf Pro that
+allows end users to browse and install/uninstall approved applications, update configurations, and perform basic troubleshooting tasks.
+Server| Servers are defined within this document as computing devices running operating systems and other software that are delivering client services. Some of the most common types of servers are web, email, print, and file servers.
+Server Administrator| A NASA user who has elevated privileges to one or more servers in the environment.
+Service Administrator| A NASA User who has administrative privileges to a cloud based service that affect the agency such as a cloud based directory service or email service.
+Shared Computing Devices| Computing systems designed with the purpose of providing access and authentication to multiple users. Examples include lab systems, training systems, etc.
+Single Sign-On| An authentication service that permits a user to use one set of credentials to access multiple applications, including pre-boot encryption and operating system, at one time.
+Single-User System| Computing systems designed with the purpose of providing access and authentication to one primary user. A single-user system is designed to provide access to only a single user once configured; it supports one user at a time. Examples include, but are not limited to, phones, tablets, and other devices which only have provisions for only one user to authenticate to the device.
+Smart Groups| Smart Groups provide a way to organize managed systems based on one or more attributes, such as building, model, and operating system.
+SSH| The client used on the origin system to connect to the target system. May also be called the SSH Client.
+SSHD| The service that resides on the target system and accepts SSH connections. May also be called the SSH Server.
+Standard Elevated Privilege NASA User| A standard NASA user who has administrator privileges for their local workstation(s).
+Standard NASA User| Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
+Standard User| 
+Secure Enclave| A coprocessor fabricated within the system on chip (SoC). The Secure Enclave provides all cryptographic operations for data protection key management and maintains the integrity of data protection even if the kernel has been compromised.
+Security Configuration Management| The management and control of configurations for an information system to enable security and facilitate the management of risk.
+Security Configuration Specification| The primary source of security configuration requirements that apply to Agency information systems.
+Software as a Service -  The capability provided to the cloud consumer is to use the provider's applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings.
+“Sunsetting” operating systems and applications| Approved legacy software that has been superseded by newer versions and / or are scheduled to lose functionality or vendor support within the Agency environment.
+“Supported” operating systems and applications| Software that is Section 516 / supply chain risk compliant; has been assessed for security integration and and enterprise support within the Agency; and is not at risk of losing vendor support in the near future. These operating systems and applications shall be considered for all new and refreshed computing systems.
+System Administrator| A collective term referring to an administrator who has one or more of the following roles: Resource, Server, Service, or Workstation Administrator
+System Classification: Low| A system that the loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.
+System Classification: Moderate| A system that the loss of confidentiality, integrity, or availability could be expected to have a serious adverse effect on organizational operations, organizational assets, or individuals. Most NASA workstations are considered in this category.
+System Classification: High| A system that 
 
 //## T
-
+Target System| The target system is any system that is being accessed remotely from the origin system.
+Tokens| An electronic access and identity verification device used instead of or with an authentication password. Security token technology is based on two-factor or multifactor authorization. Tokens in the NASA environment include PIV cards and RSA SecurID key fobs.
+Transparent Security| Describes an abstracted security layer built into a product that has been enabled by default without user action.
+Trusted Platform Module (TPM)| A TPM is a dedicated controller that is designed specifically to secure hardware by carrying out cryptographic operations.
 
 //## U
 
 
 //## V
+Virtual Private Network| A Virtual Private Network is a secure network that uses primarily public telecommunication infrastructures, such as the Internet, to provide remote offices or traveling users an access to a central organizational network.
 
 
 //## W
+Workstation Administrator| A NASA user who has elevated privileges across multiple non-server compute systems that are not their own.
 
 
 //## X
