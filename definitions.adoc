@@ -13,6 +13,7 @@ The table below contains definitions for key terms used in this document. Parent
 //## B
 //|Block Storage| An approach to data storage in which data is broken down into blocks that are stored separately. Each block has a unique identifier within the storage system. Also know as block-level storage. 
 
+
 //## C
 //|Cipher Strength| The number of bits in the key used to encrypt data.
 //|Clean Source Principle| The practice of requiring all security dependencies to be as trustworthy as the object being secured. Per Microsoft, "any subject in control of an object is a security dependency of that object. If an adversary can control anything in control of a target object, they can control that target object. Because of this threat, you must ensure that the assurances for all security dependencies are at or above the desired security level of the object itself." (Microsoft)
@@ -57,68 +58,62 @@ The table below contains definitions for key terms used in this document. Parent
 //## G
 
 
-
 //## H
 //|Headless|A term used to describe an asset that is accessed exclusively via a network connection. A headless asset will not have peripheral hardware (e.g., keyboard, mouse, or monitor) connected to it.
 //|High-Value Asset|Information or an information system that is so critical to an organization that the loss or corruption of this information or loss of access to the system would have serious impacts on the organization's ability to perform its mission or conduct business.
 //|Hybrid Cloud|A computing environment comprising two or more distinct cloud infrastructures (e.g., private, community, or public).The infrastructures used in a hybrid cloud environment remain unique entities, but they are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
 
+
 //## I
-//|Incident| An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies. (NIST)
+//|Incident|An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies. (NIST)
 //|Information System|A discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information. (NIST)
 //|Information System Owner|Official responsible for the overall procurement, development, integration, modification, or operation and maintenance of an information system. (NIST)
 //|Interactive Authentication|Authentication to the recovery of encrypted data requiring an authorized user or administrator to access the encryption recovery key for direct access to the encrypted volume.
 //|Infrastructure|The hardware, software, facilities, and service components that support the delivery of business systems and IT-enabled processes.
-//|Intrusion| A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so. (NIST)
+//|Intrusion|A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so. (NIST)
 
 
 //## J
-Jump System| In the case of a multiple hop scenario, the intervening systems between origin and target are called jump systems.
-
+//|Jump System|In the case of a multiple hop scenario, jump systems are the intervening systems between the origin and the target.
 
 
 //## K
-Key Escrow| A cryptographic key exchange process in which a key is held in escrow, or stored, by a secure third party. A key that is lost or compromised by its original user(s) may be used to decrypt encrypted material, allowing restoration of the original material to its unencrypted state (source: https://www.techopedia.com/definition/3997/key-escrow).
-Key| In the context of identity authentication, a key or certificate pair is a cryptographic mechanism with two parts, a public part and a private part. Also known as a Certificate Pair.
-
+//|Key|A value used to control cryptographic operations, such as decryption, encryption, signature generation, or signature verification. (NIST)
+//|Key Escrow|The retention of the private component of the key pair associated with a subscriber's encryption certificate to support key recovery. (NIST)
 
 //## L
-Least Privilege| The minimum level of access a user needs to perform their official duties.
-Least Privilege| The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function.
+//Least Privilege|The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function. (NIST)
 
 
 //## M
-Mission System| Mission Systems are computing systems defined by NASA program specifications to meet broad mission needs and include engineering HRCs, mobile engineering HRCs,and CAD HRCs.
-Multi-User System| Computing systems designed with the purpose of providing access to one or more primary users. A multi-user system is designed to provide access to one or more primary users, providing the ability for multiple users to meet the same or differing computing needs by allowing for individual configuration (i.e. installation of different applications, the ability to have separate directories for user specific files, etc.). Shared laptops, desktops, servers, and tablets are examples that may apply.
+//Mission System|Computing systems designed to meet NASA program needs. 
+//|Multi-User System|A computing system designed with the purpose of providing access to one or more primary users.
 
 
 //## N
-NASA User| Any explicitly authorized patron of a NASA information system.
-Network Administrator - A NASA user who has administrator privileges to the devices that make up the networking infrastructure.
-Non-Organizational Users| As defined by NIST: Non-organizational users include information system users other than organizational users explicitly covered by IA-2.
+//|NASA User|Any explicitly authorized patron of a NASA information system.
+//|Network Administrator|A person who manages a local area network (LAN) within an organization. Responsibilities include ensuring network security, installing new applications, distributing software upgrades, monitoring daily activity, enforcing licensing agreements, developing a storage management program, and providing for routine backups. (NIST)
+//|Non-Organizational Users|Information system users other than organizational users explicitly defined in link:https://cset.nasa.gov/latest/nist-sp-800-53[NIST Special Publication 800-53 Revision 5], _Security and Privacy Controls for Information Systems and Organizations_, control IA-02, _Identification and Authentication (Organizational Users)_.
 
 
 //## O
-Object Storage - Sometimes referred to as blob storage.   This storage type treats data as an object type.  Object types then are assigned unique identifiers, allowing systems to retrieve them.  With this method data stored within object storage are treated similar to a database to access the object.
-Optional Applications| Applications that service offices and / or ISOs may implement and support appeal to different business use cases, like office automation. Service offices and ISOs must apply ASCS specifications when they exist for optional applications, and they must provide security patching and other user support.
-Organizational User| As defined by NIST: employees or individuals that organizations deem to have equivalent status of employees.
-Organizational User|
-Origin System| The origin system is the system for which the smartcard is physically presented.
+//|Object Storage|A technology that manages data as objects. Object types are assigned unique identifiers, allowing systems to retrieve them. 
+//|Organizational User|An organizational employee or an individual the organization deems to have equivalent status of an employee including, for example, contractor, guest researcher, or individual detailed from another organization. (NIST)
+//|Origin System|The system for which a smartcard is physically presented.
+
 
 //## P
-PC Hardware| Also known as PC-based hardware, PC-based system, or PC system. This term refers to end-user workstations that run on an operating system (OS) other than macOS.
-PIV| While PIV itself is Personal Identity Verification, the terms PIV, PIV card, PIV smartcard, Smart Badge, or Badge are used synonymously to describe the physical smartcard issued to federal workers.
-Persistent Data Storage Device| Any data storage device that retains data after power to that device is shut off.
-
-Platform as a Service - The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.
-Portable Storage Device| Any storage device that can be temporarily connected to one or more computing systems to copy, save, store, and / or move data. This includes USB drives, flash drives, memory cards, external hard drives, storage cards, magnetic tapes, external/removable hard drives,
-or any electronic device.
-Primary Logical Storage| Any fixed storage device that contains the operating system.
-Primary User| A primary user is one that has the ability to login interactively to a device and access services, applications and may or may not have the ability to manage device settings via the devices OEM interface(s).
-Private cloud -The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple cloud consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
-Private Key/Certificate| This is the half that is provided by the identity holder. In the case of PIV, the private key is stored on the smartcard and is inaccessible to even the card-holder
-Privileged Access| The ability to access and manage an organization’s information assets and systems.
-Privileged Access Workstation| A dedicated workstation whose exclusive purpose is for "administrative management of designated high-value IT resources, including servers, workstations, directory services, applications, databases, and network components."
+//|PC Hardware|Also known as PC-based hardware, PC-based system, or PC system. This term refers to end-user workstations that run on an operating system (OS) other than macOS.
+//|Persistent Data Storage Device|Any data storage device that retains data after power to that device is shut off.
+//|PIV| While the acronym PIV stands for is Personal Identity Verification, the terms PIV, PIV card, PIV smartcard, Smart Badge, or Badge are used synonymously to describe the physical smartcard issued to Federal workers.
+//|Platform as a Service|The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.(NIST)
+//|Portable Storage Device|A system component that can communicate with and be added to or removed from a system or network and that is limited to data storage—including text, video, audio or image data—as its primary function (e.g., optical discs, external or removable hard drives, external or removable solid-state disk drives, magnetic or optical tapes, flash memory devices, flash memory cards, and other external or removable disks). (NIST)
+//|Primary Logical Storage|Any fixed storage device that contains the operating system.
+//|Primary User| A person who logs in to, and interacts with, a device. The primary user is in direct contact with the system interface.
+//|Private Cloud|Cloud infrastructure that is provisioned for exclusive use by a single organization comprising multiple cloud consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises. (NIST)
+//|Private Key/Certificate|A cryptographic key, used with a public key cryptographic algorithm, that is uniquely associated with an entity and is not made public. (NIST)
+//|Privileged Access|The ability to access and manage an organization's information assets and systems.
+//|Privileged Access Workstation|A dedicated workstation used exclusively for administrative management of designated high-value IT resources, including servers, workstations, directory services, applications, databases, and network components.
 Privileged Management| As defined by FICAM, processes for establishing and maintaining the entitlement or privilege attributes that comprise an individual‘s access profile. These attributes represent features of an individual that can be used as the basis for determining access decisions to both physical and logical resources. Privileges are considered attributes that can be linked to a digital identity. 
 Procedural Authentication| Authentication to the recovery of encrypted data with the purpose of managing the system or system functions.
 Public cloud - The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud service provider.
