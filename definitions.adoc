@@ -111,14 +111,13 @@ The table below contains definitions for key terms used in this document. Parent
 //|Primary Logical Storage|Any fixed storage device that contains the operating system.
 //|Primary User| A person who logs in to, and interacts with, a device. The primary user is in direct contact with the system interface.
 //|Private Cloud|Cloud infrastructure that is provisioned for exclusive use by a single organization comprising multiple cloud consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises. (NIST)
-//|Private Key/Certificate|A cryptographic key, used with a public key cryptographic algorithm, that is uniquely associated with an entity and is not made public. (NIST)
+//|Private Key/Certificate|The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt data. (NIST)
 //|Privileged Access|The ability to access and manage an organization's information assets and systems.
 //|Privileged Access Workstation|A dedicated workstation used exclusively for administrative management of designated high-value IT resources, including servers, workstations, directory services, applications, databases, and network components.
-Privileged Management| As defined by FICAM, processes for establishing and maintaining the entitlement or privilege attributes that comprise an individual‘s access profile. These attributes represent features of an individual that can be used as the basis for determining access decisions to both physical and logical resources. Privileges are considered attributes that can be linked to a digital identity. 
-Procedural Authentication| Authentication to the recovery of encrypted data with the purpose of managing the system or system functions.
-Public cloud - The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud service provider.
-Public Key/Certificate| The public half of the pair provides the component that is managed on the identity
-authority.
+//|Privileged Access Management|Processes for establishing and maintaining the entitlement or privilege attributes that comprise an individual's access profile. These attributes represent features of an individual that can be used as the basis for determining access decisions to both physical and logical resources. Privileges are considered attributes that can be linked to a digital identity. (FICAM)
+//|Procedural Authentication|Authentication to recover encrypted data with the purpose of managing the system or system functions.
+//|Public Cloud| Cloud infrastructure that is provisioned for use by the general public. It may be owned, managed, and/or operated by a business, academic institution, and/or government organization. It exists on the premises of the cloud service provider.
+//|Public Key/Certificate|The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data. (NIST)
 
 
 //## Q
@@ -163,7 +162,7 @@ System Classification: High| A system that
 
 //## T
 Target System| The target system is any system that is being accessed remotely from the origin system.
-Tokens| An electronic access and identity verification device used instead of or with an authentication password. Security token technology is based on two-factor or multifactor authorization. Tokens in the NASA environment include PIV cards and RSA SecurID key fobs.
+Tokens| An electronic access and identity verification device used instead of or with an authentication password. Security token technology is based on two-factor or multi-factor authorization. Tokens in the NASA environment include PIV cards and RSA SecurID key fobs.
 Transparent Security| Describes an abstracted security layer built into a product that has been enabled by default without user action.
 Trusted Platform Module (TPM)| A TPM is a dedicated controller that is designed specifically to secure hardware by carrying out cryptographic operations.
 
