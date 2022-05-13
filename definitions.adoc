@@ -1,7 +1,7 @@
-The table below contains definitions for key terms used in this document. Parenthetical citations are provided at the end of definitions that derive from another source. 
+NOTE: The table below contains definitions for key terms used in this document. Parenthetical citations are provided at the end of definitions that derive from another source. 
 
 .Definitions
-[width="100%",cols="1,3"]
+[%header, width="100%", cols="1,3"]
 |====
 |Term|Definition
 //## A
@@ -143,32 +143,26 @@ The table below contains definitions for key terms used in this document. Parent
 //|Standard NASA User|Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
 //|Standard User|A user account with limited privileges that will be used for general tasks such as reading email and surfing the Web. (NIST)
 //|Secure Enclave|A dedicated, secure subsystem integrated into Macs with Apple silicon and those with the T2 chip. Encryption keys stored in the Secure Enclave are isolated from the device's main processor (i.e., the Secure Enclave provides an extra layer of security). 
-Security Configuration Management| The management and control of configurations for an information system to enable security and facilitate the management of risk.
-Security Configuration Specification| The primary source of security configuration requirements that apply to Agency information systems.
-//|Smartcard Reader| //|Reader|The integrated or attached device component that allows the system to access the physical smartcard.
-Software as a Service -  The capability provided to the cloud consumer is to use the provider's applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings.
-“Sunsetting” operating systems and applications| Approved legacy software that has been superseded by newer versions and / or are scheduled to lose functionality or vendor support within the Agency environment.
-“Supported” operating systems and applications| Software that is Section 516 / supply chain risk compliant; has been assessed for security integration and and enterprise support within the Agency; and is not at risk of losing vendor support in the near future. These operating systems and applications shall be considered for all new and refreshed computing systems.
-System Administrator| A collective term referring to an administrator who has one or more of the following roles: Resource, Server, Service, or Workstation Administrator
-System Classification: Low| A system that the loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.
-System Classification: Moderate| A system that the loss of confidentiality, integrity, or availability could be expected to have a serious adverse effect on organizational operations, organizational assets, or individuals. Most NASA workstations are considered in this category.
-System Classification: High| A system that 
+//|Security Configuration Management|The management and control of configurations for an information system to enable security and facilitate the management of risk. (NIST)
+//|Smartcard Reader|The integrated or attached device component that allows the system to access the physical smartcard.
+//|Software as a Service|The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings. (NIST)
+//|System Administrator|An individual, group, or organization responsible for setting up and maintaining a system or specific system elements, implements approved secure baseline configurations, incorporates secure configuration settings for IT products, and conducts/assists with configuration monitoring activities as needed. (NIST)
+
 
 //## T
-Target System| The target system is any system that is being accessed remotely from the origin system.
-Tokens| An electronic access and identity verification device used instead of or with an authentication password. Security token technology is based on two-factor or multi-factor authorization. Tokens in the NASA environment include PIV cards and RSA SecurID key fobs.
-Transparent Security| Describes an abstracted security layer built into a product that has been enabled by default without user action.
-Trusted Platform Module (TPM)| A TPM is a dedicated controller that is designed specifically to secure hardware by carrying out cryptographic operations.
+//|Target System|Any system that is being accessed remotely from the origin system.
+//|Token|A portable, user-controlled, physical device (e.g., smartcard) used to store cryptographic information and possibly also perform cryptographic functions. (NIST) 
+//|Transparent Security|Describes an abstracted security layer built into a product and which has been enabled by default without user action.
+//|Trusted Platform Module| A dedicated controller that is designed specifically to secure hardware by carrying out cryptographic operations.
 
 //## U
 
 
 //## V
-Virtual Private Network| A Virtual Private Network is a secure network that uses primarily public telecommunication infrastructures, such as the Internet, to provide remote offices or traveling users an access to a central organizational network.
-
+//|Virtual Private Network|A virtual network built on top of existing physical networks that can provide a secure communications mechanism for data and IP information transmitted between networks or between different nodes on the same network. (NIST)
 
 //## W
-Workstation Administrator| A NASA user who has elevated privileges across multiple non-server compute systems that are not their own.
+//|Workstation Administrator| A NASA user who has elevated privileges across multiple, non-server, computing systems that are not their own.
 
 
 //## X
