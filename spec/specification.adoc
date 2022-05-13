@@ -351,7 +351,7 @@ _Medium_ severity settings *_SHALL_* be adhered to, as they are monitored, score
 
 _Low_ severity settings are expected to be implemented unless there is a justifiable cause not to. 
 
-* _Low_ severity settings target any vulnerability which degrades measures to protect against the loss of confidentiality, integrity, or availability.
+* _Low_ severity settings target any vulnerability which, if exploited, degrades measures to protect against the loss of confidentiality, integrity, or availability.
 
 
 
