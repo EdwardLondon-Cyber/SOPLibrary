@@ -138,13 +138,11 @@ The table below contains definitions for key terms used in this document. Parent
 //|Shared Computing Devices|Computing devices designed to provide access and authentication to multiple users.
 //|Single Sign-On|An authentication service that enables users to securely authenticate to multiple applications and websites with just one set of credentials.
 //|Single-User System|A computing system that is designed to provide access to only a single user once configured; it supports one user at a time. Examples include, but are not limited to, phones, tablets, and other devices which have provisions for only one user to authenticate to the device.
-Smart Groups| Smart Groups provide a way to organize managed systems based on one or more attributes, such as building, model, and operating system.
-SSH| The client used on the origin system to connect to the target system. May also be called the SSH Client.
-SSHD| The service that resides on the target system and accepts SSH connections. May also be called the SSH Server.
-Standard Elevated Privilege NASA User| A standard NASA user who has administrator privileges for their local workstation(s).
-Standard NASA User| Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
-Standard User| 
-Secure Enclave| A coprocessor fabricated within the system on chip (SoC). The Secure Enclave provides all cryptographic operations for data protection key management and maintains the integrity of data protection even if the kernel has been compromised.
+//|Smart Groups|In Jamf Pro, smart groups provide a way to organize managed systems based on one or more attributes, such as building, model, and operating system.
+//|Standard Elevated Privilege NASA User|A standard NASA user who has administrator privileges for their local workstation(s).
+//|Standard NASA User|Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
+//|Standard User|A user account with limited privileges that will be used for general tasks such as reading email and surfing the Web. (NIST)
+//|Secure Enclave|A dedicated, secure subsystem integrated into Macs with Apple silicon and those with the T2 chip. Encryption keys stored in the Secure Enclave are isolated from the device's main processor (i.e., the Secure Enclave provides an extra layer of security). 
 Security Configuration Management| The management and control of configurations for an information system to enable security and facilitate the management of risk.
 Security Configuration Specification| The primary source of security configuration requirements that apply to Agency information systems.
 //|Smartcard Reader| //|Reader|The integrated or attached device component that allows the system to access the physical smartcard.
