@@ -11,7 +11,7 @@ The table below contains definitions for key terms used in this document. Parent
 
 
 //## B
-//|Block Storage| An approach to data storage in which data is broken down into blocks that are stored separately. Each block has a unique identifier within the storage system. Also know as block-level storage. 
+//|Block Storage| An approach to data storage in which data is broken down into blocks that are stored separately. Each block has a unique identifier within the storage system. Also know as "block-level storage". 
 
 
 //## C
@@ -52,7 +52,7 @@ The table below contains definitions for key terms used in this document. Parent
 
 //## F
 //Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
-//Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as whole disk encryption.
+//Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as "whole disk encryption".
 
 
 //## G
@@ -106,6 +106,7 @@ The table below contains definitions for key terms used in this document. Parent
 //|PC Hardware|Also known as PC-based hardware, PC-based system, or PC system. This term refers to end-user workstations that run on an operating system (OS) other than macOS.
 //|Persistent Data Storage Device|Any data storage device that retains data after power to that device is shut off.
 //|PIV| While the acronym PIV stands for is Personal Identity Verification, the terms PIV, PIV card, PIV smartcard, Smart Badge, or Badge are used synonymously to describe the physical smartcard issued to Federal workers.
+//|PIV Reader|The integrated or attached device component that allows the system to access a physical smartcard. Also referred to as a "smartcard reader" or "card reader". 
 //|Platform as a Service|The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.(NIST)
 //|Portable Storage Device|A system component that can communicate with and be added to or removed from a system or network and that is limited to data storage—including text, video, audio or image data—as its primary function (e.g., optical discs, external or removable hard drives, external or removable solid-state disk drives, magnetic or optical tapes, flash memory devices, flash memory cards, and other external or removable disks). (NIST)
 //|Primary Logical Storage|Any fixed storage device that contains the operating system.
@@ -114,8 +115,7 @@ The table below contains definitions for key terms used in this document. Parent
 //|Private Key/Certificate|The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt data. (NIST)
 //|Privileged Access|The ability to access and manage an organization's information assets and systems.
 //|Privileged Access Workstation|A dedicated workstation used exclusively for administrative management of designated high-value IT resources, including servers, workstations, directory services, applications, databases, and network components.
-//|Privileged Access Management|Processes for establishing and maintaining the entitlement or privilege attributes that comprise an individual's access profile. These attributes represent features of an individual that can be used as the basis for determining access decisions to both physical and logical resources. Privileges are considered attributes that can be linked to a digital identity. (FICAM)
-//|Procedural Authentication|Authentication to recover encrypted data with the purpose of managing the system or system functions.
+//|Privileged Access Management|Processes for protecting access to accounts that have access permissions that can affect IT system configurations and data security (e.g., superusers, domain administrators, and global administrators).(FICAM)
 //|Public Cloud| Cloud infrastructure that is provisioned for use by the general public. It may be owned, managed, and/or operated by a business, academic institution, and/or government organization. It exists on the premises of the cloud service provider.
 //|Public Key/Certificate|The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data. (NIST)
 
@@ -124,25 +124,20 @@ The table below contains definitions for key terms used in this document. Parent
 
 
 //## R
-Reader| The integrated or attached device component that allows the system to access the physical smartcard.
-Removable Digital System Media| Media that stores digitized data and which can be easily removed and/or transported from one computer system to another. (e.g., diskettes, magnetic tapes, external and removable hard disk drives, flash drives, compact disks, and digital video disks.)
-Required Applications| Applications that service offices and / or ISOs must implement and support to enforce information security on all NASA computing systems. Required software may differ by operating system.
-Resource Administrator| A NASA user who has elevated privileges to one or multiple servers that require an "AA Account" for login.
-Risk-Based Decision (RBD)| Risk-based decisions, or waivers, are required to void IT security requirements ("shall" and "must" statements) in NASA OCIO policies, standards, and specifications. RBDs shall be requested via the Agency Risk Management tool (https://riscs.nasa.gov, or RISCS) and rejected or approved by the Authorizing Official that has been identified for project must also be documented in RISCS. For each requirement that is risk-accepted, the Authorizing Official should request specific security
-mitigations.
+//|Removable Digital System Media|Portable data storage medium that can be added to or removed from a computing device or network. Examples include, but are not limited to, optical discs (e.g., CDs, DVDs, Blu-ray); external/removable hard drives; external/removable Solid State Disk (SSD) drives; magnetic/optical tapes; flash memory devices (e.g., USB, eSATA, Flash Drive, Thumb Drive); flash memory cards (e.g., Secure Digital (SD) cards, CompactFlash, Memory Stick, MMC, xD); and other external/removable disks (e.g., floppy, Zip, Jaz, Bernoulli, UMD). (NIST)
+//|Resource Administrator|A NASA user who has elevated privileges to one or multiple servers that require an "AA Account" for login.
 
 
 //## S
-Sanitization| A process that renders access to target data on the data storage device infeasible.
-Secondary Logical Storage| Any fixed storage device that does not contain the operating system
-Self Service| Self Service is a bundled application in Jamf Pro that
-allows end users to browse and install/uninstall approved applications, update configurations, and perform basic troubleshooting tasks.
-Server| Servers are defined within this document as computing devices running operating systems and other software that are delivering client services. Some of the most common types of servers are web, email, print, and file servers.
-Server Administrator| A NASA user who has elevated privileges to one or more servers in the environment.
-Service Administrator| A NASA User who has administrative privileges to a cloud based service that affect the agency such as a cloud based directory service or email service.
-Shared Computing Devices| Computing systems designed with the purpose of providing access and authentication to multiple users. Examples include lab systems, training systems, etc.
-Single Sign-On| An authentication service that permits a user to use one set of credentials to access multiple applications, including pre-boot encryption and operating system, at one time.
-Single-User System| Computing systems designed with the purpose of providing access and authentication to one primary user. A single-user system is designed to provide access to only a single user once configured; it supports one user at a time. Examples include, but are not limited to, phones, tablets, and other devices which only have provisions for only one user to authenticate to the device.
+//|Sanitization|The process of removing data from storage devices with a degree of certainty that corresponds to the risk levels incorporated in the link:https://cset.nasa.gov/latest/fips-199[FIPS-199] confidentiality categorization. (link:https://cset.nasa.gov/latest/its-hbk-2810.11-2[ITS-HBK-2810.11-2__x__])
+//|Secondary Logical Storage|Any fixed storage device that does not contain the operating system.
+//|Self Service|Self Service is a macOS application installed when a system is enrolled in Jamf Pro that allows end users to browse and install/uninstall approved applications, update configurations, and perform basic troubleshooting tasks.
+//|Server|A computer or device on a network that manages network resources. Examples include file servers (to store files), print servers (to manage one or more printers), network servers (to manage network traffic), and database servers (to process database queries). (NIST)
+//|Server Administrator|A NASA user who has elevated privileges to one or more servers in the environment.
+//|Service Administrator|A NASA user who has administrative privileges to a cloud-based service that affects the Agency (e.g., a cloud-based directory or email service).
+//|Shared Computing Devices|Computing devices designed to provide access and authentication to multiple users.
+//|Single Sign-On|An authentication service that enables users to securely authenticate to multiple applications and websites with just one set of credentials.
+//|Single-User System|A computing system that is designed to provide access to only a single user once configured; it supports one user at a time. Examples include, but are not limited to, phones, tablets, and other devices which have provisions for only one user to authenticate to the device.
 Smart Groups| Smart Groups provide a way to organize managed systems based on one or more attributes, such as building, model, and operating system.
 SSH| The client used on the origin system to connect to the target system. May also be called the SSH Client.
 SSHD| The service that resides on the target system and accepts SSH connections. May also be called the SSH Server.
@@ -152,6 +147,7 @@ Standard User|
 Secure Enclave| A coprocessor fabricated within the system on chip (SoC). The Secure Enclave provides all cryptographic operations for data protection key management and maintains the integrity of data protection even if the kernel has been compromised.
 Security Configuration Management| The management and control of configurations for an information system to enable security and facilitate the management of risk.
 Security Configuration Specification| The primary source of security configuration requirements that apply to Agency information systems.
+//|Smartcard Reader| //|Reader|The integrated or attached device component that allows the system to access the physical smartcard.
 Software as a Service -  The capability provided to the cloud consumer is to use the provider's applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings.
 “Sunsetting” operating systems and applications| Approved legacy software that has been superseded by newer versions and / or are scheduled to lose functionality or vendor support within the Agency environment.
 “Supported” operating systems and applications| Software that is Section 516 / supply chain risk compliant; has been assessed for security integration and and enterprise support within the Agency; and is not at risk of losing vendor support in the near future. These operating systems and applications shall be considered for all new and refreshed computing systems.
