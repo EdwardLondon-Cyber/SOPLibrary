@@ -146,8 +146,6 @@ asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
 NOTE: CSET's Standards template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
 
-WARNING: Do not rename these files. Files reference each other by name.
-
 === Using the CSET Standard Template
 
 1. Open your Standard in Visual Studio Code (VSC).
@@ -167,6 +165,8 @@ WARNING: Do not rename these files. Files reference each other by name.
 
   . acronym_list.adoc
   . definitions.adoc
+
+WARNING: Do not rename these files. Files reference each other by name.
 
 [start=4]
 4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
