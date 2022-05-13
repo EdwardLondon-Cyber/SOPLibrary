@@ -44,15 +44,15 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Environment|Aggregate of external procedures, conditions, and objects affecting the development, operation, and maintenance of an information system. (NIST)
 
 // Azure AD:
-//Extension Attributes|Directory schema extension attributes provide a way to store additional data in Azure Active Directory on user objects and other directory objects such as groups, tenant details, service principals. Only extension attributes on user objects can be used for emitting claims to applications.(Microsoft) 
+//|Extension Attributes|Directory schema extension attributes provide a way to store additional data in Azure Active Directory on user objects and other directory objects such as groups, tenant details, service principals. Only extension attributes on user objects can be used for emitting claims to applications.(Microsoft) 
 
 //Jamf:
-//Extension Attributes|Computer extension attributes are custom fields created in Jamf Pro to collect almost any type of data from a system.
+//|Extension Attributes|Computer extension attributes are custom fields created in Jamf Pro to collect almost any type of data from a system.
 
 
 //## F
-//Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
-//Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as "whole disk encryption".
+//|Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
+//|Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as "whole disk encryption".
 
 
 //## G
@@ -82,11 +82,11 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Key Escrow|The retention of the private component of the key pair associated with a subscriber's encryption certificate to support key recovery. (NIST)
 
 //## L
-//Least Privilege|The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function. (NIST)
+//|Least Privilege|The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function. (NIST)
 
 
 //## M
-//Mission System|Computing systems designed to meet NASA program needs. 
+//|Mission System|Computing systems designed to meet NASA program needs. 
 //|Multi-User System|A computing system designed with the purpose of providing access to one or more primary users.
 
 
