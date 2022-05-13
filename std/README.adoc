@@ -10,12 +10,12 @@ This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEME
 
 NOTE: Requests for information, corrections, or additions to this Standard can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
 
-== STANDARD
+== GUIDE
 
-// Edit the link below: 
+// Insert links to the html and pdf versions of your document:
 
-HTML and PDF documents will be maintained within https://developer.nasa.gov/ASCS/INSERTLINK[GitHub Releases].
-
+* link:[HTML]
+* link:[PDF]
 
 == DOCUMENT HISTORY
 
