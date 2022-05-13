@@ -23,7 +23,7 @@ approved-date:
 :cover-page-mark-1: This official draft has not been approved and is subject to modification
 :cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
 // superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
-// :superseding-document: NASA-HDBK-2XXX
+// :superseding-document: NASA-STD-2XXX
 // :superseding-document-version: vx.x
 :signatory: Michael Witt
 :signatory-title: Senior Agency Information Security Officer (SAISO)

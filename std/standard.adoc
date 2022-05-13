@@ -181,7 +181,9 @@ In accordance with NPR 2810.1__x__, _Security of Information and Information Sys
 
 === Tailoring
 
-Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible ISO and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
+// Some Standards might require different wording in the Tailoring section than what is in the template. 
+
+Any and all risk-based decisions (RBDs) to tailor this NASA Technical Standard in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible ISO and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
 
@@ -259,30 +261,19 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 +++<br>+++
 
 
-////
-ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
-  Add and remove acronyms as needed. 
-  List acronyms, abbreviations, and definitions in alphabetical order.
-
-  Change the title of this section as necessary: 
-    If you don't have anything for the Definitions table, change Section 3 title to: == Acronyms and Abbreviations
-////
 
 == Acronyms, Abbreviations, and Definitions
 
 include::acronym_list.adoc[]
 
-
-
-////
-.Definitions
-[width="100%",cols="1,3"]
-
-|====
-| |
-|====
+// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
 
 ////
+
+include::definitions.adoc[]
+
+////
+
 
 
 

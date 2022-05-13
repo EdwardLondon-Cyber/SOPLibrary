@@ -12,21 +12,10 @@ NOTE: Comments, concerns, and all other feedback on this Specification can be su
 
 == GUIDE
 
-////
-insert html link to guide below
+// Insert links to the html and pdf versions of your document:
 
- example:
-
- * link:https://developer.nasa.gov/ASCS/windows_11/releases/download/v1.0/NASA-SPEC-2601OS.Win11.Security.Configuration.Specification.v1.0.html[{document-title}]
-
-////
-
-* link:INSERTLINK[{document-title}]
-
-
-
-// Edit the link below: 
-All HTML and PDF documents will be maintained within link:https://developer.nasa.gov/ASCS/INSERTLINK[GitHub Releases].
+* link:[HTML]
+* link:[PDF]
 
 == SUPPLEMENTAL RESOURCES
 

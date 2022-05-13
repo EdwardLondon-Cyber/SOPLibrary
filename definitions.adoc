@@ -1,0 +1,177 @@
+NOTE: The table below contains definitions for key terms used in this document. Parenthetical citations are provided at the end of definitions that derive from another source. 
+
+.Definitions
+[%header, width="100%", cols="1,3"]
+|====
+|Term|Definition
+//## A
+//|AA Account|A type of Active Directory Resource Management Account; specifically, an administrator account. The standard method of performing administrative functions at NASA is through the use of NASA Consolidated Active Directory (NCAD) administrative accounts. These accounts have the prefix "aa-" (e.g., aa-jdoe).
+//|Authentication| Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system. (NIST)
+//|Authorization|Access privileges granted to a user, program, or process or the act of granting those privileges. (NIST)
+
+
+//## B
+//|Block Storage| An approach to data storage in which data is broken down into blocks that are stored separately. Each block has a unique identifier within the storage system. Also know as "block-level storage". 
+
+
+//## C
+//|Cipher Strength| The number of bits in the key used to encrypt data.
+//|Clean Source Principle| The practice of requiring all security dependencies to be as trustworthy as the object being secured. Per Microsoft, "any subject in control of an object is a security dependency of that object. If an adversary can control anything in control of a target object, they can control that target object. Because of this threat, you must ensure that the assurances for all security dependencies are at or above the desired security level of the object itself." (Microsoft)
+//|Cloud Consumer| A person or organization that maintains a business relationship with and uses service from one or more cloud provider. (NIST)
+//|Cloud Service Provider|A company that offers some component of cloud computing such as a cloud-based platform, infrastructure, application, or storage device. These components are typically delivered via various cloud service models (e.g., IaaS, PaaS, SaaS).
+//|Cloud Storage Services| Services that allow information and data to be stored within a cloud environment. These services can include, but are not limited to, block storage, object storage, cloud-hosted file systems, and Software as a Service (SaaS) cloud storage.  
+//|Community Cloud| Cloud infrastructure that is provisioned for exclusive use by a specific community of cloud consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). A community cloud may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
+//|Computing Device|A machine (real or virtual) for performing calculations automatically. Computing devices include, but are not limited to, computers, servers, routers, and switches. (NIST)
+//|Computing System|A subset of information systems and may be physical or virtual. Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and Infrastructure-as-a-Service (IaaS) systems. 
+//|Configuration Item|An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process. (NIST)
+//|Configuration Management|A collection of activities focused on establishing and maintaining the integrity of products and systems, through control of the processes for initializing, changing, and monitoring the configurations of those products and systems throughout the system development life cycle. (NIST)
+//|Configuration Profile|A configuration profile is an XML file that allows you to distribute configuration settings to macOS devices.
+//|Controlled Unclassified Information|Information that the Government creates or possesses, or that an entity creates or possesses for or on behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls. However, Controlled Unclassified Information (CUI) does not include classified information or information a non-executive branch entity possesses and maintains in its own systems that did not come from, or was not created or possessed by or for, an executive branch agency or an entity acting for an agency. (NIST)
+//|Cryptography| The discipline that embodies the principles, means, and methods for the transformation of data in order to hide their semantic content, prevent their unauthorized use, or prevent their undetected modification. (NIST)
+
+
+//## D
+//|Data|Any piece of information suitable for use in a computer. (NIST)
+//|Data At Rest|Data in persistent storage on a device.
+//|Data Storage Device|Any device that can store data (either temporarily or permanently). Data storage devices include but are not limited to computer storage devices, server storage devices, laptops/notebooks, phones, backup media, removable digital system media, and cloud storage.
+
+
+//## E
+//|Elevated Privilege|Permissions that allow a user to change the system configuration of a computing system.
+//|Email Server|A server that has the ability to send and receive email for remote clients. A system that only handles self-generated email is not an email server. 
+//|Emergency Access Account|Highly privileged accounts that are not assigned to specific individuals but are accessible to a limited list of administrators to use in case of emergency. Emergency access accounts are limited to emergency (also referred to as "break glass") scenarios in which normal administrative accounts cannot be used. 
+//|End-User Workstation|A term used generically to refer to desktops, laptop computers, mobile devices, engineering workstations, and other computing devices that are utilized to provide basic interoperability.
+//|Environment|Aggregate of external procedures, conditions, and objects affecting the development, operation, and maintenance of an information system. (NIST)
+
+// Azure AD:
+//|Extension Attributes|Directory schema extension attributes provide a way to store additional data in Azure Active Directory on user objects and other directory objects such as groups, tenant details, service principals. Only extension attributes on user objects can be used for emitting claims to applications.(Microsoft) 
+
+//Jamf:
+//|Extension Attributes|Computer extension attributes are custom fields created in Jamf Pro to collect almost any type of data from a system.
+
+
+//## F
+//|Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
+//|Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as "whole disk encryption".
+
+
+//## G
+
+
+//## H
+//|Headless|A term used to describe an asset that is accessed exclusively via a network connection. A headless asset will not have peripheral hardware (e.g., keyboard, mouse, or monitor) connected to it.
+//|High-Value Asset|Information or an information system that is so critical to an organization that the loss or corruption of this information or loss of access to the system would have serious impacts on the organization's ability to perform its mission or conduct business.
+//|Hybrid Cloud|A computing environment comprising two or more distinct cloud infrastructures (e.g., private, community, or public).The infrastructures used in a hybrid cloud environment remain unique entities, but they are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
+
+
+//## I
+//|Incident|An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies. (NIST)
+//|Information System|A discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information. (NIST)
+//|Information System Owner|Official responsible for the overall procurement, development, integration, modification, or operation and maintenance of an information system. (NIST)
+//|Interactive Authentication|Authentication to the recovery of encrypted data requiring an authorized user or administrator to access the encryption recovery key for direct access to the encrypted volume.
+//|Infrastructure|The hardware, software, facilities, and service components that support the delivery of business systems and IT-enabled processes.
+//|Intrusion|A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so. (NIST)
+
+
+//## J
+//|Jump System|In the case of a multiple hop scenario, jump systems are the intervening systems between the origin and the target.
+
+
+//## K
+//|Key|A value used to control cryptographic operations, such as decryption, encryption, signature generation, or signature verification. (NIST)
+//|Key Escrow|The retention of the private component of the key pair associated with a subscriber's encryption certificate to support key recovery. (NIST)
+
+//## L
+//|Least Privilege|The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function. (NIST)
+
+
+//## M
+//|Mission System|Computing systems designed to meet NASA program needs. 
+//|Multi-User System|A computing system designed with the purpose of providing access to one or more primary users.
+
+
+//## N
+//|NASA User|Any explicitly authorized patron of a NASA information system.
+//|Network Administrator|A person who manages a local area network (LAN) within an organization. Responsibilities include ensuring network security, installing new applications, distributing software upgrades, monitoring daily activity, enforcing licensing agreements, developing a storage management program, and providing for routine backups. (NIST)
+//|Non-Organizational Users|Information system users other than organizational users explicitly defined in link:https://cset.nasa.gov/latest/nist-sp-800-53[NIST Special Publication 800-53 Revision 5], _Security and Privacy Controls for Information Systems and Organizations_, control IA-02, _Identification and Authentication (Organizational Users)_.
+
+
+//## O
+//|Object Storage|A technology that manages data as objects. Object types are assigned unique identifiers, allowing systems to retrieve them. 
+//|Organizational User|An organizational employee or an individual the organization deems to have equivalent status of an employee including, for example, contractor, guest researcher, or individual detailed from another organization. (NIST)
+//|Origin System|The system for which a smartcard is physically presented.
+
+
+//## P
+//|PC Hardware|Also known as PC-based hardware, PC-based system, or PC system. This term refers to end-user workstations that run on an operating system (OS) other than macOS.
+//|Persistent Data Storage Device|Any data storage device that retains data after power to that device is shut off.
+//|PIV| While the acronym PIV stands for is Personal Identity Verification, the terms PIV, PIV card, PIV smartcard, Smart Badge, or Badge are used synonymously to describe the physical smartcard issued to Federal workers.
+//|PIV Reader|The integrated or attached device component that allows the system to access a physical smartcard. Also referred to as a "smartcard reader" or "card reader". 
+//|Platform as a Service|The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.(NIST)
+//|Portable Storage Device|A system component that can communicate with and be added to or removed from a system or network and that is limited to data storage—including text, video, audio or image data—as its primary function (e.g., optical discs, external or removable hard drives, external or removable solid-state disk drives, magnetic or optical tapes, flash memory devices, flash memory cards, and other external or removable disks). (NIST)
+//|Primary Logical Storage|Any fixed storage device that contains the operating system.
+//|Primary User| A person who logs in to, and interacts with, a device. The primary user is in direct contact with the system interface.
+//|Private Cloud|Cloud infrastructure that is provisioned for exclusive use by a single organization comprising multiple cloud consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises. (NIST)
+//|Private Key/Certificate|The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt data. (NIST)
+//|Privileged Access|The ability to access and manage an organization's information assets and systems.
+//|Privileged Access Workstation|A dedicated workstation used exclusively for administrative management of designated high-value IT resources, including servers, workstations, directory services, applications, databases, and network components.
+//|Privileged Access Management|Processes for protecting access to accounts that have access permissions that can affect IT system configurations and data security (e.g., superusers, domain administrators, and global administrators).(FICAM)
+//|Public Cloud| Cloud infrastructure that is provisioned for use by the general public. It may be owned, managed, and/or operated by a business, academic institution, and/or government organization. It exists on the premises of the cloud service provider.
+//|Public Key/Certificate|The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data. (NIST)
+
+
+//## Q
+
+
+//## R
+//|Removable Digital System Media|Portable data storage medium that can be added to or removed from a computing device or network. Examples include, but are not limited to, optical discs (e.g., CDs, DVDs, Blu-ray); external/removable hard drives; external/removable Solid State Disk (SSD) drives; magnetic/optical tapes; flash memory devices (e.g., USB, eSATA, Flash Drive, Thumb Drive); flash memory cards (e.g., Secure Digital (SD) cards, CompactFlash, Memory Stick, MMC, xD); and other external/removable disks (e.g., floppy, Zip, Jaz, Bernoulli, UMD). (NIST)
+//|Resource Administrator|A NASA user who has elevated privileges to one or multiple servers that require an "AA Account" for login.
+
+
+//## S
+//|Sanitization|The process of removing data from storage devices with a degree of certainty that corresponds to the risk levels incorporated in the link:https://cset.nasa.gov/latest/fips-199[FIPS-199] confidentiality categorization. (link:https://cset.nasa.gov/latest/its-hbk-2810.11-2[ITS-HBK-2810.11-2__x__])
+//|Secondary Logical Storage|Any fixed storage device that does not contain the operating system.
+//|Secure Enclave|A dedicated, secure subsystem integrated into Macs with Apple silicon and those with the T2 chip. Encryption keys stored in the Secure Enclave are isolated from the device's main processor (i.e., the Secure Enclave provides an extra layer of security). 
+//|Security Configuration Management|The management and control of configurations for an information system to enable security and facilitate the management of risk. (NIST)
+//|Self Service|Self Service is a macOS application installed when a system is enrolled in Jamf Pro that allows end users to browse and install/uninstall approved applications, update configurations, and perform basic troubleshooting tasks.
+//|Server|A computer or device on a network that manages network resources. Examples include file servers (to store files), print servers (to manage one or more printers), network servers (to manage network traffic), and database servers (to process database queries). (NIST)
+//|Server Administrator|A NASA user who has elevated privileges to one or more servers in the environment.
+//|Service Administrator|A NASA user who has administrative privileges to a cloud-based service that affects the Agency (e.g., a cloud-based directory or email service).
+//|Shared Computing Devices|Computing devices designed to provide access and authentication to multiple users.
+//|Single Sign-On|An authentication service that enables users to securely authenticate to multiple applications and websites with just one set of credentials.
+//|Single-User System|A computing system that is designed to provide access to only a single user once configured; it supports one user at a time. Examples include, but are not limited to, phones, tablets, and other devices which have provisions for only one user to authenticate to the device.
+//|Smart Groups|In Jamf Pro, smart groups provide a way to organize managed systems based on one or more attributes, such as building, model, and operating system.
+//|Smartcard Reader|The integrated or attached device component that allows the system to access the physical smartcard.
+//|Software as a Service|The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings. (NIST)
+//|Standard Elevated Privilege NASA User|A standard NASA user who has administrator privileges for their local workstation(s).
+//|Standard NASA User|Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
+//|Standard User|A user account with limited privileges that will be used for general tasks such as reading email and surfing the Web. (NIST)
+//|System Administrator|An individual, group, or organization responsible for setting up and maintaining a system or specific system elements, implements approved secure baseline configurations, incorporates secure configuration settings for IT products, and conducts/assists with configuration monitoring activities as needed. (NIST)
+
+
+//## T
+//|Target System|Any system that is being accessed remotely from the origin system.
+//|Token|A portable, user-controlled, physical device (e.g., smartcard) used to store cryptographic information and possibly also perform cryptographic functions. (NIST) 
+//|Transparent Security|Describes an abstracted security layer built into a product and which has been enabled by default without user action.
+//|Trusted Platform Module| A dedicated controller that is designed specifically to secure hardware by carrying out cryptographic operations.
+
+//## U
+
+
+//## V
+//|Virtual Private Network|A virtual network built on top of existing physical networks that can provide a secure communications mechanism for data and IP information transmitted between networks or between different nodes on the same network. (NIST)
+
+//## W
+//|Workstation Administrator| A NASA user who has elevated privileges across multiple, non-server, computing systems that are not their own.
+
+
+//## X
+
+
+//## Y
+
+
+//## Z
+
+
+|====

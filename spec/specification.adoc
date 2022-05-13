@@ -155,7 +155,7 @@ SCOPE:
 Purpose: 
  If your spec does not fall under Standard 2601/ is not a configuration Spec:
    Make sure to edit the Purpose so that it is accurate for your spec. 
-   "define" is probably the best verb for Specification purpose statements. (establish = for standards; provide guidance = for handbooks)
+   "define" is probably the best verb for Specification purpose statements. establish = for standards; provide guidance = for handbooks
 ////
 
 === Purpose
@@ -188,7 +188,7 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
-The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
+The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
 
 NOTE: Some NASA Technical Specifications include "_critical_" configuration settings. "_Critical_" configuration settings *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
 
@@ -282,15 +282,12 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 include::acronym_list.adoc[]
 
-// If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
+// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
 
 ////
-.Definitions
-[width="100%",cols="1,3"]
-|====
-| |
 
-|====
+include::definitions.adoc[]
+
 ////
 
 +++<br>+++
@@ -328,49 +325,35 @@ endif::[]
 +++<br>+++
 
 == Security Configurations
- 
-////
-CRITICAL SETTINGS REFERENCE:
- NOTE: This section has been commented out, as it will be applicable to a minority of Specifications. 
 
-       If the Specification you are writing DOES include Critical Settings, be sure to move the bottom of this comment block up to allow the section to be visible.
+=== Critical Severity Settings
 
+_Critical_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to the Department of Homeland Security (DHS).
 
-CRITICAL SETTINGS TABLE: 
- Critical settings should be listed in this table in the same order that they appear in the document.
+* _Critical_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
+* _Critical_ severity settings are reported by the Continuous Diagnosis and Mitigation (CDM) Defend Dashboard and/or mandated by Federal policy.
+* Deviations from _critical_ severity settings require approval from the Agency CIO. 
 
- In the left column, fill in the ASCS number for each setting.
+=== High Severity Settings
 
- In the right column, write the ASCS control title (as it appears in the ToC)
+_High_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to NASA.
 
- Link each ASCS number in the left hand column to the full setting explanation in document.
+* _High_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
+* Deviations from _high_ severity settings require approval from the Agency CIO. 
 
+=== Medium Severity Settings
+	
+_Medium_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to NASA. 
 
-=== Critical Settings Reference
+* _Medium_ severity settings target any vulnerability which, if exploited, has the potential to result in the loss of confidentiality, integrity, or availability.
 
-The table below provides a quick view of the _critical_ security configuration settings. 
+=== Low Severity Settings
 
-_Critical_ settings *_SHALL_* be adhered to, as they are monitored, scored, and reported by the Agency. 
+_Low_ severity settings are expected to be implemented unless there is a justifiable cause not to. 
 
-_Critical_ settings *_SHALL NOT_* be eligible for any modifications through the application of an RBD. Each _critical_ setting in the table below is linked to a detailed explanation of the configuration setting in the subsequent section of this Specification.
-
-[cols="1h,1"]
-|===
-| ASCS Number | ASCS Control Title
-| ascs #| critical setting 1
-| ascs # | critical setting 2
-|===
-
-////
+* _Low_ severity settings target any vulnerability which, if exploited, degrades measures to protect against the loss of confidentiality, integrity, or availability.
 
 
-=== Required Settings
-
-This section contains all _required_ security configuration settings as well as a description for each setting. 
-
-_Required_ settings *_SHALL_* be adhered to, as they are monitored, scored, and reported by the Agency. 
-
-_Required_ settings *_MAY_*, in limited and justified instances, be amended through the proper application of an RBD. To pursue an RBD, see <<_tailoring>> in this Specification.
 
 
 ////
@@ -416,7 +399,7 @@ APPENDIX SECTION
    APPENDIX A: TITLE OF APPENDIX
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
-    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
+    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . .)
 
 
 [appendix]
