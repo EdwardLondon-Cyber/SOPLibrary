@@ -20,6 +20,7 @@
 //|ADC|Active Directory Controller
 //|ADUC|Active Directory Users and Computers
 //|AEAD|Authenticated Encryption with Additional Data
+//|AES|Advanced Encryption Standard
 //|AFP|Apple Filing Protocol
 //|AI/ML|Artificial Intelligence/Machine Learning
 //|ALF|Application Layer Firewall
@@ -123,6 +124,7 @@
 //## F
 //|FAR|Federal Acquisition Regulations
 //|FCPCA|Federal Common Policy Certificate Authority
+//|FDE|Full Disk Encryption
 //|FedRAMP|Federal Risk and Authorization Management Program
 |FFRDC|Federally Funded Research and Development Center
 //|FICAM|Federal Identity, Credential, and Access Management
@@ -154,6 +156,7 @@
 //|HPIA|HP Image Assistant
 //|HPKP|HTTP Public Key Pinning
 //|HRC|Hardware Reference Configuration
+//|HSM|Hardware Security Module
 //|HSPD-12|Homeland Security Presidential Directive-12
 //|HSTS|HTTP Strict Transport Security
 //|HTTP|Hypertext Transfer Protocol
@@ -197,6 +200,8 @@
 |JPL|Jet Propulsion Laboratory
 
 //## K
+//|KEK|Key-Encryption-Key
+//|KMS|Key Management Service
 //|KSC|Kennedy Space Center
 
 //## L
@@ -290,6 +295,7 @@
 //|PAM|Pluggable Authentication Modules
 //|PAM|Privileged Access Management
 //|PAW|Privileged Access Workstation
+//|PBE|Pre-Boot Environment
 //|PBKDF2|Password-Based Key Derivation Function 2
 //|PC|Personal Computer
 //|PCD|Procurement Class Deviation
@@ -332,6 +338,7 @@
 //|SAOP|Senior Agency Official for Privacy
 //|SAR|Security Assessment Report
 //|SBU|Sensitive But Unclassified
+//|SD|Secure Digital
 //|SCA|Security Control Assessor
 //|SCAP|Security Content Automation Protocol
 //|SCCM|System Center Configuration Manager
@@ -375,6 +382,7 @@
 //|sudo|Superuser Do
 //|SUID|Set User ID
 //|SUP|Software Update Point
+//|SWFDE|Software Full Disk Encryption
 
 //## T
 //|TCP|Transmission Control Protocol
@@ -394,12 +402,14 @@
 //|UPN|User Principal Name
 //|URI|Uniform Resource Identifier
 //|URL|Uniform Resource Locator
+//|USB|Universal Serial Bus
 //|UTC|Coordinated Universal Time
 //|UTS|Unix Time Sharing
 
 //## V
 //|VBA|Visual Basic for Applications
 //|VB|Visual Basic
+//|VEK|Volume Encryption Key
 //|VLAN|Virtual Local Area Network
 //|VM|Virtual Machine
 //|VN|Virtual Networks
@@ -419,6 +429,7 @@
 
 //## X
 //|XCCDF|eXtensible Configuration Checklist Description Format
+//|xART|extended Anti-Replay Technology
 
 //## Y
 
