@@ -15,6 +15,7 @@ NOTE: Requests for information, corrections, or additions to this Standard can b
 
 == DOCUMENT HISTORY
 
+// Type in the document version(s) and important change(s) into the table below. 
 // Highlights = Include current version and last version 
 // Only include big important changes in the description
 
@@ -24,10 +25,9 @@ NOTE: Requests for information, corrections, or additions to this Standard can b
 |Document Version
 |Important Changes Made
 
-|{document-version}
+|vx.x
 a|* example
 * example
-
 
 |vx.x 
 a|* example

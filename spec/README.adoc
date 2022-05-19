@@ -26,6 +26,7 @@ Note: if you don't need this section, comment it out! :)
 
 == DOCUMENT HISTORY
 
+// Type in the document version(s) and important change(s) into the table below. 
 // Highlights = Include current version and last version 
 // Only include big important changes in the description
 
@@ -35,13 +36,13 @@ Note: if you don't need this section, comment it out! :)
 |Document Version
 |Important Changes Made
 
-|{document-version}
+|vx.x
 a|* example
 * example
-
 
 |vx.x 
 a|* example
 *  example
 |====
+
 

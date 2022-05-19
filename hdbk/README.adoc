@@ -23,7 +23,7 @@ NOTE: Requests for information, corrections, or additions to this Handbook can b
 |Document Version
 |Important Changes Made
 
-|{document-version}
+|vx.x
 a|* example
 * example
 
