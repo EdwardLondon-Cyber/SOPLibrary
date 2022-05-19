@@ -14,6 +14,7 @@ NOTE: Requests for information, corrections, or additions to this Handbook can b
 
 == DOCUMENT HISTORY
 
+// Type in the document version(s) and important change(s) into the table below. 
 // Highlights = Include current version and last version 
 // Only include big important changes in the description
 

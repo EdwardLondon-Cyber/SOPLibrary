@@ -79,7 +79,7 @@ asciidoctor-pdf -D build hdbk-pdf-cover.adoc handbook.adoc
 
 == CSET Specifications
 
-NOTE: CSET's Specification template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/scs
+NOTE: CSET's Specification template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/spec
 
 === Using the CSET Specification Template
 
