@@ -1,24 +1,21 @@
-include::std-document-variables.adoc[]
+// Replace the title below with your document's identifier and title:
 
+= NASA-STD-XXXX, _Document Title_
 
-= {document-identifier}, _{document-title}_
 
 :numbered:
 
 == DESCRIPTION
-This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS STANDARD)*.
+// COPY AND PASTE PURPOSE STATEMENT FROM STANDARD HERE. 
+
+The purpose of this NASA Technical Standard is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS SPEC)*.
 
 NOTE: Requests for information, corrections, or additions to this Standard can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
 
-== GUIDE
-
-// Insert links to the html and pdf versions of your document:
-
-* link:[HTML]
-* link:[PDF]
 
 == DOCUMENT HISTORY
 
+// Type in the document version(s) and important change(s) into the table below. 
 // Highlights = Include current version and last version 
 // Only include big important changes in the description
 
@@ -28,15 +25,13 @@ NOTE: Requests for information, corrections, or additions to this Standard can b
 |Document Version
 |Important Changes Made
 
-|{document-version}
+|vx.x
 a|* example
 * example
-
 
 |vx.x 
 a|* example
 *  example
 |====
 
-// Edit the link below: 
-NOTE: For a complete, detailed history of changes made to this document, see the link:CHANGELOG.adoc[Full Changelog]. 
+

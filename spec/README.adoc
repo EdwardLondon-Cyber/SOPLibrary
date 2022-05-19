@@ -1,21 +1,16 @@
-include::spec-document-variables.adoc[]
+// Replace the title below with your document's identifier and title:
 
-
-= {document-identifier}, _{document-title}_
+= NASA-SPEC-XXXX, _Document Title_
 
 :numbered:
 
 == DESCRIPTION
-This ASCS specification defines security configuration settings for {document-title}.
+// COPY AND PASTE PURPOSE STATEMENT FROM SPEC HERE. 
+
+The purpose of this NASA Technical Specification is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS SPEC)*.
 
 NOTE: Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
 
-== GUIDE
-
-// Insert links to the html and pdf versions of your document:
-
-* link:[HTML]
-* link:[PDF]
 
 == SUPPLEMENTAL RESOURCES
 
@@ -31,6 +26,7 @@ Note: if you don't need this section, comment it out! :)
 
 == DOCUMENT HISTORY
 
+// Type in the document version(s) and important change(s) into the table below. 
 // Highlights = Include current version and last version 
 // Only include big important changes in the description
 
@@ -40,16 +36,13 @@ Note: if you don't need this section, comment it out! :)
 |Document Version
 |Important Changes Made
 
-|{document-version}
+|vx.x
 a|* example
 * example
-
 
 |vx.x 
 a|* example
 *  example
 |====
 
-// Edit the link below: 
 
-NOTE: For a complete, detailed history of changes made to this document, see the link:CHANGELOG.adoc[Full Changelog]. 
