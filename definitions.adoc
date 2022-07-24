@@ -51,7 +51,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 
 
 //## F
-//|Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
+//|Firewall| An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically, firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open. (NIST)
 //|Full Disk Encryption|The process of encrypting all data on the drive used to boot a computer, including the computer's operating system. Full Disk Encryption (FDE) solutions only permit access to the data after successful authentication. Also known as "whole disk encryption".
 
 
@@ -71,6 +71,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Interactive Authentication|Authentication to the recovery of encrypted data requiring an authorized user or administrator to access the encryption recovery key for direct access to the encrypted volume.
 //|Infrastructure|The hardware, software, facilities, and service components that support the delivery of business systems and IT-enabled processes.
 //|Intrusion|A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so. (NIST)
+//|IT Project| According to link:https://cset.nasa.gov/latest/npr-7120.7[NPR 7120.7__x__], an IT project is a specific investment having defined requirements, a life-cycle cost, a beginning, and an end. An IT project has a management structure and is planned, executed, and controlled according to a formal methodology and governed through a defined series of life-cycle reviews. An IT project may have interfaces to other projects, programs, agencies, and international partners. An IT project yields a new or revised system/service that directly addresses NASA's strategic goals.
 
 
 //## J
