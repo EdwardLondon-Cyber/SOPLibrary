@@ -55,7 +55,9 @@
 //|CAD|Computer-Aided Design
 //|CCID|Card Chip Interface Device
 //|CCRM|Center Cybersecurity Risk Manager
+//|CCS| Cloud and Computing Services
 |CDM|Continuous Diagnostics and Mitigation
+//|CDR| Critical Design Review
 //|CGI|Common Gate Interface
 //|CI|Configuration Item
 |CIO|Chief Information Officer
@@ -74,14 +76,17 @@
 //|CRL|Certificate Revocation List
 //|CSE|Client-Side Extension
 |CSET|Cybersecurity Standards and Engineering Team
+//|CSEWG|Cybersecurity Engineering Working Group 
 //|CSPD|Cybersecurity and Privacy Division
 //|CSPO|Computing Services Program Office
 //|CSPP|Cybersecurity and Privacy Program
 //|CT-API|Card Terminal Application Programming Interface
 //|CUI|Controlled Unclassified Information
 //|CUPS|Common Unix Printing System
+//|CyS| Cybersecurity Services
 
 //## D
+//|D2E2| Data Discovery and Exploration Engine
 //|DAC|Directory Access Controls
 //|DANE|DNS-Based Authentication of Named Entities
 //|DANE-TA|DNS-Based Authentication of Named Entities - Trust Anchor
@@ -94,6 +99,7 @@
 //|DHCP|Dynamic Host Configuration Protocol
 //|DHS|Department of Homeland Security
 //|DISA|Defense Information Systems Agency
+//|DIT| Data in Transit
 //|DMA|Direct Memory Access
 //|DMAr|DMA-remapping
 //|DMARC|Domain-based Message Authentication, Reporting and Conformance
@@ -104,6 +110,7 @@
 //|DOS|Denial of Service
 //|DRA|Directory Resource Administrator
 //|DRM|Dell Repository Manager
+//|DRR|Decommissioning Readiness Review 
 //|DSI|Desktop Smartcard Integration
 
 //## E
@@ -164,6 +171,7 @@
 //|HVA|High-Value Asset
 
 //## I
+//|IA|Independent Assessment
 //|I/O|Input/Output
 //|IaaS|Infrastructure-as-a-Service
 //|ICAM|Identity, Credential, and Access Management
@@ -194,6 +202,7 @@
 //|ITAR|International Traffic in Arms Regulations
 //|ITCP|Information Technology Contingency Plan
 //|ITSM|Information Technology Service Management
+//|ITSMB|Information Technology Service Management Board
 
 //## J
 //|JAB P-ATO|Joint Authorization Board Provisional Authority to Operate (FedRAMP)
@@ -284,6 +293,7 @@
 //|OMB|Office of Management and Budge
 //|OpenSC|Open Smart Card
 //|OPS| Operations Physical Security
+//|ORR|Operational Readiness Review
 //|OS|Operating System
 //|OT|Operations Technology
 //|OTP|One-Time Password
@@ -299,7 +309,9 @@
 //|PBKDF2|Password-Based Key Derivation Function 2
 //|PC|Personal Computer
 //|PCD|Procurement Class Deviation
+//|PCR|Project Completion Review 
 //|PCSC|Personal Computer/Smart Card
+//|PDR|Preliminary Design Review
 //|PEM|Privacy-Enhanced Mail
 //|PIA|Privacy Impact Assessment
 //|PID|Process ID
@@ -323,10 +335,12 @@
 //|RFC|Request for Comment
 //|RHEL|Red Hat Enterprise Linux
 //|RHV|Red Hat Virtualization
+//|RID|Review Item Discrepancy
 //|RISCS|Risk Information and Security Compliance System
 //|ROP|Return Oriented Programming
 //|RPS|Registration Practice Statement
 //|RSA|Cryptographic System (Rivest–Shamir–Adleman)
+//|RTM|Requirements Traceability Matrix
 
 //## S
 //|S/MIME|Secure/Multipurpose Internet Mail Extensions
@@ -351,6 +365,7 @@
 //|SeCM|Security Configuration Management
 //|SELinux|Security Enhanced Linux
 //|SEP|Symantec Endpoint Protection
+//|SERT|System Engineering Review Team 
 //|SFTP|Secure File Transfer Protocol
 //|SGID|Set Group ID
 //|SGT|Security Group Tags
@@ -365,12 +380,14 @@
 //|SMTP|Simple Mail Transfer Protocol
 //|SNI|Server Name Indication
 //|SOC|Security Operations Center
+//|SOC 3| Security Service Organization Controls 3 (Report Type)
 //|SORN|System of Records Notice
 //|SP|Special Publication
 //|SPEC|Specification
 //|SPF|Sender Policy Framework
 //|SPICE|Simple Protocol for Independent Computing Environments
 //|SQL|Structured Query Language
+//|SRR|System Requirements Review
 //|SSH|Secure Shell
 //|SSHD|Secure Shell Daemon
 //|SSL|Secure Socket Layer
@@ -393,6 +410,7 @@
 //|TLS|Transport Layer Security
 //|TPM|Trusted Platform Module
 //|TRCA|U.S. Treasury Root Certification Authority
+//|TRR|Test Readiness Review
 //|TXT|Trusted Execution Technology
 
 //## U
@@ -420,6 +438,7 @@
 //## W
 //|WAN|Wide Area Network
 //|WCF|Web Content Filter
+//|WCS|Workplace and Collaboration Services
 //|WebDAV|Web Distributed Authoring and Versioning
 //|WinHEC|Windows Hardware Engineering Community
 //|WLAN|Wireless Local Area Network
