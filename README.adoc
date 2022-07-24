@@ -1,10 +1,12 @@
+
+
 = Document Basecamp
 
-This repository houses the AsciiDoc templates utilized to create CSET's standards, handbooks, and specifications. 
+This repository houses the AsciiDoc templates used to create CSET's standards, handbooks, and specifications. 
 
-This (README) page provides instructions on where to find each of CSET's document template directories, the contents of those directories, and how to use the files contained in those directories. 
+This README provides instructions on where to find each of CSET's document template directories, the contents of those directories, and how to use the files contained in those directories. 
 
-IMPORTANT: See the https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitHub Knowledge Base] in Confluence for instructions on how to install and use Git. This knowledge base includes step-by-step instructions on how to create documents, use the forking method for draft documents, and make GitHub releases. 
+TIP: See <<_using_github, Section 4. __Using GitHub__>> for supplemental guidance. 
 
 +++<br>+++
 
@@ -21,7 +23,7 @@ NOTE: CSET's Handbook template directory is located here: https://developer.nasa
 1. Open your Handbook in Visual Studio Code (VSC).
 
 2. Add Document Basecamp as a submodule within your Handbook.
-** See https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitHub Knowledge Base] for instructions.
+** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
 
 3. Copy the following files from Document Basecamp and paste them into your Handbook's root directory: 
 
@@ -85,9 +87,9 @@ NOTE: CSET's Specification template directory is located here: https://developer
 
 1. Open your Specification in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Specification. 
- ** See https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitHub Knowledge Base] for instructions.
+ ** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
+
 3. Copy the following files from Document Basecamp and paste them into your Specification's root directory: 
- 
 
  * From the *spec folder* in Document Basecamp:
 
@@ -145,13 +147,13 @@ asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
 
 NOTE: CSET's Standards template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
-
 === Using the CSET Standard Template
 
 1. Open your Standard in Visual Studio Code (VSC).
 
 2. Add Document Basecamp as a submodule within your Standard.
- ** See https://etads-atlassian.grc.nasa.gov/confluence/x/_oAHAg[GitHub Knowledge Base] for instructions.
+ ** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
+ 
 3. Copy the following files from Document Basecamp and paste them into your Standard's root directory: 
 
  * From the *std folder* in Document Basecamp:
@@ -218,4 +220,25 @@ IMPORTANT: Build dir is not created upon clone. Create the build dir before runn
 ----
 asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
 ----
+
+
++++<br>+++
+
+== Using Github
+
+=== Git Workflow
+
+. If it does not already exist, create a new repository in the ASCS organization.
+. Fork the repository from ASCS to your personal account.
+. Clone the newly forked repository to your system.
+. Create a new branch.
+. Make changes in this branch until you are ready to give the changes back to the ASCS repository.
+. Push your development branch to your personal repository on GitHub.
+. Create a pull request to the ASCS repository.
+. Pull request is reviewed and if accepted merged into the ASCS repository.
+. Once a pull request has been merged you are free to delete the branch from your personal repository.
+. Sync your fork to be in line with the ASCS repository.
+
+=== How to Add the Document Basecamp Submodule
+
 
