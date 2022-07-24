@@ -161,7 +161,7 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 
 // Replace the question marks in the line below with your Standard's number! (e.g., 2601)
 
-Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
+Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. <<_requirements_compliance_matrix>> is provided to facilitate requirements selection by NASA programs and projects.  
 
 // Note: numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. do not number the SHALL statement in the applicability section. 
 
@@ -229,6 +229,15 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 ////
 .NIST Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+////
+
+////
+.DISA Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title

@@ -175,7 +175,9 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/.
 
-CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in Section 2., _Applicable Documents_. 
+CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in <<_requirements_documents, Section 2.1. _Requirements Documents_>>.
+
+. 
 
 ////
 APPLICABLE DOCUMENTS
@@ -188,11 +190,13 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
+=== Requirements Documents
+
 This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the documents listed in this section.
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-=== Government Documents
+==== Government Documents
 
 // NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
@@ -224,6 +228,15 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 ////
+.DISA Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+////
+
+////
 .Other Government Documents
 [%header, cols=2*a]
 |===
@@ -234,7 +247,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
-=== Non-Government Documents
+==== Non-Government Documents
 
 // Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
 
@@ -244,6 +257,18 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 | | 
 |===
 ////
+
+== Supplemental Guidance
+
+The documents listed in this section were used as a reference while writing this NASA Technical Handbook and may serve as additional support in implementing the solution defined in this Handbook.
+
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+
+
 
 +++<br>+++
 
