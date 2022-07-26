@@ -1,147 +1,31 @@
-
+:toc-title: TABLE OF CONTENTS
+:toclevels: 3
+// xrefstyle full shows the section number and title
+:xrefstyle: full
+// expand levels of header numbers to 5
+:sectnumlevels: 5
+:sectanchors:
 
 = Document Basecamp
 
-This repository houses the AsciiDoc templates used to create CSET's standards, handbooks, and specifications. 
+This repository houses the AsciiDoc templates used to create CSET's standards, specifications, and handbooks. 
 
-This README provides instructions on where to find each of CSET's document template directories, the contents of those directories, and how to use the files contained in those directories. 
+Sections 1 through 3 of this README contain instructions on where to find each of CSET's document template directories, the contents of those directories, and how to use the files contained in those directories to create standards, specifications, and handbooks. 
 
-TIP: See <<_using_github, Section 4. __Using GitHub__>> for supplemental guidance. 
+Section four of this README contains a link to a repository titled CSET Document Scripts as well as a description of how this script can be used as al alternative method of applying CSET's document templates and building standards, specifications, and handbooks. 
+
+TIP: For guidance on how to get set up and use GitHub, visit the link:https://docs.github.com/en/get-started/quickstart[GitHub Quickstart] page. This page contains links to step-by-step instructions on how to set up Git, create a new repository, fork a repository, and move through the GitHub workflow. 
+
+
+toc::[] 
+
+
 
 +++<br>+++
 
 '''
 
 :numbered:
-
-== CSET Handbooks
-
-NOTE: CSET's Handbook template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
-
-=== Using the CSET Handbook Template
-
-1. Open your Handbook in Visual Studio Code (VSC).
-
-2. Add Document Basecamp as a submodule within your Handbook.
-** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
-
-3. Copy the following files from Document Basecamp and paste them into your Handbook's root directory: 
-
- * From the *hdbk folder* in Document Basecamp:
-
-  . handbook.adoc
-  . hdbk-document-variables.adoc 
-  . hbk-pdf-cover.adoc
-  . README.adoc
-
- *  From Document Basecamp:
-
-  . acronym_list.adoc
-  . definitions.adoc
-
-WARNING: Do not rename these files. Files reference each other by name.
-
-[start=4]
-4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
- ** The variables in this file will be used throughout the Handbook and the cover page. 
-
-5. Next, write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Handbook will be contained. 
-
-6.  Update your Handbook's copy of the *definitions.adoc* file to include the terms used throughout your Handbook. 
- ** Note that you may add terms to your copy of the definitions.adoc file if necessary. 
- *** You may want to use this language: "For the purposes of this Handbook, <xyz term> is used to refer to <fill in your handbook-specific definition>."
-
-7. Update your Handbook's copy of the *acronym_list.adoc* to include the acronyms used throughout your Handbook. 
- ** Note: ISO, RBD, and SSP are in the template acronym list because they appear in the spec and std templates - if you do not use these acronyms in your own document's content, make sure to comment them out of the acronym_list.adoc file. 
-
-8. Update your Handbook's copy of the *README.adoc*. 
- ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents.  
-
-IMPORTANT: You will not edit the *hbk-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Handbook to be properly generated. 
-
-=== Generating HTML Handbooks
-
-IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
-
-[source]
-----
-asciidoctor -D build handbook.adoc
-----
-
-=== Generating PDF Handbooks
-
-IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
-
-[source]
-----
-asciidoctor-pdf -D build hdbk-pdf-cover.adoc handbook.adoc
-----
-
-+++<br>+++
-
-== CSET Specifications
-
-NOTE: CSET's Specification template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/spec
-
-=== Using the CSET Specification Template
-
-1. Open your Specification in Visual Studio Code (VSC).
-2. Add Document Basecamp as a submodule within your Specification. 
- ** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
-
-3. Copy the following files from Document Basecamp and paste them into your Specification's root directory: 
-
- * From the *spec folder* in Document Basecamp:
-
-  . README.adoc
-  . spec-document-variables.adoc
-  . spec-pdf-cover.adoc
-  . specification.adoc (_or_ specification-simple.adoc)
-
- *  From Document Basecamp:
-
-  . acronym_list.adoc
-  . definitions.adoc
-
-WARNING: Do not rename these files. Files reference each other by name.
-
-[start=4]
-4. Input or edit the variables in your Spec's copy of the *spec-document-variables.adoc* file first. 
- * The variables in this file will be used throughout the guide and the cover page. 
-
-5. Then write or update your Spec's copy of the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
-** Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
-
-6.  Update your Specification's copy of the *definitions.adoc* file to include the terms used throughout your Specification. 
- ** Note that you may add terms to your copy of the definitions.adoc file if necessary. 
- *** You may want to use this language: "For the purposes of this Specification, <xyz term> is used to refer to <fill in your spec-specific definition>."
-
-7. Edit your Spec's copy of the *acronym_list.adoc* to include the acronyms used throughout your Spec. 
-
-8. Update your Spec's copy of the *README.adoc*. 
- ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents. 
-
-IMPORTANT: You will not edit the *spec-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Specification to be properly generated. 
-
-=== Generating HTML Specifications
-
-IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
-
-[source]
-----
-asciidoctor -D build specification.adoc
-----
-
-=== Generating PDF Specifications
-
-IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
-
-[source]
-----
-asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
-----
-
-+++<br>+++
 
 == CSET Standards
 
@@ -224,21 +108,161 @@ asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
 
 +++<br>+++
 
-== Using Github
 
-=== Git Workflow
+== CSET Specifications
 
-. If it does not already exist, create a new repository in the ASCS organization.
-. Fork the repository from ASCS to your personal account.
-. Clone the newly forked repository to your system.
-. Create a new branch.
-. Make changes in this branch until you are ready to give the changes back to the ASCS repository.
-. Push your development branch to your personal repository on GitHub.
-. Create a pull request to the ASCS repository.
-. Pull request is reviewed and if accepted merged into the ASCS repository.
-. Once a pull request has been merged you are free to delete the branch from your personal repository.
-. Sync your fork to be in line with the ASCS repository.
+NOTE: CSET's Specification template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/spec
+
+=== Using the CSET Specification Template
+
+1. Open your Specification in Visual Studio Code (VSC).
+2. Add Document Basecamp as a submodule within your Specification. 
+ ** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
+
+3. Copy the following files from Document Basecamp and paste them into your Specification's root directory: 
+
+ * From the *spec folder* in Document Basecamp:
+
+  . README.adoc
+  . spec-document-variables.adoc
+  . spec-pdf-cover.adoc
+  . specification.adoc (_or_ specification-simple.adoc)
+
+ *  From Document Basecamp:
+
+  . acronym_list.adoc
+  . definitions.adoc
+
+WARNING: Do not rename these files. Files reference each other by name.
+
+[start=4]
+4. Input or edit the variables in your Spec's copy of the *spec-document-variables.adoc* file first. 
+ * The variables in this file will be used throughout the guide and the cover page. 
+
+5. Then write or update your Spec's copy of the *specification.adoc* file - this is where the main contents of your Spec will be contained. 
+** Use the *specification-simple.adoc* file instead of the specification.adoc file for Simple Specifications. 
+
+6.  Update your Specification's copy of the *definitions.adoc* file to include the terms used throughout your Specification. 
+ ** Note that you may add terms to your copy of the definitions.adoc file if necessary. 
+ *** You may want to use this language: "For the purposes of this Specification, <xyz term> is used to refer to <fill in your spec-specific definition>."
+
+7. Edit your Spec's copy of the *acronym_list.adoc* to include the acronyms used throughout your Spec. 
+
+8. Update your Spec's copy of the *README.adoc*. 
+ ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents. 
+
+IMPORTANT: You will not edit the *spec-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Specification to be properly generated. 
+
+=== Generating HTML Specifications
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor -D build specification.adoc
+----
+
+=== Generating PDF Specifications
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor-pdf -D build spec-pdf-cover.adoc specification.adoc
+----
+
++++<br>+++
+
+
+
+
+== CSET Handbooks
+
+NOTE: CSET's Handbook template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/hdbk
+
+=== Using the CSET Handbook Template
+
+1. Open your Handbook in Visual Studio Code (VSC).
+
+2. Add Document Basecamp as a submodule within your Handbook.
+** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
+
+3. Copy the following files from Document Basecamp and paste them into your Handbook's root directory: 
+
+ * From the *hdbk folder* in Document Basecamp:
+
+  . handbook.adoc
+  . hdbk-document-variables.adoc 
+  . hbk-pdf-cover.adoc
+  . README.adoc
+
+ *  From Document Basecamp:
+
+  . acronym_list.adoc
+  . definitions.adoc
+
+WARNING: Do not rename these files. Files reference each other by name.
+
+[start=4]
+4. Input or edit the variables in your Handbook's copy of the *hdbk-document-variables.adoc* file first. 
+ ** The variables in this file will be used throughout the Handbook and the cover page. 
+
+5. Next, write or update your Handbook's copy of the *handbook.adoc* file - this is where the main contents of your Handbook will be contained. 
+
+6.  Update your Handbook's copy of the *definitions.adoc* file to include the terms used throughout your Handbook. 
+ ** Note that you may add terms to your copy of the definitions.adoc file if necessary. 
+ *** You may want to use this language: "For the purposes of this Handbook, <xyz term> is used to refer to <fill in your handbook-specific definition>."
+
+7. Update your Handbook's copy of the *acronym_list.adoc* to include the acronyms used throughout your Handbook. 
+ ** Note: ISO, RBD, and SSP are in the template acronym list because they appear in the spec and std templates - if you do not use these acronyms in your own document's content, make sure to comment them out of the acronym_list.adoc file. 
+
+8. Update your Handbook's copy of the *README.adoc*. 
+ ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents.  
+
+IMPORTANT: You will not edit the *hbk-pdf-cover.adoc* file, but this file does need to be copied over from document_basecamp and pasted into your document's root directory for the pdf version of your Handbook to be properly generated. 
+
+=== Generating HTML Handbooks
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor -D build handbook.adoc
+----
+
+=== Generating PDF Handbooks
+
+IMPORTANT: Build dir is not created upon clone. Create the build dir before running these commands. 
+
+[source]
+----
+asciidoctor-pdf -D build hdbk-pdf-cover.adoc handbook.adoc
+----
+
++++<br>+++
+
+
+== CSET Document Scripts
+
+A member of CSET created the link:https://developer.nasa.gov/CSET/Document_Scripts[CSET Document Scripts] repository to aid in the creation of CSET's standards, specifications, and handbooks. 
+
+There are two scripts in the repository linked above:
+
+. *The CSET Build Script:* The CSET Build Script is run by entering one simple command (regardless of document type) into command line. Not only does this script build both the html and pdf formats of the document at once, but it also performs a long list of checks that were written into the script in effort to reduce the time and effort required during the document review process to catch frequently-made human errors. 
+
+. *The CSET Setup Script:* The CSET Setup Script can be used to start a new document and to detect and correct errors that would otherwise be flagged by the build script later.
+
+== Git Quick References
 
 === How to Add the Document Basecamp Submodule
 
+=== Via Command Line:
 
+git submodule init
+git submodule update
+cd document_basecamp
+git fetch
+git merge -s recursive -Xours origin origin/master
+cd ..
+
+=== Via Github Desktop:
