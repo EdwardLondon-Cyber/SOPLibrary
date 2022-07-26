@@ -4,3 +4,7 @@
 *.htm
 *.pdf
 build/*
+build.py
+build.bat
+setup.py
+setup.bat

@@ -105,7 +105,7 @@ endif::[]
 |Date Approved
 |Description
 
-|1.0
+|{document-version}
 |{approved-date}
 |
 |====

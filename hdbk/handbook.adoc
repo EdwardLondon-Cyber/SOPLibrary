@@ -35,7 +35,7 @@ include::hdbk-document-variables.adoc[]
 DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
   topic:  Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
              *example topic values*: Mission PIV-M, PIV SSSD, macOS Smartcard 
-  relevanttechnicalstandard:   Name of the relevant Technical Standard. (i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.)
+  relevanttechnicalstandard:   Name of the relevant Technical Standard (i.e., NASA-STD-2601, Section 5.7.; NPR 2810.1; NIST SP 800-53 R5)
 ////
 
 // Document variables (that are not on cover page)
@@ -95,7 +95,7 @@ endif::[]
 |Published Date
 |Description
 
-|1.0
+|{document-version}
 |{published-date}
 |
 |====
@@ -389,8 +389,10 @@ APPENDIX SECTION
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
   
-  Subsequent appendices will use appropriate letters (B, C, D...)
+  Subsequent appendices will use appropriate letters (B, C, D)
 ////
 
+////
 [appendix]
 == TITLE OF APPENDIX
+////
