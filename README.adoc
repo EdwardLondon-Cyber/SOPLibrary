@@ -35,8 +35,7 @@ NOTE: CSET's Standards template directory is located here: https://developer.nas
 
 1. Open your Standard in Visual Studio Code (VSC).
 
-2. Add Document Basecamp as a submodule within your Standard.
- ** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
+ ** See Section 5.1. __How to Add the Document Basecamp Submodule__ of this README for instructions.
  
 3. Copy the following files from Document Basecamp and paste them into your Standard's root directory: 
 
@@ -117,7 +116,8 @@ NOTE: CSET's Specification template directory is located here: https://developer
 
 1. Open your Specification in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Specification. 
- ** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
+
+ ** See Section 5.1. __How to Add the Document Basecamp Submodule__ of this README for instructions.
 
 3. Copy the following files from Document Basecamp and paste them into your Specification's root directory: 
 
@@ -185,7 +185,8 @@ NOTE: CSET's Handbook template directory is located here: https://developer.nasa
 1. Open your Handbook in Visual Studio Code (VSC).
 
 2. Add Document Basecamp as a submodule within your Handbook.
-** See <<_how_to_add_the_document_basecamp_submodule, Section 4.2. __How to Add the Document Basecamp Submodule__>> for instructions.
+
+ ** See Section 5.1. __How to Add the Document Basecamp Submodule__ of this README for instructions.
 
 3. Copy the following files from Document Basecamp and paste them into your Handbook's root directory: 
 
@@ -256,13 +257,29 @@ There are two scripts in the repository linked above:
 
 === How to Add the Document Basecamp Submodule
 
-=== Via Command Line:
+IMPORTANT: Add the document basecamp submodule before creating a fork of a repository. 
 
+If you *do not* already have the document basecamp submodule in your document's repository, copy and paste the following commands into the Terminal: 
+
+[source]
+----
+git submodule add https://developer.nasa.gov/CSET/document_basecamp.git
+git add .
+git commit -m "adding document_basecamp to document"
+git push origin <branch name>
+----
+
+===  How to Update the Document Basecamp Submodule
+
+If you *do* already have the document basecamp submodule in your document's repository, but it is not up-to-date, copy and paste the following commands into the Terminal: 
+
+[source]
+----
 git submodule init
 git submodule update
 cd document_basecamp
 git fetch
 git merge -s recursive -Xours origin origin/master
 cd ..
+----
 
-=== Via Github Desktop:
