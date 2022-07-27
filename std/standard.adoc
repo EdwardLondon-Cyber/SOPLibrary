@@ -171,14 +171,6 @@ Verifiable requirement statements are numbered and designated by the acronym **2
 
 // note: spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
 
-=== Authority
-
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
-
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/
-
-In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, Information System Owner (ISOs) *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
-
 === Tailoring
 
 // Some Standards might require different wording in the Tailoring section than what is in the template. 
@@ -186,6 +178,17 @@ In accordance with NPR 2810.1__x__, _Security of Information and Information Sys
 Any and all risk-based decisions (RBDs) to tailor this NASA Technical Standard in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible ISO and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
+
+=== Authority
+
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
+
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. CSET's published ASCS Technical Standards are also listed on the link:https://cset.nasa.gov/latest/nts[NASA Technical Standards] page under Technical Discipline 2000 - Computer Systems, Software, Information Systems. 
+
+
+In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, Information System Owner (ISOs) *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+
+
 
 
 ////
