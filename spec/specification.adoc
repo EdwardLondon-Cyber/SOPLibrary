@@ -127,11 +127,13 @@ Adherence to this NASA Technical Specification ensures compliance with NASA-STD-
 
 Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
 
-+++<br>+++
-
-Refer to link:|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
 
 +++<br>+++
+
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ (Signed PDF).
+
++++<br>+++
+
 
 ////
 NUMBERED SECTIONS:
