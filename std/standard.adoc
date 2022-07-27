@@ -217,7 +217,6 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 
-
 .NASA Documents
 [%header, cols=2*a]
 |===
@@ -225,6 +224,16 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
 // | | 
 |===
+
+
+////
+.DISA Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+////
 
 
 ////
@@ -236,14 +245,6 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |===
 ////
 
-////
-.DISA Documents
-[%header, cols=2*a]
-|===
-|Document Identifier|Document Title
-| | 
-|===
-////
 
 ////
 .Other Government Documents
