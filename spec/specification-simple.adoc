@@ -232,7 +232,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 
-.NASA Documents
+.National Aeronautics and Space Administration (NASA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
@@ -243,7 +243,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
-.DISA Documents
+.Defense Information Systems Agency (DISA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
@@ -253,7 +253,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
-.NIST Documents
+.National Institute of Standards and Technology (NIST) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
