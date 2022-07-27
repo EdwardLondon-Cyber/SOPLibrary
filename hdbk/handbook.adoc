@@ -122,7 +122,7 @@ This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOS
 // provides guidance for. . . 
 // establishes best practices for configuring {topic}. . .
 
-Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+Requests for information, corrections, and/or additions to this Handbook can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 +++<br><br><br>+++
 
