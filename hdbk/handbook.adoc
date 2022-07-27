@@ -173,11 +173,10 @@ This NASA Technical Handbook is approved for use by NASA Headquarters and NASA C
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized CSET, via the Agency Security Configuration Standards (ASCS) initiative, to create binding Technical Standards related to Agency cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/.
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency.
 
 CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in <<_requirements_documents, Section 2.1. _Requirements Documents_>>.
 
-. 
 
 ////
 APPLICABLE DOCUMENTS
