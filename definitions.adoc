@@ -6,28 +6,28 @@ NOTE: The table below contains definitions for key terms used in this document. 
 |Term|Definition
 //## A
 //|AA Account|A type of Active Directory Resource Management Account; specifically, an administrator account. The standard method of performing administrative functions at NASA is through the use of NASA Consolidated Active Directory (NCAD) administrative accounts. These accounts have the prefix "aa-" (e.g., aa-jdoe).
-//|Authentication| Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system. (NIST)
+//|Authentication|Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system. (NIST)
 //|Authorization|Access privileges granted to a user, program, or process or the act of granting those privileges. (NIST)
 
 
 //## B
-//|Block Storage| An approach to data storage in which data is broken down into blocks that are stored separately. Each block has a unique identifier within the storage system. Also know as "block-level storage". 
+//|Block Storage|An approach to data storage in which data is broken down into blocks that are stored separately. Each block has a unique identifier within the storage system. Also known as "block-level storage". 
 
 
 //## C
-//|Cipher Strength| The number of bits in the key used to encrypt data.
-//|Clean Source Principle| The practice of requiring all security dependencies to be as trustworthy as the object being secured. Per Microsoft, "any subject in control of an object is a security dependency of that object. If an adversary can control anything in control of a target object, they can control that target object. Because of this threat, you must ensure that the assurances for all security dependencies are at or above the desired security level of the object itself." (Microsoft)
+//|Cipher Strength|The number of bits in the key used to encrypt data.
+//|Clean Source Principle|The practice of requiring all security dependencies to be as trustworthy as the object being secured. Per Microsoft, "any subject in control of an object is a security dependency of that object. If an adversary can control anything in control of a target object, they can control that target object. Because of this threat, you must ensure that the assurances for all security dependencies are at or above the desired security level of the object itself." (Microsoft)
 //|Cloud Consumer| A person or organization that maintains a business relationship with and uses service from one or more cloud provider. (NIST)
-//|Cloud Service Provider|A company that offers some component of cloud computing such as a cloud-based platform, infrastructure, application, or storage device. These components are typically delivered via various cloud service models (e.g., IaaS, PaaS, SaaS).
-//|Cloud Storage Services| Services that allow information and data to be stored within a cloud environment. These services can include, but are not limited to, block storage, object storage, cloud-hosted file systems, and Software as a Service (SaaS) cloud storage.  
-//|Community Cloud| Cloud infrastructure that is provisioned for exclusive use by a specific community of cloud consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). A community cloud may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
+//|Cloud Service Provider|A company that offers some component of cloud computing such as a cloud-based platform, infrastructure, application, or storage device. These components are typically delivered via various cloud service models (e.g.,  Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS)).
+//|Cloud Storage Services|Services that allow information and data to be stored within a cloud environment. These services can include, but are not limited to, block storage, object storage, cloud-hosted file systems, and Software as a Service (SaaS) cloud storage.  
+//|Community Cloud|Cloud infrastructure that is provisioned for exclusive use by a specific community of cloud consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). A community cloud may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
 //|Computing Device|A machine (real or virtual) for performing calculations automatically. Computing devices include, but are not limited to, computers, servers, routers, and switches. (NIST)
 //|Computing System|A subset of information systems and may be physical or virtual. Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and Infrastructure-as-a-Service (IaaS) systems. 
 //|Configuration Item|An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process. (NIST)
 //|Configuration Management|A collection of activities focused on establishing and maintaining the integrity of products and systems, through control of the processes for initializing, changing, and monitoring the configurations of those products and systems throughout the system development life cycle. (NIST)
-//|Configuration Profile|A configuration profile is an XML file that allows you to distribute configuration settings to macOS devices.
+//|Configuration Profile|A configuration profile is an .xml file that allows you to distribute configuration settings to macOS devices.
 //|Controlled Unclassified Information|Information that the Government creates or possesses, or that an entity creates or possesses for or on behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls. However, Controlled Unclassified Information (CUI) does not include classified information or information a non-executive branch entity possesses and maintains in its own systems that did not come from, or was not created or possessed by or for, an executive branch agency or an entity acting for an agency. (NIST)
-//|Cryptography| The discipline that embodies the principles, means, and methods for the transformation of data in order to hide their semantic content, prevent their unauthorized use, or prevent their undetected modification. (NIST)
+//|Cryptography|The discipline that embodies the principles, means, and methods for the transformation of data in order to hide their semantic content, prevent their unauthorized use, or prevent their undetected modification. (NIST)
 
 
 //## D
@@ -44,7 +44,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|End-User Workstation|A term used generically to refer to desktops, laptop computers, mobile devices, engineering workstations, and other computing devices that are utilized to provide basic interoperability.
 //|Environment|Aggregate of external procedures, conditions, and objects affecting the development, operation, and maintenance of an information system. (NIST)
 //|Export-Controlled Data|Data that cannot be released or transferred to persons, systems, or organizations residing in, functioning in, or belonging to a country outside of the United States without first obtaining authorization from the NASA Export Control Program. Export controlled data includes, but is not limited to, Export Administration Regulations (EAR) and International Traffic in Arms Regulations (ITAR) data.
-//|Export Control Program| The NASA Export Control Program (ECP) is a NASA-wide (Headquarters and Field Centers) system established to ensure that exports and transfers to foreign parties in international activities are consistent with the Export Administration Regulations (EAR) and the International Traffic in Arms Regulations (ITAR) and NASA international cooperative activities. (NASA Office of International and Interagency Relations (OIIR))
+//|Export Control Program|The NASA Export Control Program (ECP) is a NASA-wide (Headquarters and Field Centers) system established to ensure that exports and transfers to foreign parties in international activities are consistent with the Export Administration Regulations (EAR) and the International Traffic in Arms Regulations (ITAR) and NASA international cooperative activities. (NASA Office of International and Interagency Relations (OIIR))
 
 // Azure AD:
 //|Extension Attributes|Directory schema extension attributes provide a way to store additional data in Azure Active Directory on user objects and other directory objects such as groups, tenant details, service principals. Only extension attributes on user objects can be used for emitting claims to applications.(Microsoft) 
@@ -72,10 +72,10 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Information System|A discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information. (NIST)
 //|Information System Owner|Official responsible for the overall procurement, development, integration, modification, or operation and maintenance of an information system. (NIST)
 //|Interactive Authentication|Authentication to the recovery of encrypted data requiring an authorized user or administrator to access the encryption recovery key for direct access to the encrypted volume.
-//|Infrastructure|The hardware, software, facilities, and service components that support the delivery of business systems and IT-enabled processes.
+//|Infrastructure|The hardware, software, facilities, and service components that support the delivery of business systems and information technology (IT)-enabled processes.
 //|Intrusion|A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so. (NIST)
-//|IT Project| According to link:https://cset.nasa.gov/latest/npr-7120.7[NPR 7120.7__x__], an IT project is a specific investment having defined requirements, a life-cycle cost, a beginning, and an end. An IT project has a management structure and is planned, executed, and controlled according to a formal methodology and governed through a defined series of life-cycle reviews. An IT project may have interfaces to other projects, programs, agencies, and international partners. An IT project yields a new or revised system/service that directly addresses NASA's strategic goals.
-//|ITAR| The International Traffic in Arms Regulations (ITAR) are regulations set forth in parts 120 - 130, inclusive, of Title 22 of the Code of Federal Regulations. The ITAR governs the manufacture, export, and temporary import of defense articles; the furnishing of defense services; and brokering activities involving items described on the United States Munitions List (USML). (22 CFR §§120 - 130) The Department of State is responsible for the export and temporary import of defense articles and services governed by 22 U.S.C. 2778 of the Arms Export Control Act (AECA) and Executive Order 13637. The International Traffic in Arms Regulations ("ITAR," 22 CFR 120-130) implements the AECA. (U.S. Department of State)
+//|IT Project| According to link:https://cset.nasa.gov/latest/npr-7120.7[NPR 7120.7__x__], an information technology (IT) project is a specific investment having defined requirements, a life-cycle cost, a beginning, and an end. An IT project has a management structure and is planned, executed, and controlled according to a formal methodology and governed through a defined series of life-cycle reviews. An IT project may have interfaces to other projects, programs, agencies, and international partners. An IT project yields a new or revised system/service that directly addresses NASA's strategic goals.
+//|ITAR|The International Traffic in Arms Regulations (ITAR) are regulations set forth in parts 120 - 130, inclusive, of Title 22 of the Code of Federal Regulations. The ITAR governs the manufacture, export, and temporary import of defense articles; the furnishing of defense services; and brokering activities involving items described on the United States Munitions List (USML). (22 CFR §§120 - 130) The Department of State is responsible for the export and temporary import of defense articles and services governed by 22 U.S.C. 2778 of the Arms Export Control Act (AECA) and Executive Order 13637. The International Traffic in Arms Regulations ("ITAR," 22 CFR 120-130) implements the AECA. (U.S. Department of State)
 
 
 
@@ -89,9 +89,10 @@ NOTE: The table below contains definitions for key terms used in this document. 
 
 //## L
 //|Least Privilege|The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function. (NIST)
-//|Level of Assurance| Level of Assurance (LOA) is the amount of certainty that individuals accessing a physical or logical asset are who they claim to be. NIST SP 800-63 provides guidance for determining LOA. (NPR 2841.1)
-//|Level of Confidence| Level of Confidence (LOC) is the amount of certainty, based on identity proofing and investigation, that an individual can be trusted with access to NASA physical and IT assets. (NPR 2841.1)
-//|Level of Risk| Level of Risk (LOR) is the amount of vulnerability to NASA, based on the likelihood and consequences of an adverse action through improper access or use of a physical or IT asset. (NPR 2841.1)
+//|Level of Assurance| Level of Assurance (LOA) is the amount of certainty that individuals accessing a physical or logical asset are who they claim to be. NIST SP 800-63 provides guidance for determining LOA. (link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1], __Identity, Credential, and Access Management__)
+//|Level of Confidence| Level of Confidence (LOC) is the amount of certainty, based on identity proofing and investigation, that an individual can be trusted with access to NASA physical and information technology (IT) assets. (link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1], __Identity, Credential, and Access Management__)
+//|Level of Risk| Level of Risk (LOR) is the amount of vulnerability to NASA, based on the likelihood and consequences of an adverse action through improper access or use of a physical or information technology (IT) asset. (link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1], __Identity, Credential, and Access Management__)
+//|Local Area Network| A local area network (LAN) is a group of computers and other devices dispersed over a relatively limited area and connected by a communications link that enables any device to interact with any other on the network. (NIST)
 
 
 //## M
@@ -102,6 +103,8 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //## N
 //|NASA User|Any explicitly authorized patron of a NASA information system.
 //|Network Administrator|A person who manages a local area network (LAN) within an organization. Responsibilities include ensuring network security, installing new applications, distributing software upgrades, monitoring daily activity, enforcing licensing agreements, developing a storage management program, and providing for routine backups. (NIST)
+//|Network|Information system(s) implemented with a collection of interconnected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. (NIST)
+//|Network System| A system implemented with a collection of connected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. 
 //|Non-Organizational Users|Information system users other than organizational users explicitly defined in link:https://cset.nasa.gov/latest/nist-sp-800-53[NIST Special Publication 800-53 Revision 5], _Security and Privacy Controls for Information Systems and Organizations_, control IA-02, _Identification and Authentication (Organizational Users)_.
 
 
@@ -112,9 +115,9 @@ NOTE: The table below contains definitions for key terms used in this document. 
 
 
 //## P
-//|PC Hardware|Also known as PC-based hardware, PC-based system, or PC system. This term refers to end-user workstations that run on an operating system (OS) other than macOS.
+//|PC Hardware|Personal Computer (PC) Hardware is also known as PC-based hardware, PC-based system, or PC system. This term refers to end-user workstations that run on an operating system (OS) other than macOS.
 //|Persistent Data Storage Device|Any data storage device that retains data after power to that device is shut off.
-//|PIV Credential|PIV stands for a "Personal Identity Verification". A PIV credential is a U.S. federal government-wide credential used to access federally controlled facilities and information systems at the appropriate security level. 
+//|PIV Credential|A Personal Identity Verification (PIV) credential is a U.S. federal government-wide credential used to access federally controlled facilities and information systems at the appropriate security level. 
 //|PIV Card|A Personal Identity Verification (PIV) card is an identification card issued by a Federal agency that contains a computer chip, which allows it to receive, store, recall, and send information in a secure method. PIV cards are used government-wide to control physical access to federally controlled facilities and logical access to federally controlled information systems. (NIST)
 //|PIV Reader|The integrated or attached device component that allows the system to access a physical smartcard. Also referred to as a "smartcard reader" or "card reader". 
 //|Platform as a Service|The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.(NIST)
@@ -124,8 +127,8 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Private Cloud|Cloud infrastructure that is provisioned for exclusive use by a single organization comprising multiple cloud consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises. (NIST)
 //|Private Key/Certificate|The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt data. (NIST)
 //|Privileged Access|The ability to access and manage an organization's information assets and systems.
-//|Privileged Access Workstation|A dedicated workstation used exclusively for administrative management of designated high-value IT resources, including servers, workstations, directory services, applications, databases, and network components.
-//|Privileged Access Management|Processes for protecting access to accounts that have access permissions that can affect IT system configurations and data security (e.g., superusers, domain administrators, and global administrators).(FICAM)
+//|Privileged Access Workstation|A dedicated workstation used exclusively for administrative management of designated high-value information technology (IT) resources, including servers, workstations, directory services, applications, databases, and network components.
+//|Privileged Access Management|Processes for protecting access to accounts that have access permissions that can affect information technology (IT) system configurations and data security (e.g., superusers, domain administrators, and global administrators).(FICAM)
 //|Public Cloud| Cloud infrastructure that is provisioned for use by the general public. It may be owned, managed, and/or operated by a business, academic institution, and/or government organization. It exists on the premises of the cloud service provider.
 //|Public Key/Certificate|The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data. (NIST)
 
@@ -139,7 +142,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 
 
 //## S
-//|Sanitization|The process of removing data from storage devices with a degree of certainty that corresponds to the risk levels incorporated in the link:https://cset.nasa.gov/latest/fips-199[FIPS-199] confidentiality categorization. (link:https://cset.nasa.gov/latest/its-hbk-2810.11-2[ITS-HBK-2810.11-2__x__])
+//|Sanitization|The process of removing data from storage devices with a degree of certainty that corresponds to the risk levels incorporated in the confidentiality categorization, as defined in link:https://cset.nasa.gov/latest/fips-199[FIPS-199], _Standards for Security Categorization of Federal Information and Information Systems_. (link:https://cset.nasa.gov/latest/its-hbk-2810.11-2[ITS-HBK-2810.11-2__x__], _Media Protection and Sanitization_)
 //|Secondary Logical Storage|Any fixed storage device that does not contain the operating system.
 //|Secure Enclave|A dedicated, secure subsystem integrated into Macs with Apple silicon and those with the T2 chip. Encryption keys stored in the Secure Enclave are isolated from the device's main processor (i.e., the Secure Enclave provides an extra layer of security). 
 //|Security Configuration Management|The management and control of configurations for an information system to enable security and facilitate the management of risk. (NIST)
@@ -156,7 +159,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Standard Elevated Privilege NASA User|A standard NASA user who has administrator privileges for their local workstation(s).
 //|Standard NASA User|Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
 //|Standard User|A user account with limited privileges that will be used for general tasks such as reading email and surfing the Web. (NIST)
-//|System Administrator|An individual, group, or organization responsible for setting up and maintaining a system or specific system elements, implements approved secure baseline configurations, incorporates secure configuration settings for IT products, and conducts/assists with configuration monitoring activities as needed. (NIST)
+//|System Administrator|An individual, group, or organization responsible for setting up and maintaining a system or specific system elements, implements approved secure baseline configurations, incorporates secure configuration settings for information technology (IT) products, and conducts/assists with configuration monitoring activities as needed. (NIST)
 
 
 //## T
