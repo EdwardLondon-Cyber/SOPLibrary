@@ -183,7 +183,7 @@
 //|IDI|ICAM Device Integration
 //|idM|Identity Management (Red Hat Product)
 //|IDPREF|Identity Preference
-//|IDS|Intrusion Detection
+//|IDS|Intrusion Detection System
 //|IETF|Internet Engineering Task Force
 //|IMAP|Internet Message Access Protocol
 //|IOMMU|Input/Output Memory Management Unit
