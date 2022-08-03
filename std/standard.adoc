@@ -101,7 +101,7 @@ endif::[]
 |Date Approved
 |Description
 
-|1.0
+|{document-version}
 |{approved-date}
 |
 |====
@@ -121,7 +121,7 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 
 This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS STANDARD)*.
 
-Requests for information, corrections, or additions to this Standard can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 +++<br><br><br><br>+++
 {signatory} +
@@ -161,7 +161,7 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 
 // Replace the question marks in the line below with your Standard's number! (e.g., 2601)
 
-Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. To facilitate requirements selection by NASA programs and projects, a Requirements Compliance Matrix is provided in Appendix A.  
+Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. <<_requirements_compliance_matrix>> is provided to facilitate requirements selection by NASA programs and projects.  
 
 // Note: numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. do not number the SHALL statement in the applicability section. 
 
@@ -171,14 +171,6 @@ Verifiable requirement statements are numbered and designated by the acronym **2
 
 // note: spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
 
-=== Authority
-
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
-
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/
-
-In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, Information System Owner (ISOs) *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
-
 === Tailoring
 
 // Some Standards might require different wording in the Tailoring section than what is in the template. 
@@ -186,6 +178,14 @@ In accordance with NPR 2810.1__x__, _Security of Information and Information Sys
 Any and all risk-based decisions (RBDs) to tailor this NASA Technical Standard in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible ISO and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
+
+=== Authority
+
+The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
+
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. CSET's published ASCS Technical Standards are also listed on the link:https://cset.nasa.gov/latest/nts[NASA Technical Standards] page under Technical Discipline 2000 - Computer Systems, Software, Information Systems. 
+
+In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
 
 ////
@@ -217,24 +217,34 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 
-
-.NASA Documents
+.National Aeronautics and Space Administration (NASA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
-|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information and Information Systems_
 // | | 
 |===
 
 
 ////
-.NIST Documents
+.Defense Information Systems Agency (DISA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
 ////
+
+
+////
+.National Institute of Standards and Technology (NIST) Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+////
+
 
 ////
 .Other Government Documents

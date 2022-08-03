@@ -103,7 +103,7 @@ endif::[]
 |Date Approved
 |Description
 
-|1.0
+|{document-version}
 |{approved-date}
 |
 |====
@@ -125,13 +125,14 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
 
-Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
+Comments, concerns, and all other feedback on this Specification can be submitted via email to mailto:NASA-DL-ASCS-TECHNICAL@mail.nasa.gov[NASA-DL-ASCS-TECHNICAL@mail.nasa.gov].
 
 +++<br>+++
 
-Refer to link:|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ (Signed PDF).
 
 +++<br>+++
+
 
 ////
 NUMBERED SECTIONS:
@@ -196,9 +197,10 @@ NOTE: Some NASA Technical Specifications include "_critical_" configuration sett
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/. 
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. 
 
-In accordance with NPR 2810.1__x__, _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+
 
 +++<br>+++
 
@@ -230,23 +232,35 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |===
 ////
 
-.NASA Documents
+.National Aeronautics and Space Administration (NASA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 |https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600] |_Enumeration of ASCS Cybersecurity Requirements_
 |link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
-|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information and Information Systems_
 |===
 
+
 ////
-.NIST Documents
+.Defense Information Systems Agency (DISA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
 ////
+
+
+////
+.National Institute of Standards and Technology (NIST) Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+////
+
 
 ////
 .Other Government Documents

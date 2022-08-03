@@ -35,7 +35,7 @@ include::hdbk-document-variables.adoc[]
 DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
   topic:  Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
              *example topic values*: Mission PIV-M, PIV SSSD, macOS Smartcard 
-  relevanttechnicalstandard:   Name of the relevant Technical Standard. (i.e. NASA-STD-2601, Section 5.7., NASA document, STIG, NIST, etc.)
+  relevanttechnicalstandard:   Name of the relevant Technical Standard (i.e., NASA-STD-2601, Section 5.7.; NPR 2810.1; NIST SP 800-53 R5)
 ////
 
 // Document variables (that are not on cover page)
@@ -95,7 +95,7 @@ endif::[]
 |Published Date
 |Description
 
-|1.0
+|{document-version}
 |{published-date}
 |
 |====
@@ -122,7 +122,7 @@ This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOS
 // provides guidance for. . . 
 // establishes best practices for configuring {topic}. . .
 
-Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+Requests for information, corrections, and/or additions to this Handbook can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 +++<br><br><br>+++
 
@@ -173,9 +173,10 @@ This NASA Technical Handbook is approved for use by NASA Headquarters and NASA C
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized CSET, via the Agency Security Configuration Standards (ASCS) initiative, to create binding Technical Standards related to Agency cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. NTSP provides access to all technical standards at: https://standards.nasa.gov/.
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency.
 
-CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in Section 2., _Applicable Documents_. 
+CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in <<_requirements_documents, Section 2.1. _Requirements Documents_>>.
+
 
 ////
 APPLICABLE DOCUMENTS
@@ -188,11 +189,13 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
+=== Requirements Documents
+
 This NASA Technical Handbook provides guidance for configuring systems to be compliant with the requirements defined in the documents listed in this section.
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-=== Government Documents
+==== Government Documents
 
 // NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
@@ -205,7 +208,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |===
 ////
 
-.NASA Documents
+.National Aeronautics and Space Administration (NASA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
@@ -214,14 +217,26 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 // | | 
 |===
 
+
 ////
-.NIST Documents
+.Defense Information Systems Agency (DISA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
 | | 
 |===
 ////
+
+
+////
+.National Institute of Standards and Technology (NIST) Documents
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+////
+
 
 ////
 .Other Government Documents
@@ -234,7 +249,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
-=== Non-Government Documents
+==== Non-Government Documents
 
 // Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
 
@@ -244,6 +259,18 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 | | 
 |===
 ////
+
+=== Supplemental Guidance
+
+The documents listed in this section were used as a reference while writing this NASA Technical Handbook and may serve as additional support in implementing the solution defined in this Handbook.
+
+[%header, cols=2*a]
+|===
+|Document Identifier|Document Title
+| | 
+|===
+
+
 
 +++<br>+++
 
@@ -364,8 +391,10 @@ APPENDIX SECTION
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
   
-  Subsequent appendices will use appropriate letters (B, C, D...)
+  Subsequent appendices will use appropriate letters (B, C, D)
 ////
 
+////
 [appendix]
 == TITLE OF APPENDIX
+////

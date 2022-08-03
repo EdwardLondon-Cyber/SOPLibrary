@@ -34,3 +34,6 @@ a|* example
 |====
 
 
+== ACRONYMS USED IN THIS DOCUMENT
+
+include::acronym_list.adoc[] 
