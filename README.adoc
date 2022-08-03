@@ -39,7 +39,7 @@ NOTE: CSET's Standards template directory is located here: https://developer.nas
  
 3. Copy the following files from Document Basecamp and paste them into your Standard's root directory: 
 
- * From the *std folder* in Document Basecamp:
+ * From the *std folder* within Document Basecamp:
 
   . README.adoc
   . standard.adoc
@@ -48,6 +48,7 @@ NOTE: CSET's Standards template directory is located here: https://developer.nas
 
  *  From Document Basecamp:
 
+  . .gitignore 
   . acronym_list.adoc
   . definitions.adoc
 
@@ -121,7 +122,7 @@ NOTE: CSET's Specification template directory is located here: https://developer
 
 3. Copy the following files from Document Basecamp and paste them into your Specification's root directory: 
 
- * From the *spec folder* in Document Basecamp:
+ * From the *spec folder* within Document Basecamp:
 
   . README.adoc
   . spec-document-variables.adoc
@@ -130,6 +131,7 @@ NOTE: CSET's Specification template directory is located here: https://developer
 
  *  From Document Basecamp:
 
+  . .gitignore 
   . acronym_list.adoc
   . definitions.adoc
 
@@ -190,7 +192,7 @@ NOTE: CSET's Handbook template directory is located here: https://developer.nasa
 
 3. Copy the following files from Document Basecamp and paste them into your Handbook's root directory: 
 
- * From the *hdbk folder* in Document Basecamp:
+ * From the *hdbk folder* within Document Basecamp:
 
   . handbook.adoc
   . hdbk-document-variables.adoc 
@@ -199,6 +201,7 @@ NOTE: CSET's Handbook template directory is located here: https://developer.nasa
 
  *  From Document Basecamp:
 
+  . .gitignore 
   . acronym_list.adoc
   . definitions.adoc
 
