@@ -9,7 +9,7 @@
 The purpose of this NASA Technical Handbook is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
 
 
-NOTE: Requests for information, corrections, or additions to this Handbook can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+NOTE: Requests for information, corrections, or additions to this Handbook can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 
 == DOCUMENT HISTORY
@@ -32,8 +32,3 @@ a|* example
 a|* example
 *  example
 |====
-
-
-== ACRONYMS USED IN THIS DOCUMENT
-
-include::acronym_list.adoc[] 

@@ -119,8 +119,8 @@ This NASA Technical Handbook is approved for use by NASA Headquarters and NASA C
 
 This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
 // provides guidance for {topic} deployment and operation.
-// provides guidance for. . . 
-// establishes best practices for configuring {topic}. . .
+// provides guidance for . . . 
+// establishes best practices for configuring {topic} . . .
 
 Requests for information, corrections, and/or additions to this Handbook can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
@@ -314,7 +314,7 @@ NOTE ON INTERNAL CROSS REFERENCE:
   Cross Reference:
     <<_example_of_a_sub_section_title>>
   Will Appear as link in published document with subsection number:
-    i.e. "6.4.2. Example of a sub-section Title"
+    (i.e., "6.4.2. Example of a sub-section Title")
 ////
 
 ////

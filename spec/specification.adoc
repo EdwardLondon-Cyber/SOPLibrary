@@ -238,9 +238,9 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
-|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600] |_Enumeration of ASCS Cybersecurity Requirements_
-|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
-|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information and Information Systems_
+|link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600]|_Enumeration of ASCS Cybersecurity Requirements_
+|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]|_Minimum Cybersecurity Requirements for Computing Systems_ 
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]|_Security of Information and Information Systems_
 |===
 
 
@@ -284,7 +284,6 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 | | 
 |===
 
-
 === Supplemental Guidance
 
 The resources listed in this section were used as a reference while writing this NASA Technical Specification and may serve as additional support in implementing the requirements defined in this Specification.
@@ -295,7 +294,6 @@ The resources listed in this section were used as a reference while writing this
 | 
 |
 |===
-
 
 
 +++<br>+++
@@ -427,7 +425,7 @@ APPENDIX SECTION
    APPENDIX A: TITLE OF APPENDIX
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
-    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . .)
+    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . . )
 
 
 [appendix]

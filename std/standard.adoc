@@ -333,7 +333,7 @@ APPENDIX SECTION
   Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
      APPENDIX A: TITLE OF APPENDIX
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
-  Subsequent appendices will use appropriate letters (B, C, D...)
+  Subsequent appendices will use appropriate letters (B, C, D . . . )
 ////
 
 [appendix]

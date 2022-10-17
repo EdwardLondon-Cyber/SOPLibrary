@@ -10,7 +10,7 @@
 
 The purpose of this NASA Technical Standard is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS SPEC)*.
 
-NOTE: Requests for information, corrections, or additions to this Standard can be made via the "Contact ASCS" form, found here: https://cset.nasa.gov/ascs/requests/.
+NOTE: Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 
 == DOCUMENT HISTORY

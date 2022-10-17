@@ -127,11 +127,11 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
 
-Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
+Comments, concerns, and all other feedback on this Specification can be submitted via email to mailto:NASA-DL-ASCS-TECHNICAL@mail.nasa.gov[NASA-DL-ASCS-TECHNICAL@mail.nasa.gov].
 
 +++<br>+++
 
-Refer to link:|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
 
 +++<br>+++
 
@@ -158,7 +158,7 @@ SCOPE:
 Purpose: 
  If your spec does not fall under Standard 2601/ is not a configuration Spec:
    Make sure to edit the Purpose so that it is accurate for your spec. 
-    "define" is probably the best verb for Specification purpose statements. (establish = for standards; provide guidance = for handbooks)
+    "define" is probably the best verb for Specification purpose statements (establish = for standards; provide guidance = for handbooks).
 ////
 
 === Purpose
@@ -357,7 +357,7 @@ APPENDIX SECTION
    APPENDIX A: TITLE OF APPENDIX
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
-    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
+    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . . )
 
 
 [appendix]
