@@ -8,7 +8,7 @@
 == DESCRIPTION
 // COPY AND PASTE PURPOSE STATEMENT FROM STANDARD HERE. 
 
-The purpose of this NASA Technical Standard is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS SPEC)*.
+The purpose of this NASA Technical Standard is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS STANDARD)*.
 
 NOTE: Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 

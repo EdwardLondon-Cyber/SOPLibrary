@@ -80,7 +80,8 @@ DOCUMENT HISTORY LOG:
   But be sure to DELETE DRAFT TRACKING and update the approved date when it is signed and ready to be published. 
 
   The description box must not be left blank, but it should be brief. 
-   Example descriptions: "Updated to be applicable to xyz"
+   Example description: "Updated to be applicable to xyz"
+   v1.0 description must be "Initial Release".
 
    NOTE: 
     Approval Date: this will automatically be pulled from the document-variables.adoc file.
@@ -103,7 +104,7 @@ endif::[]
 
 |{document-version}
 |{approved-date}
-|
+|Initial Release
 |====
 
 <<<
@@ -185,12 +186,12 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. CSET's published ASCS Technical Standards are also listed on the link:https://cset.nasa.gov/latest/nts[NASA Technical Standards] page under Technical Discipline 2000 - Computer Systems, Software, Information Systems. 
 
-In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__], _Security of Information and Information Systems_, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
 
 ////
 APPLICABLE DOCUMENTS
-  Add Government and Non-Government documents related to this handbook in this section.
+  Add Government and Non-Government documents related to this Standard in this section.
   
   List documents in alphanumeric order based on their Document Number or Descriptor.
 
