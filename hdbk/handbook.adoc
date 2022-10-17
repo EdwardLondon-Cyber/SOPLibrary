@@ -268,7 +268,7 @@ The resources listed in this section were used as a reference while writing this
 |===
 |Title
 | 
-|
+| 
 |===
 
 
