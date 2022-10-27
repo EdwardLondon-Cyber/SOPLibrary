@@ -259,6 +259,8 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 The resources listed in this section were used as a reference while writing this NASA Technical Handbook and may serve as additional support in implementing the solution defined in this Handbook.
 
+// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
+
 [%header]
 |===
 |Title
