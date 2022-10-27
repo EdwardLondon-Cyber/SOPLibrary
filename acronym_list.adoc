@@ -64,7 +64,7 @@
 //|CIS|Center for Internet Security
 //|CISO|Chief Information Security Officer
 //|CLI|Command Line Interface
-//|CM|COnfiguration Management
+//|CM|Configuration Management
 //|CN|Common Name
 //|CNAME|Canonical Name Record
 //|CONOPS|Concept of Operations
@@ -94,6 +94,7 @@
 //|DC|Domain Controller
 //|DCCP|Datagram Congestion Control Protocol
 //|DDoS|Distributed Denial of Service
+//|DEFEND| Dynamic and Evolving Federal Enterprise Network Defense  
 //|DER|Distinguished Encoding Rules
 //|DHA|Device Health Attestation
 //|DHCP|Dynamic Host Configuration Protocol
@@ -107,7 +108,7 @@
 //|DN|Domain Name
 //|DNS|Domain Name System
 //|DoD|Department of Defense
-//|DOS|Denial of Service
+//|DoS|Denial of Service
 //|DRA|Directory Resource Administrator
 //|DRM|Dell Repository Manager
 //|DRR|Decommissioning Readiness Review 
@@ -118,6 +119,7 @@
 //|EA|Extension Attribute
 //|EAR|Export Administration Regulations
 //|ECDSA|Elliptic Curve Digital Signature Algorithm
+//|ECL|Enterprise Cyber Logging
 //|EKU|Extended Key Usage
 //|EMCC|Enterprise Managed Cloud Computing
 //|EO|Executive Order
@@ -227,12 +229,15 @@
 //|LXD|LXc (LinuX Container) Daemon
 
 //## M
-//|MAC (Network)| Media Access Control
-//|MAC (Security)| Mandatory Access Control
+
+//|MAC| Mandatory Access Control
+//|MAC| Media Access Control
+//|MAC| Message Authentication Code
 //|MAM|Mobile Application Management
 //|MAR|Mitigation Action Requirement
 //|MAU|Microsoft AutoUpdate
 //|MBAM|Microsoft BitLocker Administration and Monitoring
+//|MCE| Managed Cloud Environment 
 //|MDM|Mobile Device Management
 //|MDR|Mobile Device Registration
 //|MFA|Multi-Factor Authentication
@@ -320,7 +325,7 @@
 //|PIV|Personal Identity Verification
 //|PIV-M|Personal Identity Verification Mandatory
 //|PKI|Public Key Infrastructure
-//|POA&M|Plan of Action and Mileston
+//|POA&M|Plan of Action and Milestones
 //|POP3|Post Office Protocol version 3
 //|PDF|Portable Document Format
 //|PTA|Privacy Threshold Analysis

@@ -1,4 +1,4 @@
-NOTE: The table below contains definitions for key terms used in this document. Parenthetical citations are provided at the end of definitions that derive from another source. 
+NOTE: The table below contains definitions for key terms used in this document. Parenthetical citations are provided at the end of definitions that are derived from another source. 
 
 .Definitions
 [%header, width="100%", cols="1,3"]
@@ -154,8 +154,10 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Single Sign-On|An authentication service that enables users to securely authenticate to multiple applications and websites with just one set of credentials.
 //|Single-User System|A computing system that is designed to provide access to only a single user once configured; it supports one user at a time. Examples include, but are not limited to, phones, tablets, and other devices which have provisions for only one user to authenticate to the device.
 //|Smart Groups|In Jamf Pro, smart groups provide a way to organize managed systems based on one or more attributes, such as building, model, and operating system.
+//|Smartcard| A physical electronic authentication device used to control access to a resource. 
 //|Smartcard Reader|The integrated or attached device component that allows the system to access the physical smartcard.
 //|Software as a Service|The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings. (NIST)
+//|Stand-Alone Windows Computing System| A Windows machine that is not domain-joined to Microsoft Active Directory.
 //|Standard Elevated Privilege NASA User|A standard NASA user who has administrator privileges for their local workstation(s).
 //|Standard NASA User|Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
 //|Standard User|A user account with limited privileges that will be used for general tasks such as reading email and surfing the Web. (NIST)
