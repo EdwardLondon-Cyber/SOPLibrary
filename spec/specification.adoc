@@ -129,9 +129,12 @@ Comments, concerns, and all other feedback on this Specification can be submitte
 
 +++<br>+++
 
-Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ (Signed PDF).
+ifeval::["{is-draft}" == "False"]
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature
 
 +++<br>+++
+endif::[]
+
 
 
 ////
