@@ -102,7 +102,7 @@ endif::[]
 |Date Approved
 |Description
 
-|{document-version}
+|
 |{approved-date}
 |Initial Release
 |====
@@ -119,8 +119,6 @@ Forward:
 This NASA Technical Standard is published by the National Aeronautics and Space Administration (NASA) to provide uniform engineering and technical requirements for processes, procedures, practices, and methods that have been endorsed as standard for NASA programs and projects, including requirements for selection, application, and design criteria of an item.
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
-
-This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS STANDARD)*.
 
 Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 

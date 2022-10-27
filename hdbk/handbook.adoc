@@ -95,7 +95,7 @@ endif::[]
 |Published Date
 |Description
 
-|{document-version}
+|
 |{published-date}
 |
 |====
@@ -116,11 +116,6 @@ FOREWORD INSTRUCTIONS:
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
 
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
-
-This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
-// provides guidance for {topic} deployment and operation.
-// provides guidance for . . . 
-// establishes best practices for configuring {topic} . . .
 
 Requests for information, corrections, and/or additions to this Handbook can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
