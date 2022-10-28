@@ -14,6 +14,7 @@ endif::[]
 :allow-uri-read:
 :icons: font
 :chapter-label:
+:chapter-signifier:
 // Table of Contents
 ifdef::backend-html5[]
 :toc: macro
@@ -234,24 +235,26 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
+
+// Create YOURLS for any other government documents. Link the title of the source in the table below. 
+
 .Other Government Documents
-[%header, cols=2*a]
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Document Identifier
+| 
 |===
 ////
-
 
 ////
 ==== Non-Government Documents
 
-// Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
+// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
 
-[%header, cols=2*a]
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Document Identifier
+| 
 |===
 ////
 
