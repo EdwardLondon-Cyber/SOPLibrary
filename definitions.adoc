@@ -105,7 +105,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Network Administrator|A person who manages a local area network (LAN) within an organization. Responsibilities include ensuring network security, installing new applications, distributing software upgrades, monitoring daily activity, enforcing licensing agreements, developing a storage management program, and providing for routine backups. (NIST)
 //|Network|Information system(s) implemented with a collection of interconnected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. (NIST)
 //|Network System| A system implemented with a collection of connected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. 
-//|Non-Organizational Users|Information system users other than organizational users explicitly defined in link:https://cset.nasa.gov/latest/nist-sp-800-53[NIST Special Publication 800-53 Revision 5], _Security and Privacy Controls for Information Systems and Organizations_, control IA-02, _Identification and Authentication (Organizational Users)_.
+//|Non-Organizational Users|Information system users other than organizational users.
 
 
 //## O
@@ -159,8 +159,8 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Software as a Service|The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings. (NIST)
 //|Stand-Alone Windows Computing System| A Windows machine that is not domain-joined to Microsoft Active Directory.
 //|Standard Elevated Privilege NASA User|A standard NASA user who has administrator privileges for their local workstation(s).
-//|Standard NASA User|Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
-//|Standard User|A user account with limited privileges that will be used for general tasks such as reading email and surfing the Web. (NIST)
+//|Standard NASA User|A NASA User with a Standard User Account.
+//|Standard User Account|An account type without administrator rights or elevated privileges.
 //|System Administrator|An individual, group, or organization responsible for setting up and maintaining a system or specific system elements, implements approved secure baseline configurations, incorporates secure configuration settings for information technology (IT) products, and conducts/assists with configuration monitoring activities as needed. (NIST)
 
 
