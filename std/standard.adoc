@@ -123,10 +123,13 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 +++<br><br><br><br>+++
+
+ifeval::["{is-draft}" == "False"]
 {signatory} +
 {signatory-title}
-+++<br>+++
 
++++<br>+++
+endif::[]
 
 
 ////
