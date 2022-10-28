@@ -172,8 +172,6 @@ Verifiable requirement statements are numbered and designated by the acronym **2
 
 === Tailoring
 
-// Some Standards might require different wording in the Tailoring section than what is in the template. 
-
 Requirements established by this NASA Technical Standard which are derived from one or more federally mandated critical controls *_SHALL NOT_*  be tailored out of a NASA System Security Plan (SSP) for any reason.
 
 Tailoring any requirement which is derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_* be documented as a risk-based decision (RBD), approved by the Agency Chief Information Officer (CIO) or designee, in the system's System Security Plan (SSP).

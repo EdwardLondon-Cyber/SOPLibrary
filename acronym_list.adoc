@@ -185,6 +185,7 @@
 //|ID|Identifier
 //|IDI|ICAM Device Integration
 //|idM|Identity Management (Red Hat Product)
+//|IDP|Identity Provider
 //|IDPREF|Identity Preference
 //|IDS|Intrusion Detection System
 //|IETF|Internet Engineering Task Force
