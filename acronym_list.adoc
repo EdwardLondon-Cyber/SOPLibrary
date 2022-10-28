@@ -56,7 +56,7 @@
 //|CCID|Card Chip Interface Device
 //|CCRM|Center Cybersecurity Risk Manager
 //|CCS| Cloud and Computing Services
-|CDM|Continuous Diagnostics and Mitigation
+//|CDM|Continuous Diagnostics and Mitigation
 //|CDR| Critical Design Review
 //|CGI|Common Gate Interface
 //|CI|Configuration Item
@@ -195,6 +195,7 @@
 //|IP|Internet Protocol
 //|IPC|Inter-Process Communication
 //|IPS|Intrusion Prevention System
+//|IPsec|Internet Protocol Security
 //|IPTA|Initial Privacy Threshold Analysis
 //|IR|Incident Response
 //|IRM|Incident Response Manager
@@ -336,6 +337,7 @@
 //## Q
 
 //## R
+//|RADIUS|Remote Authentication Dial-In User Service
 //|RBAC|Role-Based Access Control
 |RBD|Risk-Based Decision
 //|RDP|Remote Desktop Protocol
@@ -370,6 +372,7 @@
 //|SD-A|Software Defined - Access
 //|SDLC|System Development Life Cycle
 //|SeCM|Security Configuration Management
+//|SED|Self-Encrypting Drives
 //|SELinux|Security Enhanced Linux
 //|SEP|Symantec Endpoint Protection
 //|SERT|System Engineering Review Team 

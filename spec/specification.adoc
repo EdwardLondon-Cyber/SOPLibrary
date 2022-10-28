@@ -275,7 +275,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 .Other Government Documents
 [%header]
 |===
-|Document Identifier
+|Document Title
 | 
 |===
 ////
@@ -287,7 +287,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 [%header]
 |===
-|Document Identifier
+|Document Title
 | 
 |===
 ////

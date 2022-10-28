@@ -148,6 +148,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Secondary Logical Storage|Any fixed storage device that does not contain the operating system.
 //|Secure Enclave|A dedicated, secure subsystem integrated into Macs with Apple silicon and those with the T2 chip. Encryption keys stored in the Secure Enclave are isolated from the device's main processor (i.e., the Secure Enclave provides an extra layer of security). 
 //|Security Configuration Management|The management and control of configurations for an information system to enable security and facilitate the management of risk. (NIST)
+//|Self-Encrypting Drives|Data storage device with built-in cryptographic processing that may be utilized to encrypt and decrypt the stored data, occurring within the device and without dependence on a connected information system.
 //|Self Service|Self Service is a macOS application installed when a system is enrolled in Jamf Pro that allows end users to browse and install/uninstall approved applications, update configurations, and perform basic troubleshooting tasks.
 //|Server|A computer or device on a network that manages network resources. Examples include file servers (to store files), print servers (to manage one or more printers), network servers (to manage network traffic), and database servers (to process database queries). (NIST)
 //|Server Administrator|A NASA user who has elevated privileges to one or more servers in the environment.
