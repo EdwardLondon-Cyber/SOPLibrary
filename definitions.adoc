@@ -164,6 +164,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Standard Elevated Privilege NASA User|A Standard NASA User who has administrator privileges for their local workstation(s).
 //|Standard NASA User|A NASA User with a Standard User Account.
 //|Standard User Account|An account type without elevated privileges.
+//|Storage Media| A physical device that stores electronic data.
 //|System Administrator|An individual, group, or organization responsible for setting up and maintaining a system or specific system elements, implements approved secure baseline configurations, incorporates secure configuration settings for information technology (IT) products, and conducts/assists with configuration monitoring activities as needed. (NIST)
 
 
