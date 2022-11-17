@@ -176,12 +176,11 @@ Verifiable requirement statements are numbered and designated by the acronym **2
 
 === Tailoring
 
-Tailoring any requirement established by this NASA Technical Standard which is derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_* be documented as a risk-based decision (RBD), approved by the Agency Chief Information Officer (CIO) or designee, in the system's System Security Plan (SSP).
+NASA Technical Standards may contain requirements which are derived from federally mandated critical controls.
 
-Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP.
+Requirements derived from a federally mandated critical control *_SHALL NOT_* be tailored out of a NASA System Security Plan (SSP) for any reason. In the case that a specific program, project, or system is unable to fully meet a requirement that is derived from a federally mandated critical control, a risk-based decision (RBD) addressing this need *_SHALL_*  be approved by the Agency Chief Information Officer (CIO) or designee and the RBD *_SHALL_*  be formally documented in the system's SSP.
 
-The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
-
+Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_*  be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP. The AO *_SHALL_*  ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and the ISO *_SHALL_*  ensure all necessary documentation is produced and maintained.
 
 === Authority
 

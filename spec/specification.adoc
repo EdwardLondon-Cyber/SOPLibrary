@@ -195,8 +195,6 @@ Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specificat
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
 
-NOTE: Some NASA Technical Specifications include "_critical_" configuration settings. "_Critical_" configuration settings *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
-
 === Authority
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
@@ -369,14 +367,14 @@ _Critical_ severity settings *_SHALL_* be adhered to, as they are monitored, sco
 
 * _Critical_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
 * _Critical_ severity settings are reported by the Continuous Diagnosis and Mitigation (CDM) Defend Dashboard and/or mandated by Federal policy.
-* Deviations from _critical_ severity settings require approval from the Agency CIO. 
+* Deviations from _critical_ severity settings require approval from the Agency CIO or CIO designee.  
 
 === High Severity Settings
 
 _High_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to NASA.
 
 * _High_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
-* Deviations from _high_ severity settings require approval from the Agency CIO. 
+* Deviations from _high_ severity settings require approval from the Agency CIO or CIO designee. 
 
 === Medium Severity Settings
 	
