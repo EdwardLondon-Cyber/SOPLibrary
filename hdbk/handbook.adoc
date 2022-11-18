@@ -14,6 +14,7 @@ endif::[]
 :allow-uri-read:
 :icons: font
 :chapter-label:
+:chapter-signifier:
 // Table of Contents
 ifdef::backend-html5[]
 :toc: macro
@@ -95,7 +96,7 @@ endif::[]
 |Published Date
 |Description
 
-|{document-version}
+|
 |{published-date}
 |
 |====
@@ -116,11 +117,6 @@ FOREWORD INSTRUCTIONS:
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
 
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
-
-This NASA Technical Handbook *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS HANDBOOK)*.
-// provides guidance for {topic} deployment and operation.
-// provides guidance for. . . 
-// establishes best practices for configuring {topic}. . .
 
 Requests for information, corrections, and/or additions to this Handbook can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
@@ -239,35 +235,40 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
+
+// Create YOURLS for any other government documents. Link the title of the source in the table below. 
+
 .Other Government Documents
-[%header, cols=2*a]
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Document Title
+| 
 |===
 ////
-
 
 ////
 ==== Non-Government Documents
 
-// Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
+// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
 
-[%header, cols=2*a]
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Document Title
+| 
 |===
 ////
 
 === Supplemental Guidance
 
-The documents listed in this section were used as a reference while writing this NASA Technical Handbook and may serve as additional support in implementing the solution defined in this Handbook.
+The resources listed in this section were used as a reference while writing this NASA Technical Handbook and may serve as additional support in implementing the solution defined in this Handbook.
 
-[%header, cols=2*a]
+// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
+
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Title
+| 
+| 
 |===
 
 
@@ -313,7 +314,7 @@ NOTE ON INTERNAL CROSS REFERENCE:
   Cross Reference:
     <<_example_of_a_sub_section_title>>
   Will Appear as link in published document with subsection number:
-    i.e. "6.4.2. Example of a sub-section Title"
+    (i.e., "6.4.2. Example of a sub-section Title")
 ////
 
 ////

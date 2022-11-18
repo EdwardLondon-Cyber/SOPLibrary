@@ -9,7 +9,7 @@
 
 The purpose of this NASA Technical Specification is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS SPEC)*.
 
-NOTE: Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
+NOTE: Comments, concerns, and all other feedback on this Specification can be submitted via email to mailto:NASA-DL-ASCS-TECHNICAL@mail.nasa.gov[NASA-DL-ASCS-TECHNICAL@mail.nasa.gov].
 
 
 == SUPPLEMENTAL RESOURCES

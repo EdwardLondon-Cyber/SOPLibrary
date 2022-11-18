@@ -14,6 +14,7 @@ endif::[]
 :allow-uri-read:
 :icons: font
 :chapter-label:
+:chapter-signifier:
 // Table of Contents
 ifdef::backend-html5[]
 :toc: macro
@@ -105,7 +106,7 @@ endif::[]
 |Date Approved
 |Description
 
-|{document-version}
+|
 |{approved-date}
 |
 |====
@@ -127,13 +128,15 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
 
-Comments, concerns, and all other feedback on this Specification can be submitted via email to NASA-DL-ASCS-TECHNICAL@mail.nasa.gov.
+Comments, concerns, and all other feedback on this Specification can be submitted via email to mailto:NASA-DL-ASCS-TECHNICAL@mail.nasa.gov[NASA-DL-ASCS-TECHNICAL@mail.nasa.gov].
 
 +++<br>+++
 
-Refer to link:|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
+ifeval::["{is-draft}" == "False"]
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature
 
 +++<br>+++
+endif::[]
 
 
 ////
@@ -158,7 +161,7 @@ SCOPE:
 Purpose: 
  If your spec does not fall under Standard 2601/ is not a configuration Spec:
    Make sure to edit the Purpose so that it is accurate for your spec. 
-    "define" is probably the best verb for Specification purpose statements. (establish = for standards; provide guidance = for handbooks)
+    "define" is probably the best verb for Specification purpose statements (establish = for standards; provide guidance = for handbooks).
 ////
 
 === Purpose
@@ -199,7 +202,7 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. 
 
-In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
 +++<br>+++
 
@@ -214,11 +217,13 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
+=== Requirements Documents
+
 The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this Specification. 
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-=== Government Documents
+==== Government Documents
 
 // NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
@@ -231,14 +236,13 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |===
 ////
 
-
 .National Aeronautics and Space Administration (NASA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
-|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600] |_Enumeration of ASCS Cybersecurity Requirements_
-|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
-|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information and Information Systems_
+|link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600]|_Enumeration of ASCS Cybersecurity Requirements_
+|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]|_Minimum Cybersecurity Requirements for Computing Systems_ 
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F]|_Security of Information and Information Systems_
 |===
 
 
@@ -263,26 +267,44 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
+
+// Create YOURLS for any other government documents. Link the title of the source in the table below. 
+
 .Other Government Documents
-[%header, cols=2*a]
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Document Title
+| 
+|===
+////
+
+////
+==== Non-Government Documents
+
+// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
+
+[%header]
+|===
+|Document Title
+| 
 |===
 ////
 
-
 ////
-=== Non-Government Documents
+=== Supplemental Guidance
 
-// Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
+The resources listed in this section were used as a reference while writing this NASA Technical Specification and may serve as additional support in implementing the requirements defined in this Specification.
 
-[%header, cols=2*a]
+// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
+
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Title
+| 
+|
 |===
 ////
+
 
 +++<br>+++
 
@@ -357,7 +379,7 @@ APPENDIX SECTION
    APPENDIX A: TITLE OF APPENDIX
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
-    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D...)
+    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . . )
 
 
 [appendix]

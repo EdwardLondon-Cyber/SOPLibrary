@@ -14,6 +14,7 @@ endif::[]
 :allow-uri-read:
 :icons: font
 :chapter-label:
+:chapter-signifier:
 // Table of Contents
 ifdef::backend-html5[]
 :toc: macro
@@ -80,7 +81,8 @@ DOCUMENT HISTORY LOG:
   But be sure to DELETE DRAFT TRACKING and update the approved date when it is signed and ready to be published. 
 
   The description box must not be left blank, but it should be brief. 
-   Example descriptions: "Updated to be applicable to xyz"
+   Example description: "Updated to be applicable to xyz"
+   v1.0 description must be "Initial Release".
 
    NOTE: 
     Approval Date: this will automatically be pulled from the document-variables.adoc file.
@@ -101,9 +103,9 @@ endif::[]
 |Date Approved
 |Description
 
-|{document-version}
-|{approved-date}
 |
+|{approved-date}
+|Initial Release
 |====
 
 <<<
@@ -119,15 +121,16 @@ This NASA Technical Standard is published by the National Aeronautics and Space 
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-This NASA Technical Standard establishes *(COMPLETE THIS SENTENCE WITH A STATEMENT OF PURPOSE FOR THIS STANDARD)*.
-
 Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 +++<br><br><br><br>+++
+
+ifeval::["{is-draft}" != "True"]
 {signatory} +
 {signatory-title}
-+++<br>+++
 
++++<br>+++
+endif::[]
 
 
 ////
@@ -173,11 +176,11 @@ Verifiable requirement statements are numbered and designated by the acronym **2
 
 === Tailoring
 
-// Some Standards might require different wording in the Tailoring section than what is in the template. 
+NASA Technical Standards may contain requirements which are derived from federally mandated critical controls.
 
-Any and all risk-based decisions (RBDs) to tailor this NASA Technical Standard in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible ISO and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
+Requirements derived from a federally mandated critical control *_SHALL NOT_* be tailored out of a NASA System Security Plan (SSP) for any reason. In the case that a specific program, project, or system is unable to fully meet a requirement that is derived from a federally mandated critical control, a risk-based decision (RBD) addressing this need *_SHALL_*  be approved by the Agency Chief Information Officer (CIO) or designee and the RBD *_SHALL_*  be formally documented in the system's SSP.
 
-The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained. 
+Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_*  be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP. The AO *_SHALL_*  ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
 
 === Authority
 
@@ -185,12 +188,12 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. CSET's published ASCS Technical Standards are also listed on the link:https://cset.nasa.gov/latest/nts[NASA Technical Standards] page under Technical Discipline 2000 - Computer Systems, Software, Information Systems. 
 
-In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__], _Security of Information and Information Systems_, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
 
 ////
 APPLICABLE DOCUMENTS
-  Add Government and Non-Government documents related to this handbook in this section.
+  Add Government and Non-Government documents related to this Standard in this section.
   
   List documents in alphanumeric order based on their Document Number or Descriptor.
 
@@ -199,11 +202,13 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
+=== Requirements Documents
+
 The documents listed in this section contain provisions that constitute requirements of this NASA Technical Standard. These documents can serve as additional support in meeting the requirements of this NASA Technical Standard.
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-=== Government Documents
+==== Government Documents
 
 // NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
@@ -247,25 +252,44 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
+
+// Create YOURLS for any other government documents. Link the title of the source in the table below. 
+
 .Other Government Documents
-[%header, cols=2*a]
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Document Title
+| 
+|===
+////
+
+////
+==== Non-Government Documents
+
+// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
+
+[%header]
+|===
+|Document Title
+| 
 |===
 ////
 
 
 ////
-=== Non-Government Documents
+=== Supplemental Guidance
 
-// Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
+The resources listed in this section were used as a reference while writing this NASA Technical Standard and may serve as additional support in implementing the requirements established by this Standard.
 
-[%header, cols=2*a]
+// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
+
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Title
+| 
+|
 |===
+
 ////
 
 +++<br>+++
@@ -280,7 +304,11 @@ include::acronym_list.adoc[]
 
 ////
 
+<<<
+
 include::definitions.adoc[]
+
+<<<
 
 ////
 
@@ -318,7 +346,7 @@ APPENDIX SECTION
   Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
      APPENDIX A: TITLE OF APPENDIX
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
-  Subsequent appendices will use appropriate letters (B, C, D...)
+  Subsequent appendices will use appropriate letters (B, C, D . . . )
 ////
 
 [appendix]

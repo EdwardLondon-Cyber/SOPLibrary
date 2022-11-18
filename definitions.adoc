@@ -1,4 +1,4 @@
-NOTE: The table below contains definitions for key terms used in this document. Parenthetical citations are provided at the end of definitions that derive from another source. 
+NOTE: The table below contains definitions for key terms used in this document. Parenthetical citations are provided at the end of definitions that are derived from another source. 
 
 .Definitions
 [%header, width="100%", cols="1,3"]
@@ -17,7 +17,9 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //## C
 //|Cipher Strength|The number of bits in the key used to encrypt data.
 //|Clean Source Principle|The practice of requiring all security dependencies to be as trustworthy as the object being secured. Per Microsoft, "any subject in control of an object is a security dependency of that object. If an adversary can control anything in control of a target object, they can control that target object. Because of this threat, you must ensure that the assurances for all security dependencies are at or above the desired security level of the object itself." (Microsoft)
+//|Cloud Application| An application that runs upon a cloud environment that is accessible via a browser or local, front-end software interface.
 //|Cloud Consumer| A person or organization that maintains a business relationship with and uses service from one or more cloud provider. (NIST)
+//|Cloud Service| A service offered by a Cloud Service Provider (CSP) that includes such elements such as storage, database, infrastructure, application, or virtual machine hosting services.
 //|Cloud Service Provider|A company that offers some component of cloud computing such as a cloud-based platform, infrastructure, application, or storage device. These components are typically delivered via various cloud service models (e.g.,  Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS)).
 //|Cloud Storage Services|Services that allow information and data to be stored within a cloud environment. These services can include, but are not limited to, block storage, object storage, cloud-hosted file systems, and Software as a Service (SaaS) cloud storage.  
 //|Community Cloud|Cloud infrastructure that is provisioned for exclusive use by a specific community of cloud consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). A community cloud may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
@@ -64,7 +66,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //## H
 //|Headless|A term used to describe an asset that is accessed exclusively via a network connection. A headless asset will not have peripheral hardware (e.g., keyboard, mouse, or monitor) connected to it.
 //|High-Value Asset|Information or an information system that is so critical to an organization that the loss or corruption of this information or loss of access to the system would have serious impacts on the organization's ability to perform its mission or conduct business.
-//|Hybrid Cloud|A computing environment comprising two or more distinct cloud infrastructures (e.g., private, community, or public).The infrastructures used in a hybrid cloud environment remain unique entities, but they are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
+//|Hybrid Cloud|A computing environment comprising two or more distinct cloud infrastructures (e.g., private, community, or public). The infrastructures used in a hybrid cloud environment remain unique entities, but they are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
 
 
 //## I
@@ -105,7 +107,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Network Administrator|A person who manages a local area network (LAN) within an organization. Responsibilities include ensuring network security, installing new applications, distributing software upgrades, monitoring daily activity, enforcing licensing agreements, developing a storage management program, and providing for routine backups. (NIST)
 //|Network|Information system(s) implemented with a collection of interconnected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. (NIST)
 //|Network System| A system implemented with a collection of connected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. 
-//|Non-Organizational Users|Information system users other than organizational users explicitly defined in link:https://cset.nasa.gov/latest/nist-sp-800-53[NIST Special Publication 800-53 Revision 5], _Security and Privacy Controls for Information Systems and Organizations_, control IA-02, _Identification and Authentication (Organizational Users)_.
+//|Non-Organizational Users|Information system users other than organizational users.
 
 
 //## O
@@ -120,7 +122,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|PIV Credential|A Personal Identity Verification (PIV) credential is a U.S. federal government-wide credential used to access federally controlled facilities and information systems at the appropriate security level. 
 //|PIV Card|A Personal Identity Verification (PIV) card is an identification card issued by a Federal agency that contains a computer chip, which allows it to receive, store, recall, and send information in a secure method. PIV cards are used government-wide to control physical access to federally controlled facilities and logical access to federally controlled information systems. (NIST)
 //|PIV Reader|The integrated or attached device component that allows the system to access a physical smartcard. Also referred to as a "smartcard reader" or "card reader". 
-//|Platform as a Service|The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.(NIST)
+//|Platform as a Service|The capability provided to the cloud consumer is to deploy onto the cloud infrastructure cloud consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The cloud consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment. (NIST)
 //|Portable Storage Device|A system component that can communicate with and be added to or removed from a system or network and that is limited to data storage—including text, video, audio or image data—as its primary function (e.g., optical discs, external or removable hard drives, external or removable solid-state disk drives, magnetic or optical tapes, flash memory devices, flash memory cards, and other external or removable disks). (NIST)
 //|Primary Logical Storage|Any fixed storage device that contains the operating system.
 //|Primary User| A person who logs in to, and interacts with, a device. The primary user is in direct contact with the system interface.
@@ -146,6 +148,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Secondary Logical Storage|Any fixed storage device that does not contain the operating system.
 //|Secure Enclave|A dedicated, secure subsystem integrated into Macs with Apple silicon and those with the T2 chip. Encryption keys stored in the Secure Enclave are isolated from the device's main processor (i.e., the Secure Enclave provides an extra layer of security). 
 //|Security Configuration Management|The management and control of configurations for an information system to enable security and facilitate the management of risk. (NIST)
+//|Self-Encrypting Drive|Data storage device with built-in cryptographic processing that may be utilized to encrypt and decrypt the stored data, occurring within the device and without dependence on a connected information system.
 //|Self Service|Self Service is a macOS application installed when a system is enrolled in Jamf Pro that allows end users to browse and install/uninstall approved applications, update configurations, and perform basic troubleshooting tasks.
 //|Server|A computer or device on a network that manages network resources. Examples include file servers (to store files), print servers (to manage one or more printers), network servers (to manage network traffic), and database servers (to process database queries). (NIST)
 //|Server Administrator|A NASA user who has elevated privileges to one or more servers in the environment.
@@ -154,11 +157,14 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Single Sign-On|An authentication service that enables users to securely authenticate to multiple applications and websites with just one set of credentials.
 //|Single-User System|A computing system that is designed to provide access to only a single user once configured; it supports one user at a time. Examples include, but are not limited to, phones, tablets, and other devices which have provisions for only one user to authenticate to the device.
 //|Smart Groups|In Jamf Pro, smart groups provide a way to organize managed systems based on one or more attributes, such as building, model, and operating system.
+//|Smartcard| A physical electronic authentication device used to control access to a resource. 
 //|Smartcard Reader|The integrated or attached device component that allows the system to access the physical smartcard.
 //|Software as a Service|The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings. (NIST)
-//|Standard Elevated Privilege NASA User|A standard NASA user who has administrator privileges for their local workstation(s).
-//|Standard NASA User|Any explicitly authorized patron of a NASA information system without administrator rights or elevated privileges.
-//|Standard User|A user account with limited privileges that will be used for general tasks such as reading email and surfing the Web. (NIST)
+//|Stand-Alone Windows Computing System| A Windows machine that is not domain-joined to Microsoft Active Directory.
+//|Standard Elevated Privilege NASA User|A Standard NASA User who has administrator privileges for their local workstation(s).
+//|Standard NASA User|A NASA User with a Standard User Account.
+//|Standard User Account|An account type without elevated privileges.
+//|Storage Media| A physical device that stores electronic data.
 //|System Administrator|An individual, group, or organization responsible for setting up and maintaining a system or specific system elements, implements approved secure baseline configurations, incorporates secure configuration settings for information technology (IT) products, and conducts/assists with configuration monitoring activities as needed. (NIST)
 
 

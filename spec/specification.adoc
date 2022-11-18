@@ -14,6 +14,7 @@ endif::[]
 :allow-uri-read:
 :icons: font
 :chapter-label:
+:chapter-signifier:
 // Table of Contents
 ifdef::backend-html5[]
 :toc: macro
@@ -103,7 +104,7 @@ endif::[]
 |Date Approved
 |Description
 
-|{document-version}
+|
 |{approved-date}
 |
 |====
@@ -129,9 +130,12 @@ Comments, concerns, and all other feedback on this Specification can be submitte
 
 +++<br>+++
 
-Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ (Signed PDF).
+ifeval::["{is-draft}" == "False"]
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature
 
 +++<br>+++
+endif::[]
+
 
 
 ////
@@ -191,15 +195,13 @@ Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specificat
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
 
-NOTE: Some NASA Technical Specifications include "_critical_" configuration settings. "_Critical_" configuration settings *_SHALL NOT_* be eligible for any modifications through the application of an RBD.
-
 === Authority
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. 
 
-In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, requirement 3.4.2.2, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
+In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
 
 +++<br>+++
@@ -215,11 +217,13 @@ APPLICABLE DOCUMENTS
 
 == Applicable Documents
 
+=== Requirements Documents
+
 The documents listed in this section contain provisions that constitute requirements of this NASA Technical Specification. These documents can serve as additional support in meeting the requirements defined in this Specification. 
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-=== Government Documents
+==== Government Documents
 
 // NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
@@ -236,9 +240,9 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
-|https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600] |_Enumeration of ASCS Cybersecurity Requirements_
-|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
-|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information and Information Systems_
+|link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600]|_Enumeration of ASCS Cybersecurity Requirements_
+|link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]|_Minimum Cybersecurity Requirements for Computing Systems_ 
+|link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F]|_Security of Information and Information Systems_
 |===
 
 
@@ -263,26 +267,43 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
+
+// Create YOURLS for any other government documents. Link the title of the source in the table below. 
+
 .Other Government Documents
-[%header, cols=2*a]
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Document Title
+| 
+|===
+////
+
+////
+==== Non-Government Documents
+
+// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
+
+[%header]
+|===
+|Document Title
+| 
 |===
 ////
 
 ////
-=== Non-Government Documents
+=== Supplemental Guidance
 
-// Example: |CIS Apple iOS 12 Benchmark|Apple iOS 12 Security Benchmark
+The resources listed in this section were used as a reference while writing this NASA Technical Specification and may serve as additional support in implementing the requirements defined in this Specification.
 
-[%header, cols=2*a]
+// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
+
+[%header]
 |===
-|Document Identifier|Document Title
-| | 
+|Title
+| 
+|
 |===
 ////
-
 
 +++<br>+++
 
@@ -346,14 +367,14 @@ _Critical_ severity settings *_SHALL_* be adhered to, as they are monitored, sco
 
 * _Critical_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
 * _Critical_ severity settings are reported by the Continuous Diagnosis and Mitigation (CDM) Defend Dashboard and/or mandated by Federal policy.
-* Deviations from _critical_ severity settings require approval from the Agency CIO. 
+* Deviations from _critical_ severity settings require approval from the Agency CIO or CIO designee.  
 
 === High Severity Settings
 
 _High_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to NASA.
 
 * _High_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
-* Deviations from _high_ severity settings require approval from the Agency CIO. 
+* Deviations from _high_ severity settings require approval from the Agency CIO or CIO designee. 
 
 === Medium Severity Settings
 	
@@ -413,7 +434,7 @@ APPENDIX SECTION
    APPENDIX A: TITLE OF APPENDIX
 
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
-    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . .)
+    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . . )
 
 
 [appendix]
