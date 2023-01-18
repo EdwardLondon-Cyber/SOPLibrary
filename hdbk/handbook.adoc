@@ -33,13 +33,15 @@ endif::[]
 include::hdbk-document-variables.adoc[]
 
 ////
-DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:
-  topic:  Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
-             *example topic values*: Mission PIV-M, PIV SSSD, macOS Smartcard 
-  relevanttechnicalstandard:   Name of the relevant Technical Standard (i.e., NASA-STD-2601, Section 5.7.; NPR 2810.1; NIST SP 800-53 R5)
+*DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:*
+  topic: Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
+    - example topic values: Mission PIV-M, PIV SSSD, macOS Smartcard 
+
+  relevanttechnicalstandard: Name of the relevant Technical Standard 
+    - examples: NASA-STD-2601, NPR 2810.1__x__; NIST SP 800-53 Rev. 5
 ////
 
-// Document variables (that are not on cover page)
+// DOCUMENT VARIABLES (that are not on cover page):
 :topic:
 :relevanttechnicalstandard:
 
@@ -69,13 +71,9 @@ DOCUMENT HISTORY LOG:
   Oldest/first version in the bottom row!
 
   You must *add a row to the top of the table* each time a new version of the Handbook is published.
- 
-  Track drafts and include descriptions for each draft while the document is out for review. 
-
-  But be sure to DELETE DRAFT TRACKING and update the published date when it is ready to be published. 
 
   The description box must not be left blank, but it should be brief. 
-   Example descriptions: "Updated to be applicable to xyz"
+   Example description: Updates made per EO 14028, _Executive Order on Improving the Nation’s Cybersecurity_; general language cleanup; reformatted using current ASCS template.
 
    NOTE: 
     published-date: this will automatically be pulled from the document-variables.adoc file.
@@ -103,14 +101,6 @@ endif::[]
 
 <<<
 
-////
-FOREWORD INSTRUCTIONS:
-  --> Paragraph 3 of Foreword.
-      *You must write in THE PURPOSE* of this handbook to complete the sentence that begins with "This NASA Technical Handbook"
-
-        *Example* (from NASA-HBK-2670, Mission PIV-M):  
-            This NASA Technical Handbook provides guidance for configuring Mission systems to be Personal Identity Verification Mandatory (PIV-M) compliant. 
-////
 
 == Foreword
 
@@ -124,21 +114,16 @@ Requests for information, corrections, and/or additions to this Handbook can be 
 
 
 
-////
-COMMON CONTENT
-  This is the point at which document numbering starts.
-  Modification of this section should be fairly common, but not extensive.
-  Look for the DOCUMENT CONTENT comment section for the expected place for the body of the work
-////
+// This is the point at which document numbering starts.
 
 :numbered:
 
 == Scope
 
-This Handbook is not a requirements document. The Cybersecurity Standards and Engineering Team (CSET) creates handbooks to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in CSET's standards and specifications.
+This Handbook is not a requirements document. Agency Security Configuration Standards (ASCS) handbooks are created to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in ASCS standards and specifications.
 
 ////
-PURPOSE: 
+*PURPOSE:*
   Make sure to complete the sentence AND provide more supporting details (if necessary) to describe why this handbook is necessary
 
    *Example* (from NASA-HBK-2670, Mission PIV-M):  
@@ -153,7 +138,7 @@ PURPOSE:
 
 === Purpose
 
-The purpose of this NASA Technical Handbook is to *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS HANDBOOK)*.
+The purpose of this NASA Technical Handbook is to *COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS HANDBOOK*.
 
 // provide guidance for {topic} deployment and operation.
 // provide guidance for configuring {topic}. 
@@ -164,6 +149,12 @@ The purpose of this NASA Technical Handbook is to *(COMPLETE THIS SECTION BY EXP
 
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in their applicable contracts, grants, or agreements.
 
+This NASA Technical Handbook is applicable to *COMPLETE THIS SECTION BY EXPLAINING THE APPLICABILITY OF THIS HANDBOOK*.
+
+// macOS systems.
+// Infrastructure as a Service (Iaas) cloud computing systems.
+// Windows 11 operating systems.
+
 
 === Authority
 
@@ -171,7 +162,7 @@ The Agency Chief Information Officer (CIO) and Senior Agency Information Securit
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency.
 
-CSET's handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in CSET's standards and specifications. CSET authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in <<_requirements_documents, Section 2.1. _Requirements Documents_>>.
+ASCS handbooks serve as supplemental guidance and are developed to provide assistance in the implementation of requirements defined in ASCS standards and specifications. ASCS authorizes the process(es), tool(s), mechanism(s), and/or configuration(s) provided in this Handbook as an approved means of meeting the associated requirements defined in the documents listed in <<Requirements Documents>>.
 
 
 ////
@@ -304,17 +295,14 @@ DOCUMENT CONTENT
   Numbering should be at section 4.
 
 NOTE ON INTERNAL CROSS REFERENCE:
-  when using internal cross references use the internal function
-  instead of keeping track of the sections. The cross reference uses
-  <<_ (corner bracket, corner bracket, underscore)
-  then lowercase title with any non-alpha as a single underscore)
-  then close 2 corner brackets.
-  Example:
-    ==== Example of a sub-section Title
-  Cross Reference:
-    <<_example_of_a_sub_section_title>>
-  Will Appear as link in published document with subsection number:
-    (i.e., "6.4.2. Example of a sub-section Title")
+  * When referencing another section within the same document, use section title links
+  * To do this in asciidoc, use double corner brackets before and after the title of the section to which you are linking.
+
+  *EXAMPLE:*
+    <<Example Section Title>>
+
+  *EXAMPLE of How is renders:*
+    6.4.2. *Example Section Title"
 ////
 
 ////

@@ -331,7 +331,7 @@ AUTONUMBERING:
                                    ^ make sure you leave a space here!
 
 EXAMPLE: 
- *({reqkey}-R{counter:requirement})* A Windows virtual machine (VM) *_SHALL_* be encrypted using Virtual Trusted Platform Modules (vTPM).
+ *({reqkey}-R{counter:requirement})* Information System Owners (ISOs) *_SHALL_* ensure that all operating systems and applications under their authority comply with 100% of the required configuration settings defined in the corresponding NASA-SPEC-2601._x_ and NASA-SPEC-2661._x_ specifications.
 ////
 
 
