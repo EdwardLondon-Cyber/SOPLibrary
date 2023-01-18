@@ -191,6 +191,27 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
+// 2602 Specs:
+
+Each security configuration setting defined in this NASA Technical Specification is assigned an ASCS severity rating of _Critical_, _High_, _Medium_, or _Low_. The process for deviating from security configuration settings varies based on each setting's ASCS severity rating.
+
+NOTE: Each security configuration setting protects against the exploitation of a vulnerability, and ASCS severity ratings are assigned to settings based on the potential impact that a system would incur if the associated vulnerability were exploited. This is why the process for deviating from settings is based on severity rating. 
+
+*_Critical_ and _High_ Severity Ratings:*
+
+Security configuration settings with _Critical_ or _High_ severity ratings *_SHALL NOT_* be tailored out of the System Security Plan (SSP). If a specific program, project, or system is unable to fully implement a setting with a _Critical_ or _High_ severity rating, a risk-based decision (RBD) addressing this need *_SHALL_* be approved by the Agency Chief Information Officer (CIO) or designee, and the RBD *_SHALL_* be formally documented in the system's SSP under program or project requirements.
+
+*_Medium_ Severity Rating:*
+
+Deviating from any security configuration settings with a _Medium_ severity rating to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements.
+
+*_Low_ Severity Rating:*
+
+Security configuration settings with a _Low_ severity rating are expected to be implemented unless there is a justifiable cause not to. Deviations from security configuration settings with a Low severity rating will not impact a system’s compliance score.
+
+
+// NON-2601 Specs:
+
 Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
