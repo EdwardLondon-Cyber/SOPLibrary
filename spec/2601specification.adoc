@@ -41,6 +41,8 @@ include::spec-document-variables.adoc[]
   removaldate:         Required removal date from the environment
   applicability:       If this spec is applicable to all computing systems, enter "all". 
                        If it's only applicable to systems using this OS or application, delete "all" and leave value blank*
+  2601spec:            If this is a 2601 spec, the value should be y (for yes). 
+                       If this is NOT a 2601 spec, leave blank.
 ////
 
 // DOCUMENT VARIABLES (that are not on cover page):
@@ -50,6 +52,7 @@ include::spec-document-variables.adoc[]
 :minversion:
 :removaldate:
 :applicability: all
+:2601spec: y
 
 :noheader:
 :nofooter:
@@ -124,6 +127,8 @@ This NASA Technical Specification is published by the National Aeronautics and S
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Specification also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
+Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
+
 Comments, concerns, and all other feedback on this Specification can be submitted via email to mailto:NASA-DL-ASCS-TECHNICAL@mail.nasa.gov[NASA-DL-ASCS-TECHNICAL@mail.nasa.gov].
 
 +++<br>+++
@@ -145,19 +150,32 @@ NUMBERED SECTIONS:
 
 :numbered:
 
+////
+SCOPE:
+ The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
+
+ If your Spec is not a configuration Spec, you may also need to rewrite the Purpose and Applicability sections to fit your Spec. - Please read the comment blocks above each subheading. 
+////
+
 == Scope
 
+////
+*Purpose:*
+ If your spec does not fall under Standard 2601/ is not a configuration Spec:
+   Make sure to edit the Purpose so that it is accurate for your spec. 
+   "define" is probably the best verb for Specification purpose statements. establish = for standards; provide guidance = for handbooks
+////
 
 === Purpose
-//  You may need to rewrite the Purpose section so that it is accurate for your spec. 
-// The word "define" is the best verb for Specification purpose statements; "establish" = for standards; "provide guidance" = for handbooks.
 
 The purpose of this NASA Technical Specification is to define version and configuration requirements for {application} deployment and operation.
 
+////
+*Applicability:* 
+ The value that you put for the variable for applicability (on line 52) will automatically input the correct sentence, but please proof read it to make sure it makes sense. 
+////
 
 === Applicability
-
-// The value that you put for the variable for applicability (on line 52) will automatically input the correct sentence, but please proof read it to make sure it makes sense. 
 
 ifeval::[ "{applicability}" == "all" ]
 This NASA Technical Specification is applicable to all computing systems.
@@ -171,16 +189,32 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-// You may need to edit this section, depending on the nature of your Specification. 
+ifeval::[ "{2601spec}" == "y" ]
+Each security configuration setting defined in this NASA Technical Specification is assigned an ASCS severity rating of _Critical_, _High_, _Medium_, or _Low_. The process for deviating from security configuration settings varies based on each setting's ASCS severity rating.
 
+NOTE: Each security configuration setting protects against the exploitation of a vulnerability, and ASCS severity ratings are assigned to settings based on the potential impact that a system would incur if the associated vulnerability were exploited. This is why the process for deviating from settings is based on severity rating. 
+
+*_Critical_ and _High_ Severity Ratings:*
+
+Security configuration settings with _Critical_ or _High_ severity ratings *_SHALL NOT_* be tailored out of the System Security Plan (SSP). If a specific program, project, or system is unable to fully implement a setting with a _Critical_ or _High_ severity rating, a risk-based decision (RBD) addressing this need *_SHALL_* be approved by the Agency Chief Information Officer (CIO) or designee, and the RBD *_SHALL_* be formally documented in the system's SSP under program or project requirements.
+
+*_Medium_ Severity Rating:*
+
+Deviating from any security configuration settings with a _Medium_ severity rating to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements.
+
+*_Low_ Severity Rating:*
+
+Security configuration settings with a _Low_ severity rating are expected to be implemented unless there is a justifiable cause not to. Deviations from security configuration settings with a Low severity rating will not impact a system's compliance score.
+endif::[]
+
+
+ifeval::[ "{2601spec}" != "y" ]
 Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
-
+endif::[]
 
 === Authority
-
-// You do not need to edit this section. 
 
 The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
 
@@ -193,6 +227,7 @@ In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _S
 
 ////
 APPLICABLE DOCUMENTS
+  Add Government and Non-Government documents related to this handbook in this section.
   
   List documents in alphanumeric order based on their Document Number or Descriptor.
 
@@ -252,6 +287,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 ////
 
+// Create YOURLS for any other government documents. Link the title of the source in the table below. 
 
 .Other Government Documents
 [%header]
@@ -264,6 +300,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 ==== Non-Government Documents
 
+// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
 
 [%header]
 |===
@@ -277,6 +314,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 The resources listed in this section were used as a reference while writing this NASA Technical Specification and may serve as additional support in implementing the requirements defined in this Specification.
 
+// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
 
 [%header]
 |===
@@ -312,7 +350,10 @@ include::definitions.adoc[]
 
 This Specification applies to the {specificationtype} defined in the chart below, as well as to any more recent version(s) of this {specificationtype}.
 
-// All fields in this table should be automatically populated from the Document Variables  
+
+////
+All fields in this table should be automatically populated from the Document Variables  
+////
 
 [cols="25%h,75%"]
 |====
@@ -338,9 +379,9 @@ endif::[]
 +++<br>+++
 
 ////
-*BODY OF DOCUMENT STARTS HERE*
-The template text below may not be useful for your Specification. You may delete everything below if it does not apply to your Spec and write your own section heading(s).
+
 ////
+
 
 == Security Configurations
 
