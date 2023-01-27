@@ -114,13 +114,6 @@ endif::[]
 
 <<<
 
-////
-FOREWORD:
- Note that this template is worded to best suit Specs that fall under Standard 2601.
-
- If your spec does not fall under Standard 2601 - make sure to edit paragraph 3 so that it is accurate for your spec. 
-////
-
 == Foreword
 
 This NASA Technical Specification is published by the National Aeronautics and Space Administration (NASA) to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects.
@@ -153,18 +146,9 @@ NUMBERED SECTIONS:
 ////
 SCOPE:
  The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
-
- If your Spec is not a configuration Spec, you may also need to rewrite the Purpose and Applicability sections to fit your Spec. - Please read the comment blocks above each subheading. 
 ////
 
 == Scope
-
-////
-*Purpose:*
- If your spec does not fall under Standard 2601/ is not a configuration Spec:
-   Make sure to edit the Purpose so that it is accurate for your spec. 
-   "define" is probably the best verb for Specification purpose statements. establish = for standards; provide guidance = for handbooks
-////
 
 === Purpose
 
@@ -231,7 +215,7 @@ APPLICABLE DOCUMENTS
   
   List documents in alphanumeric order based on their Document Number or Descriptor.
 
-  Use YOURLS to link to documents and link the Document Number or Descriptor.
+  *Use YOURLS* to link to documents and *link the Document Identifier*.
 ////
 
 == Applicable Documents
@@ -286,9 +270,6 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
-
-// Create YOURLS for any other government documents. Link the title of the source in the table below. 
-
 .Other Government Documents
 [%header]
 |===
@@ -300,8 +281,6 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 ==== Non-Government Documents
 
-// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
-
 [%header]
 |===
 |Document Title
@@ -309,12 +288,18 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |===
 ////
 
+
+////
+SUPPLEMENTAL GUIDANCE: 
+Add any websites, handbooks, etc. that you used as a reference while writing this NASA Technical Specification.
+ - List documents in alphabetical order based on the title.
+ - *Use YOURLS* to link to documents and *link the title of the document*.
+////
+
 ////
 === Supplemental Guidance
 
 The resources listed in this section were used as a reference while writing this NASA Technical Specification and may serve as additional support in implementing the requirements defined in this Specification.
-
-// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
 
 [%header]
 |===

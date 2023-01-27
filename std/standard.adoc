@@ -276,12 +276,19 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 
+
+
+////
+SUPPLEMENTAL GUIDANCE: 
+Add any websites, handbooks, etc. that you used as a reference while writing this Standard.
+ - List documents in alphabetical order based on the title.
+ - *Use YOURLS* to link to documents and *link the title of the document*.
+////
+
 ////
 === Supplemental Guidance
 
-The resources listed in this section were used as a reference while writing this NASA Technical Standard and may serve as additional support in implementing the requirements established by this Standard.
-
-// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
+The resources listed in this section were used as a reference while writing this NASA Technical Standard and may serve as additional support in implementing the requirements defined in this Standard.
 
 [%header]
 |===
@@ -289,8 +296,8 @@ The resources listed in this section were used as a reference while writing this
 | 
 |
 |===
-
 ////
+
 
 +++<br>+++
 

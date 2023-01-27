@@ -249,11 +249,18 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |===
 ////
 
+
+////
+SUPPLEMENTAL GUIDANCE: 
+Add any websites, handbooks, etc. that you used as a reference while writing this Handbook.
+ - List documents in alphabetical order based on the title.
+ - *Use YOURLS* to link to documents and *link the title of the document*.
+////
+
 === Supplemental Guidance
 
 The resources listed in this section were used as a reference while writing this NASA Technical Handbook and may serve as additional support in implementing the solution defined in this Handbook.
 
-// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
 
 [%header]
 |===
