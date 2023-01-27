@@ -182,6 +182,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Virtual Private Network|A virtual network built on top of existing physical networks that can provide a secure communications mechanism for data and IP information transmitted between networks or between different nodes on the same network. (NIST)
 
 //## W
+//
 //|Workstation Administrator| A NASA user who has elevated privileges across multiple, non-server, computing systems that are not their own.
 
 
