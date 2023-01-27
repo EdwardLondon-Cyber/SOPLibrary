@@ -162,6 +162,9 @@
 
 //## H
 //|HBK|Handbook
+// ^ASCS handbooks
+//|HDBK|Handbook
+// ^ ITS Handbooks
 //|HBMA|Host-Based MAC Address
 //|HPIA|HP Image Assistant
 //|HPKP|HTTP Public Key Pinning
@@ -233,9 +236,11 @@
 
 //## M
 
-//|MAC| Mandatory Access Control
-//|MAC| Media Access Control
-//|MAC| Message Authentication Code
+//|MAC|Mandatory Access Control
+//|MAC|Media Access Control
+//|MAC|Message Authentication Code
+// ^ be sure to choose the correct one
+
 //|MAM|Mobile Application Management
 //|MAR|Mitigation Action Requirement
 //|MAU|Microsoft AutoUpdate
@@ -360,6 +365,7 @@
 //|SAN|Subject Alternative Name
 //|SAOP|Senior Agency Official for Privacy
 //|SAR|Security Assessment Report
+//|SATERN| System for Administration, Training, and Educational Resources for NASA
 //|SBU|Sensitive But Unclassified
 //|SD|Secure Digital
 //|SCA|Security Control Assessor
@@ -371,6 +377,7 @@
 //|SCTP|Stream Control Transmission Protocol
 //|SD-A|Software Defined - Access
 //|SDLC|System Development Life Cycle
+//|SDN|Software-Defined Networking
 //|SeCM|Security Configuration Management
 //|SED|Self-Encrypting Drives
 //|SELinux|Security Enhanced Linux
@@ -446,6 +453,7 @@
 //|VTx|Virtualization Technology
 
 //## W
+//|WAF|Web Application Firewall
 //|WAN|Wide Area Network
 //|WCF|Web Content Filter
 //|WCS|Workplace and Collaboration Services
