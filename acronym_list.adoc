@@ -23,6 +23,7 @@
 //|AES|Advanced Encryption Standard
 //|AFP|Apple Filing Protocol
 //|AI/ML|Artificial Intelligence/Machine Learning
+//|AITM|Attacker in the Middle
 //|ALF|Application Layer Firewall
 //|AMT|Active Management Technology
 |AO|Authorizing Official
@@ -46,6 +47,7 @@
 //|BIA|Business Impact Analysis
 //|BIOS|Basic Input Output System
 //|BOD|Binding Operational Directive
+//|BPDU|Bridge Protocol Data Units
 //|BYOD|Bring Your Own Device
 
 //## C
@@ -56,10 +58,12 @@
 //|CCID|Card Chip Interface Device
 //|CCRM|Center Cybersecurity Risk Manager
 //|CCS| Cloud and Computing Services
+//|CBC|Cipher-Block Chaining
 //|CDM|Continuous Diagnostics and Mitigation
 //|CDR| Critical Design Review
 //|CGI|Common Gate Interface
 //|CI|Configuration Item
+//|CIM|Common Information Model
 |CIO|Chief Information Officer
 //|CIS|Center for Internet Security
 //|CISO|Chief Information Security Officer
@@ -74,6 +78,7 @@
 //|CPS|Certificate Practice Statement
 //|CPU|Central Processing Unit
 //|CRL|Certificate Revocation List
+//|CRT|Computer Response Time
 //|CSE|Client-Side Extension
 |CSET|Cybersecurity Standards and Engineering Team
 //|CSEWG|Cybersecurity Engineering Working Group 
@@ -94,6 +99,7 @@
 //|DAR|Data at Rest
 //|DC|Domain Controller
 //|DCCP|Datagram Congestion Control Protocol
+//|DCUI|Direct Console User Interface
 //|DDoS|Distributed Denial of Service
 //|DEFEND| Dynamic and Evolving Federal Enterprise Network Defense  
 //|DER|Distinguished Encoding Rules
@@ -110,6 +116,7 @@
 //|DNS|Domain Name System
 //|DoD|Department of Defense
 //|DoS|Denial of Service
+//|DoT|DNS over TLS
 //|DRA|Directory Resource Administrator
 //|DRM|Dell Repository Manager
 //|DRR|Decommissioning Readiness Review 
@@ -200,9 +207,11 @@
 //|IPS|Intrusion Prevention System
 //|IPsec|Internet Protocol Security
 //|IPTA|Initial Privacy Threshold Analysis
+//|IPv6|Internet Protocol version 6
 //|IR|Incident Response
 //|IRM|Incident Response Manager
 //|ISA|Interconnection Security Agreement
+//|ISCSI|Internet Small Computer Systems Interface
 |ISO|Information System Owner
 //|ISSE|Information System Security Engineer
 //|ISSO|Information System Security Officer
@@ -227,7 +236,9 @@
 //|LDAP|Lightweight Directory Access Protocol
 //|LDAPS|LDAP over SSL/TLS
 //|LGPO|Local Group Policy Object
+//|LLDP|Link Layer Discovery Protocol
 //|LOC|Level of Confidence
+//|LOR|Level of Risk
 //|LSM|Linux Security Module
 //|LUKS|Linux Unified Key Setup
 //|LVM|Logical Volume Manager
@@ -245,13 +256,14 @@
 //|MAR|Mitigation Action Requirement
 //|MAU|Microsoft AutoUpdate
 //|MBAM|Microsoft BitLocker Administration and Monitoring
-//|MCE| Managed Cloud Environment 
+//|MCE| Managed Cloud Environment
+//|MD5|Message Digest Algorithm 5 
 //|MDM|Mobile Device Management
 //|MDR|Mobile Device Registration
 //|MFA|Multi-Factor Authentication
 //|MIME|Multipurpose Internet Mail Extensions
-//|MITM|Man in the Middle
 //|MOA|Memorandum of Agreement
+//|MOB|Managed Object Browser
 //|MOSM|Mac OS Management
 //|MOU|Memorandum of Understanding
 //|MP|Media Protection
@@ -332,6 +344,7 @@
 //|PIN|Personal Identification Number
 //|PIV|Personal Identity Verification
 //|PIV-M|Personal Identity Verification Mandatory
+//|PKCS8|Public-Key Cryptography Standards #8
 //|PKI|Public Key Infrastructure
 //|POA&M|Plan of Action and Milestones
 //|POP3|Post Office Protocol version 3
@@ -353,7 +366,7 @@
 //|RISCS|Risk Information and Security Compliance System
 //|ROP|Return Oriented Programming
 //|RPS|Registration Practice Statement
-//|RSA|Cryptographic System (Rivest–Shamir–Adleman)
+//|RSA|Rivest–Shamir–Adleman (Cryptographic System)
 //|RTM|Requirements Traceability Matrix
 
 //## S
@@ -395,6 +408,7 @@
 //|SMB|Server Message Block
 //|SMM|System Management Mode
 //|SMTP|Simple Mail Transfer Protocol
+//|SNMP|Simple Network Management Protocol
 //|SNI|Server Name Indication
 //|SOC|Security Operations Center
 //|SOC 3| Security Service Organization Controls 3 (Report Type)
@@ -413,6 +427,7 @@
 //|SSSD|System Security Services Daemon
 //|STD|Standard
 //|STIG|Security Technical Implementation Guide
+//|STP|Spanning Tree Protocol
 //|sudo|Superuser Do
 //|SUID|Set User ID
 //|SUP|Software Update Point
@@ -426,6 +441,7 @@
 //|TGT|Kerberos Ticket-Granting Ticket
 //|TLS|Transport Layer Security
 //|TPM|Trusted Platform Module
+//|TPS|Transparent Page Sharing
 //|TRCA|U.S. Treasury Root Certification Authority
 //|TRR|Test Readiness Review
 //|TXT|Trusted Execution Technology
@@ -448,9 +464,11 @@
 //|VLAN|Virtual Local Area Network
 //|VM|Virtual Machine
 //|VN|Virtual Networks
+//|VNC|Virtual Network Computing
 //|VPN|Virtual Private Network
 //|VTd|Virtualization Technology for Directed I/O
 //|VTx|Virtualization Technology
+//|vSAN|Virtual Storage Area Network
 
 //## W
 //|WAF|Web Application Firewall
@@ -463,6 +481,8 @@
 //|WSUS|Windows Server Update Services
 //|WUfB|Windows Update for Business
 //|WWAN|Wireless Wide Area Network
+//|WWW|World Wide Web
+
 
 //## X
 //|XCCDF|eXtensible Configuration Checklist Description Format

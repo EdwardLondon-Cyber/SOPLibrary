@@ -41,8 +41,6 @@ include::spec-document-variables.adoc[]
   removaldate:         Required removal date from the environment
   applicability:       If this spec is applicable to all computing systems, enter "all". 
                        If it's only applicable to systems using this OS or application, delete "all" and leave value blank*
-  2601spec:            If this is a 2601 spec, the value should be y (for yes). 
-                       If this is NOT a 2601 spec, leave blank.
 ////
 
 // DOCUMENT VARIABLES (that are not on cover page):
@@ -52,7 +50,6 @@ include::spec-document-variables.adoc[]
 :minversion:
 :removaldate:
 :applicability: all
-:2601spec: y
 
 :noheader:
 :nofooter:
@@ -127,7 +124,7 @@ Comments, concerns, and all other feedback on this Specification can be submitte
 +++<br>+++
 
 ifeval::["{is-draft}" == "False"]
-Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
 
 +++<br>+++
 endif::[]
@@ -173,30 +170,21 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-ifeval::[ "{2601spec}" == "y" ]
 Each security configuration setting defined in this NASA Technical Specification is assigned an ASCS severity rating of _Critical_, _High_, _Medium_, or _Low_. The process for deviating from security configuration settings varies based on each setting's ASCS severity rating.
 
 NOTE: Each security configuration setting protects against the exploitation of a vulnerability, and ASCS severity ratings are assigned to settings based on the potential impact that a system would incur if the associated vulnerability were exploited. This is why the process for deviating from settings is based on severity rating. 
 
 *_Critical_ and _High_ Severity Ratings:*
 
-Security configuration settings with _Critical_ or _High_ severity ratings *_SHALL NOT_* be tailored out of the System Security Plan (SSP). If a specific program, project, or system is unable to fully implement a setting with a _Critical_ or _High_ severity rating, a risk-based decision (RBD) addressing this need *_SHALL_* be approved by the Agency Chief Information Officer (CIO) or designee, and the RBD *_SHALL_* be formally documented in the system's SSP under program or project requirements.
+Security configuration settings with _Critical_ or _High_ severity ratings *_SHALL NOT_* be tailored out of the System Security Plan (SSP). If a specific program, project, or system is unable to fully implement a setting with a _Critical_ or _High_ severity rating, a Plan of Action and Milestones (POA&Ms) or risk-based decision (RBD) addressing this need *_SHALL_* be approved by the Agency Chief Information Officer (CIO) or designee, and the RBD *_SHALL_* be formally documented in the system's SSP under program or project requirements.
 
 *_Medium_ Severity Rating:*
 
-Deviating from any security configuration settings with a _Medium_ severity rating to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements.
+If a specific program, project, or system is unable to fully implement a setting with a _Medium_ severity rating a POA&M or RBD addressing this need *_SHALL_* be approved by the responsible Information System Owner (ISO) and the Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements.
 
 *_Low_ Severity Rating:*
 
 Security configuration settings with a _Low_ severity rating are expected to be implemented unless there is a justifiable cause not to. Deviations from security configuration settings with a Low severity rating will not impact a system's compliance score.
-endif::[]
-
-
-ifeval::[ "{2601spec}" != "y" ]
-Any and all risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements. 
-
-The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
-endif::[]
 
 === Authority
 

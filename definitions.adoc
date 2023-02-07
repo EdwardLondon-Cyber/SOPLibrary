@@ -6,12 +6,14 @@ NOTE: The table below contains definitions for key terms used in this document. 
 |Term|Definition
 //## A
 //|AA Account|A type of Active Directory Resource Management Account; specifically, an administrator account. The standard method of performing administrative functions at NASA is through the use of NASA Consolidated Active Directory (NCAD) administrative accounts. These accounts have the prefix "aa-" (e.g., aa-jdoe).
+//|Attacker in the Middle|An attack in which communication between two systems or people is intercepted by an unauthorized party.
 //|Authentication|Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system. (NIST)
 //|Authorization|Access privileges granted to a user, program, or process or the act of granting those privileges. (NIST)
 
 
 //## B
 //|Block Storage|An approach to data storage in which data is broken down into blocks that are stored separately. Each block has a unique identifier within the storage system. Also known as "block-level storage". 
+//|Buffer Overflow|A condition at an interface under which more input can be placed into a buffer or data holding area than the intended capacity allocated (due to insecure or unbound allocation parameters), which overwrites other information. Attackers exploit such a condition to crash a system or to insert specially crafted code that allows them to gain control of the system. (NIST)
 
 
 //## C
@@ -24,7 +26,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Cloud Storage Services|Services that allow information and data to be stored within a cloud environment. These services can include, but are not limited to, block storage, object storage, cloud-hosted file systems, and Software as a Service (SaaS) cloud storage.  
 //|Community Cloud|Cloud infrastructure that is provisioned for exclusive use by a specific community of cloud consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). A community cloud may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
 //|Computing Device|A machine (real or virtual) for performing calculations automatically. Computing devices include, but are not limited to, computers, servers, routers, and switches. (NIST)
-//|Computing System|A subset of information systems and may be physical or virtual. Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and Infrastructure-as-a-Service (IaaS) systems. 
+//|Computing System|A subset of information systems and may be physical or virtual. Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and cloud systems. 
 //|Configuration Item|An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process. (NIST)
 //|Configuration Management|A collection of activities focused on establishing and maintaining the integrity of products and systems, through control of the processes for initializing, changing, and monitoring the configurations of those products and systems throughout the system development life cycle. (NIST)
 //|Configuration Profile|A configuration profile is an .xml file that allows you to distribute configuration settings to macOS devices.
@@ -36,6 +38,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Data|Any piece of information suitable for use in a computer. (NIST)
 //|Data At Rest|Data in persistent storage on a device.
 //|Data Storage Device|Any device that can store data (either temporarily or permanently). Data storage devices include but are not limited to computer storage devices, server storage devices, laptops/notebooks, phones, backup media, removable digital system media, and cloud storage.
+//|Denial of Service|The prevention of authorized access to a system resource or the delaying of system operations and functions. (NIST)
 
 
 //## E
@@ -107,6 +110,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Network Administrator|A person who manages a local area network (LAN) within an organization. Responsibilities include ensuring network security, installing new applications, distributing software upgrades, monitoring daily activity, enforcing licensing agreements, developing a storage management program, and providing for routine backups. (NIST)
 //|Network|Information system(s) implemented with a collection of interconnected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. (NIST)
 //|Network System| A system implemented with a collection of connected components. Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices. 
+//|Network Termination Point|Any physical point of connection forming part of the network infrastructure at which another network may be connected.
 //|Non-Organizational Users|Information system users other than organizational users.
 
 
@@ -141,6 +145,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 
 //## R
 //|Removable Digital System Media|Portable data storage medium that can be added to or removed from a computing device or network. Examples include, but are not limited to, optical discs (e.g., CDs, DVDs, Blu-ray); external/removable hard drives; external/removable Solid State Disk (SSD) drives; magnetic/optical tapes; flash memory devices (e.g., USB, eSATA, Flash Drive, Thumb Drive); flash memory cards (e.g., Secure Digital (SD) cards, CompactFlash, Memory Stick, MMC, xD); and other external/removable disks (e.g., floppy, Zip, Jaz, Bernoulli, UMD). (NIST)
+//|Replay Attack|An attack that involves the capture of transmitted authentication or access control information and its subsequent retransmission with the intent of producing an unauthorized effect or gaining unauthorized access. (NIST)
 //|Resource Administrator|A NASA user who has elevated privileges to one or multiple servers that require an "AA Account" for login.
 
 
@@ -182,7 +187,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Virtual Private Network|A virtual network built on top of existing physical networks that can provide a secure communications mechanism for data and IP information transmitted between networks or between different nodes on the same network. (NIST)
 
 //## W
-//
+//|Web Server|A system that provides World Wide Web (WWW) services on the Internet. It includes the hardware, operating system, Web server software, and Web site content (Web pages). If the Web server is used internally and not by the public, it may be known as an intranet server. (NIST)
 //|Workstation Administrator| A NASA user who has elevated privileges across multiple, non-server, computing systems that are not their own.
 
 
