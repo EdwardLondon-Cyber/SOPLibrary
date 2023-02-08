@@ -75,10 +75,6 @@ DOCUMENT HISTORY LOG:
   Oldest/first version in the bottom row!
 
   You must *add a row to the top of the table* each time a new version of the Standard is published.
- 
-  Track drafts and include descriptions for each draft while the document is out for review. 
-
-  But be sure to DELETE DRAFT TRACKING and update the approved date when it is signed and ready to be published. 
 
   The description box must not be left blank, but it should be brief. 
    Example description: "Updated to be applicable to xyz"
@@ -110,10 +106,6 @@ endif::[]
 
 <<<
 
-////
-Forward:
- Authors need to be sure to insert text to complete the statement in the third paragraph of the Foreword. 
-////
 
 == Foreword
 
@@ -195,9 +187,9 @@ In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]
 APPLICABLE DOCUMENTS
   Add Government and Non-Government documents related to this Standard in this section.
   
-  List documents in alphanumeric order based on their Document Number or Descriptor.
+  List documents in alphanumeric order based on their Document Identifier.
 
-  Use YOURLS to link to documents and link the Document Number or Descriptor.
+  Use YOURLS to link to documents and link the Document Identifier.
 ////
 
 == Applicable Documents
@@ -301,15 +293,12 @@ The resources listed in this section were used as a reference while writing this
 
 +++<br>+++
 
-
+// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
 
 == Acronyms, Abbreviations, and Definitions
 
 include::acronym_list.adoc[]
 
-// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
-
-////
 
 <<<
 
@@ -317,7 +306,6 @@ include::definitions.adoc[]
 
 <<<
 
-////
 
 
 ////
@@ -344,12 +332,11 @@ EXAMPLE:
 
 ////
 APPENDIX SECTION
-  Appendices are identified differently then the rest of the document, so make sure to use 3 or more markers on subsection titles (=== SUBSECTION). 
-  If you drop to 2 markers (==) it will start normal numbering again.
-  Content of the appendix will format for sections and subsections, but not number them.
-  It is appropriate to continue using heading tags (===) as normal.
+
+
   Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
      APPENDIX A: TITLE OF APPENDIX
+     
   Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
   Subsequent appendices will use appropriate letters (B, C, D . . . )
 ////

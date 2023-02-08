@@ -283,9 +283,11 @@ ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
 
 include::acronym_list.adoc[] 
 
+<<<
 
 include::definitions.adoc[]
 
+<<<
 
 
 ////
