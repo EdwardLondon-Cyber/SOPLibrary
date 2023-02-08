@@ -33,7 +33,7 @@ endif::[]
 include::hdbk-document-variables.adoc[]
 
 ////
-*DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:*
+*DOCUMENT VARIABLES (that are not on the title page) DESCRIPTIONS:*
   topic: Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
     - example topic values: Mission PIV-M, PIV SSSD, macOS Smartcard 
 
@@ -67,8 +67,8 @@ endif::[]
 
 ////
 DOCUMENT HISTORY LOG:
-  Newest version in the top row! 
-  Oldest/first version in the bottom row!
+  Newest version in the top row
+  Oldest/first version in the bottom row
 
   You must *add a row to the top of the table* each time a new version of the Handbook is published.
 
@@ -275,42 +275,25 @@ The resources listed in this section were used as a reference while writing this
 
 ////
 ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
-  Add and remove acronyms as needed. 
-  List acronyms, abbreviations, and definitions in alphabetical order.
-
   Change the title of this section as necessary: 
-    If you don't have anything for the Definitions table, delete the table and change Section 3 title to: == Acronyms and Abbreviations
+    If you don't have anything for the Definitions table, comment out the definitions table and change Section 3 heading to: == Acronyms and Abbreviations
 ////
 
 == Acronyms, Abbreviations, and Definitions
 
 include::acronym_list.adoc[] 
 
-// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
-
-////
 
 include::definitions.adoc[]
-
-////
 
 
 
 ////
 DOCUMENT CONTENT
-  At this point the body of the document starts.
+  At this point, the body of the document starts.
   Numbering should be at section 4.
-
-NOTE ON INTERNAL CROSS REFERENCE:
-  * When referencing another section within the same document, use section title links
-  * To do this in asciidoc, use double corner brackets before and after the title of the section to which you are linking.
-
-  *EXAMPLE:*
-    <<Example Section Title>>
-
-  *EXAMPLE of How is renders:*
-    6.4.2. *Example Section Title"
 ////
+
 
 ////
 PREREQUISITES: 
@@ -319,7 +302,7 @@ PREREQUISITES:
   *Example* (from NASA-HBK-2670, Mission PIV-M):  
     The following requirements must be met on a server for this solution to be viable:
       1. The server must be running Windows Server 2016 or Windows Server 2019.
-      2. The AD Domain Services (AD DS) role must be installed.
+      2. The Active Directory Domain Services (AD DS) role must be installed.
       3. The user configuring the PIV-M solution must have an AD user account with Domain Admin rights.
 
        * Domain Admin rights are required to add the sshPublicKeys attribute and to execute general AD configurations.
@@ -373,14 +356,6 @@ Begin Instructions:
 
 ////
 APPENDIX SECTION
-
-  Appendices are identified differently then the rest of the document, so make sure to use 3 or more markers on subsection titles (=== SUBSECTION).
-  
-  If you drop to 2 markers (==) it will start normal numbering again.
-
-  Content of the appendix will format for sections and subsection, but not number them.
-  
-  It is appropriate to continue using heading tags (===) as normal.
   
   Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
      APPENDIX A: TITLE OF APPENDIX
@@ -389,6 +364,7 @@ APPENDIX SECTION
   
   Subsequent appendices will use appropriate letters (B, C, D)
 ////
+
 
 ////
 [appendix]

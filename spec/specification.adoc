@@ -77,10 +77,6 @@ DOCUMENT HISTORY LOG:
   Oldest/first version in the bottom row!
 
   You must *add a row to the top of the table* each time a new version of the Spec is published.
- 
-  Track drafts and include descriptions for each draft while the document is out for review. 
-
-  But be sure to DELETE DRAFT TRACKING and update the approved date when it is signed and ready to be published. 
 
   The description box must not be left blank, but it should be brief. 
    Example descriptions: "Updated to be applicable to xyz"
