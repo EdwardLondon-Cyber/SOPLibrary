@@ -1,6 +1,6 @@
 :doctype: book
 ifdef::backend-pdf[]
-:front-cover-image: image::build/spec-pdf-cover.pdf[]
+:front-cover-image: image::build/spec-pdf-cover.pdf[Cover Page]
 endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
@@ -165,7 +165,7 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 Any and all Plan of Action and Milestones (POA&Ms) or risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements.
 
-The AO *_SHALL_* ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
+The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to Agency assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
 
 === Authority
 

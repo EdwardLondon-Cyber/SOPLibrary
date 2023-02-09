@@ -238,7 +238,7 @@
 //|LGPO|Local Group Policy Object
 //|LLDP|Link Layer Discovery Protocol
 //|LOC|Level of Confidence
-//|LOR|Level of Risk
+|LOR|Level of Risk
 //|LSM|Linux Security Module
 //|LUKS|Linux Unified Key Setup
 //|LVM|Logical Volume Manager

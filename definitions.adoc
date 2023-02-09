@@ -74,8 +74,8 @@ NOTE: The table below contains definitions for key terms used in this document. 
 
 //## I
 //|Incident|An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies. (NIST)
-//|Information System|A discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information. (NIST)
-//|Information System Owner|Official responsible for the overall procurement, development, integration, modification, or operation and maintenance of an information system. (NIST)
+|Information System|A discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information. (NIST)
+|Information System Owner|Official responsible for the overall procurement, development, integration, modification, or operation and maintenance of an information system. (NIST)
 //|Interactive Authentication|Authentication to the recovery of encrypted data requiring an authorized user or administrator to access the encryption recovery key for direct access to the encrypted volume.
 //|Infrastructure|The hardware, software, facilities, and service components that support the delivery of business systems and information technology (IT)-enabled processes.
 //|Intrusion|A security event, or a combination of multiple security events, that constitutes a security incident in which an intruder gains, or attempts to gain, access to a system or system resource without having authorization to do so. (NIST)
@@ -95,7 +95,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Least Privilege|The principle that a security architecture should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function. (NIST)
 //|Level of Assurance| Level of Assurance (LOA) is the amount of certainty that individuals accessing a physical or logical asset are who they claim to be. NIST SP 800-63 provides guidance for determining LOA. (link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1__x__], __Identity, Credential, and Access Management__)
 //|Level of Confidence| Level of Confidence (LOC) is the amount of certainty, based on identity proofing and investigation, that an individual can be trusted with access to NASA physical and information technology (IT) assets. (link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1__x__], __Identity, Credential, and Access Management__)
-//|Level of Risk| Level of Risk (LOR) is the amount of vulnerability to NASA, based on the likelihood and consequences of an adverse action through improper access or use of a physical or information technology (IT) asset. (link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1__x__], __Identity, Credential, and Access Management__)
+|Level of Risk| Level of Risk (LOR) is the amount of vulnerability to NASA, based on the likelihood and consequences of an adverse action through improper access or use of a physical or information technology (IT) asset. (link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1__x__], __Identity, Credential, and Access Management__)
 //|Local Area Network| A local area network (LAN) is a group of computers and other devices dispersed over a relatively limited area and connected by a communications link that enables any device to interact with any other on the network. (NIST)
 
 

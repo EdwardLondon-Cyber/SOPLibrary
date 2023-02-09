@@ -1,6 +1,6 @@
 :doctype: book
 ifdef::backend-pdf[]
-:front-cover-image: image::build/std-pdf-cover.pdf[]
+:front-cover-image: image::build/spec-pdf-cover.pdf[Cover Page]
 endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
@@ -28,13 +28,13 @@ endif::[]
 :sectnumlevels: 5
 :sectanchors:
 
-// NOTE: include statement need blank line before and after
+// the include statement requires a blank line before and after
 
 include::std-document-variables.adoc[]
 
 ////
  **VARIABLES!** 
-  The two variables below are special variables for automatically generating numbers to identify the requirements (SHALL statements) in this Standard
+  The two variables below are special variables for automatically generating numbers to identify the requirements (*_SHALL_* statements) in this Standard
 
   reqkey = enter the document number 
            example: 2601
@@ -80,7 +80,6 @@ DOCUMENT HISTORY LOG:
    Example description: "Updated to be applicable to xyz"
    v1.0 description must be "Initial Release".
 
-   NOTE: 
     Approval Date: this will automatically be pulled from the document-variables.adoc file.
 
     If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
@@ -158,13 +157,17 @@ This NASA Technical Standard is approved for use by NASA Headquarters and NASA C
 
 Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. <<Requirements Compliance Matrix>> is provided to facilitate requirements selection by NASA programs and projects.  
 
-// Note: numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. do not number the SHALL statement in the applicability section. 
+////
+ Numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. 
 
-// IMPORTANT: requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_*, and each one is counted as a single requirement statement. 
+ Do not number the *_SHALL_* statement in the applicability section. 
 
-// IMPORTANT: once you have finished writing this Standard, look at the preview to see how many SHALL statements (requirements) this Standard contains and MANUALLY TYPE the number into line 171 above - delete the note in bold and replace with the number.
+ Requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_*, and each one is counted as a single requirement statement. 
 
-// note: spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
+ Once you have finished writing this Standard, look at the preview to see how many *_SHALL_* statements (requirements) this Standard contains and MANUALLY TYPE the number into the text in the Applicability section - delete the placeholder text and replace with the number.
+
+ Spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
+////
 
 === Tailoring
 
@@ -172,7 +175,7 @@ NASA Technical Standards may contain requirements which are derived from federal
 
 Requirements derived from a federally mandated critical control *_SHALL NOT_* be tailored out of a NASA System Security Plan (SSP) for any reason. In the case that a specific program, project, or system is unable to fully meet a requirement that is derived from a federally mandated critical control, a risk-based decision (RBD) addressing this need *_SHALL_*  be approved by the Agency Chief Information Officer (CIO) or designee and the RBD *_SHALL_*  be formally documented in the system's SSP.
 
-Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_*  be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP. The AO *_SHALL_*  ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
+Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_*  be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP. The AO *_SHALL_*  ensure that only systems posing an acceptable level of risk (LOR) to Agency assets, data, and personnel are approved for production operation and the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
 
 === Authority
 

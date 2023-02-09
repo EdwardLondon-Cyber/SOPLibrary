@@ -1,6 +1,6 @@
 :doctype: book
 ifdef::backend-pdf[]
-:front-cover-image: image::build/spec-pdf-cover.pdf[]
+:front-cover-image: image::build/spec-pdf-cover.pdf[Cover Page]
 endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
@@ -176,7 +176,7 @@ Security configuration settings with _Critical_ or _High_ severity ratings *_SHA
 
 *_Medium_ Severity Rating:*
 
-If a specific program, project, or system is unable to fully implement a setting with a _Medium_ severity rating a POA&M or RBD addressing this need *_SHALL_* be approved by the responsible Information System Owner (ISO) and the Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements.
+If a specific program, project, or system is unable to fully implement a setting with a _Medium_ severity rating a POA&M or RBD addressing this need *_SHALL_* be approved by the responsible Information System Owner (ISO) and the Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements. The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to Agency assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
 
 *_Low_ Severity Rating:*
 
