@@ -336,12 +336,19 @@ EXAMPLE:
 ////
 APPENDIX SECTION
 
+Appendices will be lettered (not numbered).
 
-  Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
-     APPENDIX A: TITLE OF APPENDIX
-     
-  Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
-  Subsequent appendices will use appropriate letters (B, C, D . . . )
+ALL ASCS Standards must include an appendix to house the requirements compliance matrix. 
+
+Appendix A of all ASCS Standards *_SHALL_* be titled "Requirements Compliance Matrix".
+
+Following Appendix A: Requirements Compliance Matrix, additional appendices can be added by putting the marker [appendix] on one line, and then, directly underneath (on the next line), write the 2 marker title in all caps for the appendix.
+  Example: 
+    [appendix]
+    == Title of Appendix 
+
+  Example title will appear as:
+   APPENDIX B: Title of Appendix 
 ////
 
 [appendix]

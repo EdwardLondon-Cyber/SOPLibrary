@@ -81,9 +81,9 @@ DOCUMENT HISTORY LOG:
   The description box must not be left blank, but it should be brief. 
    Example descriptions: "Updated to be applicable to xyz"
 
-    Approval Date: this will automatically be pulled from the document-variables.adoc file.
+  Approval Date: this will automatically be pulled from the document-variables.adoc file.
 
-    If you are writing an updated version of a Spec, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+  If you are writing an updated version of a Spec, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
 ////
 
 [dedication]
@@ -211,7 +211,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 ==== Government Documents
 
-// NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
+// Based on your document's specific needs, make visible any of the document tables that are commented out below: 
 
 ////
 .White House Releases
@@ -380,22 +380,28 @@ _Low_ severity settings are expected to be implemented unless there is a justifi
 * _Low_ severity settings target any vulnerability which, if exploited, degrades measures to protect against the loss of confidentiality, integrity, or availability.
 
 
-
 +++<br>+++
 
 ////
 APPENDIX SECTION
- Note:
-   Appendix is commented out - move the comment block if applicable. 
-  
-  Appendices will be lettered based on the [appendix] tag, so the example title will appear as
-   APPENDIX A: TITLE OF APPENDIX
 
-  Additional appendices can be used by the [appendix] tag immediately followed on the next line with a
-    2 marker title (== APPENDIX TITLE). following appendix will use appropriate letters (B, C, D . . . )
+Appendices will be lettered (not numbered). 
 
+Appendices can be added by putting the marker [appendix] on one line, and then, directly underneath (on the next line), write the 2 marker title for the appendix.
+  Example: 
+    [appendix]
+    == Title of Appendix 
 
-[appendix]
-== TITLE OF APPENDIX
+  Example title will appear as:
+   APPENDIX A: Title of Appendix 
 
 ////
+
+////
+
+[appendix]
+== Title of Appendix 
+
+////
+
+

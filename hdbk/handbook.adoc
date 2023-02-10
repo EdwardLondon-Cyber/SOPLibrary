@@ -75,10 +75,9 @@ DOCUMENT HISTORY LOG:
   The description box must not be left blank, but it should be brief. 
    Example description: Updates made per EO 14028, _Executive Order on Improving the Nation’s Cybersecurity_; general language cleanup; reformatted using current ASCS template.
 
-   NOTE: 
-    published-date: this will automatically be pulled from the document-variables.adoc file.
+  published-date: this will automatically be pulled from the document-variables.adoc file.
 
-    If you are writing an updated version of a Handbook, the published date must be hard coded for the earlier version(s), and the published-date variable must be used only for the most recent version.
+  If you are writing an updated version of a Handbook, the published date must be hard coded for the earlier version(s), and the published-date variable must be used only for the most recent version.
 ////
 
 [dedication]
@@ -227,7 +226,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 ////
 
-// Create YOURLS for any other government documents. Link the title of the source in the table below. 
+// Create YOURLS for any other Government documents. Link the title of the source in the table below. 
 
 .Other Government Documents
 [%header]
@@ -240,7 +239,7 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 ==== Non-Government Documents
 
-// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
+// Create YOURLS for any non-Government documents. Link the title of the source in the table below. 
 
 [%header]
 |===
@@ -355,20 +354,26 @@ Begin Instructions:
 == Begin Instructions 
 
 
++++<br>+++
 
 ////
 APPENDIX SECTION
-  
-  Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
-     APPENDIX A: TITLE OF APPENDIX
 
-  Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
-  
-  Subsequent appendices will use appropriate letters (B, C, D)
+Appendices will be lettered (not numbered). 
+
+Appendices can be added by putting the marker [appendix] on one line, and then, directly underneath (on the next line), write the 2 marker title in all caps for the appendix.
+  Example: 
+    [appendix]
+    == Title of Appendix 
+
+  Example title will appear as:
+   APPENDIX A: Title of Appendix 
+
 ////
 
-
 ////
+
 [appendix]
-== TITLE OF APPENDIX
+== Title of Appendix 
+
 ////
