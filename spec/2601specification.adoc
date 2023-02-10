@@ -110,7 +110,7 @@ endif::[]
 
 This NASA Technical Specification is published by the National Aeronautics and Space Administration (NASA) to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects.
 
-This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Specification also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Specification also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
 
@@ -161,7 +161,7 @@ ifeval::[ "{applicability}" != "all" ]
 This NASA Technical Specification is applicable to all computing systems using {application}. 
 endif::[]
 
-This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Specification also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Specification also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 === Tailoring
 
@@ -171,11 +171,11 @@ NOTE: Each security configuration setting protects against the exploitation of a
 
 *_Critical_ and _High_ Severity Ratings:*
 
-Security configuration settings with _Critical_ or _High_ severity ratings *_SHALL NOT_* be tailored out of the System Security Plan (SSP). If a specific program, project, or system is unable to fully implement a setting with a _Critical_ or _High_ severity rating, a Plan of Action and Milestones (POA&Ms) or risk-based decision (RBD) addressing this need *_SHALL_* be approved by the Agency Chief Information Officer (CIO) or designee, and the RBD *_SHALL_* be formally documented in the system's SSP under program or project requirements.
+Security configuration settings with _Critical_ or _High_ severity ratings *_SHALL NOT_* be tailored out of the System Security Plan (SSP). If a specific program, project, or system is unable to fully implement a setting with a _Critical_ or _High_ severity rating, a Plan of Action and Milestones (POA&Ms) or risk-based decision (RBD) addressing this need *_SHALL_* be approved by the NASA Chief Information Officer (CIO) or designee, and the RBD *_SHALL_* be formally documented in the system's SSP under program or project requirements.
 
 *_Medium_ Severity Rating:*
 
-If a specific program, project, or system is unable to fully implement a setting with a _Medium_ severity rating a POA&M or RBD addressing this need *_SHALL_* be approved by the responsible Information System Owner (ISO) and the Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements. The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to Agency assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
+If a specific program, project, or system is unable to fully implement a setting with a _Medium_ severity rating a POA&M or RBD addressing this need *_SHALL_* be approved by the responsible Information System Owner (ISO) and the Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements. The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to NASA assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
 
 *_Low_ Severity Rating:*
 
@@ -183,9 +183,9 @@ Security configuration settings with a _Low_ severity rating are expected to be 
 
 === Authority
 
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
+The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. 
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within NASA. 
 
 In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _Security of Information and Information Systems_, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
@@ -296,7 +296,7 @@ The resources listed in this section were used as a reference while writing this
 
 ////
 ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
-  NOTE: If you don't need the Definitions table, comment it out and change section title to: == Acronyms and Abbreviations
+  NOTE: If you do not need the Definitions table, comment it out and change section title to: == Acronyms and Abbreviations
 ////
 
 == Acronyms, Abbreviations, and Definitions
@@ -358,14 +358,14 @@ _Critical_ severity settings *_SHALL_* be adhered to, as they are monitored, sco
 
 * _Critical_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
 * _Critical_ severity settings are reported by the Continuous Diagnosis and Mitigation (CDM) Defend Dashboard and/or mandated by Federal policy.
-* Deviations from _critical_ severity settings require approval from the Agency CIO or CIO designee.  
+* Deviations from _critical_ severity settings require approval from the NASA CIO or CIO designee.  
 
 === High Severity Settings
 
 _High_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to NASA.
 
 * _High_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
-* Deviations from _high_ severity settings require approval from the Agency CIO or CIO designee. 
+* Deviations from _high_ severity settings require approval from the NASA CIO or CIO designee. 
 
 === Medium Severity Settings
 	
