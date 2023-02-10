@@ -23,7 +23,7 @@
 //|AES|Advanced Encryption Standard
 //|AFP|Apple Filing Protocol
 //|AI/ML|Artificial Intelligence/Machine Learning
-//|AITM|Attacker in the Middle
+//|AITM|Adversary-in-the-Middle
 //|ALF|Application Layer Firewall
 //|AMT|Active Management Technology
 |AO|Authorizing Official
@@ -78,7 +78,6 @@
 //|CPS|Certificate Practice Statement
 //|CPU|Central Processing Unit
 //|CRL|Certificate Revocation List
-//|CRT|Computer Response Time
 //|CSE|Client-Side Extension
 |CSET|Cybersecurity Standards and Engineering Team
 //|CSEWG|Cybersecurity Engineering Working Group 
@@ -348,7 +347,6 @@
 //|PKI|Public Key Infrastructure
 //|POA&M|Plan of Action and Milestones
 //|POP3|Post Office Protocol version 3
-//|PDF|Portable Document Format
 //|PTA|Privacy Threshold Analysis
 //|PtH|Pass the Hash
 
@@ -444,7 +442,6 @@
 //|TPS|Transparent Page Sharing
 //|TRCA|U.S. Treasury Root Certification Authority
 //|TRR|Test Readiness Review
-//|TXT|Trusted Execution Technology
 
 //## U
 //|UAMDM|User Approved MDM

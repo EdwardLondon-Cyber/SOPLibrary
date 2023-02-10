@@ -20,13 +20,14 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Cipher Strength|The number of bits in the key used to encrypt data.
 //|Clean Source Principle|The practice of requiring all security dependencies to be as trustworthy as the object being secured. Per Microsoft, "any subject in control of an object is a security dependency of that object. If an adversary can control anything in control of a target object, they can control that target object. Because of this threat, you must ensure that the assurances for all security dependencies are at or above the desired security level of the object itself." (Microsoft)
 //|Cloud Application| An application that runs upon a cloud environment that is accessible via a browser or local, front-end software interface.
+//|Cloud Computing| A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction. (NIST)
 //|Cloud Consumer| A person or organization that maintains a business relationship with and uses service from one or more cloud provider. (NIST)
 //|Cloud Service| A service offered by a Cloud Service Provider (CSP) that includes such elements such as storage, database, infrastructure, application, or virtual machine hosting services.
 //|Cloud Service Provider|A company that offers some component of cloud computing such as a cloud-based platform, infrastructure, application, or storage device. These components are typically delivered via various cloud service models (e.g.,  Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS)).
 //|Cloud Storage Services|Services that allow information and data to be stored within a cloud environment. These services can include, but are not limited to, block storage, object storage, cloud-hosted file systems, and Software as a Service (SaaS) cloud storage.  
 //|Community Cloud|Cloud infrastructure that is provisioned for exclusive use by a specific community of cloud consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). A community cloud may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
 //|Computing Device|A machine (real or virtual) for performing calculations automatically. Computing devices include, but are not limited to, computers, servers, routers, and switches. (NIST)
-//|Computing System|A subset of information systems and may be physical or virtual. Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and cloud systems. 
+//|Computing System|A subset of information systems and may be physical or virtual. Computing systems are defined as desktop devices, laptop devices, mobile devices, tablet devices, servers, and cloud computing systems. 
 //|Configuration Item|An aggregation of information system components that is designated for configuration management and treated as a single entity in the configuration management process. (NIST)
 //|Configuration Management|A collection of activities focused on establishing and maintaining the integrity of products and systems, through control of the processes for initializing, changing, and monitoring the configurations of those products and systems throughout the system development life cycle. (NIST)
 //|Configuration Profile|A configuration profile is an .xml file that allows you to distribute configuration settings to macOS devices.
@@ -187,7 +188,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 //|Virtual Private Network|A virtual network built on top of existing physical networks that can provide a secure communications mechanism for data and IP information transmitted between networks or between different nodes on the same network. (NIST)
 
 //## W
-//|Web Server|A system that provides World Wide Web (WWW) services on the Internet. It includes the hardware, operating system, Web server software, and Web site content (Web pages). If the Web server is used internally and not by the public, it may be known as an intranet server. (NIST)
+//|Web Server|A system that provides World Wide Web (WWW) services on the internet. It includes the hardware, operating system, Web server software, and Web site content (Web pages). If the Web server is used internally and not by the public, it may be known as an intranet server. (NIST)
 //|Workstation Administrator| A NASA user who has elevated privileges across multiple, non-server, computing systems that are not their own.
 
 
