@@ -13,9 +13,11 @@
 //|AC|Application Control
 //|ACL|Assessed and Cleared List 
 //|ACL|Access Control List
-// ACL NOTE: if - and only if - both acronyms are needed in one document, then use the following: 
+
+// *ACL NOTE:* if - and only if - BOTH acronyms are needed in one document, then use the following: 
 //|ACL (Procurement)|Assessed and Cleared List
 //|ACL (Security)|Access Control List
+
 //|AD|Active Directory
 //|ADC|Active Directory Controller
 //|ADUC|Active Directory Users and Computers
@@ -36,6 +38,7 @@
 //|ASP|Active Server Pages
 //|ASRL|Address Space Layout Randomization
 //|ATO|Authorization to Operate
+//|ATU|Authorization to Use
 //|AUFS|Advanced multi-layer Unification File System
 //|AUID|Agency User Identifier
 //|AzureAD|Azure Active Directory
@@ -55,6 +58,7 @@
 //|CAB/F BR| Certificate Authority Browser Forum Baseline Requirements
 //|CAC|Common Access Card
 //|CAD|Computer-Aided Design
+//|CATSCAN|Covered Article & Technology Supply Chain Assessment Needed
 //|CCID|Card Chip Interface Device
 //|CCRM|Center Cybersecurity Risk Manager
 //|CCS| Cloud and Computing Services
@@ -100,7 +104,7 @@
 //|DCCP|Datagram Congestion Control Protocol
 //|DCUI|Direct Console User Interface
 //|DDoS|Distributed Denial of Service
-//|DEFEND| Dynamic and Evolving Federal Enterprise Network Defense  
+//|DEFEND| Dynamic and Evolving Federal Enterprise Network Defense
 //|DER|Distinguished Encoding Rules
 //|DHA|Device Health Attestation
 //|DHCP|Dynamic Host Configuration Protocol
@@ -127,6 +131,7 @@
 //|EAR|Export Administration Regulations
 //|ECDSA|Elliptic Curve Digital Signature Algorithm
 //|ECL|Enterprise Cyber Logging
+//|EDR|Endpoint Detection and Response
 //|EKU|Extended Key Usage
 //|EMCC|Enterprise Managed Cloud Computing
 //|EO|Executive Order
@@ -146,6 +151,7 @@
 //|FICAM|Federal Identity, Credential, and Access Management
 //|FIPS|Federal Information Processing Standards
 //|FISMA|Federal Information Security Modernization Act
+//|FOSS|Free Open Source Software
 //|FPKI|Federal Public Key Infrastructure
 //|FQDN|Fully Qualified Domain Name
 //|FTP|File Transport Protocol
@@ -193,7 +199,9 @@
 //|ICT|Information and Communications Technology
 //|ID|Identifier
 //|IDI|ICAM Device Integration
-//|idM|Identity Management (Red Hat Product)
+//|idM|Identity Management 
+// ^ idM is the acronym used specifically for the Red Hat Product (Red Hat idM)
+
 //|IDP|Identity Provider
 //|IDPREF|Identity Preference
 //|IDS|Intrusion Detection System
@@ -221,7 +229,9 @@
 //|ITSMB|Information Technology Service Management Board
 
 //## J
-//|JAB P-ATO|Joint Authorization Board Provisional Authority to Operate (FedRAMP)
+//|JAB P-ATO|Joint Authorization Board Provisional Authority to Operate 
+// ^ This is specifically a FedRAMP term
+
 |JPL|Jet Propulsion Laboratory
 
 //## K
@@ -242,7 +252,7 @@
 //|LUKS|Linux Unified Key Setup
 //|LVM|Logical Volume Manager
 //|LXC|LinuX Container
-//|LXD|LXc (LinuX Container) Daemon
+//|LXD|LinuX Container Daemon
 
 //## M
 
@@ -364,7 +374,7 @@
 //|RISCS|Risk Information and Security Compliance System
 //|ROP|Return Oriented Programming
 //|RPS|Registration Practice Statement
-//|RSA|Rivest–Shamir–Adleman (Cryptographic System)
+//|RSA|Rivest–Shamir–Adleman (a cryptographic system)
 //|RTM|Requirements Traceability Matrix
 
 //## S
@@ -409,7 +419,7 @@
 //|SNMP|Simple Network Management Protocol
 //|SNI|Server Name Indication
 //|SOC|Security Operations Center
-//|SOC 3| Security Service Organization Controls 3 (Report Type)
+//|SOC 3| Security Service Organization Controls 3 (a report type)
 //|SORN|System of Records Notice
 //|SP|Special Publication
 //|SPEC|Specification
