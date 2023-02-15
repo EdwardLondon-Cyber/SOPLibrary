@@ -1,6 +1,6 @@
 :doctype: book
 ifdef::backend-pdf[]
-:front-cover-image: image::build/std-pdf-cover.pdf[]
+:front-cover-image: image::build/std-pdf-cover.pdf[Cover Page]
 endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
@@ -28,13 +28,13 @@ endif::[]
 :sectnumlevels: 5
 :sectanchors:
 
-// NOTE: include statement need blank line before and after
+// the include statement requires a blank line before and after
 
 include::std-document-variables.adoc[]
 
 ////
  **VARIABLES!** 
-  The two variables below are special variables for automatically generating numbers to identify the requirements (SHALL statements) in this Standard
+  The two variables below are special variables for automatically generating numbers to identify the requirements (*_SHALL_* statements) in this Standard
 
   reqkey = enter the document number 
            example: 2601
@@ -75,16 +75,11 @@ DOCUMENT HISTORY LOG:
   Oldest/first version in the bottom row!
 
   You must *add a row to the top of the table* each time a new version of the Standard is published.
- 
-  Track drafts and include descriptions for each draft while the document is out for review. 
-
-  But be sure to DELETE DRAFT TRACKING and update the approved date when it is signed and ready to be published. 
 
   The description box must not be left blank, but it should be brief. 
    Example description: "Updated to be applicable to xyz"
    v1.0 description must be "Initial Release".
 
-   NOTE: 
     Approval Date: this will automatically be pulled from the document-variables.adoc file.
 
     If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
@@ -110,16 +105,12 @@ endif::[]
 
 <<<
 
-////
-Forward:
- Authors need to be sure to insert text to complete the statement in the third paragraph of the Foreword. 
-////
 
 == Foreword
 
 This NASA Technical Standard is published by the National Aeronautics and Space Administration (NASA) to provide uniform engineering and technical requirements for processes, procedures, practices, and methods that have been endorsed as standard for NASA programs and projects, including requirements for selection, application, and design criteria of an item.
 
-This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Standard also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
@@ -160,19 +151,23 @@ The purpose of this NASA Technical Standard is to establish *(COMPLETE THIS SECT
 
 === Applicability
 
-This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other Agency documents. This Standard also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
+This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Standard also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 // Replace the question marks in the line below with your Standard's number! (e.g., 2601)
 
-Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. <<_requirements_compliance_matrix>> is provided to facilitate requirements selection by NASA programs and projects.  
+Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. <<Requirements Compliance Matrix>> is provided to facilitate requirements selection by NASA programs and projects.  
 
-// Note: numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. do not number the SHALL statement in the applicability section. 
+////
+ Numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. 
 
-// IMPORTANT: requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_*, and each one is counted as a single requirement statement. 
+ Do not number the *_SHALL_* statement in the applicability section. 
 
-// IMPORTANT: once you have finished writing this Standard, look at the preview to see how many SHALL statements (requirements) this Standard contains and MANUALLY TYPE the number into line 171 above - delete the note in bold and replace with the number.
+ Requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_*, and each one is counted as a single requirement statement. 
 
-// note: spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
+ Once you have finished writing this Standard, look at the preview to see how many *_SHALL_* statements (requirements) this Standard contains and MANUALLY TYPE the number into the text in the Applicability section - delete the placeholder text and replace with the number.
+
+ Spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
+////
 
 === Tailoring
 
@@ -180,13 +175,13 @@ NASA Technical Standards may contain requirements which are derived from federal
 
 Requirements derived from a federally mandated critical control *_SHALL NOT_* be tailored out of a NASA System Security Plan (SSP) for any reason. In the case that a specific program, project, or system is unable to fully meet a requirement that is derived from a federally mandated critical control, a risk-based decision (RBD) addressing this need *_SHALL_*  be approved by the Agency Chief Information Officer (CIO) or designee and the RBD *_SHALL_*  be formally documented in the system's SSP.
 
-Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_*  be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP. The AO *_SHALL_*  ensure that only systems posing an acceptable level of risk to Agency assets, data, and personnel are approved for production operation and the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
+Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_*  be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP. The AO *_SHALL_*  ensure that only systems posing an acceptable level of risk (LOR) to NASA assets, data, and personnel are approved for production operation and the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
 
 === Authority
 
-The Agency Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to Agency cybersecurity topics.
+The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to cybersecurity topics.
 
-The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within the Agency. CSET's published ASCS Technical Standards are also listed on the link:https://cset.nasa.gov/latest/nts[NASA Technical Standards] page under Technical Discipline 2000 - Computer Systems, Software, Information Systems. 
+The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within NASA. CSET's published ASCS Technical Standards are also listed on the link:https://cset.nasa.gov/latest/nts[NASA Technical Standards] page under Technical Discipline 2000 - Computer Systems, Software, Information Systems. 
 
 In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__], _Security of Information and Information Systems_, ISOs *_SHALL_* implement the requirements and settings defined in all applicable standards and specifications established by ASCS. 
 
@@ -195,9 +190,9 @@ In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]
 APPLICABLE DOCUMENTS
   Add Government and Non-Government documents related to this Standard in this section.
   
-  List documents in alphanumeric order based on their Document Number or Descriptor.
+  List documents in alphanumeric order based on their Document Identifier.
 
-  Use YOURLS to link to documents and link the Document Number or Descriptor.
+  Use YOURLS to link to documents and link the Document Identifier.
 ////
 
 == Applicable Documents
@@ -276,12 +271,19 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 
+
+
+////
+SUPPLEMENTAL GUIDANCE: 
+Add any websites, handbooks, etc. that you used as a reference while writing this Standard.
+ - List documents in alphabetical order based on the title.
+ - *Use YOURLS* to link to documents and *link the title of the document*.
+////
+
 ////
 === Supplemental Guidance
 
-The resources listed in this section were used as a reference while writing this NASA Technical Standard and may serve as additional support in implementing the requirements established by this Standard.
-
-// Create YOURLS for any supplemental guidance. Link the title of the source in the table below. 
+The resources listed in this section were used as a reference while writing this NASA Technical Standard and may serve as additional support in implementing the requirements defined in this Standard.
 
 [%header]
 |===
@@ -289,29 +291,23 @@ The resources listed in this section were used as a reference while writing this
 | 
 |
 |===
-
 ////
+
 
 +++<br>+++
 
-
+// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
 
 == Acronyms, Abbreviations, and Definitions
 
 include::acronym_list.adoc[]
 
-// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
-
-////
 
 <<<
 
 include::definitions.adoc[]
 
 <<<
-
-////
-
 
 
 
@@ -331,7 +327,7 @@ AUTONUMBERING:
                                    ^ make sure you leave a space here!
 
 EXAMPLE: 
- *({reqkey}-R{counter:requirement})* A Windows virtual machine (VM) *_SHALL_* be encrypted using Virtual Trusted Platform Modules (vTPM).
+ *({reqkey}-R{counter:requirement})* Information System Owners (ISOs) *_SHALL_* ensure that all operating systems and applications under their authority comply with 100% of the required configuration settings defined in the corresponding NASA-SPEC-2601._x_ and NASA-SPEC-2661._x_ specifications.
 ////
 
 
@@ -339,14 +335,20 @@ EXAMPLE:
 
 ////
 APPENDIX SECTION
-  Appendices are identified differently then the rest of the document, so make sure to use 3 or more markers on subsection titles (=== SUBSECTION). 
-  If you drop to 2 markers (==) it will start normal numbering again.
-  Content of the appendix will format for sections and subsections, but not number them.
-  It is appropriate to continue using heading tags (===) as normal.
-  Appendices will be lettered based on the [appendix] tag, so the example title will appear as: 
-     APPENDIX A: TITLE OF APPENDIX
-  Additional appendices can be used by the [appendix] tag immediately followed on the next line with a 2 marker title (== APPENDIX TITLE).
-  Subsequent appendices will use appropriate letters (B, C, D . . . )
+
+Appendices will be lettered (not numbered).
+
+ALL ASCS Standards must include an appendix to house the requirements compliance matrix. 
+
+Appendix A of all ASCS Standards *_SHALL_* be titled "Requirements Compliance Matrix".
+
+Following Appendix A: Requirements Compliance Matrix, additional appendices can be added by putting the marker [appendix] on one line, and then, directly underneath (on the next line), write the 2 marker title in all caps for the appendix.
+  Example: 
+    [appendix]
+    == Title of Appendix 
+
+  Example title will appear as:
+   APPENDIX B: Title of Appendix 
 ////
 
 [appendix]

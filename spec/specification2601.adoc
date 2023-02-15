@@ -63,7 +63,7 @@ endif::[]
 ifdef::backend-html5[]
 = {application} NASA Technical Specification
 
-// NOTE: include statement need blank line before and after
+// the include statement requires a blank line before and after
 
 include::document_basecamp/title_page.adoc[]
 
@@ -106,19 +106,20 @@ endif::[]
 
 <<<
 
-
 == Foreword
 
 This NASA Technical Specification is published by the National Aeronautics and Space Administration (NASA) to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects.
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Specification also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
+Adherence to this NASA Technical Specification ensures compliance with NASA-STD-2601, _Minimum Cybersecurity Requirements for Computing Systems_, which defines operating system and application security requirements that must be implemented on NASA information systems. This Specification provides the enforceable, measurable details of NASA-STD-2601.
+
 Comments, concerns, and all other feedback on this Specification can be submitted via email to mailto:NASA-DL-ASCS-TECHNICAL@mail.nasa.gov[NASA-DL-ASCS-TECHNICAL@mail.nasa.gov].
 
 +++<br>+++
 
 ifeval::["{is-draft}" == "False"]
-Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature
+Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enumeration of ASCS Cybersecurity Requirements_ for signature.
 
 +++<br>+++
 endif::[]
@@ -134,19 +135,23 @@ NUMBERED SECTIONS:
 
 :numbered:
 
+////
+SCOPE:
+ The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
+////
+
 == Scope
 
-
 === Purpose
-//  You may need to rewrite the Purpose section so that it is accurate for your spec. 
-// The word "define" is the best verb for Specification purpose statements; "establish" = for standards; "provide guidance" = for handbooks.
 
 The purpose of this NASA Technical Specification is to define version and configuration requirements for {application} deployment and operation.
 
+////
+*Applicability:* 
+ The value that you put for the variable for applicability (on line 52) will automatically input the correct sentence, but please proof read it to make sure it makes sense. 
+////
 
 === Applicability
-
-// The value that you put for the variable for applicability (on line 52) will automatically input the correct sentence, but please proof read it to make sure it makes sense. 
 
 ifeval::[ "{applicability}" == "all" ]
 This NASA Technical Specification is applicable to all computing systems.
@@ -160,15 +165,23 @@ This NASA Technical Specification is approved for use by NASA Headquarters and N
 
 === Tailoring
 
-// You may need to edit this section, depending on the nature of your Specification.
+Each security configuration setting defined in this NASA Technical Specification is assigned an ASCS severity rating of _Critical_, _High_, _Medium_, or _Low_. The process for deviating from security configuration settings varies based on each setting's ASCS severity rating.
 
-Any and all Plan of Action and Milestones (POA&Ms) or risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements.
+NOTE: Each security configuration setting protects against the exploitation of a vulnerability, and ASCS severity ratings are assigned to settings based on the potential impact that a system would incur if the associated vulnerability were exploited. This is why the process for deviating from settings is based on severity rating. 
 
-The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to NASA assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
+*_Critical_ and _High_ Severity Ratings:*
+
+Security configuration settings with _Critical_ or _High_ severity ratings *_SHALL NOT_* be tailored out of the System Security Plan (SSP). If a specific program, project, or system is unable to fully implement a setting with a _Critical_ or _High_ severity rating, a Plan of Action and Milestones (POA&Ms) or risk-based decision (RBD) addressing this need *_SHALL_* be approved by the NASA Chief Information Officer (CIO) or designee, and the RBD *_SHALL_* be formally documented in the system's SSP under program or project requirements.
+
+*_Medium_ Severity Rating:*
+
+If a specific program, project, or system is unable to fully implement a setting with a _Medium_ severity rating a POA&M or RBD addressing this need *_SHALL_* be approved by the responsible Information System Owner (ISO) and the Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrator(s) in the SSP under program or project requirements. The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to NASA assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
+
+*_Low_ Severity Rating:*
+
+Security configuration settings with a _Low_ severity rating are expected to be implemented unless there is a justifiable cause not to. Deviations from security configuration settings with a Low severity rating will not impact a system's compliance score.
 
 === Authority
-
-// You do not need to edit this section. 
 
 The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to cybersecurity topics.
 
@@ -181,10 +194,11 @@ In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _S
 
 ////
 APPLICABLE DOCUMENTS
+  Add Government and Non-Government documents related to this handbook in this section.
   
   List documents in alphanumeric order based on their Document Identifier.
 
-  Use YOURLS to link the Document Identifier.
+  *Use YOURLS* to link to documents and *link the Document Identifier*.
 ////
 
 == Applicable Documents
@@ -239,8 +253,6 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 
 ////
-
-
 .Other Government Documents
 [%header]
 |===
@@ -251,7 +263,6 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 ////
 ==== Non-Government Documents
-
 
 [%header]
 |===
@@ -285,10 +296,8 @@ The resources listed in this section were used as a reference while writing this
 
 ////
 ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
-  
-  NOTE: If you don't need the Definitions table, comment it out and change section title to: == Acronyms and Abbreviations
+  NOTE: If you do not need the Definitions table, comment it out and change section title to: == Acronyms and Abbreviations
 ////
-
 
 == Acronyms, Abbreviations, and Definitions
 
@@ -301,12 +310,16 @@ include::definitions.adoc[]
 
 <<<
 
++++<br>+++
 
 == Version and Lifecycle
 
 This Specification applies to the {specificationtype} defined in the chart below, as well as to any more recent version(s) of this {specificationtype}.
 
-// All fields in this table should be automatically populated from the Document Variables  
+
+////
+All fields in this table will be automatically populated from the Document Variables  
+////
 
 [cols="25%h,75%"]
 |====
@@ -332,9 +345,39 @@ endif::[]
 +++<br>+++
 
 ////
-== *BODY OF DOCUMENT STARTS HERE*
-Add sections and subsections as necessary for the content of your Spec. 
+
 ////
+
+
+== Security Configurations
+
+
+=== Critical Severity Settings
+
+_Critical_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to the Department of Homeland Security (DHS).
+
+* _Critical_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
+* _Critical_ severity settings are reported by the Continuous Diagnosis and Mitigation (CDM) Defend Dashboard and/or mandated by Federal policy.
+* Deviations from _critical_ severity settings require approval from the NASA CIO or CIO designee.  
+
+=== High Severity Settings
+
+_High_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to NASA.
+
+* _High_ severity settings target any vulnerability which, if exploited, would directly and immediately result in the loss of confidentiality, integrity, or availability. 
+* Deviations from _high_ severity settings require approval from the NASA CIO or CIO designee. 
+
+=== Medium Severity Settings
+	
+_Medium_ severity settings *_SHALL_* be adhered to, as they are monitored, scored, and reported to NASA. 
+
+* _Medium_ severity settings target any vulnerability which, if exploited, has the potential to result in the loss of confidentiality, integrity, or availability.
+
+=== Low Severity Settings
+
+_Low_ severity settings are expected to be implemented unless there is a justifiable cause not to. 
+
+* _Low_ severity settings target any vulnerability which, if exploited, degrades measures to protect against the loss of confidentiality, integrity, or availability.
 
 
 +++<br>+++
@@ -344,7 +387,7 @@ APPENDIX SECTION
 
 Appendices will be lettered (not numbered). 
 
-Appendices can be added by putting the marker [appendix] on one line, and then, directly underneath (on the next line), write the 2 marker title in all caps for the appendix.
+Appendices can be added by putting the marker [appendix] on one line, and then, directly underneath (on the next line), write the 2 marker title for the appendix.
   Example: 
     [appendix]
     == Title of Appendix 
@@ -360,3 +403,5 @@ Appendices can be added by putting the marker [appendix] on one line, and then, 
 == Title of Appendix 
 
 ////
+
+
