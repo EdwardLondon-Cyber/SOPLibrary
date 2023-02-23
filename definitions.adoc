@@ -6,7 +6,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 |Term|Definition
 //## A
 //|AA Account|A type of Active Directory Resource Management Account; specifically, an administrator account. The standard method of performing administrative functions at NASA is through the use of NASA Consolidated Active Directory (NCAD) administrative accounts. These accounts have the prefix "aa-" (e.g., aa-jdoe).
-//|Attacker in the Middle|An attack in which communication between two systems or people is intercepted by an unauthorized party.
+//|Adversary-in-the-Middle|A type of cyberattack in which an unauthorized party intercepts a conversation between two authorized parties (e.g., two users, two devices, a user and an application or server).
 //|Authentication|Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system. (NIST)
 //|Authorization|Access privileges granted to a user, program, or process or the act of granting those privileges. (NIST)
 
