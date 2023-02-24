@@ -27,56 +27,54 @@ toc::[]
 
 :numbered:
 
-== CSET Standards
+== ASCS Document Setup Process
 
-NOTE: CSET's Standards template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
+*ELYSE ADD INTRO TO SAY:*
+
+* *STANDARD USED HERE AS AN EXAMPLE*
+* *THIS IS THE MANUAL STEP_BY_STEP PROCESS - YOU CAN ALSO USE THE SETUP SCRIPT*
+* *MAKE SURE TO READ INSTRUCTIONS IN COMMENTS IN TEMPLATES*
+* 
+
 
 === Using the CSET Standard Template
 
-1. Open your Standard in Visual Studio Code (VSC).
+NOTE: CSET's Standards template directory is located here: https://developer.nasa.gov/CSET/document_basecamp/tree/master/std
 
- ** See Section 5.1. __How to Add the Document Basecamp Submodule__ of this README for instructions.
+. Open your Standard in Visual Studio Code (VSC).
+
+** See <<How to Add the Document Basecamp Submodule, 5.1, _How to Add the Document Basecamp Submodule_>> of this README for instructions.
  
-3. Copy the following files from Document Basecamp and paste them into your Standard's root directory: 
+. Copy the following files from the `document_basecamp` folder and paste them into your Standard's root directory: 
 
- * From the *std folder* within Document Basecamp:
+ * From `document_basecamp/std`:
+ ** `README.adoc`
+ ** `standard.adoc`
 
-  . README.adoc
-  . standard.adoc
-  . std-document-variables.adoc
-  . std-pdf-cover.adoc
-
- *  From Document Basecamp:
-
-  . .gitignore 
-  . acronym_list.adoc
-  . definitions.adoc
+ *  From `document_basecamp`:
+ ** `.gitignore`
+ ** `acronym_list.adoc`
+ ** `definitions.adoc`
 
 WARNING: Do not rename these files. Files reference each other by name.
 
-[start=4]
-4. Input or edit the variables in your Standard's copy of the *std-document-variables.adoc* file first. 
-** The variables in this file will be used throughout the Standard and the cover page. 
+[start=3]
+. Write or update your Standard's copy of `standard.adoc` - this is where the main contents of your Standard will be contained. 
 
-5. Then write or update your Standard's copy of the *standard.adoc* file - this is where the main contents of your Standard will be contained. 
-** Note that there is a new variable that needs to be filled in in the *standard.adoc* file: 
-*** New variable: :reqkey: 
-*** Appears on line 48 of template.
-*** See comment block above line 48 in the template for instructions on how to fill in this variable. 
-*** All other variables that need to be input or updated are housed in the *std-document-variables.adoc* file.
+.  Update your Standard's copy of the `definitions.adoc` file to include the terms used throughout your Standard. 
 
-6.  Update your Standard's copy of the *definitions.adoc* file to include the terms used throughout your Standard. 
- ** Note that you may add terms to your copy of the definitions.adoc file if necessary. 
- *** You may want to use this language: "For the purposes of this Standard, <xyz term> is used to refer to <fill in your standard-specific definition>."
+. Edit your Standard's copy of the `acronym_list.adoc` to include the acronyms used throughout your Standard. 
 
-7. Edit your Standard's copy of the *acronym_list.adoc* to include the acronyms used throughout your Standard. 
+. Update your Standard's copy of the `README.adoc`. 
 
-8. Update your Standard's copy of the *README.adoc*. 
- ** Note that there is a template for you to fill in. The README template was added in Spring 2022 to improve uniformity across CSET's documents.  
+== ASCS Document Build Process
 
-IMPORTANT: You will not edit the *std-pdf-cover.adoc* file, but this file does need to be copied over from document basecamp and pasted into your document's root directory for the pdf version of your Standard to be properly generated. 
+*ELYSE ADD INTRO TO SAY:*
 
-=== Pre-Build the Standard's Requirements Compliance Matrix
+* *THIS IS THE MANUAL STEP_BY_STEP PROCESS - YOU CAN ALSO USE THE BUILD SCRIPT*
+
+
+=== Building Requirements Compliance Matrix
 
 Run this command before running either the HTML or PDF build script *each time* to generate an up-to-date Requirements Compliance Matrix (the std-compliance-matrix.adoc). 
 
@@ -118,7 +116,7 @@ NOTE: CSET's Specification template directory is located here: https://developer
 1. Open your Specification in Visual Studio Code (VSC).
 2. Add Document Basecamp as a submodule within your Specification. 
 
- ** See Section 5.1. __How to Add the Document Basecamp Submodule__ of this README for instructions.
+ ** See <<How to Add the Document Basecamp Submodule, 5.1, _How to Add the Document Basecamp Submodule_>> of this README for instructions.
 
 3. Copy the following files from Document Basecamp and paste them into your Specification's root directory: 
 
@@ -188,7 +186,7 @@ NOTE: CSET's Handbook template directory is located here: https://developer.nasa
 
 2. Add Document Basecamp as a submodule within your Handbook.
 
- ** See Section 5.1. __How to Add the Document Basecamp Submodule__ of this README for instructions.
+ ** See <<How to Add the Document Basecamp Submodule, 5.1, _How to Add the Document Basecamp Submodule_>> of this README for instructions.
 
 3. Copy the following files from Document Basecamp and paste them into your Handbook's root directory: 
 

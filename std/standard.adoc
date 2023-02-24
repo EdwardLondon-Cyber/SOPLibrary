@@ -1,7 +1,4 @@
 :doctype: book
-ifdef::backend-pdf[]
-:front-cover-image: image::build/std-pdf-cover.pdf[Cover Page]
-endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-stylesdir: document_basecamp/
@@ -16,10 +13,8 @@ endif::[]
 :chapter-label:
 :chapter-signifier:
 // Table of Contents
-ifdef::backend-html5[]
 :toc: macro
 :toc-placement!:
-endif::[]
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
 // xrefstyle full shows the section number and title
@@ -28,9 +23,43 @@ endif::[]
 :sectnumlevels: 5
 :sectanchors:
 
-// the include statement requires a blank line before and after
+// Title Page Variables
+:document-type: NASA TECHNICAL STANDARD
+:document-identifier: NASA-STD-XXXX
+// document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval. 
+:document-title: DOCUMENT TITLE
+:document-subtitle: NASA TECHNICAL STANDARD
+////
+approved-date: 
+ Input the approved date only when publishing.             
+ Leave blank until then.  
+ Date format: year-month-date: 20XX-XX-XX
+////
+:approved-date:
+// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+:document-version: vx.x
+// is-draft: Is this document a draft? (enter True if it is a draft)
+:is-draft: True
+// document-stage: Input either  "Draft", "Informal Draft", or "Formal Draft"
+:draft-stage: Draft
+// revision-date: remove "//" from line below and input revision date if needed
+// :revision-date: 20XX-XX-XX
+// delete values for the cover-page-marks and leave blank before publishing - do not comment out or build script will break
+:cover-page-mark-1: This official draft has not been approved and is subject to modification
+:cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
+// superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
+// :superseding-document: NASA-STD-2XXX
+// :superseding-document-version: vx.x
+:signatory: Michael Witt
+:signatory-title: Senior Agency Information Security Officer (SAISO)
 
-include::std-document-variables.adoc[]
+// Customize document header
+ifeval::["{is-draft}" == "True"]
+:document-header: {document-identifier} {document-version} {draft-stage}
+endif::[]
+ifeval::["{is-draft}" != "True"]
+:document-header: {document-identifier} {document-version}
+endif::[]
 
 ////
  **VARIABLES!** 
@@ -52,13 +81,6 @@ include::std-document-variables.adoc[]
 :noheader:
 :nofooter:
 
-ifdef::backend-pdf[]
-= NASA STANDARD {document-identifier}
-{document-subtitle}
-:toc: preamble
-endif::[]
-
-ifdef::backend-html5[]
 = NASA STANDARD {document-identifier}
 
 // NOTE: include statement need blank line before and after
@@ -66,8 +88,6 @@ ifdef::backend-html5[]
 include::document_basecamp/title_page.adoc[]
 
 toc::[]
-
-endif::[]
 
 ////
 DOCUMENT HISTORY LOG:
@@ -87,10 +107,6 @@ DOCUMENT HISTORY LOG:
 
 [dedication]
 == Document History Log
-ifdef::backend-pdf[]
-:!nofooter:
-:!noheader:
-endif::[]
 
 [%header,width="100%",cols="1,1,2"]
 |====
@@ -177,6 +193,8 @@ Requirements derived from a federally mandated critical control *_SHALL NOT_* be
 
 Tailoring any requirement which is not derived from a federally mandated critical control in order to meet the needs of a specific program, project, or system *_SHALL_*  be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) and formally documented by the ISO or designee in the SSP. The AO *_SHALL_*  ensure that only systems posing an acceptable level of risk (LOR) to NASA assets, data, and personnel are approved for production operation and the ISO *_SHALL_* ensure all necessary documentation is produced and maintained.
 
+<<<<
+  
 === Authority
 
 The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to cybersecurity topics.
