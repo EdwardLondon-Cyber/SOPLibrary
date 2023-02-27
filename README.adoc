@@ -50,7 +50,7 @@ This section provides step-by-step instructions that can be followed to manually
 TIP: You can choose to set up a new ASCS document manually via the instructions in this section, or you can use the ASCS Setup Script. Refer to <<ASCS Document Scripts, Section 3, _ASCS Document Scripts_>> for guidance on using a script to set up your ASCS document. 
 
 
-=== Document Setup Process:
+=== Document Setup Process
 
 The instructions below were written specifically for setting up a new ASCS *Standard*. However, the process is the same for all other types of ASCS documents. 
 
