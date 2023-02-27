@@ -17,7 +17,7 @@ This README contains instructions on how to use the AsciiDoc templates to create
 
 '''
 
-TIP: For guidance on how to get set up and use GitHub, visit the link:https://docs.github.com/en/get-started/quickstart[GitHub Quickstart] page. 
+TIP: For guidance on how to set up Git and use GitHub, visit the link:https://docs.github.com/en/get-started/quickstart[GitHub Quickstart] page. 
 
 '''
 
@@ -29,7 +29,7 @@ toc::[]
 
 :numbered:
 
-== Prerequisites for New ASCS Documents
+== Prerequisites for Creating New ASCS Documents
 
 The following prerequisites must be met before a new ASCS document can be created:
 
@@ -41,20 +41,18 @@ The following prerequisites must be met before a new ASCS document can be create
 ** the document identifier (e.g., NASA-SPEC-2661.ODVr5).
 
 
-Once the prerequisites listed above are met, the author may follow the instructions in the following subsections to create their new document. 
+Once the prerequisites listed above are met, the author may follow the instructions in the following sections to create their new document. 
 
 == ASCS Document Creation: From Start to Finish
 
-This section provides step-by-step instructions that can be followed to manually create a new ASCS document - from initial set up to building .pdf and .html files. 
+This section provides step-by-step instructions that can be followed to *manually* create a new ASCS document - from initial set up to building .pdf and .html files. 
 
-TIP: You can choose to set up a new ASCS document manually via the instructions in this section, or you can use the ASCS Setup Script. Refer to <<ASCS Document Scripts, Section 3, _ASCS Document Scripts_>> for guidance on using a script to set up your ASCS document. 
+TIP: You can choose to set up and build an ASCS document manually via the instructions in this section or you can use the ASCS Document Scripts. Refer to <<ASCS Document Scripts, Section 3, _ASCS Document Scripts_>> for guidance on using a script to set up and build your ASCS document. 
 
 
 === Document Setup Process
 
-The instructions below were written specifically for setting up a new ASCS *Standard*. However, the process is the same for all other types of ASCS documents. 
-
-TIP: In the instructions below, references to standard-specific elements can be substituted with the equivalent elements for specifications and handbooks. 
+NOTE: The instructions below were written specifically for setting up a new ASCS *Standard*. However, the process is the same for specifications and handbooks. In the instructions below, references to standard-specific elements can be substituted with the equivalent elements for specifications and handbooks. 
 
 . Create a repository (repo) for your Standard on GitHub under the link:https://developer.nasa.gov/ASCS[ASCS Organization].
 
@@ -71,7 +69,7 @@ IMPORTANT: While an ASCS document is in a draft stage (i.e., prior to publishing
 
 . Add the document_basecamp submodule to your repository. 
 
-** See <<How to Add the Document Basecamp Submodule, 4.1, _How to Add the Document Basecamp Submodule_>> of this README for instructions.
+** See <<How to Add the Document Basecamp Submodule, Section 4.1, _How to Add the Document Basecamp Submodule_>> of this README for instructions.
  
 . Copy the following files from the `document_basecamp` folder and paste them into your Standard's root directory: 
 
@@ -87,39 +85,40 @@ IMPORTANT: While an ASCS document is in a draft stage (i.e., prior to publishing
 WARNING: Do not rename these files. Files reference each other by name.
 
 [start=6]
-. Open your Standard's copy of `standard.adoc`, located in the root directory of your repository, and:
+. Open your Standard's copy of `standard.adoc`, located in your Standard's root directory, and:
 .. Type in values for all of the applicable document variables, which include (but may not be limited to):
     *** :document-identifier:
     *** :document-title:
     *** :document-version:
-.. Write the content of your document. There are several sections of the template that contain sentences that need to be completed by the author, including:
-   *** The purpose statement
-   *** Section 2.1, _Applicability_
+.. Write the content of your document. 
+** There are several sections of the template that contain sentences that need to be completed by the author, including:
+   ... The purpose statement
+   ... Section 2.1, _Applicability_
 
-TIP: Read the guidance and examples provided in comments throughout the `standard.adoc` file to make sure that you are filling in everything appropriately. 
+TIP: Be sure to read the guidance and examples provided in comments throughout the `standard.adoc` file to make sure that you are filling in everything appropriately. 
 
 [start=7]
-.  Open your Standard's copy of `definitions.adoc`, located in the root directory of your repository, and:
+.  Open your Standard's copy of `definitions.adoc`, located in your Standard's root directory, and:
 .. un-comment all terms that are used in your document. 
 .. add any key terms (in the correct, alphabetical location) that need to be defined in your document and which are not already in the `definitions.adoc` list of terms. 
 
 ** Please check new terms and definitions with the ASCS technical writer prior to adding them to your document. 
 
-. Open your Standard's copy of the `acronym_list.adoc`, located in the root directory of your repository, and:
+. Open your Standard's copy of the `acronym_list.adoc`, located in your Standard's root directory, and:
 
 .. un-comment all acronyms that are used in your document. 
 .. add any acronyms (in the correct, alphanumerical location) that are used in your document and which are not already in the `acronym_list.adoc`.
 
-. Open your Standard's copy of the `README.adoc` , located in the root directory of your repository, and fill in all of the necessary information. 
+. Open your Standard's copy of the `README.adoc` , located in your Standard's root directory, and fill in all of the necessary information. 
 
 === ASCS Document Build Process
 
-The instructions below were written specifically for building the .html and .pdf versions of an ASCS *Standard*. However, the process is mostly the same for all other types of ASCS documents; be sure to see notes highlighting key differences for different kinds of documents. 
+NOTE: The instructions below were written specifically for building the .html and .pdf versions of an ASCS *Standard*. However, the process is mostly the same for all other types of ASCS documents; be sure to see notes highlighting key differences for different kinds of documents. 
 
 *1. Build the Requirements Compliance Matrix*
 
 ** All ASCS standards and some specifications contain a Requirements Compliance Matrix.
-** For any document that contains a Requirements Compliance Matrix, the following command must be run *each time* to generate an up-to-date Requirements Compliance Matrix (the std-compliance-matrix.adoc) prior to running either the .html or .pdf build script. 
+** For any ASCS document that contains a Requirements Compliance Matrix, the following command must be run *each time* to generate an up-to-date Requirements Compliance Matrix (the std-compliance-matrix.adoc) prior to running either the .html or .pdf build script. 
 
 
 [source]
@@ -134,6 +133,7 @@ NOTE: The command above requires Python3 installed and configured on your system
 
 .. Create a `build` folder within your document's root directory prior to running this command, as as the `build` folder is not created upon cloning your repository. 
 .. Then, run the command below: 
+
 [source]
 ----
 asciidoctor -D build standard.adoc
