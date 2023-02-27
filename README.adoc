@@ -116,7 +116,7 @@ TIP: Read the guidance and examples provided in comments throughout the `standar
 
 The instructions below were written specifically for building the .html and .pdf versions of an ASCS *Standard*. However, the process is mostly the same for all other types of ASCS documents; be sure to see notes highlighting key differences for different kinds of documents. 
 
-*1. Build the Requirements Compliance Matrix:*
+*1. Build the Requirements Compliance Matrix*
 
 ** All ASCS standards and some specifications contain a Requirements Compliance Matrix.
 ** For any document that contains a Requirements Compliance Matrix, the following command must be run *each time* to generate an up-to-date Requirements Compliance Matrix (the std-compliance-matrix.adoc) prior to running either the .html or .pdf build script. 
@@ -165,11 +165,11 @@ A member of CSET created the link:https://developer.nasa.gov/CSET/Document_Scrip
 
 There are two scripts in the repository linked above; the purpose of each script is summarized in the subsections below. 
 
-=== The ASCS Setup Script:
+=== The ASCS Setup Script
 
 The ASCS Setup Script can be used to start a new document and to detect and correct errors that would otherwise be flagged by the build script later.
 
-=== The ASCS Build Script:
+=== The ASCS Build Script
 
 The ASCS Build Script is run by entering one simple command (regardless of document type) into command line. Not only does this script build both the html and pdf formats of the document at once, but it also performs a long list of checks that were written into the script in effort to reduce the time and effort required during the document review process to catch frequently-made human errors. 
 
