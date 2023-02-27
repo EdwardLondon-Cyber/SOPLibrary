@@ -1,7 +1,4 @@
 :doctype: book
-ifdef::backend-pdf[]
-:front-cover-image: image::build/hdbk-pdf-cover.pdf[Cover Page]
-endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-stylesdir: document_basecamp/
@@ -16,10 +13,8 @@ endif::[]
 :chapter-label:
 :chapter-signifier:
 // Table of Contents
-ifdef::backend-html5[]
 :toc: macro
 :toc-placement!:
-endif::[]
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
 // xrefstyle full shows the section number and title
@@ -28,9 +23,41 @@ endif::[]
 :sectnumlevels: 5
 :sectanchors:
 
-// NOTE: include statement need blank line before and after
+// Title Page Variables
+:document-type: NASA TECHNICAL HANDBOOK
+:document-identifier: NASA-HDBK-XXXX
+// document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval.  
+:document-title: DOCUMENT TITLE
+:document-subtitle: TECHNICAL HANDBOOK
+////
+published-date: 
+ Input the date only when publishing.             
+ Leave blank until then.  
+ Date format: year-month-date: 20XX-XX-XX 
+////
+:published-date: 
+// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+:document-version: vx.x
+// is-draft: Is this document a draft? (enter true if it is a draft)
+:is-draft: True
+// document-stage: Input "Draft", "Informal Draft", or "Formal Draft"
+:draft-stage: Draft
+// revision-date: remove "//" from line below and input revision date if needed
+// :revision-date: 20XX-XX-XX
+// delete values for the cover-page-marks and leave blank before publishing - do not comment out or build script will break
+:cover-page-mark-1: This official draft has not been approved and is subject to modification
+:cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
+// superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
+// :superseding-document: NASA-HDBK-2XXX
+// :superseding-document-version: vx.x
 
-include::hdbk-document-variables.adoc[]
+// Customize document header
+ifeval::["{is-draft}" == "True"]
+:document-header: {document-identifier} {document-version} {draft-stage}
+endif::[]
+ifeval::["{is-draft}" != "True"]
+:document-header: {document-identifier} {document-version}
+endif::[]
 
 ////
 *DOCUMENT VARIABLES (that are not on the title page) DESCRIPTIONS:*
@@ -48,13 +75,7 @@ include::hdbk-document-variables.adoc[]
 :noheader:
 :nofooter:
 
-ifdef::backend-pdf[]
-= {topic} Handbook
-{document-subtitle}
-:toc: preamble
-endif::[]
 
-ifdef::backend-html5[]
 = {topic} Handbook
 
 // NOTE: include statement need blank line before and after
@@ -62,8 +83,6 @@ ifdef::backend-html5[]
 include::document_basecamp/title_page.adoc[]
 
 toc::[]
-
-endif::[]
 
 ////
 DOCUMENT HISTORY LOG:
@@ -82,10 +101,6 @@ DOCUMENT HISTORY LOG:
 
 [dedication]
 == Document History Log
-ifdef::backend-pdf[]
-:!nofooter:
-:!noheader:
-endif::[]
 
 [%header,width="100%",cols="1,1,2"]
 |====
@@ -154,7 +169,8 @@ This NASA Technical Handbook is applicable to *COMPLETE THIS SECTION BY EXPLAINI
 // Infrastructure as a Service (Iaas) cloud computing systems.
 // Windows 11 operating systems.
 
-
+<<<<
+  
 === Authority
 
 The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized CSET, via the Agency Security Configuration Standards (ASCS) initiative, to create binding Technical Standards related to cybersecurity topics.

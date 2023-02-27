@@ -1,7 +1,4 @@
 :doctype: book
-ifdef::backend-pdf[]
-:front-cover-image: image::build/spec-pdf-cover.pdf[Cover Page]
-endif::[]
 // Document Setup
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-stylesdir: document_basecamp/
@@ -16,10 +13,8 @@ endif::[]
 :chapter-label:
 :chapter-signifier:
 // Table of Contents
-ifdef::backend-html5[]
 :toc: macro
 :toc-placement!:
-endif::[]
 :toc-title: TABLE OF CONTENTS
 :toclevels: 3
 // xrefstyle full shows the section number and title
@@ -28,9 +23,41 @@ endif::[]
 :sectnumlevels: 5
 :sectanchors:
 
-// NOTE: include statement need blank line before and after
+// Title Page Variables
+:document-type: NASA TECHNICAL SPECIFICATION
+:document-identifier: NASA-SPEC-2XXX
+// document-title:  USE ALL CAPS. If using acronyms in title, check with Sean for approval. 
+:document-title: DOCUMENT TITLE
+:document-subtitle: SECURITY CONFIGURATION SPECIFICATION
+////
+approved-date: 
+ Input the approved date only when publishing.             
+ Leave blank until then.  
+ Date format: year-month-date:  20XX-XX-XX
+////
+:approved-date:
+// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+:document-version: vx.x
+// is-draft: Is this document a draft?
+:is-draft: True
+// draft-stage: e.g.  "Draft", "Informal Draft", "Formal Draft"
+:draft-stage: Draft
+// revision-date: remove "//" from line below and input revision date if needed (e.g., vX.X.X)
+// :revision-date: 20XX-XX-XX
+:cover-page-mark-1: This official draft has not been approved and is subject to modification
+:cover-page-mark-2: DO NOT USE PRIOR TO APPROVAL
+// superseding-document: leave commented out if N/A, remove "//" on lines below and input doc number if needed
+// :superseding-document: NASA-SPEC-2XXX
+// :superseding-document-version: vx.x
 
-include::spec-document-variables.adoc[]
+
+// Customize document header
+ifeval::["{is-draft}" == "True"]
+:document-header: {document-identifier} {document-version} {document-stage}
+endif::[]
+ifeval::["{is-draft}" != "True"]
+:document-header: {document-identifier} {document-version}
+endif::[]
 
 ////
 *DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:*
@@ -54,13 +81,6 @@ include::spec-document-variables.adoc[]
 :noheader:
 :nofooter:
 
-ifdef::backend-pdf[]
-= {application} NASA Technical Specification
-{document-subtitle}
-:toc: preamble
-endif::[]
-
-ifdef::backend-html5[]
 = {application} NASA Technical Specification
 
 // NOTE: include statement need blank line before and after
@@ -68,8 +88,6 @@ ifdef::backend-html5[]
 include::document_basecamp/title_page.adoc[]
 
 toc::[]
-
-endif::[]
 
 ////
 DOCUMENT HISTORY LOG:
@@ -88,10 +106,6 @@ DOCUMENT HISTORY LOG:
 
 [dedication]
 == Document History Log
-ifdef::backend-pdf[]
-:!nofooter:
-:!noheader:
-endif::[]
 
 [%header,width="100%",cols="1,1,2"]
 |====
@@ -166,6 +180,8 @@ Any and all Plan of Action and Milestones (POA&Ms) or risk-based decisions (RBDs
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to NASA assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
 
+<<<<
+  
 === Authority
 
 // You do not need to edit this section. 
