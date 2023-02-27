@@ -161,13 +161,17 @@ asciidoctor-pdf -D build std-pdf-cover.adoc standard.adoc
 
 == ASCS Document Scripts
 
-A member of CSET created the link:https://developer.nasa.gov/CSET/Document_Scripts[CSET Document Scripts] repository to aid in the creation of CSET's standards, specifications, and handbooks. 
+A member of CSET created the link:https://developer.nasa.gov/CSET/Document_Scripts[CSET Document Scripts] repository to aid in the creation of ASCS standards, specifications, and handbooks. 
 
-There are two scripts in the repository linked above:
+There are two scripts in the repository linked above; the purpose of each script is summarized in the subsections below. 
 
-. *The CSET Build Script:* The CSET Build Script is run by entering one simple command (regardless of document type) into command line. Not only does this script build both the html and pdf formats of the document at once, but it also performs a long list of checks that were written into the script in effort to reduce the time and effort required during the document review process to catch frequently-made human errors. 
+=== The ASCS Setup Script:
 
-. *The CSET Setup Script:* The CSET Setup Script can be used to start a new document and to detect and correct errors that would otherwise be flagged by the build script later.
+The ASCS Setup Script can be used to start a new document and to detect and correct errors that would otherwise be flagged by the build script later.
+
+=== The ASCS Build Script:
+
+The ASCS Build Script is run by entering one simple command (regardless of document type) into command line. Not only does this script build both the html and pdf formats of the document at once, but it also performs a long list of checks that were written into the script in effort to reduce the time and effort required during the document review process to catch frequently-made human errors. 
 
 == Git Quick References
 
