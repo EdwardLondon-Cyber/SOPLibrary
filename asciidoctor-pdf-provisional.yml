@@ -26,7 +26,8 @@ font:
       italic: mplus1p-regular-fallback.ttf
       bold_italic: mplus1p-regular-fallback.ttf
 page:
-  background_color: FFFFFF
+  background_color: transparent
+  background_image: images/provisional.svg
   layout: portrait
   initial_zoom: FitH
   margin: [0.5in, 0.67in, 0.67in, 0.67in]
@@ -50,7 +51,7 @@ base:
   font_style: normal
   border_color: EEEEEE
   border_radius: 4
-  border_width: 0.5
+  border_width: 1.25
 role:
   lead:
     font_size: $base_font_size_large
@@ -78,7 +79,7 @@ button:
   content: "[\u2009%s\u2009]"
   font_style: bold
 kbd:
-  background_color: F5F5F5
+  background_color: transparent
   border_color: CCCCCC
   border_offset: 2
   border_radius: 2
@@ -86,7 +87,7 @@ kbd:
   font_family: $codespan_font_family
   separator: "\u202f+\u202f"
 mark:
-  background_color: FFFF00
+  background_color: transparent
   border_offset: 1
 menu:
   caret_content: " <font size=\"1.15em\" color=\"#B12146\">\u203a</font> "
@@ -181,10 +182,10 @@ code:
   line_height: 1.25
   # line_gap is an experimental property to control how a background color is applied to an inline block element
   line_gap: 3.8
-  background_color: F5F5F5
+  background_color: transparent
   border_color: CCCCCC
   border_radius: $base_border_radius
-  border_width: 0.75
+  border_width: 1.25
 conum:
   font_family: $codespan_font_family
   font_color: $codespan_font_color
@@ -238,9 +239,9 @@ table:
     font_style: bold
     border_bottom_width: $base_border_width * 2.5
   body:
-    stripe_background_color: F9F9F9
+    stripe_background_color: transparent
   foot:
-    background_color: F0F0F0
+    background_color: transparent
 toc:
   indent: $horizontal_rhythm
   line_height: 1.4
