@@ -37,10 +37,10 @@ ifeval::["{is-draft}" == "True"]
 endif::[]
 ifeval::["{is-draft}" != "True"]
 +++<br><br><br>+++
-+++<br>+++[red]#This document is for an OS with provisional use only status.#
-+++<br>+++[red]#The vendor has submitted to the FIPS CMVP Validation process, but has not completed it.#
-+++<br>+++[red]#This specification can be use in preparing for larger scale deployments.#
-+++<br>+++[red]#Deploying this OS in production environment is not permitted.#
++++<br>+++[red]#*IMPORTANT:*#
++++<br>+++[red]#This Specification is for an operating system (OS) with an ASCS status of _Under Review_.#
++++<br>+++[red]#This OS is currently available for provisional use only.#
++++<br>+++[red]#Deploying this OS in the NASA production environment is not permitted.#
 +++<br><br><br><br>+++
 endif::[]
 |===
