@@ -1,10 +1,14 @@
 :doctype: book
 // Document Setup
-:pdf-fontsdir: document_basecamp/fonts/
-:pdf-stylesdir: document_basecamp/
+// HTML
 :stylesdir: document_basecamp/
-:pdf-style: asciidoctor-pdf.yml
+//:stylesheet: asciidoctor-draft.css
 :stylesheet: asciidoctor.css
+// PDF
+:pdf-fontsdir: document_basecamp/fonts/
+:pdf-themesdir: document_basecamp/
+//:pdf-theme: asciidoctor-pdf-draft.yml
+:pdf-theme: asciidoctor-pdf.yml
 :notitle:
 :numbered!:
 :data-uri:

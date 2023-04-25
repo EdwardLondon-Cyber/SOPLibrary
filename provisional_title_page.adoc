@@ -36,6 +36,11 @@ ifeval::["{is-draft}" == "True"]
 +++<br><br><br><br><br><br><br><br>+++
 endif::[]
 ifeval::["{is-draft}" != "True"]
-+++<br><br><br><br><br><br><br><br><br><br><br>+++
++++<br><br><br>+++
++++<br>+++[red]#IMPORTANT:#
++++<br>+++[red]#This Specification is for an operating system (OS) with an ASCS status of _Under Review_.#
++++<br>+++[red]#This OS is currently available for provisional use only.#
++++<br>+++[red]#Deploying this OS in the NASA production environment is not permitted.#
++++<br><br><br><br>+++
 endif::[]
 |===
