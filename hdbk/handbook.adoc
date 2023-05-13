@@ -40,7 +40,7 @@ published-date:
  Date format: year-month-date: 20XX-XX-XX 
 ////
 :published-date: 
-// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+// document-version: e.g., v1.0,  v1.1, v2.0 
 :document-version: vx.x
 // is-draft: Is this document a draft? (enter true if it is a draft)
 :is-draft: True
@@ -65,8 +65,8 @@ endif::[]
 
 ////
 *DOCUMENT VARIABLES (that are not on the title page) DESCRIPTIONS:*
-  topic: Define the topic of this handbook. This can be an application name, if applicable to your handbook or the name of your solution 
-    - example topic values: Mission PIV-M, PIV SSSD, macOS Smartcard 
+  topic: Define the topic of this Handbook. This can be an application name or the name of the solution provided in this Handbook. 
+    - example topic values: Mission PIV-M, PIV SSSD, macOS smartcard 
 
   relevanttechnicalstandard: Name of the relevant Technical Standard 
     - examples: NASA-STD-2601, NPR 2810.1__x__; NIST SP 800-53 Rev. 5
@@ -90,18 +90,18 @@ toc::[]
 
 ////
 DOCUMENT HISTORY LOG:
-  Newest version in the top row
-  Oldest/first version in the bottom row
+  Newest version in the top row! 
 
-  You must *add a row to the top of the table* each time a new version of the Handbook is published.
+  Oldest/first version in the bottom row!
 
-  The description box must not be left blank, but it should be brief. 
-   Example description: Updates made per EO 14028, _Executive Order on Improving the Nation’s Cybersecurity_; general language cleanup; reformatted using current ASCS template.
+  Add a row to the top of the table each time a new version of the Spec is published.
 
-  published-date: this will automatically be pulled from the document-variables.adoc file.
+  The description box must not be left blank, but make it brief. 
+   Example description: Updates made per EO 14028, general language cleanup to improve readability and clarity. 
 
-  If you are writing an updated version of a Handbook, the published date must be hard coded for the earlier version(s), and the published-date variable must be used only for the most recent version.
+  If writing an updated version of a Handbook, the published date must be hard coded for the earlier version(s), and the published-date variable must be used only for the most recent version.
 ////
+
 
 [dedication]
 == Document History Log
@@ -122,6 +122,8 @@ DOCUMENT HISTORY LOG:
 
 == Foreword
 
+// Do not edit the Foreword Section. 
+
 This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.
 
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
@@ -136,23 +138,26 @@ Requests for information, corrections, and/or additions to this Handbook can be 
 
 :numbered:
 
+
 == Scope
+
+// Do not edit the paragraph below. 
 
 This Handbook is not a requirements document. Agency Security Configuration Standards (ASCS) handbooks are created to provide engineering information; lessons learned; options to address technical issues; and/or classifications of similar items, materials, or processes. Handbooks serve to help ensure that systems are compliant with the requirements defined in ASCS standards and specifications.
 
+
 ////
-*PURPOSE:*
+PURPOSE:
   Make sure to complete the sentence AND provide more supporting details (if necessary) to describe why this handbook is necessary
 
    *Example* (from NASA-HBK-2670, Mission PIV-M):  
     The purpose of this NASA Technical Handbook is to provide guidance for configuring Mission systems to be PIV-M compliant. 
 
     Homeland Security Presidential Directive-12 (HSPD-12), the Federal Information Security Modernization Act (FISMA), and other Federal directives and standards require NASA systems to use PIV-based authentication for physical and logical access (i.e., to be PIV-M compliant). 
-    
-    The solution laid out in this handbook was developed by the Cybersecurity Services and Integration Division (Code 710) System Administrator team in order to allow systems used on networks that are isolated from NASA’s Corporate infrastructure (e.g., Mission systems) to be PIV-M compliant.
 
     This Handbook provides the configurations necessary for Information System Owners (ISOs) of systems in isolated AD environments to carry out authentication and user management via their own local AD while also enabling these systems to be PIV-M compliant.   
 ////
+
 
 === Purpose
 
@@ -163,7 +168,10 @@ The purpose of this NASA Technical Handbook is to *COMPLETE THIS SECTION BY EXPL
 // provide a solution for . . .
 // establish best practices for configuring . . .
 
+
 === Applicability
+
+// Complete the last sentence in the Applicability section. 
 
 This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities. It also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in their applicable contracts, grants, or agreements.
 
@@ -177,6 +185,8 @@ This NASA Technical Handbook is applicable to *COMPLETE THIS SECTION BY EXPLAINI
   
 === Authority
 
+// Do not edit the Authority Section. 
+
 The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized CSET, via the Agency Security Configuration Standards (ASCS) initiative, to create binding Technical Standards related to cybersecurity topics.
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within NASA.
@@ -188,10 +198,13 @@ ASCS handbooks serve as supplemental guidance and are developed to provide assis
 APPLICABLE DOCUMENTS
   Add Government and Non-Government documents related to this handbook in this section.
   
-  List documents in alphanumeric order based on their Document Number or Descriptor.
+  List documents in alphanumeric order based on their Document Identifier.
 
-  Use YOURLS to link to documents and link the Document Number or Descriptor.
+  Link the Document Identifier (not the title).
+
+  Use YOURLS for NASA documents. 
 ////
+
 
 == Applicable Documents
 
@@ -201,26 +214,32 @@ This NASA Technical Handbook provides guidance for configuring systems to be com
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-==== Government Documents
 
-// NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
+==== Government Documents
 
 ////
 .White House Releases
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
+
 
 .National Aeronautics and Space Administration (NASA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 |link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]| _Minimum Cybersecurity Requirements for Computing Systems_ 
+
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information Technology_
+
 // | | 
+
 |===
 
 
@@ -228,8 +247,11 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 .Defense Information Systems Agency (DISA) Documents
 [%header, cols=2*a]
 |===
+
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
@@ -239,41 +261,51 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
 
 ////
-
-// Create YOURLS for any other Government documents. Link the title of the source in the table below. 
-
 .Other Government Documents
 [%header]
 |===
 |Document Title
+
 | 
+
 |===
 ////
+
 
 ////
 ==== Non-Government Documents
 
-// Create YOURLS for any non-Government documents. Link the title of the source in the table below. 
+//  If a non-Government document has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+
+// If a non-Government document does not have a document identifier, then link and italicize the entire title of the document.
 
 [%header]
 |===
 |Document Title
+
 | 
+
 |===
 ////
 
 
 ////
-SUPPLEMENTAL GUIDANCE: 
-Add any websites, handbooks, etc. that you used as a reference while writing this Handbook.
- - List documents in alphabetical order based on the title.
- - *Use YOURLS* to link to documents and *link the title of the document*.
+SUPPLEMENTAL GUIDANCE:
+  Add any websites, handbooks, and other documents that were used as a reference while writing this Handbook.
+
+  Supplemental Guidance sources are not authoritative requirements documents that dictate the content of this Handbook. 
+ 
+  If a source has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+ 
+  If a source does not have a document identifier, then link and italicize the entire title of the document.
 ////
 
 === Supplemental Guidance
@@ -284,8 +316,11 @@ The resources listed in this section were used as a reference while writing this
 [%header]
 |===
 |Title
+
 | 
+
 | 
+
 |===
 
 
@@ -294,8 +329,8 @@ The resources listed in this section were used as a reference while writing this
 
 ////
 ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
-  Change the title of this section as necessary: 
-    If you don't have anything for the Definitions table, comment out the definitions table and change Section 3 heading to: == Acronyms and Abbreviations
+
+   NOTE: If the Definitions table is not needed, then comment it out and change section title to: == Acronyms and Abbreviations
 ////
 
 == Acronyms, Abbreviations, and Definitions
@@ -311,8 +346,7 @@ include::definitions.adoc[]
 
 ////
 DOCUMENT CONTENT
-  At this point, the body of the document starts.
-  Numbering should be at section 4.
+  At this point, the body of the document starts at section 4.
 ////
 
 
@@ -337,25 +371,28 @@ The following requirements must be met for this solution to be viable:
 . _xyz_
 . _xyz_
 
+
 ////
-CAVEATS: 
+CAVEATS and LIMITATIONS: 
   Clearly define any caveats for the solution/process defined in this handbook. 
   Delete or comment out this section if N/A. 
 
  *Example* (from NASA-HBK-2670, Mission PIV-M):  
-   The following caveats should be carefully reviewed before implementing this solution:
-      1. For full compliance, this solution requires the use of either the Mission PIV Certificate Revocation List (CRL),which can be found here: Mission PIV CRL Solution, or your own CRL validation solution.
+   Carefully review the following caveats and limitations before implementing this solution:
+      1. For full compliance, this solution requires the use of either the Mission PIV Certificate Revocation List (CRL),which can be found here: Mission PIV CRL Solution.
       2. The registry settings to disable CRL validation for testing need to be removed to be PIV-M compliant.
       3. The solution provided in this Handbook contains configurations that specifically call out Mission systems and settings.
 
 ////
 
-== Caveats
+== Caveats and Limitations
 
-The following caveats should be carefully reviewed before implementing this solution:
+Carefully review the following caveats and limitations before implementing this solution:
 
 . _xyz_
 . _xyz_
+
+
 
 ////
 Begin Instructions: 

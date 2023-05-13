@@ -330,6 +330,7 @@
 //|ORR|Operational Readiness Review
 //|OS|Operating System
 //|OT|Operations Technology
+//|OTA|Over-the-air
 //|OTP|One-Time Password
 //|OU|Organizational Uni
 
