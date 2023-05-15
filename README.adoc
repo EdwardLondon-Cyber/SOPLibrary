@@ -132,8 +132,18 @@ python3 ./document_basecamp/std/build_req_table.py standard.adoc
 
 NOTE: The command above requires Python3 installed and configured on your system. 
 
-[start=2]
-*2. Generate the .html file:*
+
+*2. (If Publishing) Remove DRAFT Watermark*
+
+ASCS document templates are set up to include a "DRAFT" watermark by default. When the Standard is no longer in a draft phase and ready to be published, the watermark setting needs to be manually changed. 
+
+. Open the `standard.adoc` file and make the following changes:
+.. Type two forward slashes in front of `:stylesheet: asciidoctor-draft.css` to comment it out. 
+.. Delete the two forward slashes that are in front of `:stylesheet: asciidoctor.css`.
+.. Type two forward slashes in front of `:pdf-theme: asciidoctor-pdf-draft.yml` to comment it out. 
+.. Delete the two forward slashes that are in front of `pdf-theme: asciidoctor-pdf.yml`.
+
+*3. Generate the .html file:*
 
 .. Create a `build` folder within your document's root directory prior to running this command, as as the `build` folder is not created upon cloning your repository. 
 .. Then, run the command below: 
@@ -147,7 +157,7 @@ asciidoctor -D build standard.adoc
 .. The .html file will appear in the `build` folder. 
 
 
-*3. Generate the pdf file:*
+*4. Generate the pdf file:*
 
 .. Ensure you have created a `build` folder within your document's root directory prior to running this command, as the `build` folder is not created upon cloning your repository. 
 .. Then, run the command below: 
