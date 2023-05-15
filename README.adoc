@@ -37,6 +37,7 @@ The following prerequisites must be met before a new ASCS document can be create
 . A meeting to discuss and outline the document must be held between the document's primary author, the ASCS technical writer, the ASCS Lead, and any other subject matter experts (SMEs) indicated on the document prep form.
 . The ASCS Lead must provide or approve of:
 
+** the title for the document,
 ** the name for the document's GitHub repository (e.g., organization-defined_values), and
 ** the document identifier (e.g., NASA-SPEC-2661.ODVr5).
 
@@ -80,6 +81,7 @@ IMPORTANT: While an ASCS document is in a draft stage (i.e., prior to publishing
  *  From `document_basecamp`:
  ** `.gitignore`
  ** `acronym_list.adoc`
+ ** `changelog.adoc`
  ** `definitions.adoc`
 
 WARNING: Do not rename these files. Files reference each other by name.
@@ -98,18 +100,18 @@ WARNING: Do not rename these files. Files reference each other by name.
 TIP: Be sure to read the guidance and examples provided in comments throughout the `standard.adoc` file to make sure that you are filling in everything appropriately. 
 
 [start=7]
+. Open your Standard's copy of the `acronym_list.adoc`, located in your Standard's root directory, and:
+
+.. un-comment all acronyms that are used in your document. 
+.. add any acronyms (in the correct, alphanumerical location) that are used in your document and which are not already in the `acronym_list.adoc`
+
 .  Open your Standard's copy of `definitions.adoc`, located in your Standard's root directory, and:
 .. un-comment all terms that are used in your document. 
 .. add any key terms (in the correct, alphabetical location) that need to be defined in your document and which are not already in the `definitions.adoc` list of terms. 
 
 ** Please check new terms and definitions with the ASCS technical writer prior to adding them to your document. 
 
-. Open your Standard's copy of the `acronym_list.adoc`, located in your Standard's root directory, and:
-
-.. un-comment all acronyms that are used in your document. 
-.. add any acronyms (in the correct, alphanumerical location) that are used in your document and which are not already in the `acronym_list.adoc`.
-
-. Open your Standard's copy of the `README.adoc` , located in your Standard's root directory, and fill in all of the necessary information. 
+. Open your Standard's copy of the `README.adoc`, located in your Standard's root directory, and fill in all of the necessary information. 
 
 === ASCS Document Build Process
 
