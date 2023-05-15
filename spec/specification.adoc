@@ -281,9 +281,12 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 
+//  If an "Other Government" document has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+
+// If an "Other Government" document does not have a document identifier, then link and italicize the entire title of the document.
+
+
 ////
-
-
 .Other Government Documents
 [%header]
 |===

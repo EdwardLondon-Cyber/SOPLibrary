@@ -40,7 +40,7 @@ approved-date:
  Date format: year-month-date: 20XX-XX-XX
 ////
 :approved-date:
-// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+// document-version: e.g., v1.0,  v1.1, v2.0
 :document-version: vx.x
 // is-draft: Is this document a draft? (enter True if it is a draft)
 :is-draft: True
@@ -75,8 +75,9 @@ endif::[]
   counter = requirement: 0 (do not change from template) 
   
   The counter will auto-increment the requirements so the result will be: reqkey followed by "-R" followed by the requirement number 
-    It will look like this:  2601-R8
+    It will render like this:  2601-R8
 ////
+
 
 //VARIABLES: 
 :reqkey: 
@@ -85,29 +86,32 @@ endif::[]
 :noheader:
 :nofooter:
 
+
 = NASA STANDARD {document-identifier}
+
 
 // NOTE: include statement need blank line before and after
 
 include::document_basecamp/title_page.adoc[]
 
+
 toc::[]
+
 
 ////
 DOCUMENT HISTORY LOG:
   Newest version in the top row! 
+
   Oldest/first version in the bottom row!
 
-  You must *add a row to the top of the table* each time a new version of the Standard is published.
+  Add a row to the top of the table each time a new version of the Standard is published.
 
-  The description box must not be left blank, but it should be brief. 
-   Example description: "Updated to be applicable to xyz"
-   v1.0 description must be "Initial Release".
+  The description box must not be left blank, but but make it brief.  
+   Example description: "Updated PIV requirements to comply with EO 14208"
 
-    Approval Date: this will automatically be pulled from the document-variables.adoc file.
-
-    If you are writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+  If writing an updated version of a Standard, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
 ////
+
 
 [dedication]
 == Document History Log
@@ -128,6 +132,8 @@ DOCUMENT HISTORY LOG:
 
 == Foreword
 
+// Do not edit the Foreword Section. 
+
 This NASA Technical Standard is published by the National Aeronautics and Space Administration (NASA) to provide uniform engineering and technical requirements for processes, procedures, practices, and methods that have been endorsed as standard for NASA programs and projects, including requirements for selection, application, and design criteria of an item.
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Standard also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
@@ -144,52 +150,43 @@ ifeval::["{is-draft}" != "True"]
 endif::[]
 
 
-////
-NUMBERED SECTIONS:
-  This is the point at which document numbering begins.
+// This is the point at which document numbering starts.
 
-  Please be sure to read comment blocks for instructions. 
-////
 
 :numbered:
 
 == Scope
 
-////
-Purpose:
-  Make sure to complete the sentence AND provide more supporting details (if necessary) to describe why this Standard is necessary.
-
-  This section should include more details and explanation as to why this standard has been created than the simple purpose statement in the Foreword. 
-////
-
 === Purpose
 
-The purpose of this NASA Technical Standard is to establish *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS STANDARD)*.
+// Make sure to complete the sentence AND provide more supporting details to describe why this Standard is necessary.
+// for standards, "establish" is the best verb. 
 
-// for standards, "establish" is probably the best verb. 
-// don't use "provide guidance" - that is handbook verbiage
+The purpose of this NASA Technical Standard is to establish *(COMPLETE THIS SECTION BY EXPLAINING THE PURPOSE OF THIS STANDARD)*.
 
 === Applicability
 
 This NASA Technical Standard is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Standard also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
-// Replace the question marks in the line below with your Standard's number! (e.g., 2601)
+// Replace the question marks in the line below with the Standard's number! (e.g., 2601)
 
 Verifiable requirement statements are numbered and designated by the acronym **26??-R#**. Verifiable requirement statements also contain the word "*_SHALL_*" or the words "*_SHALL NOT_*". This NASA Technical Standard contains *# FILL IN THE TOTAL NUMBER OF SHALL STATEMENTS HERE!* requirements. <<Requirements Compliance Matrix>> is provided to facilitate requirements selection by NASA programs and projects.  
 
 ////
- Numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins. 
+ Numbering of *_SHALL_* statements begins in Section 4 - where the actual content of the Standard begins.
 
- Do not number the *_SHALL_* statement in the applicability section. 
+ Do not number any *_SHALL_* statements in the applicability, tailoring, or authority sections. 
 
  Requirements statements have one (and only one) *_SHALL_* or *_SHALL NOT_*, and each one is counted as a single requirement statement. 
 
- Once you have finished writing this Standard, look at the preview to see how many *_SHALL_* statements (requirements) this Standard contains and MANUALLY TYPE the number into the text in the Applicability section - delete the placeholder text and replace with the number.
+ Once the Standard is completed, check the preview for the number of *_SHALL_* statements (requirements) this Standard contains and MANUALLY TYPE the number into the text in the Applicability section - delete the placeholder text and replace with the number.
 
  Spell out numbers zero - nine. 10 and higher do not need to be spelled out. 
 ////
 
 === Tailoring
+
+// Do not edit the Tailoring Section - if something seems inaccurate for this Standard, talk to the ASCS Lead and Technical Writer. 
 
 NASA Technical Standards may contain requirements which are derived from federally mandated critical controls.
 
@@ -201,6 +198,8 @@ Tailoring any requirement which is not derived from a federally mandated critica
   
 === Authority
 
+// Do not edit the Authority Section.
+
 The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to cybersecurity topics.
 
 The NASA Technical Standards Program (NTSP), sponsored by the Office of the NASA Chief Engineer, recognizes CSET as a standards-developing organization within NASA. CSET's published ASCS Technical Standards are also listed on the link:https://cset.nasa.gov/latest/nts[NASA Technical Standards] page under Technical Discipline 2000 - Computer Systems, Software, Information Systems. 
@@ -210,12 +209,15 @@ In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]
 
 ////
 APPLICABLE DOCUMENTS
-  Add Government and Non-Government documents related to this Standard in this section.
   
   List documents in alphanumeric order based on their Document Identifier.
 
-  Use YOURLS to link to documents and link the Document Identifier.
+  Link the Document Identifier (not the title).
+
+  Use YOURLS for NASA documents. 
+
 ////
+
 
 == Applicable Documents
 
@@ -225,16 +227,17 @@ The documents listed in this section contain provisions that constitute requirem
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-==== Government Documents
 
-// NOTE: based on your document's specific needs, make visible any of the document tables that are commented out below: 
+==== Government Documents
 
 ////
 .White House Releases
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
@@ -247,7 +250,9 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1__x__]| _Security of Information and Information Systems_
 
 |link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1__x__]|_Identity, Credential, and Access Management_
+
 // | | 
+
 |===
 
 
@@ -256,7 +261,9 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
@@ -266,27 +273,36 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
 
+//  If an "Other Government Document" has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+
+// If an "Other Government Document" does not have a document identifier, then link and italicize the entire title of the document.
+
+
 ////
-
-// Create YOURLS for any other government documents. Link the title of the source in the table below. 
-
 .Other Government Documents
 [%header]
 |===
 |Document Title
+
 | 
+
 |===
 ////
+
 
 ////
 ==== Non-Government Documents
 
-// Create YOURLS for any non-government documents. Link the title of the source in the table below. 
+//  If a non-Government document has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+
+// If a non-Government document does not have a document identifier, then link and italicize the entire title of the document.
 
 [%header]
 |===
@@ -296,14 +312,17 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 ////
 
 
-
-
 ////
-SUPPLEMENTAL GUIDANCE: 
-Add any websites, handbooks, etc. that you used as a reference while writing this Standard.
- - List documents in alphabetical order based on the title.
- - *Use YOURLS* to link to documents and *link the title of the document*.
+SUPPLEMENTAL GUIDANCE:
+  Add any websites, handbooks, and other documents that were used as a reference while writing this Standard.
+
+  Supplemental Guidance sources are not authoritative requirements documents that dictate the content of this Standard. 
+ 
+  If a source has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+ 
+  If a source does not have a document identifier, then link and italicize the entire title of the document.
 ////
+
 
 ////
 === Supplemental Guidance
@@ -321,7 +340,13 @@ The resources listed in this section were used as a reference while writing this
 
 +++<br>+++
 
-// NOTE: If you don't need the Definitions table, change section title to: == Acronyms and Abbreviations
+
+////
+ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
+  
+  NOTE: If the Definitions table is not needed, then comment it out and change section title to: == Acronyms and Abbreviations
+////
+
 
 == Acronyms, Abbreviations, and Definitions
 
@@ -334,22 +359,17 @@ include::definitions.adoc[]
 
 <<<
 
-
-
-////
-DOCUMENT CONTENT
-  At this point the body of the document starts.
-  Numbering should be at section 4.
-////
+  
+// At this point, the body of the document starts.
 
 == DOCUMENT BODY WHICH STARTS AT SECTION 4
 
 ////
 AUTONUMBERING:
-  When writing content for a requirement, use the key as follows. 
+  When writing content for a requirement, use the key as follows: 
 
-*({reqkey}-R{counter:requirement})* Then your requirement text following on a single line
-                                   ^ make sure you leave a space here!
+*({reqkey}-R{counter:requirement})* Write *_SHALL_* statement on a single line
+                                   ^ make sure there is a space after the requirement number before the *_SHALL_* statement!
 
 EXAMPLE: 
  *({reqkey}-R{counter:requirement})* Information System Owners (ISOs) *_SHALL_* ensure that all operating systems and applications under their authority comply with 100% of the required configuration settings defined in the corresponding NASA-SPEC-2601._x_ and NASA-SPEC-2661._x_ specifications.

@@ -94,7 +94,7 @@ DOCUMENT HISTORY LOG:
 
   Oldest/first version in the bottom row!
 
-  Add a row to the top of the table each time a new version of the Spec is published.
+  Add a row to the top of the table each time a new version of the Handbook is published.
 
   The description box must not be left blank, but make it brief. 
    Example description: Updates made per EO 14028, general language cleanup to improve readability and clarity. 
