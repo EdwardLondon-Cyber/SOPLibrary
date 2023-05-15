@@ -111,7 +111,9 @@ TIP: Be sure to read the guidance and examples provided in comments throughout t
 
 ** Please check new terms and definitions with the ASCS technical writer prior to adding them to your document. 
 
-. Open your Standard's copy of the `README.adoc`, located in your Standard's root directory, and fill in all of the necessary information. 
+. Open your Standard's copy of the `README.adoc`, located in your Standard's root directory, and fill in all of the necessary information. Read the comment blocks for instructions. 
+
+. Open your Standard's copy of the `changelog.adoc`, located in your Standard's root directory, and fill in all of the necessary information. Read the comment blocks for instructions. 
 
 === ASCS Document Build Process
 
