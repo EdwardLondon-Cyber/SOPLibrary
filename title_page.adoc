@@ -22,7 +22,7 @@ endif::superseding-document[]
 
 [cols="^.^1s",width="100%"]
 |===
-|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++
+|+++<br><br><br><br><br><br><br><br><br><br><br><br><br><br>+++
 {document-title}
 +++<br>+++
 {document-subtitle}
