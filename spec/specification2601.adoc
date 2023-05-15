@@ -2,15 +2,15 @@
 // Document Setup
 // HTML
 :stylesdir: document_basecamp/
-//:stylesheet: asciidoctor-draft.css
+:stylesheet: asciidoctor-draft.css
 //:stylesheet: asciidoctor-provisional.css
-:stylesheet: asciidoctor.css
+//:stylesheet: asciidoctor.css
 // PDF
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-themesdir: document_basecamp/
-//:pdf-theme: asciidoctor-pdf-draft.yml
+:pdf-theme: asciidoctor-pdf-draft.yml
 //:pdf-theme: asciidoctor-pdf-provisional.yml
-:pdf-theme: asciidoctor-pdf.yml
+// :pdf-theme: asciidoctor-pdf.yml
 :notitle:
 :numbered!:
 :data-uri:

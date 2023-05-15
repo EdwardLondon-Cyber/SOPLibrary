@@ -1,37 +1,37 @@
-// Replace the title below with your document's identifier and title:
+// Replace the title below with the document's identifier and title:
 
 = NASA-STD-XXXX, _Document Title_
 
 
 :numbered:
 
-== DESCRIPTION
-// COPY AND PASTE PURPOSE STATEMENT FROM STANDARD HERE. 
+== Purpose
+// COPY PURPOSE STATEMENT FROM standard.adoc AND PASTE BELOW: 
 
 The purpose of this NASA Technical Standard is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS STANDARD)*.
 
 NOTE: Requests for information, corrections, and/or additions to this Standard can be made via the link:https://cset.nasa.gov/latest/contact-ascs[Contact ASCS] form.
 
 
-== DOCUMENT HISTORY
+== Document History
 
-// Type in the document version(s) and important change(s) into the table below. 
-// Highlights = Include current version and last version 
-// Only include big important changes in the description
+=== Full Changelog
+For a complete, detailed revision history, reference the link:changelog.adoc[CHANGELOG] file.
 
-.Highlights from Document History 
-[%header,width="100%",cols="1,3"]
+
+=== Highlights
+The table below provides a brief summary of changes that were made to the document each time an updated version was published. 
+
+// COPY DOCUMENT HISTORY LOG FROM standard.adoc AND PASTE BELOW.
+
+[%header,width="100%",cols="1,1,2"]
 |====
 |Document Version
-|Important Changes Made
+|Date Approved
+|Description
 
-|vx.x
-a|* example
-* example
+|
+| 
+|
 
-|vx.x 
-a|* example
-*  example
 |====
-
-
