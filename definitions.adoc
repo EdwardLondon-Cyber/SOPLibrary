@@ -177,6 +177,7 @@ NOTE: The table below contains definitions for key terms used in this document. 
 
 //## T
 //|Target System|Any system that is being accessed remotely from the origin system.
+//|Tethering|The practice of using a mobile device (such as a smartphone) as a modem to connect another device, such as a laptop or another mobile phone to the Internet.
 //|Token|A portable, user-controlled, physical device (e.g., smartcard) used to store cryptographic information and possibly also perform cryptographic functions. (NIST) 
 //|Transparent Security|Describes an abstracted security layer built into a product and which has been enabled by default without user action.
 //|Trusted Platform Module| A dedicated controller that is designed specifically to secure hardware by carrying out cryptographic operations.

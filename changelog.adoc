@@ -1,0 +1,45 @@
+////
+CHANGELOG INSTRUCTIONS: 
+
+  If v1.0, then this file should be completely commented out and left blank. 
+
+  Every time an updated version of a document is published, a changelog table must be created for that version. 
+
+  Most recent versions at the top; oldest versions at the bottom. 
+  
+  Section title = the version number (e.g., V1.1, V1.1.1, V2.3.1, V3.0).
+
+  In the rows for "Removed", "Added", and Changed":  In a bulleted list, record sections, paragraphs, and requirements that were removed, added, and changed since the last published version. 
+
+  Bullet list items: capitalize first letter, no complete sentences, no periods needed at end.
+
+  An Example Changelog (on Confluence): https://etads-atlassian.grc.nasa.gov/confluence/x/J4NIBw
+
+////
+
+
+
+== VX.X
+
+// Replace X.X in the section header with the actual version number (e.g., V1.1)
+
+[width="100%", cols="1,3"]
+
+|====
+|*Removed*
+a|  * Item
+* Item
+* Item
+
+| *Added*
+a| * Item
+* Item
+* Item
+
+| *Changed*
+a| * Item
+* Item
+* Item
+
+|====
+

@@ -2,15 +2,15 @@
 // Document Setup
 // HTML
 :stylesdir: document_basecamp/
-//:stylesheet: asciidoctor-draft.css
+:stylesheet: asciidoctor-draft.css
 //:stylesheet: asciidoctor-provisional.css
-:stylesheet: asciidoctor.css
+//:stylesheet: asciidoctor.css
 // PDF
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-themesdir: document_basecamp/
-//:pdf-theme: asciidoctor-pdf-draft.yml
+:pdf-theme: asciidoctor-pdf-draft.yml
 //:pdf-theme: asciidoctor-pdf-provisional.yml
-:pdf-theme: asciidoctor-pdf.yml
+// :pdf-theme: asciidoctor-pdf.yml
 :notitle:
 :numbered!:
 :data-uri:
@@ -42,7 +42,7 @@ approved-date:
  Date format: year-month-date:  20XX-XX-XX
 ////
 :approved-date:
-// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+// document-version: e.g., v1.0,  v1.1, v2.0
 :document-version: vx.x
 // is-draft: Is this document a draft?
 :is-draft: True
@@ -67,7 +67,7 @@ endif::[]
 
 ////
 *DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:*
-  function:            Application function (e.g., web browser, media player, etc.)
+  function:            Application function (e.g., web browser, media player)
   application:         The name of the OS or Application 
   specificationtype:   Enter either "operating system" or "application"
   minversion:          Minimum application version required
@@ -96,20 +96,21 @@ include::document_basecamp/title_page.adoc[]
 
 toc::[]
 
+
 ////
 DOCUMENT HISTORY LOG:
   Newest version in the top row! 
+
   Oldest/first version in the bottom row!
 
-  You must *add a row to the top of the table* each time a new version of the Spec is published.
+  Add a row to the top of the table each time a new version of the Spec is published.
 
-  The description box must not be left blank, but it should be brief. 
-   Example descriptions: "Updated to be applicable to xyz"
+  The description box must not be left blank, but but make it brief.  
+   Example description: "Updated PIV requirements to comply with EO 14208"
 
-  Approval Date: this will automatically be pulled from the document-variables.adoc file.
-
-  If you are writing an updated version of a Spec, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+  If writing an updated version of a Spec, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
 ////
+
 
 [dedication]
 == Document History Log
@@ -129,6 +130,8 @@ DOCUMENT HISTORY LOG:
 
 == Foreword
 
+// Do not edit the Foreword Section. 
+
 This NASA Technical Specification is published by the National Aeronautics and Space Administration (NASA) to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects.
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Specification also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
@@ -145,34 +148,22 @@ Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enum
 +++<br>+++
 endif::[]
 
-
-
-////
-NUMBERED SECTIONS:
-  This is the point at which document numbering begins.
-  
-  Please be sure to read comment blocks for instructions. 
-////
+// This is the point at which document numbering starts.
 
 :numbered:
 
-////
-SCOPE:
- The name of the OS or App will be automatically input as long as you have properly filled in the Document Variables section at the top of this Spec. 
-////
 
 == Scope
+
 
 === Purpose
 
 The purpose of this NASA Technical Specification is to define version and configuration requirements for {application} deployment and operation.
 
-////
-*Applicability:* 
- The value that you put for the variable for applicability (on line 52) will automatically input the correct sentence, but please proof read it to make sure it makes sense. 
-////
 
 === Applicability
+
+// The value set for the :applicability: variable will automatically input the correct sentence, but please proof read it to make sure it makes sense.
 
 ifeval::[ "{applicability}" == "all" ]
 This NASA Technical Specification is applicable to all computing systems.
@@ -185,6 +176,8 @@ endif::[]
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Specification also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
 === Tailoring
+
+// Do not edit the Tailoring Section. 
 
 Each security configuration setting defined in this NASA Technical Specification is assigned an ASCS severity rating of _Critical_, _High_, _Medium_, or _Low_. The process for deviating from security configuration settings varies based on each setting's ASCS severity rating.
 
@@ -204,7 +197,10 @@ Security configuration settings with a _Low_ severity rating are expected to be 
 
 <<<<
 
+
 === Authority
+
+// Do not edit the Authority Section.
 
 The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to cybersecurity topics.
 
@@ -217,12 +213,15 @@ In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _S
 
 ////
 APPLICABLE DOCUMENTS
-  Add Government and Non-Government documents related to this handbook in this section.
   
   List documents in alphanumeric order based on their Document Identifier.
 
-  *Use YOURLS* to link to documents and *link the Document Identifier*.
+  Link the Document Identifier (not the title).
+
+  Use YOURLS for NASA documents. 
+
 ////
+
 
 == Applicable Documents
 
@@ -234,14 +233,14 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 
 ==== Government Documents
 
-// Based on your document's specific needs, make visible any of the document tables that are commented out below: 
-
 ////
 .White House Releases
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
@@ -249,9 +248,14 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 |link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600]|_Enumeration of ASCS Cybersecurity Requirements_
+
 |link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]|_Minimum Cybersecurity Requirements for Computing Systems_ 
+
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F]|_Security of Information and Information Systems_
+
+|link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1__x__]|_Identity, Credential, and Access Management_
 |===
 
 
@@ -260,7 +264,9 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
@@ -270,7 +276,9 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
@@ -280,27 +288,43 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header]
 |===
 |Document Title
+
 | 
+
 |===
 ////
+
 
 ////
 ==== Non-Government Documents
 
+
+
 [%header]
 |===
 |Document Title
+
+//  If a non-Government document has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+
+// If a non-Government document does not have a document identifier, then link and italicize the entire title of the document.
+
 | 
+
 |===
 ////
 
 
 ////
-SUPPLEMENTAL GUIDANCE: 
-Add any websites, handbooks, etc. that you used as a reference while writing this NASA Technical Specification.
- - List documents in alphabetical order based on the title.
- - *Use YOURLS* to link to documents and *link the title of the document*.
+SUPPLEMENTAL GUIDANCE:
+  Add any websites, handbooks, and other documents that were used as a reference while writing this Spec.
+
+  Supplemental Guidance sources are not authoritative requirements documents that dictate the content of this Specification. 
+ 
+  If a source has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+ 
+  If a source does not have a document identifier, then link and italicize the entire title of the document.
 ////
+
 
 ////
 === Supplemental Guidance
@@ -310,8 +334,11 @@ The resources listed in this section were used as a reference while writing this
 [%header]
 |===
 |Title
+
 | 
+
 |
+
 |===
 ////
 
@@ -319,7 +346,7 @@ The resources listed in this section were used as a reference while writing this
 
 ////
 ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
-  NOTE: If you do not need the Definitions table, comment it out and change section title to: == Acronyms and Abbreviations
+  NOTE: If the Definitions table is not needed, comment it out and change section title to: == Acronyms and Abbreviations
 ////
 
 == Acronyms, Abbreviations, and Definitions
@@ -398,9 +425,13 @@ _Medium_ severity settings *_SHALL_* be adhered to, as they are monitored, score
 
 === Low Severity Settings
 
-_Low_ severity settings are expected to be implemented unless there is a justifiable cause not to. 
+_Low_ severity settings are expected to be implemented unless there is a justifiable cause not to. Deviations from security configuration settings with a Low severity rating will not impact a system's compliance score.
 
 * _Low_ severity settings target any vulnerability which, if exploited, degrades measures to protect against the loss of confidentiality, integrity, or availability.
+
+* _Low_ severity settings often pertain to the principle of least privilege, (vendor- or ASCS-determined) best practices, or other measures aimed at protecting exploitable avenues.
+
+CAUTION: Carefully assess the environment prior to implementing any setting with a Low severity rating. Low severity settings may conflict with settings that have a higher severity rating, cause instability in some specialized environments, and/or contain configurations that cannot be accurately scanned and reported by NASA.
 
 
 +++<br>+++

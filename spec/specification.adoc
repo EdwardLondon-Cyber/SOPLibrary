@@ -2,13 +2,13 @@
 // Document Setup
 // HTML
 :stylesdir: document_basecamp/
-//:stylesheet: asciidoctor-draft.css
-:stylesheet: asciidoctor.css
+:stylesheet: asciidoctor-draft.css
+// :stylesheet: asciidoctor.css
 // PDF
 :pdf-fontsdir: document_basecamp/fonts/
 :pdf-themesdir: document_basecamp/
-//:pdf-theme: asciidoctor-pdf-draft.yml
-:pdf-theme: asciidoctor-pdf.yml
+:pdf-theme: asciidoctor-pdf-draft.yml
+// :pdf-theme: asciidoctor-pdf.yml
 :notitle:
 :numbered!:
 :data-uri:
@@ -40,7 +40,7 @@ approved-date:
  Date format: year-month-date:  20XX-XX-XX
 ////
 :approved-date:
-// document-version: e.g., v1.0,  v1.1, v2.0 etc.
+// document-version: e.g., v1.0,  v1.1, v2.0
 :document-version: vx.x
 // is-draft: Is this document a draft?
 :is-draft: True
@@ -63,9 +63,10 @@ ifeval::["{is-draft}" != "True"]
 :document-header: {document-identifier} {document-version}
 endif::[]
 
+
 ////
 *DOCUMENT VARIABLES (that are not on cover page) DESCRIPTIONS:*
-  function:            Application function (e.g., web browser, media player, etc.)
+  function:            Application function (e.g., web browser, media player)
   application:         The name of the OS or Application 
   specificationtype:   Enter either "operating system" or "application"
   minversion:          Minimum application version required
@@ -73,6 +74,7 @@ endif::[]
   applicability:       If this spec is applicable to all computing systems, enter "all". 
                        If it's only applicable to systems using this OS or application, delete "all" and leave value blank*
 ////
+
 
 // DOCUMENT VARIABLES (that are not on cover page):
 :function:
@@ -85,28 +87,32 @@ endif::[]
 :noheader:
 :nofooter:
 
+
 = {application} NASA Technical Specification
+
 
 // NOTE: include statement need blank line before and after
 
 include::document_basecamp/title_page.adoc[]
 
+
 toc::[]
+
 
 ////
 DOCUMENT HISTORY LOG:
   Newest version in the top row! 
+
   Oldest/first version in the bottom row!
 
-  You must *add a row to the top of the table* each time a new version of the Spec is published.
+  Add a row to the top of the table each time a new version of the Spec is published.
 
-  The description box must not be left blank, but it should be brief. 
-   Example descriptions: "Updated to be applicable to xyz"
+  The description box must not be left blank, but but make it brief.  
+   Example description: "Updated PIV requirements to comply with EO 14208"
 
-  Approval Date: this will automatically be pulled from the document-variables.adoc file.
-
-  If you are writing an updated version of a Spec, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
+  If writing an updated version of a Spec, the approval date must be hard coded for the earlier version(s), and the Approval Date variable must be used only for the most recent version.
 ////
+
 
 [dedication]
 == Document History Log
@@ -127,6 +133,8 @@ DOCUMENT HISTORY LOG:
 
 == Foreword
 
+// Do not edit the Foreword Section. 
+
 This NASA Technical Specification is published by the National Aeronautics and Space Administration (NASA) to describe technical requirements for purchased or in-house items, services, functions, or processes for NASA programs and projects.
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Specification also applies to the Jet Propulsion Laboratory (JPL) (a Federally Funded Research and Development Center (FFRDC)), other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
@@ -142,21 +150,17 @@ Refer to link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600], _Enum
 endif::[]
 
 
+// This is the point at which document numbering starts.
 
-////
-NUMBERED SECTIONS:
-  This is the point at which document numbering begins.
-  
-  Please be sure to read comment blocks for instructions. 
-////
 
 :numbered:
+
 
 == Scope
 
 
 === Purpose
-//  You may need to rewrite the Purpose section so that it is accurate for your spec. 
+//  The Purpose section may need to be completely rewritten so that it is accurate for this spec. 
 // The word "define" is the best verb for Specification purpose statements; "establish" = for standards; "provide guidance" = for handbooks.
 
 The purpose of this NASA Technical Specification is to define version and configuration requirements for {application} deployment and operation.
@@ -164,7 +168,7 @@ The purpose of this NASA Technical Specification is to define version and config
 
 === Applicability
 
-// The value that you put for the variable for applicability (on line 52) will automatically input the correct sentence, but please proof read it to make sure it makes sense. 
+// The value set for the :applicability: variable will automatically input the correct sentence, but please proof read it to make sure it makes sense. 
 
 ifeval::[ "{applicability}" == "all" ]
 This NASA Technical Specification is applicable to all computing systems.
@@ -176,19 +180,21 @@ endif::[]
 
 This NASA Technical Specification is approved for use by NASA Headquarters and NASA Centers and Facilities, and applicable technical requirements may be cited in contract, program, and other NASA documents. This Specification also applies to JPL, other contractors, recipients of grants and cooperative agreements, and parties to other agreements only to the extent specified or referenced in applicable contracts, grants, or agreements.
 
+
 === Tailoring
 
-// You may need to edit this section, depending on the nature of your Specification.
+// This section may need to be edited, depending on the nature of the Specification.
 
 Any and all Plan of Action and Milestones (POA&Ms) or risk-based decisions (RBDs) to tailor this NASA Technical Specification in order to meet the needs of a specific program, project, or system *_SHALL_* be approved by the responsible Information System Owner (ISO) and Authorizing Official (AO) (or Authorizing Official Designated Representative (AODR), if applicable) and formally documented by the ISO or system administrators in the System Security Plan (SSP) under program or project requirements.
 
 The AO *_SHALL_* ensure that only systems posing an acceptable level of risk (LOR) to NASA assets, data, and personnel are approved for production operation and that all necessary documentation is produced and maintained.
 
 <<<<
+
   
 === Authority
 
-// You do not need to edit this section. 
+// Do not edit the Authority Section.
 
 The NASA Chief Information Officer (CIO) and Senior Agency Information Security Officer (SAISO) have authorized the Cybersecurity Standards and Engineering Team (CSET) via the Agency Security Configuration Standards (ASCS) initiative to create binding Technical Standards related to cybersecurity topics.
 
@@ -199,13 +205,18 @@ In accordance with link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F], _S
 
 +++<br>+++
 
+
 ////
 APPLICABLE DOCUMENTS
   
   List documents in alphanumeric order based on their Document Identifier.
 
-  Use YOURLS to link the Document Identifier.
+  Link the Document Identifier (not the title).
+
+  Use YOURLS for NASA documents. 
+
 ////
+
 
 == Applicable Documents
 
@@ -215,26 +226,34 @@ The documents listed in this section contain provisions that constitute requirem
 
 NOTE: A suffix of __x__ on a document identifier indicates that the latest issuance of the document applies.
 
-==== Government Documents
 
-// Based on your document's specific needs, make visible any of the document tables that are commented out below: 
+==== Government Documents
 
 ////
 .White House Releases
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
+
 
 .National Aeronautics and Space Administration (NASA) Documents
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 |link:https://cset.nasa.gov/latest/nasa-spec-2600[NASA-SPEC-2600]|_Enumeration of ASCS Cybersecurity Requirements_
+
 |link:https://cset.nasa.gov/latest/nasa-std-2601[NASA-STD-2601]|_Minimum Cybersecurity Requirements for Computing Systems_ 
+
 |link:https://cset.nasa.gov/latest/npr-2810.1[NPR 2810.1F]|_Security of Information and Information Systems_
+
+|link:https://cset.nasa.gov/latest/npr-2841.1[NPR 2841.1__x__]|_Identity, Credential, and Access Management_
+
 |===
 
 
@@ -243,7 +262,9 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
@@ -253,40 +274,58 @@ NOTE: A suffix of __x__ on a document identifier indicates that the latest issua
 [%header, cols=2*a]
 |===
 |Document Identifier|Document Title
+
 | | 
+
 |===
 ////
 
 
+//  If an "Other Government" document has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+
+// If an "Other Government" document does not have a document identifier, then link and italicize the entire title of the document.
+
+
 ////
-
-
 .Other Government Documents
 [%header]
 |===
 |Document Title
+
 | 
+
 |===
 ////
+
 
 ////
 ==== Non-Government Documents
 
+//  If a non-Government document has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+
+// If a non-Government document does not have a document identifier, then link and italicize the entire title of the document.
 
 [%header]
 |===
 |Document Title
+
 | 
+
 |===
 ////
 
 
 ////
-SUPPLEMENTAL GUIDANCE: 
-Add any websites, handbooks, etc. that you used as a reference while writing this NASA Technical Specification.
- - List documents in alphabetical order based on the title.
- - *Use YOURLS* to link to documents and *link the title of the document*.
+SUPPLEMENTAL GUIDANCE:
+  Add any websites, handbooks, and other documents that were used as a reference while writing this Spec.
+
+  Supplemental Guidance sources are not authoritative requirements documents that dictate the content of this Specification. 
+ 
+  If a source has a document identifier, then link the document identifier, italicize the title, and separate the identifier from the title with a comma.
+ 
+  If a source does not have a document identifier, then link and italicize the entire title of the document.
 ////
+
 
 ////
 === Supplemental Guidance
@@ -296,8 +335,11 @@ The resources listed in this section were used as a reference while writing this
 [%header]
 |===
 |Title
+
 | 
+
 |
+
 |===
 ////
 
@@ -306,7 +348,7 @@ The resources listed in this section were used as a reference while writing this
 ////
 ACRONYMS, ABBREVIATIONS, AND DEFINITIONS
   
-  NOTE: If you don't need the Definitions table, comment it out and change section title to: == Acronyms and Abbreviations
+  NOTE: If the Definitions table is not needed, then comment it out and change section title to: == Acronyms and Abbreviations
 ////
 
 
@@ -326,7 +368,7 @@ include::definitions.adoc[]
 
 This Specification applies to the {specificationtype} defined in the chart below, as well as to any more recent version(s) of this {specificationtype}.
 
-// All fields in this table should be automatically populated from the Document Variables  
+// All fields in this table will be automatically populated from the Document Variables  
 
 [cols="25%h,75%"]
 |====
@@ -353,11 +395,12 @@ endif::[]
 
 ////
 == *BODY OF DOCUMENT STARTS HERE*
-Add sections and subsections as necessary for the content of your Spec. 
+Add sections and subsections as necessary for the content of this Spec. 
 ////
 
 
 +++<br>+++
+
 
 ////
 APPENDIX SECTION
@@ -373,6 +416,7 @@ Appendices can be added by putting the marker [appendix] on one line, and then, 
    APPENDIX A: Title of Appendix 
 
 ////
+
 
 ////
 

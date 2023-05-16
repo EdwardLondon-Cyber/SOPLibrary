@@ -37,6 +37,7 @@ The following prerequisites must be met before a new ASCS document can be create
 . A meeting to discuss and outline the document must be held between the document's primary author, the ASCS technical writer, the ASCS Lead, and any other subject matter experts (SMEs) indicated on the document prep form.
 . The ASCS Lead must provide or approve of:
 
+** the title for the document,
 ** the name for the document's GitHub repository (e.g., organization-defined_values), and
 ** the document identifier (e.g., NASA-SPEC-2661.ODVr5).
 
@@ -80,6 +81,7 @@ IMPORTANT: While an ASCS document is in a draft stage (i.e., prior to publishing
  *  From `document_basecamp`:
  ** `.gitignore`
  ** `acronym_list.adoc`
+ ** `changelog.adoc`
  ** `definitions.adoc`
 
 WARNING: Do not rename these files. Files reference each other by name.
@@ -98,18 +100,20 @@ WARNING: Do not rename these files. Files reference each other by name.
 TIP: Be sure to read the guidance and examples provided in comments throughout the `standard.adoc` file to make sure that you are filling in everything appropriately. 
 
 [start=7]
+. Open your Standard's copy of the `acronym_list.adoc`, located in your Standard's root directory, and:
+
+.. un-comment all acronyms that are used in your document. 
+.. add any acronyms (in the correct, alphanumerical location) that are used in your document and which are not already in the `acronym_list.adoc`
+
 .  Open your Standard's copy of `definitions.adoc`, located in your Standard's root directory, and:
 .. un-comment all terms that are used in your document. 
 .. add any key terms (in the correct, alphabetical location) that need to be defined in your document and which are not already in the `definitions.adoc` list of terms. 
 
 ** Please check new terms and definitions with the ASCS technical writer prior to adding them to your document. 
 
-. Open your Standard's copy of the `acronym_list.adoc`, located in your Standard's root directory, and:
+. Open your Standard's copy of the `README.adoc`, located in your Standard's root directory, and fill in all of the necessary information. Read the comment blocks for instructions. 
 
-.. un-comment all acronyms that are used in your document. 
-.. add any acronyms (in the correct, alphanumerical location) that are used in your document and which are not already in the `acronym_list.adoc`.
-
-. Open your Standard's copy of the `README.adoc` , located in your Standard's root directory, and fill in all of the necessary information. 
+. Open your Standard's copy of the `changelog.adoc`, located in your Standard's root directory, and fill in all of the necessary information. Read the comment blocks for instructions. 
 
 === ASCS Document Build Process
 
@@ -128,8 +132,18 @@ python3 ./document_basecamp/std/build_req_table.py standard.adoc
 
 NOTE: The command above requires Python3 installed and configured on your system. 
 
-[start=2]
-*2. Generate the .html file:*
+
+*2. (If Publishing) Remove DRAFT Watermark*
+
+ASCS document templates are set up to include a "DRAFT" watermark by default. When the Standard is no longer in a draft phase and ready to be published, the watermark setting needs to be manually changed. 
+
+. Open the `standard.adoc` file and make the following changes:
+.. Type two forward slashes in front of `:stylesheet: asciidoctor-draft.css` to comment it out. 
+.. Delete the two forward slashes that are in front of `:stylesheet: asciidoctor.css`.
+.. Type two forward slashes in front of `:pdf-theme: asciidoctor-pdf-draft.yml` to comment it out. 
+.. Delete the two forward slashes that are in front of `pdf-theme: asciidoctor-pdf.yml`.
+
+*3. Generate the .html file:*
 
 .. Create a `build` folder within your document's root directory prior to running this command, as as the `build` folder is not created upon cloning your repository. 
 .. Then, run the command below: 
@@ -143,7 +157,7 @@ asciidoctor -D build standard.adoc
 .. The .html file will appear in the `build` folder. 
 
 
-*3. Generate the pdf file:*
+*4. Generate the pdf file:*
 
 .. Ensure you have created a `build` folder within your document's root directory prior to running this command, as the `build` folder is not created upon cloning your repository. 
 .. Then, run the command below: 

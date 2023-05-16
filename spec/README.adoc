@@ -1,18 +1,18 @@
-// Replace the title below with your document's identifier and title:
+// Replace the title below with the document's identifier and title:
 
 = NASA-SPEC-XXXX, _Document Title_
 
 :numbered:
 
-== DESCRIPTION
-// COPY AND PASTE PURPOSE STATEMENT FROM SPEC HERE. 
+== Purpose
+// COPY PURPOSE STATEMENT FROM THE SPEC AND PASTE BELOW: 
 
 The purpose of this NASA Technical Specification is to *(COMPLETE THIS SENTENCE WITH the STATEMENT OF PURPOSE FOR THIS SPEC)*.
 
 NOTE: Comments, concerns, and all other feedback on this Specification can be submitted via email to mailto:NASA-DL-ASCS-TECHNICAL@mail.nasa.gov[NASA-DL-ASCS-TECHNICAL@mail.nasa.gov].
 
 
-== SUPPLEMENTAL RESOURCES
+== Supplemental Resources
 
 ////
 The content that goes in this section is specific to your document. 
@@ -24,25 +24,26 @@ The content that goes in this section is specific to your document.
 Note: if you don't need this section, comment it out! :) 
 ////
 
-== DOCUMENT HISTORY
 
-// Type in the document version(s) and important change(s) into the table below. 
-// Highlights = Include current version and last version 
-// Only include big important changes in the description
+== Document History
 
-.Highlights from Document History 
-[%header,width="100%",cols="1,3"]
+=== Full Changelog
+For a complete, detailed revision history, reference the link:changelog.adoc[CHANGELOG] file.
+
+
+=== Highlights
+The table below provides a brief summary of changes that were made to the document each time an updated version was published. 
+
+// COPY DOCUMENT HISTORY LOG FROM THE SPEC AND PASTE BELOW.
+
+[%header,width="100%",cols="1,1,2"]
 |====
 |Document Version
-|Important Changes Made
+|Date Approved
+|Description
 
-|vx.x
-a|* example
-* example
+|
+| 
+|
 
-|vx.x 
-a|* example
-*  example
 |====
-
-
